@@ -2,21 +2,9 @@
   "schemaVersion": 1,
   "note": "File DUY NHẤT cần sửa tay. Thứ tự mảng courses = thứ tự hiển thị trong app. enabled:false = ẩn khoá (tiến độ người học vẫn giữ). Thêm khoá = thêm file courses/<id>.json + 1 dòng ở đây. Sau khi sửa: node scripts/build-index.mjs (hoặc để GitHub Actions tự chạy khi push).",
   "courses": [
-    {
-      "id": "chinese-daily-1",
-      "enabled": true
-    },
-    {
-      "id": "korean-beginner-1",
-      "enabled": true
-    },
-    {
-      "id": "ielts-essential-words-1",
-      "enabled": false
-    },
-    {
-      "id": "toeic-50-days-1",
-      "enabled": false
-    }
+    { "id": "korean-beginner-1", "enabled": true },
+    { "id": "chinese-daily-1", "enabled": true },
+    { "id": "ielts-essential-words-1", "enabled": true },
+    { "id": "toeic-50-days-1", "enabled": false }
   ]
 }
