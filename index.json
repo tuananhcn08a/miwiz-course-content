@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T14:41:07.649Z",
+  "generatedAt": "2026-10-17T15:27:02.365Z",
   "minAppVersion": null,
   "courses": [
     {
@@ -17,9 +17,9 @@
       "days": 47,
       "topics": 16,
       "items": 222,
-      "version": "c51d348fc8a7",
-      "sha256": "c51d348fc8a7acc08c148eeb06a774f9ba4c607775df7755b64995537cb61e07",
-      "bytes": 63048,
+      "version": "926c40569a46",
+      "sha256": "926c40569a462b69a509e2b8febfc23232d667519638de847763c286c31307fa",
+      "bytes": 63062,
       "manifestUrl": "courses/korean-beginner-1.json"
     },
     {
