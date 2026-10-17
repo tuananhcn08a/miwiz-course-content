@@ -18,6 +18,15 @@ Nội dung tab **Khoá học** của app Miwiz, phát hành tĩnh qua GitHub Pag
 
 Id khoá / ngày / mục (`lesson:…`, `deck:…`, `test:…`) **không được đổi** sau khi đã phát hành: tiến độ người học gắn theo các id này.
 
+## Trang quản trị
+
+Ẩn/hiện và đổi thứ tự khoá ngay trên điện thoại (dùng khi demo): **https://tuananhcn08a.github.io/miwiz-course-content/admin/**
+
+- Bấm công tắc **Hiển thị**, mũi tên ▲▼ để đổi thứ tự, hoặc nút nhanh *Chỉ 1 khoá/môn · Hiện tất cả · Ẩn tất cả* → **Lưu**.
+- Lưu = sửa `catalog.json` trên GitHub → Actions sinh lại `index.json` → Pages cập nhật (thường 1–2 phút). Trang hiện từng bước; xong thì mở lại tab Khoá học trong app.
+- Cần mã truy cập GitHub (làm 1 lần): mở https://github.com/settings/personal-access-tokens/new → *Repository access*: **Only select repositories** → `miwiz-course-content` → *Permissions*: **Contents: Read and write** (Metadata tự bật) → *Expiration*: 90 days → Generate, dán mã vào trang, tích "Nhớ trên máy này". Hết hạn thì tạo mã mới, bấm "Quên token" rồi dán lại.
+- Không có mã vẫn xem được danh sách, chỉ không lưu được.
+
 ## App đọc thế nào (hợp đồng)
 
 - `GET index.json` (ETag) → `courses[]` **theo đúng thứ tự mảng** là thứ tự hiển thị; `enabled:false` → ẩn.

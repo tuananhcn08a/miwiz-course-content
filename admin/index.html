@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f5f6f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111317" media="(prefers-color-scheme: dark)">
+<title>Quản trị khoá học</title>
+<style>
+:root{
+  --bg:#f5f6f8; --card:#ffffff; --text:#14171c; --muted:#677080; --line:#e3e6eb;
+  --accent:#2563eb; --accent-text:#ffffff; --ok:#16a34a; --warn:#b45309; --warn-bg:#fff7e6;
+  --err:#dc2626; --err-bg:#fdecec; --chip:#eef1f5; --off:.45;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#111317; --card:#1b1e24; --text:#eceef2; --muted:#9aa3b2; --line:#2b3039;
+    --accent:#3b82f6; --accent-text:#ffffff; --ok:#22c55e; --warn:#f59e0b; --warn-bg:#2a2214;
+    --err:#f87171; --err-bg:#2c1717; --chip:#262a32;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:16px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;
+  padding:env(safe-area-inset-top) 0 calc(96px + env(safe-area-inset-bottom));}
+.wrap{max-width:640px;margin:0 auto;padding:12px 16px}
+header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:4px 0 12px}
+h1{font-size:20px;margin:0}
+.sub{color:var(--muted);font-size:13px}
+button{font:inherit;color:inherit;border:1px solid var(--line);background:var(--card);border-radius:10px;
+  padding:8px 12px;min-height:40px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+button:disabled{opacity:.4;cursor:default}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-text);font-weight:600}
+button.link{border:none;background:none;color:var(--accent);padding:6px 4px;min-height:auto}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin:0 0 12px}
+.msg{border-radius:12px;padding:10px 12px;margin:0 0 12px;font-size:14px}
+.msg.warn{background:var(--warn-bg);color:var(--warn)}
+.msg.err{background:var(--err-bg);color:var(--err)}
+.msg.ok{background:var(--chip);color:var(--ok)}
+.msg:empty{display:none}
+.presets{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px;margin:0 0 10px;scrollbar-width:none}
+.presets button{white-space:nowrap;font-size:14px}
+.summary{font-size:13px;color:var(--muted);margin:0 0 10px}
+.list{list-style:none;margin:0;padding:0}
+.card{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);
+  border-left:5px solid var(--lc,#888);border-radius:14px;padding:10px 10px 10px 12px;margin:0 0 8px;transition:opacity .15s}
+.card.off .info{opacity:var(--off)}
+.grp{font-size:12px;font-weight:600;color:var(--muted);margin:12px 2px 6px;text-transform:uppercase;letter-spacing:.04em}
+.icon{flex:none;width:40px;height:40px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:700;font-size:18px}
+.info{flex:1;min-width:0}
+.title{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.meta{font-size:12px;color:var(--muted);margin-top:2px}
+.meta b{font-weight:600;color:var(--text)}
+.badge{display:inline-block;font-size:11px;padding:1px 6px;border-radius:6px;background:var(--chip);margin-right:4px}
+.badge.err{background:var(--err-bg);color:var(--err)}
+.ctl{display:flex;flex-direction:column;align-items:center;gap:4px}
+.arrows{display:flex;gap:4px}
+.arrows button{width:36px;height:34px;min-height:34px;padding:0;font-size:16px}
+.sw{position:relative;display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+.sw input{position:absolute;opacity:0;width:1px;height:1px}
+.sw .tr{width:46px;height:28px;border-radius:14px;background:var(--line);position:relative;transition:background .15s}
+.sw .tr::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;
+  box-shadow:0 1px 2px rgba(0,0,0,.3);transition:transform .15s}
+.sw input:checked + .tr{background:var(--ok)}
+.sw input:checked + .tr::after{transform:translateX(18px)}
+.sw input:focus-visible + .tr{outline:2px solid var(--accent);outline-offset:2px}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);
+  padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:5}
+.bar .in{max-width:640px;margin:0 auto;display:flex;align-items:center;gap:10px}
+.bar .state{flex:1;font-size:14px;color:var(--muted)}
+.bar .state.dirty{color:var(--warn);font-weight:600}
+.bar button.primary{min-width:110px;min-height:46px}
+label.field{display:block;font-size:14px;margin:0 0 6px}
+input[type=password]{width:100%;font:inherit;font-size:16px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);
+  background:var(--bg);color:var(--text)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.chk{display:flex;align-items:center;gap:6px;font-size:14px}
+.chk input{width:20px;height:20px}
+details summary{cursor:pointer;color:var(--accent);font-size:14px;padding:4px 0}
+details ol{padding-left:20px;margin:8px 0;font-size:14px}
+details li{margin:4px 0}
+code{background:var(--chip);padding:1px 5px;border-radius:5px;font-size:13px}
+.steps{list-style:none;margin:8px 0 0;padding:0}
+.steps li{display:flex;gap:8px;align-items:flex-start;padding:4px 0;font-size:14px;color:var(--muted)}
+.steps li .d{flex:none;width:20px;height:20px;border-radius:50%;border:2px solid var(--line);margin-top:1px}
+.steps li.now{color:var(--text);font-weight:600}
+.steps li.now .d{border-color:var(--accent);border-top-color:transparent;animation:spin 1s linear infinite}
+.steps li.done{color:var(--text)}
+.steps li.done .d{border-color:var(--ok);background:var(--ok)}
+.steps li.fail{color:var(--err)}
+.steps li.fail .d{border-color:var(--err);background:var(--err)}
+@keyframes spin{to{transform:rotate(360deg)}}
+a{color:var(--accent)}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Khoá học Miwiz</h1>
+      <div class="sub" id="src">Đang tải…</div>
+    </div>
+    <button id="reload" type="button" aria-label="Tải lại">↻ Tải lại</button>
+  </header>
+
+  <section class="box" id="tokenBox">
+    <form id="tokenForm" autocomplete="off">
+      <label class="field" for="tokenInput">Mã truy cập GitHub (để lưu thay đổi)</label>
+      <input id="tokenInput" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…">
+      <div class="row">
+        <label class="chk"><input type="checkbox" id="remember"> Nhớ trên máy này</label>
+        <button type="submit" class="primary" id="tokenSave">Dùng mã này</button>
+      </div>
+    </form>
+    <div id="tokenOk" class="row hidden" style="margin-top:0">
+      <span style="flex:1;font-size:14px">🔑 Đã có mã truy cập <span class="sub" id="tokenWhere"></span></span>
+      <button type="button" id="tokenForget">Quên token</button>
+    </div>
+    <details id="help">
+      <summary>Cách tạo mã truy cập (làm 1 lần)</summary>
+      <ol>
+        <li>Mở <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a> (đăng nhập tài khoản <b>tuananhcn08a</b>).</li>
+        <li><b>Token name</b>: tuỳ ý, ví dụ <code>miwiz-admin</code>. <b>Expiration</b>: 90 days.</li>
+        <li><b>Repository access</b>: chọn <b>Only select repositories</b> → chọn <code>miwiz-course-content</code>.</li>
+        <li><b>Permissions → Repository permissions → Contents</b>: <b>Read and write</b> (Metadata: Read-only tự bật).</li>
+        <li>Bấm <b>Generate token</b>, sao chép mã (bắt đầu bằng <code>github_pat_</code>), dán vào ô trên.</li>
+        <li>Tích <b>Nhớ trên máy này</b> nếu đây là điện thoại của anh. Hết hạn thì tạo mã mới, bấm “Quên token” rồi dán lại.</li>
+      </ol>
+      <div class="sub">Mã chỉ lưu trong trình duyệt này, chỉ gửi tới api.github.com. Không có mã vẫn xem được danh sách nhưng không lưu được.</div>
+    </details>
+  </section>
+
+  <div class="msg" id="msg" role="status" aria-live="polite"></div>
+
+  <section class="box hidden" id="progress">
+    <div style="font-weight:600;font-size:15px" id="progTitle">Đang phát hành</div>
+    <ul class="steps" id="steps">
+      <li data-k="saved"><span class="d"></span><span>Đã lưu</span></li>
+      <li data-k="build"><span class="d"></span><span>Đang sinh index</span></li>
+      <li data-k="live"><span class="d"></span><span>Đã lên web — mở lại tab Khoá học trong app</span></li>
+    </ul>
+    <div class="sub" id="progNote" style="margin-top:6px"></div>
+  </section>
+
+  <div class="presets" id="presets">
+    <button type="button" data-p="one">Chỉ 1 khoá/môn</button>
+    <button type="button" data-p="all">Hiện tất cả</button>
+    <button type="button" data-p="none">Ẩn tất cả</button>
+    <button type="button" data-p="reset">Hoàn tác</button>
+  </div>
+  <div class="summary" id="summary"></div>
+  <ul class="list" id="list"></ul>
+</div>
+
+<div class="bar">
+  <div class="in">
+    <div class="state" id="state">—</div>
+    <button type="button" class="primary" id="save" disabled>Lưu</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var OWNER = "tuananhcn08a", REPO = "miwiz-course-content", BRANCH = "main";
+  var API = "https://api.github.com/repos/" + OWNER + "/" + REPO;
+  var LIVE_INDEX = "https://" + OWNER + ".github.io/" + REPO + "/index.json";
+  var WORKFLOW = "build-index.yml";
+  var TOKEN_KEY = "miwiz-admin-token";
+  var LANG = { ko: "Tiếng Hàn", zh: "Tiếng Trung", en: "Tiếng Anh", ja: "Tiếng Nhật", vi: "Tiếng Việt", fr: "Tiếng Pháp", de: "Tiếng Đức" };
+  var LANG_COLOR = { ko: "#2E6BE6", zh: "#D7262D", en: "#0E9F6E", ja: "#C026D3" };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var state = {
+    catalog: null,      // full parsed catalog.json (other keys preserved)
+    sha: null,          // blob sha of catalog.json (only when loaded via API)
+    original: "",       // serialized catalog at load time
+    entries: [],        // working copy of catalog.courses
+    meta: {},           // id -> course summary | {missing:true}
+    viaApi: false,
+    busy: false
+  };
+
+  // ---------- token storage (never logged or displayed) ----------
+  function store(kind) { try { return kind === "local" ? window.localStorage : window.sessionStorage; } catch (e) { return null; } }
+  function getToken() {
+    var t = null;
+    try { var l = store("local"); t = l && l.getItem(TOKEN_KEY); } catch (e) {}
+    if (!t) { try { var s = store("session"); t = s && s.getItem(TOKEN_KEY); } catch (e) {} }
+    return t || null;
+  }
+  function tokenWhere() {
+    try { var l = store("local"); if (l && l.getItem(TOKEN_KEY)) return "local"; } catch (e) {}
+    return "session";
+  }
+  function setToken(t, remember) {
+    forgetToken();
+    var s = store(remember ? "local" : "session");
+    try { s && s.setItem(TOKEN_KEY, t); return true; } catch (e) {}
+    try { var s2 = store("session"); s2 && s2.setItem(TOKEN_KEY, t); return true; } catch (e) {}
+    return false;
+  }
+  function forgetToken() {
+    ["local", "session"].forEach(function (k) { try { var s = store(k); s && s.removeItem(TOKEN_KEY); } catch (e) {} });
+  }
+
+  // ---------- helpers ----------
+  function msg(text, kind) { var m = $("msg"); m.className = "msg " + (kind || ""); m.textContent = text || ""; }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+  function langName(l) { return LANG[l] || (l ? l.toUpperCase() : "?"); }
+
+  function gh(path, opts) {
+    opts = opts || {};
+    var headers = { "Accept": opts.accept || "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
+    var t = opts.noAuth ? null : getToken();
+    if (t) headers["Authorization"] = "Bearer " + t;
+    if (opts.body) headers["Content-Type"] = "application/json";
+    return fetch(path.indexOf("http") === 0 ? path : API + path, {
+      method: opts.method || "GET", headers: headers, cache: "no-store",
+      body: opts.body ? JSON.stringify(opts.body) : undefined
+    });
+  }
+  function b64decodeUtf8(b64) {
+    var bin = atob(b64.replace(/\s/g, "")); var bytes = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return new TextDecoder("utf-8").decode(bytes);
+  }
+  function b64encodeUtf8(str) {
+    var bytes = new TextEncoder().encode(str); var bin = "";
+    for (var i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    return btoa(bin);
+  }
+
+  // Same layout as the hand-written catalog.json: 2-space indent, one course entry per line.
+  function serialize(catalog, entries) {
+    var keys = Object.keys(catalog);
+    if (keys.indexOf("courses") < 0) keys.push("courses");
+    var lines = keys.map(function (k) {
+      if (k !== "courses") return "  " + JSON.stringify(k) + ": " + JSON.stringify(catalog[k], null, 2).replace(/\n/g, "\n  ");
+      var rows = entries.map(function (e) {
+        return "    { " + Object.keys(e).map(function (ek) { return JSON.stringify(ek) + ": " + JSON.stringify(e[ek]); }).join(", ") + " }";
+      });
+      return '  "courses": [\n' + rows.join(",\n") + "\n  ]";
+    });
+    return "{\n" + lines.join(",\n") + "\n}\n";
+  }
+  function current() { return state.catalog ? serialize(state.catalog, state.entries) : ""; }
+  function isDirty() { return !!state.catalog && current() !== state.original; }
+  function enabled(e) { return e.enabled !== false; }
+
+  // ---------- loading ----------
+  async function loadCatalog() {
+    if (getToken()) {
+      var r = await gh("/contents/catalog.json?ref=" + BRANCH);
+      if (r.ok) {
+        var j = await r.json();
+        return { text: b64decodeUtf8(j.content), sha: j.sha, viaApi: true };
+      }
+      if (r.status === 401) msg("Mã truy cập không hợp lệ hoặc đã hết hạn. Bấm “Quên token” rồi dán mã mới.", "err");
+      else if (r.status === 403 || r.status === 404) msg("Mã truy cập không đọc được repo này (cần chọn repo miwiz-course-content, quyền Contents). Đang hiện bản trên web.", "warn");
+      else msg("GitHub API lỗi " + r.status + ". Đang hiện bản trên web.", "warn");
+    }
+    var r2 = await fetch("../catalog.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r2.ok) throw new Error("Không tải được catalog.json (" + r2.status + ")");
+    return { text: await r2.text(), sha: null, viaApi: false };
+  }
+  async function loadCourse(id, viaApi) {
+    var r;
+    if (viaApi) r = await gh("/contents/courses/" + encodeURIComponent(id) + ".json?ref=" + BRANCH, { accept: "application/vnd.github.raw+json" });
+    else r = await fetch("../courses/" + encodeURIComponent(id) + ".json?t=" + Date.now(), { cache: "no-store" });
+    if (r.status === 404) return { missing: true };
+    if (!r.ok) return { error: "HTTP " + r.status };
+    var m;
+    try { m = await r.json(); } catch (e) { return { error: "JSON hỏng" }; }
+    var days = Array.isArray(m.days) ? m.days : [];
+    var items = days.reduce(function (n, d) { return n + ((d && d.items) ? d.items.length : 0); }, 0);
+    return { title: m.title || id, language: m.language || "", level: m.level || "", days: days.length, items: items,
+      icon_text: m.icon_text || "", icon_color: m.icon_color || "" };
+  }
+
+  async function load(keepMsg) {
+    if (state.busy) return;
+    state.busy = true; setBusy();
+    $("src").textContent = "Đang tải…";
+    try {
+      var c = await loadCatalog();
+      var cat = JSON.parse(c.text);
+      if (!Array.isArray(cat.courses)) throw new Error("catalog.json không có mảng courses");
+      state.catalog = cat; state.sha = c.sha; state.viaApi = c.viaApi;
+      state.entries = cat.courses.map(function (e) { return Object.assign({}, e); });
+      state.original = serialize(cat, state.entries);
+      if (c.text !== state.original) console.warn("catalog.json layout differs from serializer output; saving will normalise it.");
+      var ids = state.entries.map(function (e) { return e.id; }).filter(function (v, i, a) { return v && a.indexOf(v) === i; });
+      var metas = await Promise.all(ids.map(function (id) { return loadCourse(id, c.viaApi).catch(function (e) { return { error: e.message }; }); }));
+      state.meta = {};
+      ids.forEach(function (id, i) { state.meta[id] = metas[i]; });
+      $("src").textContent = (c.viaApi ? "Nguồn: GitHub (mới nhất)" : "Nguồn: bản trên web (chỉ xem)") + " · " + new Date().toLocaleTimeString("vi-VN", { hour: "2-digit", minute: "2-digit" });
+      if (!c.viaApi && !getToken()) msg("Chưa có mã truy cập: xem được, nhưng muốn lưu thì dán mã ở trên.", "warn");
+      else if (c.viaApi && !keepMsg && $("msg").className.indexOf("err") < 0) msg("");
+    } catch (e) {
+      $("src").textContent = "Lỗi tải";
+      msg("Không tải được danh sách khoá: " + e.message, "err");
+    } finally {
+      state.busy = false; render();
+    }
+  }
+
+  // ---------- rendering ----------
+  function render() {
+    var list = $("list"); list.innerHTML = "";
+    var prevLang = null;
+    state.entries.forEach(function (e, i) {
+      var m = state.meta[e.id] || {};
+      var lang = m.language || "";
+      if (lang !== prevLang) {
+        var g = document.createElement("li"); g.className = "grp"; g.textContent = langName(lang);
+        list.appendChild(g); prevLang = lang;
+      }
+      var on = enabled(e);
+      var color = m.icon_color || LANG_COLOR[lang] || "#888";
+      var li = document.createElement("li");
+      li.className = "card" + (on ? "" : " off");
+      li.style.setProperty("--lc", LANG_COLOR[lang] || color);
+      var metaLine = m.missing ? '<span class="badge err">Thiếu file courses/' + esc(e.id) + '.json</span>'
+        : m.error ? '<span class="badge err">Lỗi: ' + esc(m.error) + "</span>"
+        : '<span class="badge">' + esc(langName(lang)) + "</span>" + '<span class="badge">' + esc(m.level) + "</span>" +
+          "<b>" + m.days + "</b> ngày · <b>" + m.items + "</b> mục";
+      li.innerHTML =
+        '<div class="icon" style="background:' + esc(color) + '">' + esc(m.icon_text || (m.title || e.id).charAt(0)) + "</div>" +
+        '<div class="info"><div class="title">' + (i + 1) + ". " + esc(m.title || e.id) + "</div>" +
+        '<div class="meta">' + metaLine + "</div></div>" +
+        '<div class="ctl">' +
+          '<label class="sw"><input type="checkbox" data-a="toggle" data-i="' + i + '"' + (on ? " checked" : "") + ' aria-label="Hiển thị ' + esc(m.title || e.id) + '"><span class="tr"></span></label>' +
+          '<span class="sub" style="font-size:11px">' + (on ? "Hiển thị" : "Đang ẩn") + "</span>" +
+          '<div class="arrows">' +
+            '<button type="button" data-a="up" data-i="' + i + '" aria-label="Lên"' + (i === 0 ? " disabled" : "") + ">▲</button>" +
+            '<button type="button" data-a="down" data-i="' + i + '" aria-label="Xuống"' + (i === state.entries.length - 1 ? " disabled" : "") + ">▼</button>" +
+          "</div></div>";
+      list.appendChild(li);
+    });
+    // summary by language
+    var byLang = {}; var nOn = 0;
+    state.entries.forEach(function (e) {
+      var l = (state.meta[e.id] || {}).language || "?";
+      byLang[l] = byLang[l] || { on: 0, all: 0 }; byLang[l].all++;
+      if (enabled(e)) { byLang[l].on++; nOn++; }
+    });
+    $("summary").textContent = state.catalog ? ("Đang hiện " + nOn + "/" + state.entries.length + " khoá · " +
+      Object.keys(byLang).map(function (l) { return langName(l) + " " + byLang[l].on + "/" + byLang[l].all; }).join(" · ")) : "";
+    setBusy();
+  }
+  function setBusy() {
+    var dirty = isDirty();
+    var st = $("state");
+    st.className = "state" + (dirty ? " dirty" : "");
+    st.textContent = state.busy ? "Đang xử lý…" : dirty ? "● Có thay đổi chưa lưu" : (state.catalog ? "Đã khớp với bản đang phát hành" : "—");
+    $("save").disabled = state.busy || !dirty;
+    $("reload").disabled = state.busy;
+    var hasT = !!getToken();
+    $("tokenForm").classList.toggle("hidden", hasT);
+    $("tokenOk").classList.toggle("hidden", !hasT);
+    if (hasT) $("tokenWhere").textContent = tokenWhere() === "local" ? "(nhớ trên máy này)" : "(chỉ phiên này)";
+    $("help").open = !hasT && $("help").open;
+  }
+
+  // ---------- interactions ----------
+  $("list").addEventListener("click", function (ev) {
+    var b = ev.target.closest("button[data-a]"); if (!b || state.busy) return;
+    var i = +b.getAttribute("data-i"); var j = b.getAttribute("data-a") === "up" ? i - 1 : i + 1;
+    if (j < 0 || j >= state.entries.length) return;
+    var t = state.entries[i]; state.entries[i] = state.entries[j]; state.entries[j] = t;
+    render();
+  });
+  $("list").addEventListener("change", function (ev) {
+    var c = ev.target; if (c.getAttribute("data-a") !== "toggle") return;
+    if (state.busy) { c.checked = !c.checked; return; }
+    state.entries[+c.getAttribute("data-i")].enabled = c.checked;
+    render();
+  });
+  $("presets").addEventListener("click", function (ev) {
+    var b = ev.target.closest("button[data-p]"); if (!b || state.busy || !state.catalog) return;
+    var p = b.getAttribute("data-p");
+    if (p === "reset") {
+      state.entries = state.catalog.courses.map(function (e) { return Object.assign({}, e); });
+    } else if (p === "one") {
+      var seen = {};
+      state.entries.forEach(function (e) {
+        var m = state.meta[e.id] || {}; var l = m.language || ("?" + e.id);
+        var ok = !m.missing && !m.error && !seen[l];
+        if (ok) seen[l] = true;
+        e.enabled = ok;
+      });
+    } else {
+      state.entries.forEach(function (e) { e.enabled = p === "all"; });
+    }
+    render();
+  });
+  $("reload").addEventListener("click", function () {
+    if (isDirty() && !confirm("Bỏ các thay đổi chưa lưu và tải lại?")) return;
+    load();
+  });
+  $("tokenForm").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var v = $("tokenInput").value.trim();
+    if (!/^(github_pat_|ghp_)[A-Za-z0-9_]{20,}$/.test(v)) { msg("Mã không đúng dạng (phải bắt đầu bằng github_pat_).", "err"); return; }
+    if (!setToken(v, $("remember").checked)) { msg("Trình duyệt chặn lưu dữ liệu, không giữ được mã.", "err"); return; }
+    $("tokenInput").value = "";
+    msg("");
+    if (isDirty()) { setBusy(); msg("Đã nhận mã. Bấm Lưu để phát hành.", "ok"); } else load();
+  });
+  $("tokenForget").addEventListener("click", function () {
+    forgetToken(); $("tokenInput").value = ""; msg("Đã xoá mã truy cập khỏi máy này.", "ok"); setBusy();
+  });
+  window.addEventListener("beforeunload", function (e) { if (isDirty()) { e.preventDefault(); e.returnValue = ""; } });
+
+  // ---------- validation + save ----------
+  function validate() {
+    var errs = [], warns = [], seen = {};
+    state.entries.forEach(function (e) {
+      if (!e.id || !/^[a-z0-9-]+$/.test(e.id)) errs.push("id không hợp lệ: " + e.id);
+      if (seen[e.id]) errs.push("id trùng: " + e.id);
+      seen[e.id] = true;
+      var m = state.meta[e.id];
+      if (!m || m.missing) errs.push("thiếu file courses/" + e.id + ".json");
+      else if (m.error) errs.push(e.id + ": " + m.error);
+    });
+    if (!state.entries.some(enabled)) warns.push("Không có khoá nào được hiện — tab Khoá học trong app sẽ trống.");
+    return { errs: errs, warns: warns };
+  }
+  function commitMessage() {
+    var on = state.entries.filter(enabled);
+    var langs = [];
+    on.forEach(function (e) { var l = (state.meta[e.id] || {}).language || "?"; if (langs.indexOf(l) < 0) langs.push(l); });
+    if (!on.length) return "catalog: ẩn tất cả khoá";
+    return "catalog: hiện " + on.length + " khoá, thứ tự " + langs.join(",");
+  }
+
+  async function save() {
+    if (!isDirty() || state.busy) return;
+    if (!getToken()) { msg("Cần mã truy cập GitHub để lưu. Dán mã ở ô phía trên (xem “Cách tạo mã truy cập”).", "err"); $("help").open = true; $("tokenInput").focus(); return; }
+    var v = validate();
+    if (v.errs.length) { msg("Chưa lưu được: " + v.errs.join("; "), "err"); return; }
+    if (v.warns.length && !confirm(v.warns.join("\n") + "\n\nVẫn lưu?")) return;
+
+    state.busy = true; setBusy();
+    try {
+      // Need the current sha; if the page was loaded from the web copy, fetch it now and make sure nothing changed meanwhile.
+      if (!state.viaApi || !state.sha) {
+        var r0 = await gh("/contents/catalog.json?ref=" + BRANCH);
+        if (!r0.ok) throw httpErr(r0.status);
+        var j0 = await r0.json();
+        var remote = b64decodeUtf8(j0.content);
+        if (serialize(JSON.parse(remote), JSON.parse(remote).courses) !== state.original) {
+          state.busy = false;
+          msg("Trên GitHub đã có bản mới hơn bản đang hiện. Đã tải lại — anh chỉnh lại rồi bấm Lưu.", "warn");
+          await load(true); return;
+        }
+        state.sha = j0.sha; state.viaApi = true;
+      }
+      var before = await liveGeneratedAt();
+      var body = { message: commitMessage(), content: b64encodeUtf8(current()), sha: state.sha, branch: BRANCH };
+      var r = await gh("/contents/catalog.json", { method: "PUT", body: body });
+      if (r.status === 409 || r.status === 422) {
+        state.busy = false;
+        msg("Có người vừa sửa catalog.json (lệch phiên bản). Đã tải lại bản mới nhất — anh chỉnh lại rồi bấm Lưu.", "warn");
+        await load(true); return;
+      }
+      if (!r.ok) throw httpErr(r.status);
+      var res = await r.json();
+      var commitSha = res.commit && res.commit.sha;
+      state.sha = res.content && res.content.sha;
+      state.catalog.courses = state.entries.map(function (e) { return Object.assign({}, e); });
+      state.original = current();
+      state.busy = false; render();
+      msg("");
+      track(commitSha, before);
+    } catch (e) {
+      state.busy = false; setBusy();
+      msg("Lưu thất bại: " + e.message, "err");
+    }
+  }
+  function httpErr(status) {
+    var t = status === 401 ? "mã truy cập sai hoặc hết hạn (bấm “Quên token”, dán mã mới)"
+      : status === 403 ? "mã không có quyền ghi (cần Contents: Read and write cho repo miwiz-course-content)"
+      : status === 404 ? "mã không thấy repo (Repository access phải chọn miwiz-course-content)"
+      : "GitHub trả lỗi " + status;
+    return new Error(t);
+  }
+
+  // ---------- post-save tracking ----------
+  async function liveGeneratedAt() {
+    try {
+      var r = await fetch(LIVE_INDEX + "?t=" + Date.now(), { cache: "no-store" });
+      if (!r.ok) return null;
+      var j = await r.json(); return j.generatedAt || null;
+    } catch (e) { return null; }
+  }
+  async function workflowRun(commitSha) {
+    var q = "/actions/workflows/" + WORKFLOW + "/runs?branch=" + BRANCH + "&per_page=5" + (commitSha ? "&head_sha=" + commitSha : "");
+    var r = await gh(q);
+    if (r.status === 401 || r.status === 403 || r.status === 404) r = await gh(q, { noAuth: true }); // public repo, token may lack Actions read
+    if (!r.ok) return null;
+    var j = await r.json();
+    return (j.workflow_runs || [])[0] || null;
+  }
+  function step(k, cls) {
+    var li = document.querySelector('#steps li[data-k="' + k + '"]'); if (li) li.className = cls || "";
+  }
+  var trackId = 0;
+  async function track(commitSha, before) {
+    var my = ++trackId;
+    $("progress").classList.remove("hidden");
+    $("progTitle").textContent = "Đang phát hành";
+    step("saved", "done"); step("build", "now"); step("live", "");
+    $("progNote").textContent = commitSha ? "Commit " + commitSha.slice(0, 7) : "";
+    var t0 = Date.now(), LIMIT = 180000, built = false, runUrl = "";
+    while (Date.now() - t0 < LIMIT) {
+      await sleep(6000);
+      if (my !== trackId) return;
+      if (!built) {
+        var run = await workflowRun(commitSha).catch(function () { return null; });
+        if (run) {
+          runUrl = run.html_url || "";
+          if (run.status === "completed") {
+            if (run.conclusion === "success") { built = true; step("build", "done"); step("live", "now"); }
+            else {
+              step("build", "fail"); $("progTitle").textContent = "Sinh index lỗi";
+              $("progNote").innerHTML = "Workflow báo “" + esc(run.conclusion) + "”. Thường do nội dung khoá lỗi. " +
+                (runUrl ? '<a href="' + esc(runUrl) + '" target="_blank" rel="noopener">Xem chi tiết</a>' : "");
+              return;
+            }
+          } else {
+            $("progNote").textContent = "Workflow: " + (run.status === "queued" ? "đang chờ máy" : "đang chạy") + " · " + Math.round((Date.now() - t0) / 1000) + " giây";
+          }
+        }
+      }
+      var g = await liveGeneratedAt();
+      if (g && g !== before) {
+        step("build", "done"); step("live", "done");
+        $("progTitle").textContent = "Xong ✓";
+        $("progNote").textContent = "Đã lên web lúc " + new Date(g).toLocaleTimeString("vi-VN") + ". Mở lại tab Khoá học trong app (kéo xuống để làm mới nếu cần).";
+        return;
+      }
+      if (built) $("progNote").textContent = "Index đã sinh, đang chờ GitHub Pages cập nhật · " + Math.round((Date.now() - t0) / 1000) + " giây";
+    }
+    if (my !== trackId) return;
+    $("progTitle").textContent = "Chưa thấy trên web sau 3 phút";
+    if (!built) step("build", "fail"); step("live", "fail");
+    $("progNote").innerHTML = "Thay đổi đã lưu trên GitHub; web có thể chậm thêm vài phút. " +
+      (runUrl ? '<a href="' + esc(runUrl) + '" target="_blank" rel="noopener">Xem workflow</a>' : "");
+  }
+
+  $("save").addEventListener("click", save);
+  setBusy();
+  load();
+})();
+</script>
+</body>
+</html>
