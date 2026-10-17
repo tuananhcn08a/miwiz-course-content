@@ -477,7 +477,7 @@
           "order": 6,
           "type": "test",
           "ref_id": 20376,
-          "title": "Kiểm tra nhanh: Bài 3: Sinh hoạt hằng…",
+          "title": "Kiểm tra nhanh: Bài 3: Sinh hoạt hằng ngày",
           "est_minutes": 4
         }
       ]
@@ -737,7 +737,7 @@
           "order": 5,
           "type": "test",
           "ref_id": 20442,
-          "title": "Kiểm tra nhanh: Bài 5: Công việc tron…",
+          "title": "Kiểm tra nhanh: Bài 5: Công việc trong ngày",
           "est_minutes": 4
         }
       ]
@@ -2152,7 +2152,7 @@
     {
       "id": "ko1-4",
       "order": 4,
-      "title": "Bài 3: Sinh hoạt hằng…",
+      "title": "Bài 3: Sinh hoạt hằng ngày",
       "icon": "sun.max.fill",
       "color": "#2F6FED",
       "level_tag": "Sơ cấp",
@@ -2211,7 +2211,7 @@
     {
       "id": "ko1-6",
       "order": 6,
-      "title": "Bài 5: Công việc tron…",
+      "title": "Bài 5: Công việc trong ngày",
       "icon": "briefcase.fill",
       "color": "#F26B1D",
       "level_tag": "Sơ cấp",
