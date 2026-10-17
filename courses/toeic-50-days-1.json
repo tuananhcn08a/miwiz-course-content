@@ -1,0 +1,1797 @@
+{
+  "id": "toeic-50-days-1",
+  "title": "Luyện thi TOEIC 50 ngày",
+  "subtitle": "Lộ trình 50 ngày",
+  "thumbnail": null,
+  "field_id": 32736,
+  "level": "Trung cấp",
+  "language": "en",
+  "icon_text": "TO",
+  "icon_color": "#0EA5A4",
+  "days": [
+    {
+      "day": 1,
+      "title": "Part 1 (Mô tả tranh) & Nền tảng từ loại",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55566,
+          "title": "Ngày 1: Part 1 (Mô tả tranh) & Nền tảng từ loại",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27823,
+          "title": "Ngày 1: Part 1 (Mô tả tranh) & Nền tảng từ loại",
+          "est_minutes": 15,
+          "card_count": 36
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28080,
+          "title": "Kiểm tra nhanh — Ngày 1: Part 1 (Mô tả tranh) & Nền tảng từ loại",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Part 1 (Thêm mẫu câu mô tả) & Cụm danh từ",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55567,
+          "title": "Ngày 2: Part 1 (Thêm mẫu câu mô tả) & Cụm danh từ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27918,
+          "title": "Ngày 2: Part 1 (Thêm mẫu câu mô tả) & Cụm danh từ",
+          "est_minutes": 11,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28049,
+          "title": "Kiểm tra nhanh — Ngày 2: Part 1 (Thêm mẫu câu mô tả) & Cụm danh từ",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Part 1 (Trạng thái & vị trí đồ vật) & Giới từ chỉ vị trí",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55568,
+          "title": "Ngày 3: Part 1 (Trạng thái & vị trí đồ vật) & Giới từ chỉ vị trí",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27829,
+          "title": "Ngày 3: Part 1 (Trạng thái & vị trí đồ vật) & Giới từ chỉ vị trí",
+          "est_minutes": 15,
+          "card_count": 68
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27919,
+          "title": "Kiểm tra nhanh — Ngày 3: Part 1 (Trạng thái & vị trí đồ vật) & Giới từ chỉ vị trí",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Thực hành Part 1 (Ngày luyện đề)",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55569,
+          "title": "Ngày 4: Thực hành Part 1 (Ngày luyện đề)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27920,
+          "title": "Ngày 4: Thực hành Part 1 (Ngày luyện đề)",
+          "est_minutes": 8,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27920,
+          "title": "Kiểm tra nhanh — Ngày 4: Thực hành Part 1 (Ngày luyện đề)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Part 1 (Vị trí & phương hướng) & Từ vựng địa điểm",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55570,
+          "title": "Ngày 5: Part 1 (Vị trí & phương hướng) & Từ vựng địa điểm",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27831,
+          "title": "Ngày 5: Part 1 (Vị trí & phương hướng) & Từ vựng địa điểm",
+          "est_minutes": 15,
+          "card_count": 31
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27921,
+          "title": "Kiểm tra nhanh — Ngày 5: Part 1 (Vị trí & phương hướng) & Từ vựng địa điểm",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Part 2 (Giới thiệu) & Câu hỏi Who / Whose",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55571,
+          "title": "Ngày 6: Part 2 (Giới thiệu) & Câu hỏi Who / Whose",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27922,
+          "title": "Ngày 6: Part 2 (Giới thiệu) & Câu hỏi Who / Whose",
+          "est_minutes": 11,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28050,
+          "title": "Kiểm tra nhanh — Ngày 6: Part 2 (Giới thiệu) & Câu hỏi Who / Whose",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Part 2 (When / Where) & Hậu tố từ loại",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55572,
+          "title": "Ngày 7: Part 2 (When / Where) & Hậu tố từ loại",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27923,
+          "title": "Ngày 7: Part 2 (When / Where) & Hậu tố từ loại",
+          "est_minutes": 11,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28051,
+          "title": "Kiểm tra nhanh — Ngày 7: Part 2 (When / Where) & Hậu tố từ loại",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Part 2 (What / Which) & Tính từ phân từ (V-ing / V-ed)",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55573,
+          "title": "Ngày 8: Part 2 (What / Which) & Tính từ phân từ (V-ing / V-ed)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27833,
+          "title": "Ngày 8: Part 2 (What / Which) & Tính từ phân từ (V-ing / V-ed)",
+          "est_minutes": 15,
+          "card_count": 28
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28052,
+          "title": "Kiểm tra nhanh — Ngày 8: Part 2 (What / Which) & Tính từ phân từ (V-ing / V-ed)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Thực hành Part 2 (Câu hỏi Wh-)",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55574,
+          "title": "Ngày 9: Thực hành Part 2 (Câu hỏi Wh-)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27925,
+          "title": "Ngày 9: Thực hành Part 2 (Câu hỏi Wh-)",
+          "est_minutes": 8,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27925,
+          "title": "Kiểm tra nhanh — Ngày 9: Thực hành Part 2 (Câu hỏi Wh-)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Part 2 (Why / How) & Động từ liên kết",
+      "est_minutes": 13,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55575,
+          "title": "Ngày 10: Part 2 (Why / How) & Động từ liên kết",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27835,
+          "title": "Ngày 10: Part 2 (Why / How) & Động từ liên kết",
+          "est_minutes": 5,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28053,
+          "title": "Kiểm tra nhanh — Ngày 10: Part 2 (Why / How) & Động từ liên kết",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Từ đa nghĩa (Multiple-meaning words)",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55576,
+          "title": "Ngày 11: Từ đa nghĩa (Multiple-meaning words)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27837,
+          "title": "Ngày 11: Từ đa nghĩa (Multiple-meaning words)",
+          "est_minutes": 13,
+          "card_count": 21
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27927,
+          "title": "Kiểm tra nhanh — Ngày 11: Từ đa nghĩa (Multiple-meaning words)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Thực hành Part 2 (Tổng ôn câu hỏi Wh-)",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55577,
+          "title": "Ngày 12: Thực hành Part 2 (Tổng ôn câu hỏi Wh-)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27928,
+          "title": "Ngày 12: Thực hành Part 2 (Tổng ôn câu hỏi Wh-)",
+          "est_minutes": 8,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27928,
+          "title": "Kiểm tra nhanh — Ngày 12: Thực hành Part 2 (Tổng ôn câu hỏi Wh-)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Part 2 (Yes/No & Câu đề nghị) & Các loại động từ",
+      "est_minutes": 15,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55578,
+          "title": "Ngày 13: Part 2 (Yes/No & Câu đề nghị) & Các loại động từ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27839,
+          "title": "Ngày 13: Part 2 (Yes/No & Câu đề nghị) & Các loại động từ",
+          "est_minutes": 7,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28054,
+          "title": "Kiểm tra nhanh — Ngày 13: Part 2 (Yes/No & Câu đề nghị) & Các loại động từ",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Part 2: Nhóm câu hỏi KHÔNG có từ để hỏi & các dạng khác",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55579,
+          "title": "Ngày 14: Part 2: Nhóm câu hỏi KHÔNG có từ để hỏi & các dạng khác",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27930,
+          "title": "Ngày 14: Part 2: Nhóm câu hỏi KHÔNG có từ để hỏi & các dạng khác",
+          "est_minutes": 8,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27930,
+          "title": "Kiểm tra nhanh — Ngày 14: Part 2: Nhóm câu hỏi KHÔNG có từ để hỏi & các dạng khác",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Part 3: Paraphrasing & câu hỏi mở đầu (nơi làm việc, chủ đề, mục đích)",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55580,
+          "title": "Ngày 15: Part 3: Paraphrasing & câu hỏi mở đầu (nơi làm việc, chủ đề, mục đích)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27841,
+          "title": "Ngày 15: Part 3: Paraphrasing & câu hỏi mở đầu (nơi làm việc, chủ đề, mục đích)",
+          "est_minutes": 11,
+          "card_count": 18
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28055,
+          "title": "Kiểm tra nhanh — Ngày 15: Part 3: Paraphrasing & câu hỏi mở đầu (nơi làm việc, chủ đề, mục đích)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Part 3: Câu hỏi vấn đề, lý do & đề nghị · Thể giả định",
+      "est_minutes": 15,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55581,
+          "title": "Ngày 16: Part 3: Câu hỏi vấn đề, lý do & đề nghị · Thể giả định",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27843,
+          "title": "Ngày 16: Part 3: Câu hỏi vấn đề, lý do & đề nghị · Thể giả định",
+          "est_minutes": 7,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28056,
+          "title": "Kiểm tra nhanh — Ngày 16: Part 3: Câu hỏi vấn đề, lý do & đề nghị · Thể giả định",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Part 3: Câu hỏi sự kiện kế tiếp & ngụ ý · Trạng từ & So sánh",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55582,
+          "title": "Ngày 17: Part 3: Câu hỏi sự kiện kế tiếp & ngụ ý · Trạng từ & So sánh",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27933,
+          "title": "Ngày 17: Part 3: Câu hỏi sự kiện kế tiếp & ngụ ý · Trạng từ & So sánh",
+          "est_minutes": 10,
+          "card_count": 17
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28057,
+          "title": "Kiểm tra nhanh — Ngày 17: Part 3: Câu hỏi sự kiện kế tiếp & ngụ ý · Trạng từ & So sánh",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Part 3 (Hội thoại): Luyện nghe theo chủ đề",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55583,
+          "title": "Ngày 18: Part 3 (Hội thoại): Luyện nghe theo chủ đề",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27934,
+          "title": "Ngày 18: Part 3 (Hội thoại): Luyện nghe theo chủ đề",
+          "est_minutes": 12,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28058,
+          "title": "Kiểm tra nhanh — Ngày 18: Part 3 (Hội thoại): Luyện nghe theo chủ đề",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Part 4 (Bài nói một người): Luyện nghe theo chủ đề",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55584,
+          "title": "Ngày 19: Part 4 (Bài nói một người): Luyện nghe theo chủ đề",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27935,
+          "title": "Ngày 19: Part 4 (Bài nói một người): Luyện nghe theo chủ đề",
+          "est_minutes": 12,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28059,
+          "title": "Kiểm tra nhanh — Ngày 19: Part 4 (Bài nói một người): Luyện nghe theo chủ đề",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Đại từ (Pronouns) & Tính từ sở hữu",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55585,
+          "title": "Ngày 20: Đại từ (Pronouns) & Tính từ sở hữu",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27936,
+          "title": "Ngày 20: Đại từ (Pronouns) & Tính từ sở hữu",
+          "est_minutes": 11,
+          "card_count": 18
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28060,
+          "title": "Kiểm tra nhanh — Ngày 20: Đại từ (Pronouns) & Tính từ sở hữu",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Liên từ đẳng lập & Liên từ tương quan",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55586,
+          "title": "Ngày 21: Liên từ đẳng lập & Liên từ tương quan",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27937,
+          "title": "Ngày 21: Liên từ đẳng lập & Liên từ tương quan",
+          "est_minutes": 11,
+          "card_count": 18
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28061,
+          "title": "Kiểm tra nhanh — Ngày 21: Liên từ đẳng lập & Liên từ tương quan",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Giới từ và cụm giới từ (Prepositions)",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55587,
+          "title": "Ngày 22: Giới từ và cụm giới từ (Prepositions)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27938,
+          "title": "Ngày 22: Giới từ và cụm giới từ (Prepositions)",
+          "est_minutes": 11,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28062,
+          "title": "Kiểm tra nhanh — Ngày 22: Giới từ và cụm giới từ (Prepositions)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Các thì hiện tại & quá khứ",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55588,
+          "title": "Ngày 23: Các thì hiện tại & quá khứ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27939,
+          "title": "Ngày 23: Các thì hiện tại & quá khứ",
+          "est_minutes": 10,
+          "card_count": 17
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28063,
+          "title": "Kiểm tra nhanh — Ngày 23: Các thì hiện tại & quá khứ",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Các thì tương lai",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55589,
+          "title": "Ngày 24: Các thì tương lai",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27845,
+          "title": "Ngày 24: Các thì tương lai",
+          "est_minutes": 4,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28064,
+          "title": "Kiểm tra nhanh — Ngày 24: Các thì tương lai",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Câu bị động: cấu trúc đặc biệt & động từ đặc biệt",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55590,
+          "title": "Ngày 25: Câu bị động: cấu trúc đặc biệt & động từ đặc biệt",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27941,
+          "title": "Ngày 25: Câu bị động: cấu trúc đặc biệt & động từ đặc biệt",
+          "est_minutes": 10,
+          "card_count": 17
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28065,
+          "title": "Kiểm tra nhanh — Ngày 25: Câu bị động: cấu trúc đặc biệt & động từ đặc biệt",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "title": "Mệnh đề quan hệ & rút gọn mệnh đề quan hệ",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55591,
+          "title": "Ngày 26: Mệnh đề quan hệ & rút gọn mệnh đề quan hệ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27942,
+          "title": "Ngày 26: Mệnh đề quan hệ & rút gọn mệnh đề quan hệ",
+          "est_minutes": 11,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28066,
+          "title": "Kiểm tra nhanh — Ngày 26: Mệnh đề quan hệ & rút gọn mệnh đề quan hệ",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "title": "Part 5: Mệnh đề trạng ngữ (Adverbial clauses)",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55592,
+          "title": "Ngày 27: Part 5: Mệnh đề trạng ngữ (Adverbial clauses)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27943,
+          "title": "Ngày 27: Part 5: Mệnh đề trạng ngữ (Adverbial clauses)",
+          "est_minutes": 11,
+          "card_count": 18
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28067,
+          "title": "Kiểm tra nhanh — Ngày 27: Part 5: Mệnh đề trạng ngữ (Adverbial clauses)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "title": "Part 5: Câu điều kiện, đảo ngữ & Danh động từ (Gerund)",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55593,
+          "title": "Ngày 28: Part 5: Câu điều kiện, đảo ngữ & Danh động từ (Gerund)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27944,
+          "title": "Ngày 28: Part 5: Câu điều kiện, đảo ngữ & Danh động từ (Gerund)",
+          "est_minutes": 11,
+          "card_count": 18
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28068,
+          "title": "Kiểm tra nhanh — Ngày 28: Part 5: Câu điều kiện, đảo ngữ & Danh động từ (Gerund)",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "title": "Part 5: To-infinitive & Mệnh đề danh ngữ",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55594,
+          "title": "Ngày 29: Part 5: To-infinitive & Mệnh đề danh ngữ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27945,
+          "title": "Ngày 29: Part 5: To-infinitive & Mệnh đề danh ngữ",
+          "est_minutes": 8,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28069,
+          "title": "Kiểm tra nhanh — Ngày 29: Part 5: To-infinitive & Mệnh đề danh ngữ",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "title": "Part 6: Điền từ vào đoạn văn & Trạng từ liên kết",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55595,
+          "title": "Ngày 30: Part 6: Điền từ vào đoạn văn & Trạng từ liên kết",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27946,
+          "title": "Ngày 30: Part 6: Điền từ vào đoạn văn & Trạng từ liên kết",
+          "est_minutes": 12,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28070,
+          "title": "Kiểm tra nhanh — Ngày 30: Part 6: Điền từ vào đoạn văn & Trạng từ liên kết",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "title": "Part 7: Câu hỏi chủ đề & câu hỏi chi tiết",
+      "est_minutes": 13,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55596,
+          "title": "Ngày 31: Part 7: Câu hỏi chủ đề & câu hỏi chi tiết",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27847,
+          "title": "Ngày 31: Part 7: Câu hỏi chủ đề & câu hỏi chi tiết",
+          "est_minutes": 5,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28071,
+          "title": "Kiểm tra nhanh — Ngày 31: Part 7: Câu hỏi chủ đề & câu hỏi chi tiết",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "title": "Part 7: Câu hỏi True / NOT true",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55597,
+          "title": "Ngày 32: Part 7: Câu hỏi True / NOT true",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27948,
+          "title": "Ngày 32: Part 7: Câu hỏi True / NOT true",
+          "est_minutes": 10,
+          "card_count": 17
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28072,
+          "title": "Kiểm tra nhanh — Ngày 32: Part 7: Câu hỏi True / NOT true",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "title": "Part 7: Câu hỏi suy luận & câu hỏi ngụ ý",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55598,
+          "title": "Ngày 33: Part 7: Câu hỏi suy luận & câu hỏi ngụ ý",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27949,
+          "title": "Ngày 33: Part 7: Câu hỏi suy luận & câu hỏi ngụ ý",
+          "est_minutes": 10,
+          "card_count": 17
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28073,
+          "title": "Kiểm tra nhanh — Ngày 33: Part 7: Câu hỏi suy luận & câu hỏi ngụ ý",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "title": "Part 7: Câu hỏi tìm từ đồng nghĩa",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55599,
+          "title": "Ngày 34: Part 7: Câu hỏi tìm từ đồng nghĩa",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27950,
+          "title": "Ngày 34: Part 7: Câu hỏi tìm từ đồng nghĩa",
+          "est_minutes": 8,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27950,
+          "title": "Kiểm tra nhanh — Ngày 34: Part 7: Câu hỏi tìm từ đồng nghĩa",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "title": "Part 3/4: Từ vựng sự cố thiết bị & mẫu câu đồng tình",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55600,
+          "title": "Ngày 35: Part 3/4: Từ vựng sự cố thiết bị & mẫu câu đồng tình",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27849,
+          "title": "Ngày 35: Part 3/4: Từ vựng sự cố thiết bị & mẫu câu đồng tình",
+          "est_minutes": 15,
+          "card_count": 31
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27951,
+          "title": "Kiểm tra nhanh — Ngày 35: Part 3/4: Từ vựng sự cố thiết bị & mẫu câu đồng tình",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "title": "Part 2/3: Câu hỏi đuôi & câu hỏi gián tiếp",
+      "est_minutes": 15,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55601,
+          "title": "Ngày 36: Part 2/3: Câu hỏi đuôi & câu hỏi gián tiếp",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27851,
+          "title": "Ngày 36: Part 2/3: Câu hỏi đuôi & câu hỏi gián tiếp",
+          "est_minutes": 7,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27952,
+          "title": "Kiểm tra nhanh — Ngày 36: Part 2/3: Câu hỏi đuôi & câu hỏi gián tiếp",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "title": "Part 2/3: Mẫu câu từ chối, nêu vấn đề & trình bày công việc",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55602,
+          "title": "Ngày 37: Part 2/3: Mẫu câu từ chối, nêu vấn đề & trình bày công việc",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27853,
+          "title": "Ngày 37: Part 2/3: Mẫu câu từ chối, nêu vấn đề & trình bày công việc",
+          "est_minutes": 15,
+          "card_count": 25
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27953,
+          "title": "Kiểm tra nhanh — Ngày 37: Part 2/3: Mẫu câu từ chối, nêu vấn đề & trình bày công việc",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "title": "Part 3/4: Cụm từ chỉ thời gian, thời hạn & tần suất",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55603,
+          "title": "Ngày 38: Part 3/4: Cụm từ chỉ thời gian, thời hạn & tần suất",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27855,
+          "title": "Ngày 38: Part 3/4: Cụm từ chỉ thời gian, thời hạn & tần suất",
+          "est_minutes": 15,
+          "card_count": 26
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27954,
+          "title": "Kiểm tra nhanh — Ngày 38: Part 3/4: Cụm từ chỉ thời gian, thời hạn & tần suất",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "title": "Từ vựng thời gian, lịch hẹn & quản lý lịch trình",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55604,
+          "title": "Ngày 39: Từ vựng thời gian, lịch hẹn & quản lý lịch trình",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27857,
+          "title": "Ngày 39: Từ vựng thời gian, lịch hẹn & quản lý lịch trình",
+          "est_minutes": 15,
+          "card_count": 35
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27955,
+          "title": "Kiểm tra nhanh — Ngày 39: Từ vựng thời gian, lịch hẹn & quản lý lịch trình",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "title": "Từ vựng về đặt chỗ, hẹn gặp và xác nhận",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55634,
+          "title": "Ngày 40: Từ vựng về đặt chỗ, hẹn gặp và xác nhận",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27956,
+          "title": "Ngày 40: Từ vựng về đặt chỗ, hẹn gặp và xác nhận",
+          "est_minutes": 15,
+          "card_count": 25
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27859,
+          "title": "Kiểm tra nhanh — Ngày 40: Từ vựng về đặt chỗ, hẹn gặp và xác nhận",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "title": "Cặp từ dễ nhầm khi nghe & từ đa nghĩa",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55605,
+          "title": "Ngày 41: Cặp từ dễ nhầm khi nghe & từ đa nghĩa",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27861,
+          "title": "Ngày 41: Cặp từ dễ nhầm khi nghe & từ đa nghĩa",
+          "est_minutes": 15,
+          "card_count": 33
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27957,
+          "title": "Kiểm tra nhanh — Ngày 41: Cặp từ dễ nhầm khi nghe & từ đa nghĩa",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "title": "Từ vựng thời tiết & y tế, sức khỏe",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55606,
+          "title": "Ngày 42: Từ vựng thời tiết & y tế, sức khỏe",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27863,
+          "title": "Ngày 42: Từ vựng thời tiết & y tế, sức khỏe",
+          "est_minutes": 15,
+          "card_count": 35
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27958,
+          "title": "Kiểm tra nhanh — Ngày 42: Từ vựng thời tiết & y tế, sức khỏe",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "title": "Từ vựng du lịch, khách sạn, nhà hàng & dịch vụ công",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55607,
+          "title": "Ngày 43: Từ vựng du lịch, khách sạn, nhà hàng & dịch vụ công",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27865,
+          "title": "Ngày 43: Từ vựng du lịch, khách sạn, nhà hàng & dịch vụ công",
+          "est_minutes": 15,
+          "card_count": 54
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27959,
+          "title": "Kiểm tra nhanh — Ngày 43: Từ vựng du lịch, khách sạn, nhà hàng & dịch vụ công",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "title": "Từ vựng vận chuyển, giao nhận & quản lý kho",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55608,
+          "title": "Ngày 44: Từ vựng vận chuyển, giao nhận & quản lý kho",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27867,
+          "title": "Ngày 44: Từ vựng vận chuyển, giao nhận & quản lý kho",
+          "est_minutes": 15,
+          "card_count": 29
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27960,
+          "title": "Kiểm tra nhanh — Ngày 44: Từ vựng vận chuyển, giao nhận & quản lý kho",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "title": "Từ vựng thanh toán, khuyến mãi & mua sắm bán lẻ",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55609,
+          "title": "Ngày 45: Từ vựng thanh toán, khuyến mãi & mua sắm bán lẻ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27869,
+          "title": "Ngày 45: Từ vựng thanh toán, khuyến mãi & mua sắm bán lẻ",
+          "est_minutes": 15,
+          "card_count": 32
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27961,
+          "title": "Kiểm tra nhanh — Ngày 45: Từ vựng thanh toán, khuyến mãi & mua sắm bán lẻ",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "title": "Từ vựng công việc hằng ngày & tuyển dụng, nhân sự",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55610,
+          "title": "Ngày 46: Từ vựng công việc hằng ngày & tuyển dụng, nhân sự",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27871,
+          "title": "Ngày 46: Từ vựng công việc hằng ngày & tuyển dụng, nhân sự",
+          "est_minutes": 15,
+          "card_count": 38
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27962,
+          "title": "Kiểm tra nhanh — Ngày 46: Từ vựng công việc hằng ngày & tuyển dụng, nhân sự",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "title": "Từ vựng ứng tuyển, nghỉ việc, nghỉ hưu & khen thưởng",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55611,
+          "title": "Ngày 47: Từ vựng ứng tuyển, nghỉ việc, nghỉ hưu & khen thưởng",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27873,
+          "title": "Ngày 47: Từ vựng ứng tuyển, nghỉ việc, nghỉ hưu & khen thưởng",
+          "est_minutes": 15,
+          "card_count": 31
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27963,
+          "title": "Kiểm tra nhanh — Ngày 47: Từ vựng ứng tuyển, nghỉ việc, nghỉ hưu & khen thưởng",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "title": "Mẫu câu giao tiếp điện thoại nơi công sở",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55612,
+          "title": "Ngày 48: Mẫu câu giao tiếp điện thoại nơi công sở",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27875,
+          "title": "Ngày 48: Mẫu câu giao tiếp điện thoại nơi công sở",
+          "est_minutes": 15,
+          "card_count": 44
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27964,
+          "title": "Kiểm tra nhanh — Ngày 48: Mẫu câu giao tiếp điện thoại nơi công sở",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "title": "Từ vựng liên lạc, họp hành, thuyết trình & báo cáo",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55613,
+          "title": "Ngày 49: Từ vựng liên lạc, họp hành, thuyết trình & báo cáo",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27877,
+          "title": "Ngày 49: Từ vựng liên lạc, họp hành, thuyết trình & báo cáo",
+          "est_minutes": 15,
+          "card_count": 46
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27965,
+          "title": "Kiểm tra nhanh — Ngày 49: Từ vựng liên lạc, họp hành, thuyết trình & báo cáo",
+          "est_minutes": 3
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "title": "Từ vựng sự kiện công ty & ÔN TẬP TỔNG KẾT",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55614,
+          "title": "Ngày 50: Từ vựng sự kiện công ty & ÔN TẬP TỔNG KẾT",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27879,
+          "title": "Ngày 50: Từ vựng sự kiện công ty & ÔN TẬP TỔNG KẾT",
+          "est_minutes": 15,
+          "card_count": 65
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27966,
+          "title": "Kiểm tra nhanh — Ngày 50: Từ vựng sự kiện công ty & ÔN TẬP TỔNG KẾT",
+          "est_minutes": 3
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "toeic-1",
+      "order": 1,
+      "title": "Part 1 – Mô tả tranh",
+      "icon": "photo.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "items": [
+        "lesson:55566",
+        "deck:27823",
+        "test:28080",
+        "lesson:55567",
+        "deck:27918",
+        "test:28049",
+        "lesson:55568",
+        "deck:27829",
+        "test:27919",
+        "lesson:55569",
+        "deck:27920",
+        "test:27920",
+        "lesson:55570",
+        "deck:27831",
+        "test:27921"
+      ]
+    },
+    {
+      "id": "toeic-2",
+      "order": 2,
+      "title": "Part 2 – Câu hỏi Wh-",
+      "icon": "text.bubble.fill",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "items": [
+        "lesson:55571",
+        "deck:27922",
+        "test:28050",
+        "lesson:55572",
+        "deck:27923",
+        "test:28051",
+        "lesson:55573",
+        "deck:27833",
+        "test:28052",
+        "lesson:55574",
+        "deck:27925",
+        "test:27925",
+        "lesson:55575",
+        "deck:27835",
+        "test:28053",
+        "lesson:55576",
+        "deck:27837",
+        "test:27927",
+        "lesson:55577",
+        "deck:27928",
+        "test:27928"
+      ]
+    },
+    {
+      "id": "toeic-3",
+      "order": 3,
+      "title": "Part 2 – Yes/No & khác",
+      "icon": "text.bubble.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        13,
+        14
+      ],
+      "items": [
+        "lesson:55578",
+        "deck:27839",
+        "test:28054",
+        "lesson:55579",
+        "deck:27930",
+        "test:27930"
+      ]
+    },
+    {
+      "id": "toeic-4",
+      "order": 4,
+      "title": "Part 3-4 – Nghe hiểu",
+      "icon": "headphones",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "items": [
+        "lesson:55580",
+        "deck:27841",
+        "test:28055",
+        "lesson:55581",
+        "deck:27843",
+        "test:28056",
+        "lesson:55582",
+        "deck:27933",
+        "test:28057",
+        "lesson:55583",
+        "deck:27934",
+        "test:28058",
+        "lesson:55584",
+        "deck:27935",
+        "test:28059"
+      ]
+    },
+    {
+      "id": "toeic-5",
+      "order": 5,
+      "title": "Ngữ pháp nền tảng",
+      "icon": "textformat",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "items": [
+        "lesson:55585",
+        "deck:27936",
+        "test:28060",
+        "lesson:55586",
+        "deck:27937",
+        "test:28061",
+        "lesson:55587",
+        "deck:27938",
+        "test:28062",
+        "lesson:55588",
+        "deck:27939",
+        "test:28063",
+        "lesson:55589",
+        "deck:27845",
+        "test:28064"
+      ]
+    },
+    {
+      "id": "toeic-6",
+      "order": 6,
+      "title": "Ngữ pháp nâng cao",
+      "icon": "doc.text.fill",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "items": [
+        "lesson:55590",
+        "deck:27941",
+        "test:28065",
+        "lesson:55591",
+        "deck:27942",
+        "test:28066",
+        "lesson:55592",
+        "deck:27943",
+        "test:28067",
+        "lesson:55593",
+        "deck:27944",
+        "test:28068",
+        "lesson:55594",
+        "deck:27945",
+        "test:28069"
+      ]
+    },
+    {
+      "id": "toeic-7",
+      "order": 7,
+      "title": "Part 6-7 – Đọc hiểu",
+      "icon": "book.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "items": [
+        "lesson:55595",
+        "deck:27946",
+        "test:28070",
+        "lesson:55596",
+        "deck:27847",
+        "test:28071",
+        "lesson:55597",
+        "deck:27948",
+        "test:28072",
+        "lesson:55598",
+        "deck:27949",
+        "test:28073",
+        "lesson:55599",
+        "deck:27950",
+        "test:27950"
+      ]
+    },
+    {
+      "id": "toeic-8",
+      "order": 8,
+      "title": "Mẫu câu & thời gian",
+      "icon": "clock.fill",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "items": [
+        "lesson:55600",
+        "deck:27849",
+        "test:27951",
+        "lesson:55601",
+        "deck:27851",
+        "test:27952",
+        "lesson:55602",
+        "deck:27853",
+        "test:27953",
+        "lesson:55603",
+        "deck:27855",
+        "test:27954"
+      ]
+    },
+    {
+      "id": "toeic-9",
+      "order": 9,
+      "title": "Lịch hẹn & sức khoẻ",
+      "icon": "calendar",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "items": [
+        "lesson:55604",
+        "deck:27857",
+        "test:27955",
+        "lesson:55634",
+        "deck:27956",
+        "test:27859",
+        "lesson:55605",
+        "deck:27861",
+        "test:27957",
+        "lesson:55606",
+        "deck:27863",
+        "test:27958"
+      ]
+    },
+    {
+      "id": "toeic-10",
+      "order": 10,
+      "title": "Du lịch & dịch vụ",
+      "icon": "airplane",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        43,
+        44,
+        45
+      ],
+      "items": [
+        "lesson:55607",
+        "deck:27865",
+        "test:27959",
+        "lesson:55608",
+        "deck:27867",
+        "test:27960",
+        "lesson:55609",
+        "deck:27869",
+        "test:27961"
+      ]
+    },
+    {
+      "id": "toeic-11",
+      "order": 11,
+      "title": "Từ vựng công sở",
+      "icon": "briefcase.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "items": [
+        "lesson:55610",
+        "deck:27871",
+        "test:27962",
+        "lesson:55611",
+        "deck:27873",
+        "test:27963",
+        "lesson:55612",
+        "deck:27875",
+        "test:27964",
+        "lesson:55613",
+        "deck:27877",
+        "test:27965",
+        "lesson:55614",
+        "deck:27879",
+        "test:27966"
+      ]
+    }
+  ]
+}

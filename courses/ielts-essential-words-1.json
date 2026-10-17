@@ -1,0 +1,6886 @@
+{
+  "id": "ielts-essential-words-1",
+  "title": "Ôn thi IELTS",
+  "subtitle": "Lộ trình 80 ngày",
+  "thumbnail": null,
+  "field_id": 32265,
+  "level": "Nâng cao",
+  "language": "en",
+  "icon_text": "IE",
+  "icon_color": "#E5484D",
+  "days": [
+    {
+      "day": 1,
+      "title": "Environmental Impacts of Logging · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54131,
+          "title": "Environmental Impacts of Logging · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22733,
+          "title": "Ex 1. (Words and Definitions) Unit 1: The environmental impact of logging (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22737,
+          "title": "Ex 2. (Reading Comprehension) Unit 1: Environment impact of logging (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22752,
+          "title": "Ex 3. (Word family A) Unit 1: Environment impact of logging - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 15
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22765,
+          "title": "Ex 4. (Word family B) Unit 1: Environment impact of logging - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 22768,
+          "title": "Ex 5. (Paraphrases) Unit 1: Environment impact of logging - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23029,
+          "title": "Ex 6. (Word Skill) Unit 1: Environment impact of logging - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 22769,
+          "title": "Ex 7. (Listening 1) Unit 1: Environment impact of logging - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23108,
+          "title": "Ex 8. (Listening 2) Unit 1: Environment impact of logging - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Environmental Impacts of Logging · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54155,
+          "title": "Environmental Impacts of Logging · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22771,
+          "title": "Ex 1.1. Writing Unit 1: Deforestation (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23128,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 1: Deforestation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23129,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 1: Deforestation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22772,
+          "title": "Ex 2.1. Writing Unit 1: Deforestation (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23130,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 1: Deforestation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23131,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 1: Deforestation",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 22773,
+          "title": "Ex 3.1. Writing Unit 1: Deforestation (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23132,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 1: Deforestation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23133,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2- Unit 1: Deforestation",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Environmental Impacts of Logging · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54156,
+          "title": "Environmental Impacts of Logging · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22774,
+          "title": "Ex 1.1. Speaking Unit 1: The Natural World - Environment impact of logging - band 6.0",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23134,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 1: Deforestation (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22775,
+          "title": "Ex 2.1. Speaking Unit 1: The Natural World - Environment impact of logging - band 7.0",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23135,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 1: Deforestation (Translation)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 22776,
+          "title": "Ex 3.1. Speaking Unit 1: The Natural World - Environment impact of logging - band 8.0+",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23136,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 1: Deforestation (Translation)",
+          "est_minutes": 2,
+          "card_count": 7
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Bird migration · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54193,
+          "title": "Bird migration · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23232,
+          "title": "Ex 1. (Words and Definitions) Unit 1: Bird Migration (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23233,
+          "title": "Ex 2. (Reading Comprehension) Unit 1: Bird Migration (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23234,
+          "title": "Ex 3. (Word family A) Unit 1: Bird Migration (Barron Essential words for IELTS)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23235,
+          "title": "Ex 4. (Word family B) Unit 1: Bird Migration (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23236,
+          "title": "Ex 5. (Paraphrases) Unit 1: Bird Migration (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23237,
+          "title": "Ex 6. (Dictionary Skill) Unit 1: Bird Migration (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23271,
+          "title": "Ex 7. (Listening 1) Unit 1: The Natural World - BIRD MIGRATION",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23272,
+          "title": "Ex 8. (Listening 2) Unit 1: The Natural World - BIRD MIGRATION",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Fascination with Birds · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54300,
+          "title": "Fascination with Birds · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23328,
+          "title": "(Band 8.0) Speaking - Unit 1: Bird migration (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23327,
+          "title": "(Band 7.0) Speaking - Unit 1: Bird migration (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23326,
+          "title": "(Band 6.0) Speaking - Unit 1: Bird migration (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23322,
+          "title": "Speaking Unit 1: The Natural World -Bird migration- band 8.0",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23321,
+          "title": "Speaking Unit 1: The Natural World -Bird migration- band 7.0",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23320,
+          "title": "Speaking Unit 1: The Natural World -Bird migration- band 6.0",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Plant life in the taklimakan desert · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54301,
+          "title": "Plant life in the taklimakan desert · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23294,
+          "title": "Ex 1. (Words and Definitions) Unit 1: Plant Life in the Taklimakan Desert (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23295,
+          "title": "Ex 2. (Reading Comprehension) Unit 1: Plant Life in the Taklimakan Desert (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23296,
+          "title": "Ex 3. (Word family A) Unit 1: Plant Life in the Taklimakan Desert (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23297,
+          "title": "Ex 4. (Word family B) Unit 1: Plant Life in the Taklimakan Desert (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23298,
+          "title": "Ex 5. (Paraphrases) Unit 1: Plant Life in the Taklimakan Desert (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23299,
+          "title": "Ex 6. (Dictionary Skill) Unit 1: Plant Life in the Taklimakan Desert (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23300,
+          "title": "Ex 7. (Listening 1) Unit 1: The Natural World - Taklimakan Desert Plants (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23301,
+          "title": "Ex 8. (Listening 2) Unit 1: The Natural World - Desert Plants (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Three Deserts of the World · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54302,
+          "title": "Three Deserts of the World · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23329,
+          "title": "Ex 1.1. Writing Unit 1: Three deserts of the world (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23332,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 1: Three deserts of the world",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23335,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 1: Three deserts of the world",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23330,
+          "title": "Ex 2.1. Writing Unit 1: Three deserts of the world (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23333,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 1: Three deserts of the world",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23336,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 1: Three deserts of the world",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23331,
+          "title": "Ex 3.1. Writing Unit 1: Three deserts of the world (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23334,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 1: Three deserts of the world",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23337,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 1: Three deserts of the world",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Extreme Environments · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54303,
+          "title": "Extreme Environments · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23365,
+          "title": "Ex 1.1. Speaking Unit 1: Extreme Environments (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23366,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 1: Extreme Environments (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23367,
+          "title": "Ex 2.1. Speaking Unit 1: Extreme Environments (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23369,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 1: Extreme Environments (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23368,
+          "title": "Ex 3.1. Speaking Unit 1: Extreme Environments (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23370,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 1: Extreme Environments (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 23365,
+          "title": "Kiểm tra nhanh: Unit 1: Natural World",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Peripheral Vision in Sports · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54306,
+          "title": "Peripheral Vision in Sports · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23371,
+          "title": "Ex 1. (Words and Definitions) Unit 2: Peripheral Vision in Sports (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23372,
+          "title": "Ex 2. (Reading Comprehension) Unit 2: Peripheral Vision in Sports (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23376,
+          "title": "Ex 3. (Word family A) Unit 2: Peripheral Vision in Sports (Barron Essential words for IELTS)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23377,
+          "title": "Ex 4. (Word family B) Unit 2: Peripheral Vision in Sports (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23378,
+          "title": "Ex 5. (Paraphrases) Unit 2: Peripheral Vision in Sports (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23379,
+          "title": "Ex 6. (Dictionary Skill) Unit 2: Peripheral Vision in Sports (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23385,
+          "title": "Ex 7. (Listening 1) Unit 2: Leisure time- Peripheral Vision in Sports (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23386,
+          "title": "Ex 8. (Listening 2) Unit 2: Leisure time- Peripheral Vision in Sports (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Athletes as Role models · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54307,
+          "title": "Athletes as Role models · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23396,
+          "title": "Ex 1.1. Writing Unit 2: Athletes as Role Models (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23399,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 2: Athletes as Role Models",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23402,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 2: Athletes as Role Models",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23397,
+          "title": "Ex 2.1. Writing Unit 2: Athletes as Role Models (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23400,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 2: Athletes as Role Models",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23403,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 2: Athletes as Role Models",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23398,
+          "title": "Ex 3.1. Writing Unit 2: Athletes as Role Models (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23401,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 2: Athletes as Role Models",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23404,
+          "title": "Ex 3.3 (Band 8.0) Luyện viết câu 2 - Unit 2: Athletes as Role Models",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Focus and Concentration · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54308,
+          "title": "Focus and Concentration · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23418,
+          "title": "Ex 1.1. Speaking Unit 2: Focus and Concentration (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23421,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 2: Focus and Concentration (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23419,
+          "title": "Ex 2.1. Speaking Unit 2: Focus and Concentration (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23422,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 2: Focus and Concentration (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23420,
+          "title": "Ex 3.1. Speaking Unit 2: Focus and Concentration (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23423,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 2: Focus and Concentration (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "History of the Circus · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54309,
+          "title": "History of the Circus · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23424,
+          "title": "Ex 1. (Words and Definitions) Unit 2: History of the Circus (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23425,
+          "title": "Ex 2. (Reading Comprehension) Unit 2: History of the Circus (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23426,
+          "title": "Ex 3. (Word family A) Unit 2: History of the Circus (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23427,
+          "title": "Ex 4. (Word family B) Unit 2: History of the Circus (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23428,
+          "title": "Ex 5. (Paraphrases) Unit 2: History of the Circus (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23429,
+          "title": "Ex 6. (Dictionary Skill) Unit 2: History of the Circus (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23570,
+          "title": "Ex 7. (Listening 1) Unit 2: Leisure time - History of the Circus - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23607,
+          "title": "Ex 8. (Listening 2) Unit 2: Leisure time - History of the Circus - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Entertainment and Performing Arts · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54311,
+          "title": "Entertainment and Performing Arts · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23406,
+          "title": "Ex 1.1. Speaking Unit 2: Entertainment and Performing Arts (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23409,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 2: Entertainment and Performing Arts (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23407,
+          "title": "Ex 2.1. Speaking Unit 2: Entertainment and Performing Arts (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23410,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 2: Entertainment and Performing Arts (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23408,
+          "title": "Ex 3.1. Speaking Unit 2: Entertainment and Performing Arts (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23411,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 2: Entertainment and Performing Arts (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Uses of Leisure Time · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54312,
+          "title": "Uses of Leisure Time · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23412,
+          "title": "Ex 1. Words and Definitions) Unit 2: Uses of Leisure Time (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23413,
+          "title": "Ex 2. (Reading Comprehension) Unit 2: Uses of Leisure Time (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23414,
+          "title": "Ex 3. (Word family A) Unit 2: Uses of Leisure Time (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23415,
+          "title": "Ex 4. (Word family B) Unit 2: Uses of Leisure Time (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23416,
+          "title": "Ex 5. (Paraphrases) Unit 2: Uses of Leisure Time (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23417,
+          "title": "Ex 6. (Dictionary Skill) Unit 2: Uses of Leisure Time (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23625,
+          "title": "Ex 7. (Listening 1) Unit 2: Leisure time - Research on Leisure - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23626,
+          "title": "Ex 8. (Listening 2) Unit 2: Leisure time - Research on Leisure - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Favourite Pastimes and Relaxation · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54314,
+          "title": "Favourite Pastimes and Relaxation · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23453,
+          "title": "(Band 8.0) Speaking - Unit 2: Favourite Pastimes and Relaxation (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23452,
+          "title": "(Band 7.0) Speaking - Unit 2: Favourite Pastimes and Relaxation (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23451,
+          "title": "(Band 6.0) Speaking - Unit 2: Favourite Pastimes and Relaxation (Translation)",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23450,
+          "title": "Speaking Unit 2: Favourite Pastimes and Relaxation (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23449,
+          "title": "Speaking Unit 2: Favourite Pastimes and Relaxation (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23448,
+          "title": "Speaking Unit 2: Favourite Pastimes and Relaxation (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 23450,
+          "title": "Kiểm tra nhanh: Unit 2: Leisure Time",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "First Headlamps · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54315,
+          "title": "First Headlamps · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23464,
+          "title": "Ex 1. (Words and Definitions) Unit 3: First Headlamps (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23465,
+          "title": "Ex 2. (Reading Comprehension) Unit 3: First Headlamps (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23466,
+          "title": "Ex 3. (Word family A) Unit 3: First Headlamps (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23467,
+          "title": "Ex 4. (Word family B) Unit 3: First Headlamps (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23468,
+          "title": "Ex 5. (Paraphrases) Unit 3: First Headlamps (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23469,
+          "title": "Ex 6. (Dictionary Skill) Unit 3: First Headlamps (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23635,
+          "title": "Ex 7. (Listening 1) Unit 3: Transportation - First Headlamps - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 1
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23637,
+          "title": "Ex 8. (Listening 2) Unit 3: Transportation - The Development of Airplane Navigation Systems - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Transportation Innovation · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54316,
+          "title": "Transportation Innovation · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23479,
+          "title": "Ex 1.1. Writing Unit 3: Transportation Innovation (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23482,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 3: Transportation Innovation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23485,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 3: Transportation Innovation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23480,
+          "title": "Ex 2.1. Writing Unit 3: Transportation Innovation (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23483,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 3: Transportation Innovation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23486,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 3: Transportation Innovation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23481,
+          "title": "Ex 3.1. Writing Unit 3: Transportation Innovation (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23484,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 3: Transportation Innovation",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23487,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 3: Transportation Innovation",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Getting Around the City · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54317,
+          "title": "Getting Around the City · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23521,
+          "title": "Ex 1.1. Speaking Unit 3: Getting Around the City (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23524,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 3: Getting Around the City (Translation)",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23522,
+          "title": "Ex 2.1. Speaking Unit 3: Getting Around the City (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23525,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 3: Getting Around the City (Translation)",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23523,
+          "title": "Ex 3.1. Speaking Unit 3: Getting Around the City (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23526,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 3: Getting Around the City (Translation)",
+          "est_minutes": 2,
+          "card_count": 4
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Subway Systems of Europe · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54319,
+          "title": "Subway Systems of Europe · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23531,
+          "title": "Ex 1.1. Writing Unit 3: Subway Systems of Europe (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23534,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 3: Subway Systems of Europe",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23537,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 3: Subway Systems of Europe",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23532,
+          "title": "Ex 2.1. Writing Unit 3: Subway Systems of Europe (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23535,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 3: Subway Systems of Europe",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23538,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 3: Subway Systems of Europe",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23533,
+          "title": "Ex 3.1. Writing Unit 3: Subway Systems of Europe (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23536,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 3: Subway Systems of Europe",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23539,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 3: Subway Systems of Europe",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Art & Architecture in the City · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54320,
+          "title": "Art & Architecture in the City · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23540,
+          "title": "Ex 1.1. Speaking Unit 3: Art & Architecture in the City (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23543,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 3: Art & Architecture in the City (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23541,
+          "title": "Ex 2.1. Speaking Unit 3: Art & Architecture in the City (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23544,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 3: Art & Architecture in the City (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23542,
+          "title": "Ex 3.1. Speaking Unit 3: Art & Architecture in the City (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23545,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 3: Art & Architecture in the City (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "title": "The Road to Electric Car · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54322,
+          "title": "The Road to Electric Car · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23555,
+          "title": "Ex 1.1. Writing Unit 3: The Road to Electric Cars (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23558,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 3: The Road to Electric Cars",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23561,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 3: The Road to Electric Cars",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23556,
+          "title": "Ex 2.1. Writing Unit 3: The Road to Electric Cars (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23559,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 3: The Road to Electric Cars",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23562,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 3: The Road to Electric Cars",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23557,
+          "title": "Ex 3.1. Writing Unit 3: The Road to Electric Cars (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23560,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 3: The Road to Electric Cars",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23563,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 3: The Road to Electric Cars",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Cars & Where We Live · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54323,
+          "title": "Cars & Where We Live · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23564,
+          "title": "Ex 1.1. Speaking Unit 3: Cars & Where We Live (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23567,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 3: Cars & Where We Live (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23565,
+          "title": "Ex 2.1. Speaking Unit 3: Cars & Where We Live (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23568,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 3: Cars & Where We Live (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23566,
+          "title": "Ex 3.1. Speaking Unit 3: Cars & Where We Live (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23569,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 3: Cars & Where We Live (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 23564,
+          "title": "Kiểm tra nhanh: Unit 3: Transportation",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Origins of Writing · Đọc & nghe",
+      "est_minutes": 30,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54324,
+          "title": "Origins of Writing · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23662,
+          "title": "Ex 1: (Words and Definitions) Unit 4: Origins of Writing (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23665,
+          "title": "Ex 2: (Reading Comprehension) Unit 4: Origins of Writing (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23658,
+          "title": "Ex 3: (Word family A) Unit 4: Origins of Writing - Barron Essential words for IELTS",
+          "est_minutes": 6,
+          "card_count": 22
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23659,
+          "title": "Ex 4: (Word family B) Unit 4: Origins of Writing - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23667,
+          "title": "Ex 5: (Paraphrases) Unit 4: Origins of Writing - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23668,
+          "title": "Ex 6: (Word Skill) Unit 4: Origins of Writing - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23673,
+          "title": "Ex 7: (Listening 1) Unit 4: Culture - Museum of Ancient Studies (Map A-E) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23674,
+          "title": "Ex 8: (Listening 2) Unit 4: Culture - The Development of Printing Technology - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Literacy Around the World · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54325,
+          "title": "Literacy Around the World · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23675,
+          "title": "Ex 1.1. Writing Unit 4: Literacy Around the World (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23678,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 4: Literacy Around the World",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23681,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 4: Literacy Around the World",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23676,
+          "title": "Ex 2.1. Writing Unit 4: Literacy Around the World (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23679,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 4: Literacy Around the World",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23682,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 4: Literacy Around the World",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23677,
+          "title": "Ex 3.1. Writing Unit 4: Literacy Around the World (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23680,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 4: Literacy Around the World",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23683,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 4: Literacy Around the World",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Teaching in a Changing World · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54326,
+          "title": "Teaching in a Changing World · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23684,
+          "title": "Ex 1.1. Speaking Unit 4: Teaching in a Changing World (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23687,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 4: Teaching in a Changing World (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23685,
+          "title": "Ex 2.1. Speaking Unit 4: Teaching in a Changing World (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23688,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 4: Teaching in a Changing World (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23686,
+          "title": "Ex 3.1. Speaking Unit 4: Teaching in a Changing World (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23689,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 4: Teaching in a Changing World (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "title": "Hula Dancing in Hawaiian Culture · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54327,
+          "title": "Hula Dancing in Hawaiian Culture · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23693,
+          "title": "Ex 1. (Words and Definitions) Unit 4: Hula Dancing in Hawaiian Culture (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23694,
+          "title": "Ex 2. (Reading Comprehension) Unit 4: Hula Dancing in Hawaiian Culture (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23695,
+          "title": "Ex 3. (Word family A) Unit 4: Hula Dancing in Hawaiian Culture - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23696,
+          "title": "Ex 4. (Word family B) Unit 4: Hula Dancing in Hawaiian Culture - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23697,
+          "title": "Ex 5. (Paraphrases) Unit 4: Hula Dancing in Hawaiian Culture - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23698,
+          "title": "Ex 6. (Word Skill) Unit 4: Hula Dancing in Hawaiian Culture - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23702,
+          "title": "Ex 7. (Listening 1) Unit 4: Culture - Hula Demonstration - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 1
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23703,
+          "title": "Ex 8. (Listening 2) Unit 4: Culture - Hula Demonstration - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "title": "The Value of Festivals · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54328,
+          "title": "The Value of Festivals · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23704,
+          "title": "Ex 1.1. Writing Unit 4: The Value of Festivals (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23707,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 4: The Value of Festivals",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23710,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 4: The Value of Festivals",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23705,
+          "title": "Ex 2.1. Writing Unit 4: The Value of Festivals (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23708,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 4: The Value of Festivals",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23711,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 4: The Value of Festivals",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23706,
+          "title": "Ex 3.1. Writing Unit 4: The Value of Festivals (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23709,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 4: The Value of Festivals",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23712,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 4: The Value of Festivals",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "title": "Festivals & Rituals · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54329,
+          "title": "Festivals & Rituals · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23713,
+          "title": "Ex 1.1. Speaking Unit 4: Festivals & Rituals (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23716,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 4: Festivals & Rituals (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23714,
+          "title": "Ex 2.1. Speaking Unit 4: Festivals & Rituals (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23717,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 4: Festivals & Rituals (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23715,
+          "title": "Ex 3.1. Speaking Unit 4: Festivals & Rituals (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23718,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 4: Festivals & Rituals (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "title": "The Art of Mime · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54470,
+          "title": "The Art of Mime · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23719,
+          "title": "Ex 1. (Words and Definitions) Unit 4: The Art of Mime (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23720,
+          "title": "Ex 2. (Reading Comprehension) Unit 4: The Art of Mime (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23721,
+          "title": "Ex 3. (Word family A) Unit 4: The Art of Mime - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23722,
+          "title": "Ex 4. (Word family B) Unit 4: The Art of Mime - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23723,
+          "title": "Ex 5. (Paraphrases) Unit 4: The Art of Mime - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23724,
+          "title": "Ex 6. (Word Skill) Unit 4: The Art of Mime - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23725,
+          "title": "Ex 7: (Listening 1) Unit 4: Culture - The Art of Mime - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23726,
+          "title": "Ex 8: (Listening 1) Unit 4: Culture - The History of Puppetry - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "title": "Theater Ticket Sales · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54471,
+          "title": "Theater Ticket Sales · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23735,
+          "title": "Ex 1.1. Writing Unit 4: Theater Ticket Sales (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23738,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 4: Theater Ticket Sales",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23741,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 4: Theater Ticket Sales",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23736,
+          "title": "Ex 2.1. Writing Unit 4: Theater Ticket Sales (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23739,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 4: Theater Ticket Sales",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23742,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 4: Theater Ticket Sales",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23737,
+          "title": "Ex 3.1. Writing Unit 4: Theater Ticket Sales (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23740,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 4: Theater Ticket Sales",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23743,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 4: Theater Ticket Sales",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "title": "On Stage & On Screen · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54472,
+          "title": "On Stage & On Screen · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23787,
+          "title": "Ex 1.1. Speaking Unit 4: On Stage & On Screen (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23790,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 4: On Stage & On Screen (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23788,
+          "title": "Ex 2.1. Speaking Unit 4: On Stage & On Screen (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23791,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 4: On Stage & On Screen (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23789,
+          "title": "Ex 3.1. Speaking Unit 4: On Stage & On Screen (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23792,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 4: On Stage & On Screen (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 23787,
+          "title": "Kiểm tra nhanh: Unit 4: Culture",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "title": "Nurse Migration · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54333,
+          "title": "Nurse Migration · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23796,
+          "title": "Ex 1. (Words and Definitions) Unit 5: Nurse Migration (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23797,
+          "title": "Ex 2. (Reading Comprehension) Unit 5: Nurse Migration (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23798,
+          "title": "Ex 3. (Reading Comprehension) Unit 5: Nurse Migration (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 3
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23799,
+          "title": "Ex 4. (Word family A) Unit 5: Nurse Migration - Barron Essential words for IELTS",
+          "est_minutes": 3,
+          "card_count": 13
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23800,
+          "title": "Ex 5. (Word family B) Unit 5: Nurse Migration - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23801,
+          "title": "Ex 6. (Paraphrases) Unit 5: Nurse Migration - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23802,
+          "title": "Ex 7. (Word Skill) Unit 5: Nurse Migration - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23803,
+          "title": "Ex 8: (Listening 1) Unit 5: Health - Nurse Training - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23804,
+          "title": "Ex 9: (Listening 2) Unit 5: Health - Nurse Training - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "title": "Health Care Wages · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54334,
+          "title": "Health Care Wages · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23805,
+          "title": "Ex 1.1. Writing Unit 5: Health Care Wages (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23808,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 5: Health Care Wages",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23811,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 5: Health Care Wages",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23806,
+          "title": "Ex 2.1. Writing Unit 5: Health Care Wages (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23809,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 5: Health Care Wages",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23812,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 5: Health Care Wages",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23807,
+          "title": "Ex 3.1. Writing Unit 5: Health Care Wages (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23810,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 5: Health Care Wages",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23813,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 5: Health Care Wages",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "title": "Career Paths · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54335,
+          "title": "Career Paths · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23818,
+          "title": "Ex 1.1. Speaking Unit 5: Career Paths (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23821,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 5: Career Paths (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23819,
+          "title": "Ex 2.1. Speaking Unit 5: Career Paths (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23822,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 5: Career Paths (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23820,
+          "title": "Ex 3.1. Speaking Unit 5: Career Paths (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23823,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 5: Career Paths (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "title": "Aerobic Exercise and Brain Health · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54336,
+          "title": "Aerobic Exercise and Brain Health · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23824,
+          "title": "Ex 1. (Words and Definitions) Unit 5: Aerobic Exercise and Brain Health (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23825,
+          "title": "Ex 2. (Reading Comprehension) Unit 5: Aerobic Exercise and Brain Health (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23826,
+          "title": "Ex 3. (Word family A) Unit 5: Aerobic Exercise and Brain Health - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23827,
+          "title": "Ex 4. (Word family B) Unit 5: Aerobic Exercise and Brain Health - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23828,
+          "title": "Ex 5. (Paraphrases) Unit 5: Aerobic Exercise and Brain Health - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23829,
+          "title": "Ex 6. (Word Skill) Unit 5: Aerobic Exercise and Brain Health - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23832,
+          "title": "Ex 7: (Listening 1) Unit 5: Health - Hospital Fitness Center - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23833,
+          "title": "Ex 8: (Listening 2) Unit 5: Health - Hospital Fitness Center - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "title": "Exercise and Mental Capacity · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54337,
+          "title": "Exercise and Mental Capacity · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23834,
+          "title": "Ex 1.1. Writing Unit 5: Exercise and Mental Capacity (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23837,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 5: Exercise and Mental Capacity",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23840,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 5: Exercise and Mental Capacity",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23835,
+          "title": "Ex 2.1. Writing Unit 5: Exercise and Mental Capacity (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23838,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 5: Exercise and Mental Capacity",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23841,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 5: Exercise and Mental Capacity",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23836,
+          "title": "Ex 3.1. Writing Unit 5: Exercise and Mental Capacity (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23839,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 5: Exercise and Mental Capacity",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23842,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 5: Exercise and Mental Capacity",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "title": "Exercise & Well-being · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54338,
+          "title": "Exercise & Well-being · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23843,
+          "title": "Ex 1.1. Speaking Unit 5: Exercise & Well-being (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23846,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 5: Exercise & Well-being (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23844,
+          "title": "Ex 2.1. Speaking Unit 5: Exercise & Well-being (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23847,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 5: Exercise & Well-being (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23845,
+          "title": "Ex 3.1. Speaking Unit 5: Exercise & Well-being (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23848,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 5: Exercise & Well-being (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "title": "How Drugs Are Studied · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54339,
+          "title": "How Drugs Are Studied · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23850,
+          "title": "Ex 1. (Words and Definitions) Unit 5: How Drugs Are Studied (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23851,
+          "title": "Ex 2. (Reading Comprehension) Unit 5: How Drugs Are Studied (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23853,
+          "title": "Ex 3. (Word family A) Unit 5: How Drugs Are Studied - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23854,
+          "title": "Ex 4. (Word family B) Unit 5: How Drugs Are Studied - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23855,
+          "title": "Ex 5. (Paraphrases) Unit 5: How Drugs Are Studied - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23856,
+          "title": "Ex 6. (Word Skill) Unit 5: How Drugs Are Studied - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23861,
+          "title": "Ex 7: (Listening 1) Unit 5: Health - Laboratory Research Project - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23862,
+          "title": "Ex 8: (Listening 2) Unit 5: Health - Laboratory Research Project - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "title": "Living Longer Lives · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54340,
+          "title": "Living Longer Lives · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23866,
+          "title": "Ex 1.1. Writing Unit 5: Living Longer Lives (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23869,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 5: Living Longer Lives",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23872,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 5: Living Longer Lives",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23867,
+          "title": "Ex 2.1. Writing Unit 5: Living Longer Lives (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23870,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 5: Living Longer Lives",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23873,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 5: Living Longer Lives",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23868,
+          "title": "Ex 3.1. Writing Unit 5: Living Longer Lives (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23871,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 5: Living Longer Lives",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23874,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 5: Living Longer Lives",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "title": "Health Care Priorities · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54341,
+          "title": "Health Care Priorities · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23876,
+          "title": "Ex 1.1. Speaking Unit 5: Health Care Priorities (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23879,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 5: Health Care Priorities (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23877,
+          "title": "Ex 2.1. Speaking Unit 5: Health Care Priorities (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23880,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 5: Health Care Priorities (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23878,
+          "title": "Ex 3.1. Speaking Unit 5: Health Care Priorities (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23881,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 5: Health Care Priorities (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 23876,
+          "title": "Kiểm tra nhanh: Unit 5: Health",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "title": "Hiking the Inca Trail · Đọc & nghe",
+      "est_minutes": 30,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54342,
+          "title": "Hiking the Inca Trail · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23888,
+          "title": "Ex 1. (Words and Definitions) Unit 6: Hiking the Inca Trail (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23889,
+          "title": "Ex 2. (Reading Comprehension) Unit 6: Hiking the Inca Trail (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23890,
+          "title": "Ex 3. (Word family A) Unit 6: Hiking the Inca Trail - Barron Essential words for IELTS",
+          "est_minutes": 6,
+          "card_count": 22
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23891,
+          "title": "Ex 4. (Word family B) Unit 6: Hiking the Inca Trail - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23892,
+          "title": "Ex 5. (Paraphrases) Unit 6: Hiking the Inca Trail - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23893,
+          "title": "Ex 6. (Word Skill) Unit 6: Hiking the Inca Trail - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23900,
+          "title": "Ex 7: (Listening 1) Unit 6: Tourism - Archaeological Site (Visitor Information) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23901,
+          "title": "Ex 8: (Listening 2) Unit 6: Tourism - Archaeological Site (Visitor Information) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "title": "Preserving Ancient Sites · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54343,
+          "title": "Preserving Ancient Sites · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23991,
+          "title": "Ex 1.1. Writing Unit 6: Preserving Ancient Sites (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23994,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 6: Preserving Ancient Sites",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23997,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 6: Preserving Ancient Sites",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23992,
+          "title": "Ex 2.1. Writing Unit 6: Preserving Ancient Sites (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23995,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 6: Preserving Ancient Sites",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 23998,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 6: Preserving Ancient Sites",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 23993,
+          "title": "Ex 3.1. Writing Unit 6: Preserving Ancient Sites (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 23996,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 6: Preserving Ancient Sites",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 23999,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 6: Preserving Ancient Sites",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "title": "Adventures & Luxuries · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54344,
+          "title": "Adventures & Luxuries · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24000,
+          "title": "Ex 1.1. Speaking Unit 6: Adventures & Luxuries (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24003,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 6: Adventures & Luxuries (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24001,
+          "title": "Ex 2.1. Speaking Unit 6: Adventures & Luxuries (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24004,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 6: Adventures & Luxuries (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24002,
+          "title": "Ex 3.1. Speaking Unit 6: Adventures & Luxuries (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24005,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 6: Adventures & Luxuries (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "title": "What Is Ecotourism? · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54345,
+          "title": "What Is Ecotourism? · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24010,
+          "title": "Ex 1. (Words and Definitions) Unit 6: What Is Ecotourism? (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24011,
+          "title": "Ex 2. (Reading Comprehension) Unit 6: What Is Ecotourism? (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24012,
+          "title": "Ex 3. (Word family A) Unit 6: What Is Ecotourism? - Barron Essential words for IELTS",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24013,
+          "title": "Ex 4. (Word family B) Unit 6: What Is Ecotourism? - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24014,
+          "title": "Ex 5. (Paraphrases) Unit 6: What Is Ecotourism? - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24015,
+          "title": "Ex 6. (Word Skill) Unit 6: What Is Ecotourism? - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24016,
+          "title": "Ex 7: (Listening 1) Unit 6: Tourism - Excellent Eco Tours (Booking Form) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24017,
+          "title": "Ex 8: (Listening 2) Unit 6: Tourism - Excellent Eco Tours (Booking Form) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "title": "Greener Cruise Ships · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54346,
+          "title": "Greener Cruise Ships · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24018,
+          "title": "Ex 1.1. Writing Unit 6: Greener Cruise Ships (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24021,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 6: Greener Cruise Ships",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24024,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 6: Greener Cruise Ships",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24019,
+          "title": "Ex 2.1. Writing Unit 6: Greener Cruise Ships (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24022,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 6: Greener Cruise Ships",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24025,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 6: Greener Cruise Ships",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24020,
+          "title": "Ex 3.1. Writing Unit 6: Greener Cruise Ships (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24023,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 6: Greener Cruise Ships",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 24026,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 6: Greener Cruise Ships",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "title": "Off the Beaten Path · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54347,
+          "title": "Off the Beaten Path · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24033,
+          "title": "Ex 1.1. Speaking Unit 6: Off the Beaten Path (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24036,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 6: Off the Beaten Path (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24034,
+          "title": "Ex 2.1. Speaking Unit 6: Off the Beaten Path (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24037,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 6: Off the Beaten Path (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24035,
+          "title": "Ex 3.1. Speaking Unit 6: Off the Beaten Path (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24038,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 6: Off the Beaten Path (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "title": "Learning Vacations · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54348,
+          "title": "Learning Vacations · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24051,
+          "title": "Ex 1. (Words and Definitions) Unit 6: Learning Vacations (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24052,
+          "title": "Ex 2. (Reading Comprehension) Unit 6: Learning Vacations (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24053,
+          "title": "Ex 3. (Word family A) Unit 6: Learning Vacations - Barron Essential words for IELTS",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24054,
+          "title": "Ex 4. (Word family B) Unit 6: Learning Vacations - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24055,
+          "title": "Ex 5. (Paraphrases) Unit 6: Learning Vacations - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24056,
+          "title": "Ex 6. (Word Skill) Unit 6: Learning Vacations - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24069,
+          "title": "Ex 7: (Listening 1) Unit 6: Tourism - Learning Vacations (Trips Chart) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24070,
+          "title": "Ex 8: (Listening 2) Unit 6: Tourism - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "title": "Vacation Courses · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54349,
+          "title": "Vacation Courses · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24072,
+          "title": "Ex 1.1. Writing Unit 6: Vacation Courses (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24075,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 6: Vacation Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24078,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 6: Vacation Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24073,
+          "title": "Ex 2.1. Writing Unit 6: Vacation Courses (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24076,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 6: Vacation Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24079,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 6: Vacation Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24074,
+          "title": "Ex 3.1. Writing Unit 6: Vacation Courses (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24077,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 6: Vacation Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 24080,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 6: Vacation Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "title": "A Taste of Home · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54350,
+          "title": "A Taste of Home · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24081,
+          "title": "Ex 1.1. Speaking Unit 6: A Taste of Home (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24084,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 6: A Taste of Home (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24082,
+          "title": "Ex 2.1. Speaking Unit 6: A Taste of Home (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24085,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 6: A Taste of Home (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24083,
+          "title": "Ex 3.1. Speaking Unit 6: A Taste of Home (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24086,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 6: A Taste of Home (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 24081,
+          "title": "Kiểm tra nhanh: Unit 6: Tourism",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "title": "What Makes a Small Business Successful? · Đọc & nghe",
+      "est_minutes": 31,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54351,
+          "title": "What Makes a Small Business Successful? · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24090,
+          "title": "Ex 1. (Words and Definitions) Unit 7: What Makes a Small Business Successful? (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24091,
+          "title": "Ex 2. (Reading Comprehension) Unit 7: What Makes a Small Business Successful? (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24092,
+          "title": "Ex 3. (Word family A) Unit 7: What Makes a Small Business Successful? - Barron Essential words for IELTS",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24093,
+          "title": "Ex 4. (Word family B) Unit 7: What Makes a Small Business Successful? - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24094,
+          "title": "Ex 5. (Paraphrases) Unit 7: What Makes a Small Business Successful? - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24095,
+          "title": "Ex 6. (Word Skill) Unit 7: What Makes a Small Business Successful? - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24115,
+          "title": "Ex 7: (Listening 1) Unit 7: Business - The Sunshine Bakery (Successful Small Business) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 1
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24116,
+          "title": "Ex 8: (Listening 2) Unit 7: Business - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 51,
+      "title": "The Rise of Chain Stores · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54352,
+          "title": "The Rise of Chain Stores · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24117,
+          "title": "Ex 1.1. Writing Unit 6: The Rise of Chain Stores (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24120,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 6: The Rise of Chain Stores",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24123,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 6: The Rise of Chain Stores",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24118,
+          "title": "Ex 2.1. Writing Unit 6: The Rise of Chain Stores (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24121,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 6: The Rise of Chain Stores",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24124,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 6: The Rise of Chain Stores",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24119,
+          "title": "Ex 3.1. Writing Unit 6: The Rise of Chain Stores (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24122,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 6: The Rise of Chain Stores",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 24125,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 6: The Rise of Chain Stores",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 52,
+      "title": "Smart Shopping · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54353,
+          "title": "Smart Shopping · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24126,
+          "title": "Ex 1.1. Speaking Unit 7: Smart Shopping (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24129,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 7: Smart Shopping (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24127,
+          "title": "Ex 2.1. Speaking Unit 7: Smart Shopping (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24130,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 7: Smart Shopping (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24128,
+          "title": "Ex 3.1. Speaking Unit 7: Smart Shopping (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24131,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 7: Smart Shopping (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 53,
+      "title": "Brand Loyalty · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54354,
+          "title": "Brand Loyalty · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24138,
+          "title": "Ex 1. (Words and Definitions) Unit 7: Brand Loyalty (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24139,
+          "title": "Ex 2. (Reading Comprehension) Unit 7: Brand Loyalty (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24140,
+          "title": "Ex 3. (Word family A) Unit 7: Brand Loyalty - Barron Essential words for IELTS",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24141,
+          "title": "Ex 4. (Word family B) Unit 7: Brand Loyalty - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24142,
+          "title": "Ex 5. (Paraphrases) Unit 7: Brand Loyalty - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24143,
+          "title": "Ex 6. (Word Skill) Unit 7: Brand Loyalty - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24153,
+          "title": "Ex 7: (Listening 1) Unit 7: Business - Creating Brand Loyalty - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24154,
+          "title": "Ex 8 (Listening 2) Unit 7: Business - Creating Brand Loyalty - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 54,
+      "title": "Choosing a Phone · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54355,
+          "title": "Choosing a Phone · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24160,
+          "title": "Ex 1.1. Writing Unit 7: Choosing a Phone (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24163,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 7: Choosing a Phone",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24166,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 7: Choosing a Phone",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24161,
+          "title": "Ex 2.1. Writing Unit 7: Choosing a Phone (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24164,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 7: Choosing a Phone",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24167,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 7: Choosing a Phone",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24162,
+          "title": "Ex 3.1. Writing Unit 7: Choosing a Phone (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24165,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 7: Choosing a Phone",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 24168,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 7: Choosing a Phone",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 55,
+      "title": "Brand Power · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54356,
+          "title": "Brand Power · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24197,
+          "title": "Ex 1.1. Speaking Unit 7: Brand Power (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24200,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 7: Brand Power (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24198,
+          "title": "Ex 2.1. Speaking Unit 7: Brand Power (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24201,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 7: Brand Power (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24199,
+          "title": "Ex 3.1. Speaking Unit 7: Brand Power (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24202,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 7: Brand Power (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 56,
+      "title": "Global Outsourcing · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54357,
+          "title": "Global Outsourcing · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24203,
+          "title": "Ex 1. (Words and Definitions) Unit 7: Global Outsourcing (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24204,
+          "title": "Ex 2. (Reading Comprehension) Unit 7: Global Outsourcing (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24205,
+          "title": "Ex 3. (Word family A) Unit 7: Global Outsourcing - Barron Essential words for IELTS",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24206,
+          "title": "Ex 4. (Word family B) Unit 7: Global Outsourcing - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24207,
+          "title": "Ex 5. (Paraphrases) Unit 7: Global Outsourcing - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24208,
+          "title": "Ex 6. (Word Skill) Unit 7: Global Outsourcing - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24232,
+          "title": "Ex 7: Listening 1: Unit 7: Business - Apex Factory History (Timeline) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24249,
+          "title": "Ex 8: Listening 2: Unit 7: Business - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 57,
+      "title": "Sending Work Abroad · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54358,
+          "title": "Sending Work Abroad · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24250,
+          "title": "Ex 1.1. Writing Unit 7: Sending Work Abroad (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24253,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 7: Sending Work Abroad",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24256,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 7: Sending Work Abroad",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24251,
+          "title": "Ex 2.1. Writing Unit 7: Sending Work Abroad (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24254,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 7: Sending Work Abroad",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24257,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 7: Sending Work Abroad",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24252,
+          "title": "Ex 3.1. Writing Unit 7: Sending Work Abroad (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24255,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 7: Sending Work Abroad",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 24258,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 7: Sending Work Abroad",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 58,
+      "title": "Turning Points · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54359,
+          "title": "Turning Points · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24262,
+          "title": "Ex 1.1. Speaking Unit 7: Turning Points (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24265,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 7: Turning Points (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24263,
+          "title": "Ex 2.1. Speaking Unit 7: Turning Points (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24266,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 7: Turning Points (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24264,
+          "title": "Ex 3.1. Speaking Unit 7: Turning Points (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24267,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 7: Turning Points (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 24262,
+          "title": "Kiểm tra nhanh: Unit 7: Business",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 59,
+      "title": "Life Online · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54362,
+          "title": "Life Online · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24315,
+          "title": "Ex 1.1. Speaking Unit 8: Life Online (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24318,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 8: Life Online (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24316,
+          "title": "Ex 2.1. Speaking Unit 8: Life Online (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24319,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 8: Life Online (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24317,
+          "title": "Ex 3.1. Speaking Unit 8: Life Online (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24320,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 8: Life Online (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 60,
+      "title": "Career Advice · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54365,
+          "title": "Career Advice · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24354,
+          "title": "Ex 1.1. Speaking Unit 8: Career Advice (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24357,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 8: Career Advice (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24355,
+          "title": "Ex 2.1. Speaking Unit 8: Career Advice (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24358,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 8: Career Advice (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24356,
+          "title": "Ex 3.1. Speaking Unit 8: Career Advice (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24359,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 8: Career Advice (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 61,
+      "title": "Wheelchair-Accessibility Issues · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54366,
+          "title": "Wheelchair-Accessibility Issues · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24360,
+          "title": "Ex 1. (Words and Definitions) Unit 8: Wheelchair-Accessibility Issues (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24361,
+          "title": "Ex 2. (Reading Comprehension) Unit 8: Wheelchair-Accessibility Issues (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24362,
+          "title": "Ex 3. (Word family A) Unit 8: Wheelchair-Accessibility Issues - Barron Essential words for IELTS",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24363,
+          "title": "Ex 4. (Word family B) Unit 8: Wheelchair-Accessibility Issues - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24364,
+          "title": "Ex 5. (Paraphrases) Unit 8: Wheelchair-Accessibility Issues - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24365,
+          "title": "Ex 6. (Word Skill) Unit 8: Wheelchair-Accessibility Issues - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24374,
+          "title": "Ex 7: (Listening 1) Unit 8: Society - Wheelchair Accessibility - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 1
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24375,
+          "title": "Ex 8: (Listening 2) Unit 8: Society - Wheelchair Accessibility - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 62,
+      "title": "Access for All · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54368,
+          "title": "Access for All · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24404,
+          "title": "Ex 1.1. Speaking Unit 8: Access for All (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24407,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 8: Access for All (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24405,
+          "title": "Ex 2.1. Speaking Unit 8: Access for All (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24408,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 8: Access for All (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24406,
+          "title": "Ex 3.1. Speaking Unit 8: Access for All (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24409,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 8: Access for All (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 24404,
+          "title": "Kiểm tra nhanh: Unit 8: Society",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 63,
+      "title": "Learning Styles · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54369,
+          "title": "Learning Styles · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24438,
+          "title": "Ex 1. (Words and Definitions) Unit 9: Learning Styles (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24439,
+          "title": "Ex 2. (Reading Comprehension) Unit 9: Learning Styles (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24440,
+          "title": "Ex 3. (Word family A) Unit 9: Learning Styles - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24441,
+          "title": "Ex 4. (Word family B) Unit 9: Learning Styles - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24442,
+          "title": "Ex 5. (Paraphrases) Unit 9: Learning Styles - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24443,
+          "title": "Ex 6. (Word Skill) Unit 9: Learning Styles - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24453,
+          "title": "Ex 7: (Listening 1) Unit 9: Education - Learning Styles (Needs of Different Students) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24452,
+          "title": "Ex 8: (Listening 2) Unit 9: Education - Learning Styles (Needs of Different Students) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 64,
+      "title": "Classroom Confidence · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54370,
+          "title": "Classroom Confidence · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24454,
+          "title": "Ex 1.1. Writing Unit 9: Classroom Confidence (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24457,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 9: Classroom Confidence",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24460,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 9: Classroom Confidence",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24455,
+          "title": "Ex 2.1. Writing Unit 9: Classroom Confidence (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24458,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 9: Classroom Confidence",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24461,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 9: Classroom Confidence",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24456,
+          "title": "Ex 3.1. Writing Unit 9: Classroom Confidence (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24459,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 9: Classroom Confidence",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 24462,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 9: Classroom Confidence",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 65,
+      "title": "How I Learn · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54371,
+          "title": "How I Learn · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24463,
+          "title": "Ex 1.1. Speaking Unit 9: How I Learn (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24466,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 9: How I Learn (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24464,
+          "title": "Ex 2.1. Speaking Unit 9: How I Learn (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24467,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 9: How I Learn (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24465,
+          "title": "Ex 3.1. Speaking Unit 9: How I Learn (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24468,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 9: How I Learn (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 66,
+      "title": "The Homeschool Option · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54372,
+          "title": "The Homeschool Option · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24487,
+          "title": "Ex 1. (Words and Definitions) Unit 9: The Homeschool Option (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24488,
+          "title": "Ex 2. (Reading Comprehension) Unit 9: The Homeschool Option (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24489,
+          "title": "Ex 3. (Word family A) Unit 9: The Homeschool Option - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24490,
+          "title": "Ex 4. (Word family B) Unit 9: The Homeschool Option - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24491,
+          "title": "Ex 5. (Paraphrases) Unit 9: The Homeschool Option - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24492,
+          "title": "Ex 6. (Word Skill) Unit 9: The Homeschool Option - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24494,
+          "title": "Ex 7: (Listening 1) Unit 9: Education - Homeschooling Requirements - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 1
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24504,
+          "title": "Ex 8: (Listening 2) Unit 9: Education - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 67,
+      "title": "School or Homeschool? · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54373,
+          "title": "School or Homeschool? · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24495,
+          "title": "Ex 1.1. Writing Unit 9: School or Homeschool (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24498,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 9: School or Homeschool",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24501,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 9: School or Homeschool",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24496,
+          "title": "Ex 2.1. Writing Unit 9: School or Homeschool (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24499,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 9: School or Homeschool",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24502,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 9: School or Homeschool",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24497,
+          "title": "Ex 3.1. Writing Unit 9: School or Homeschool (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24500,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 9: School or Homeschool",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 24503,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 9: School or Homeschool",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 68,
+      "title": "Education Matters · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54374,
+          "title": "Education Matters · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24505,
+          "title": "Ex 1.1. Speaking Unit 9: Education Matters (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24508,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 9: Education Matters (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24506,
+          "title": "Ex 2.1. Speaking Unit 9: Education Matters (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24509,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 9: Education Matters (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24507,
+          "title": "Ex 3.1. Speaking Unit 9: Education Matters (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24510,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 9: Education Matters (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 69,
+      "title": "Educating the Gifted · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54375,
+          "title": "Educating the Gifted · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24618,
+          "title": "Ex 1. (Words and Definitions) Unit 9: Educating the Gifted (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24619,
+          "title": "Ex 2. (Reading Comprehension) Unit 9: Educating the Gifted (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24620,
+          "title": "Ex 3. (Word family A) Unit 9: Educating the Gifted - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24621,
+          "title": "Ex 4. (Word family B) Unit 9: Educating the Gifted - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24622,
+          "title": "Ex 5. (Paraphrases) Unit 9: Educating the Gifted - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24623,
+          "title": "Ex 6. (Word Skill) Unit 9: Educating the Gifted - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24626,
+          "title": "Ex 7: (Listening 1) Unit 9: Education - Educating the Gifted - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24628,
+          "title": "Ex 8: (Listening 2) Unit 9: Education - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 70,
+      "title": "Remedial Courses · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54376,
+          "title": "Remedial Courses · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24756,
+          "title": "Ex 1.1. Writing Unit 9: Remedial Courses (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24759,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 9: Remedial Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24762,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 9: Remedial Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24757,
+          "title": "Ex 2.1. Writing Unit 9: Remedial Courses (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24760,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 9: Remedial Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24763,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 9: Remedial Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 24758,
+          "title": "Ex 3.1. Writing Unit 9: Remedial Courses (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 24761,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 9: Remedial Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 24764,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 9: Remedial Courses",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 71,
+      "title": "Extraordinary Talent · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54377,
+          "title": "Extraordinary Talent · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 24773,
+          "title": "Ex 1.1. Speaking Unit 9: Extraordinary Talent (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 24776,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 9: Extraordinary Talent (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 24774,
+          "title": "Ex 2.1. Speaking Unit 9: Extraordinary Talent (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 24777,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 9: Extraordinary Talent (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 24775,
+          "title": "Ex 3.1. Speaking Unit 9: Extraordinary Talent (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 24778,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 9: Extraordinary Talent (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 24773,
+          "title": "Kiểm tra nhanh: Unit 9: Education",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 72,
+      "title": "The Development of the Lightbulb · Đọc & nghe",
+      "est_minutes": 11,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54378,
+          "title": "The Development of the Lightbulb · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25123,
+          "title": "(Listening 1) Unit 10: Inventions - Getting Ready to Market Your Invention - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 27373,
+          "title": "(Listening 2) Unit 10: Inventions- The Development of the Telephone - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 73,
+      "title": "The Greatest Invention · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54379,
+          "title": "The Greatest Invention · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25178,
+          "title": "Ex 1.1. Writing Unit 10: The Greatest Invention (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 25181,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 10: The Greatest Invention",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 25184,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 10: The Greatest Invention",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 25179,
+          "title": "Ex 2.1. Writing Unit 10: The Greatest Invention (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 25182,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 10: The Greatest Invention",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 25185,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 10: The Greatest Invention",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 25180,
+          "title": "Ex 3.1. Writing Unit 10: The Greatest Invention (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 25183,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 10: The Greatest Invention",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 25186,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 10: The Greatest Invention",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 74,
+      "title": "Sources of Inspiration · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54380,
+          "title": "Sources of Inspiration · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25187,
+          "title": "Ex 1.1. Speaking Unit 10: Sources of Inspiration (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 25190,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 10: Sources of Inspiration (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 25188,
+          "title": "Ex 2.1. Speaking Unit 10: Sources of Inspiration (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 25191,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 10: Sources of Inspiration (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 25189,
+          "title": "Ex 3.1. Speaking Unit 10: Sources of Inspiration (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 25192,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 10: Sources of Inspiration (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 75,
+      "title": "The Invention of Variable-Pitch Propellers · Đọc & nghe",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54381,
+          "title": "The Invention of Variable-Pitch Propellers · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25197,
+          "title": "Ex 1. (Words and Definitions) Unit 10: The Invention of Variable-Pitch Propellers (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 25198,
+          "title": "Ex 2. (Reading Comprehension) Unit 10: The Invention of Variable-Pitch Propellers (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 25199,
+          "title": "Ex 3. (Word family A) Unit 10: The Invention of Variable-Pitch Propellers - Barron Essential words for IELTS",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 25200,
+          "title": "Ex 4. (Word family B) Unit 10: The Invention of Variable-Pitch Propellers - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 25201,
+          "title": "Ex 5. (Paraphrases) Unit 10: The Invention of Variable-Pitch Propellers - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 25202,
+          "title": "Ex 6. (Word Skill) Unit 10: The Invention of Variable-Pitch Propellers - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 25203,
+          "title": "(Listening 1) Unit 10: Inventions - Flight Demonstration Report - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 1
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 27381,
+          "title": "(Listening 2) Unit 10: Inventions - Development of the Jet Engine - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 76,
+      "title": "Planes & Jets · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54382,
+          "title": "Planes & Jets · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25209,
+          "title": "Ex 1.1. Writing Unit 10: Planes & Jets (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 25212,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 10: Planes & Jets",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 25215,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 10: Planes & Jets",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 25210,
+          "title": "Ex 2.1. Writing Unit 10: Planes & Jets (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 25213,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 10: Planes & Jets",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 25216,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 10: Planes & Jets",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 25211,
+          "title": "Ex 3.1. Writing Unit 10: Planes & Jets (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 25214,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 10: Planes & Jets",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 25217,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 10: Planes & Jets",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 77,
+      "title": "The Invention of Variable-Pitch Propellers · Nói",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54383,
+          "title": "The Invention of Variable-Pitch Propellers · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25569,
+          "title": "Ex 1.1. Speaking Unit 10: The Way I Work (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 25572,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 10: The Way I Work (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 25570,
+          "title": "Ex 2.1. Speaking Unit 10: The Way I Work (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 25573,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 10: The Way I Work (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 25571,
+          "title": "Ex 3.1. Speaking Unit 10: The Way I Work (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 25574,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 10: The Way I Work (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 78,
+      "title": "The Transatlantic Cable · Đọc & nghe",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54384,
+          "title": "The Transatlantic Cable · Đọc & nghe",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25576,
+          "title": "Ex 1. (Words and Definitions) Unit 10: The Transatlantic Cable (Barron Essential words for IELTS)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 25577,
+          "title": "Ex 2. (Reading Comprehension) Unit 10: The Transatlantic Cable (Barron Essential words for IELTS)",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 25578,
+          "title": "Ex 3. (Word family A) Unit 10: The Transatlantic Cable - Barron Essential words for IELTS",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 25579,
+          "title": "Ex 4. (Word family B) Unit 10: The Transatlantic Cable - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 25580,
+          "title": "Ex 5. (Paraphrases) Unit 10: The Transatlantic Cable - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 2
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 25581,
+          "title": "Ex 6. (Word Skill) Unit 10: The Transatlantic Cable - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 3
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 27342,
+          "title": "(Listening 1) Unit 10: Inventions - City Museum of Invention (Timeline) - Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 27396,
+          "title": "(Listening 2) Unit 10: Inventions - Development of Radio Communication- Barron Essential words for IELTS",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 79,
+      "title": "The Transatlantic Cable · Viết",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54385,
+          "title": "The Transatlantic Cable · Viết",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25582,
+          "title": "Ex 1.1. Writing Unit 10: Perseverance or Luck? (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 25585,
+          "title": "Ex 1.2. (Band 6.0) Luyện viết câu 1 - Unit 10: Perseverance or Luck?",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 25588,
+          "title": "Ex 1.3. (Band 6.0) Luyện viết câu 2 - Unit 10: Perseverance or Luck?",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 25583,
+          "title": "Ex 2.1. Writing Unit 10: Perseverance or Luck? (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 25586,
+          "title": "Ex 2.2. (Band 7.0) Luyện viết câu 1 - Unit 10: Perseverance or Luck?",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 25589,
+          "title": "Ex 2.3. (Band 7.0) Luyện viết câu 2 - Unit 10: Perseverance or Luck?",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "deck",
+          "ref_id": 25584,
+          "title": "Ex 3.1. Writing Unit 10: Perseverance or Luck? (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 9,
+          "type": "deck",
+          "ref_id": 25587,
+          "title": "Ex 3.2. (Band 8.0) Luyện viết câu 1 - Unit 10: Perseverance or Luck?",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 10,
+          "type": "deck",
+          "ref_id": 25590,
+          "title": "Ex 3.3. (Band 8.0) Luyện viết câu 2 - Unit 10: Perseverance or Luck?",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 80,
+      "title": "The Transatlantic Cable · Nói",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54386,
+          "title": "The Transatlantic Cable · Nói",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 25591,
+          "title": "Ex 1.1. Speaking Unit 10: My Profession (band 6.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 25594,
+          "title": "Ex 1.2. (Band 6.0) Speaking - Unit 10: My Profession (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 25592,
+          "title": "Ex 2.1. Speaking Unit 10: My Profession (band 7.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 25595,
+          "title": "Ex 2.2. (Band 7.0) Speaking - Unit 10: My Profession (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 25593,
+          "title": "Ex 3.1. Speaking Unit 10: My Profession (band 8.0)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 7,
+          "type": "deck",
+          "ref_id": 25596,
+          "title": "Ex 3.2. (Band 8.0) Speaking - Unit 10: My Profession (Translation)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 8,
+          "type": "test",
+          "ref_id": 25591,
+          "title": "Kiểm tra nhanh: Unit 10: Technology",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "ie1-1",
+      "order": 1,
+      "title": "Unit 1: Natural World",
+      "icon": "leaf.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "items": [
+        "lesson:54131",
+        "deck:22733",
+        "deck:22737",
+        "deck:22752",
+        "deck:22765",
+        "deck:22768",
+        "deck:23029",
+        "deck:22769",
+        "deck:23108",
+        "lesson:54155",
+        "deck:22771",
+        "deck:23128",
+        "deck:23129",
+        "deck:22772",
+        "deck:23130",
+        "deck:23131",
+        "deck:22773",
+        "deck:23132",
+        "deck:23133",
+        "lesson:54156",
+        "deck:22774",
+        "deck:23134",
+        "deck:22775",
+        "deck:23135",
+        "deck:22776",
+        "deck:23136",
+        "lesson:54193",
+        "deck:23232",
+        "deck:23233",
+        "deck:23234",
+        "deck:23235",
+        "deck:23236",
+        "deck:23237",
+        "deck:23271",
+        "deck:23272",
+        "lesson:54300",
+        "deck:23328",
+        "deck:23327",
+        "deck:23326",
+        "deck:23322",
+        "deck:23321",
+        "deck:23320",
+        "lesson:54301",
+        "deck:23294",
+        "deck:23295",
+        "deck:23296",
+        "deck:23297",
+        "deck:23298",
+        "deck:23299",
+        "deck:23300",
+        "deck:23301",
+        "lesson:54302",
+        "deck:23329",
+        "deck:23332",
+        "deck:23335",
+        "deck:23330",
+        "deck:23333",
+        "deck:23336",
+        "deck:23331",
+        "deck:23334",
+        "deck:23337",
+        "lesson:54303",
+        "deck:23365",
+        "deck:23366",
+        "deck:23367",
+        "deck:23369",
+        "deck:23368",
+        "deck:23370",
+        "test:23365"
+      ]
+    },
+    {
+      "id": "ie1-2",
+      "order": 2,
+      "title": "Unit 2: Leisure Time",
+      "icon": "gamecontroller.fill",
+      "color": "#F26B1D",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "items": [
+        "lesson:54306",
+        "deck:23371",
+        "deck:23372",
+        "deck:23376",
+        "deck:23377",
+        "deck:23378",
+        "deck:23379",
+        "deck:23385",
+        "deck:23386",
+        "lesson:54307",
+        "deck:23396",
+        "deck:23399",
+        "deck:23402",
+        "deck:23397",
+        "deck:23400",
+        "deck:23403",
+        "deck:23398",
+        "deck:23401",
+        "deck:23404",
+        "lesson:54308",
+        "deck:23418",
+        "deck:23421",
+        "deck:23419",
+        "deck:23422",
+        "deck:23420",
+        "deck:23423",
+        "lesson:54309",
+        "deck:23424",
+        "deck:23425",
+        "deck:23426",
+        "deck:23427",
+        "deck:23428",
+        "deck:23429",
+        "deck:23570",
+        "deck:23607",
+        "lesson:54311",
+        "deck:23406",
+        "deck:23409",
+        "deck:23407",
+        "deck:23410",
+        "deck:23408",
+        "deck:23411",
+        "lesson:54312",
+        "deck:23412",
+        "deck:23413",
+        "deck:23414",
+        "deck:23415",
+        "deck:23416",
+        "deck:23417",
+        "deck:23625",
+        "deck:23626",
+        "lesson:54314",
+        "deck:23453",
+        "deck:23452",
+        "deck:23451",
+        "deck:23450",
+        "deck:23449",
+        "deck:23448",
+        "test:23450"
+      ]
+    },
+    {
+      "id": "ie1-3",
+      "order": 3,
+      "title": "Unit 3: Transportation",
+      "icon": "car.fill",
+      "color": "#22B07D",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "items": [
+        "lesson:54315",
+        "deck:23464",
+        "deck:23465",
+        "deck:23466",
+        "deck:23467",
+        "deck:23468",
+        "deck:23469",
+        "deck:23635",
+        "deck:23637",
+        "lesson:54316",
+        "deck:23479",
+        "deck:23482",
+        "deck:23485",
+        "deck:23480",
+        "deck:23483",
+        "deck:23486",
+        "deck:23481",
+        "deck:23484",
+        "deck:23487",
+        "lesson:54317",
+        "deck:23521",
+        "deck:23524",
+        "deck:23522",
+        "deck:23525",
+        "deck:23523",
+        "deck:23526",
+        "lesson:54319",
+        "deck:23531",
+        "deck:23534",
+        "deck:23537",
+        "deck:23532",
+        "deck:23535",
+        "deck:23538",
+        "deck:23533",
+        "deck:23536",
+        "deck:23539",
+        "lesson:54320",
+        "deck:23540",
+        "deck:23543",
+        "deck:23541",
+        "deck:23544",
+        "deck:23542",
+        "deck:23545",
+        "lesson:54322",
+        "deck:23555",
+        "deck:23558",
+        "deck:23561",
+        "deck:23556",
+        "deck:23559",
+        "deck:23562",
+        "deck:23557",
+        "deck:23560",
+        "deck:23563",
+        "lesson:54323",
+        "deck:23564",
+        "deck:23567",
+        "deck:23565",
+        "deck:23568",
+        "deck:23566",
+        "deck:23569",
+        "test:23564"
+      ]
+    },
+    {
+      "id": "ie1-4",
+      "order": 4,
+      "title": "Unit 4: Culture",
+      "icon": "building.columns.fill",
+      "color": "#2F6FED",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "items": [
+        "lesson:54324",
+        "deck:23662",
+        "deck:23665",
+        "deck:23658",
+        "deck:23659",
+        "deck:23667",
+        "deck:23668",
+        "deck:23673",
+        "deck:23674",
+        "lesson:54325",
+        "deck:23675",
+        "deck:23678",
+        "deck:23681",
+        "deck:23676",
+        "deck:23679",
+        "deck:23682",
+        "deck:23677",
+        "deck:23680",
+        "deck:23683",
+        "lesson:54326",
+        "deck:23684",
+        "deck:23687",
+        "deck:23685",
+        "deck:23688",
+        "deck:23686",
+        "deck:23689",
+        "lesson:54327",
+        "deck:23693",
+        "deck:23694",
+        "deck:23695",
+        "deck:23696",
+        "deck:23697",
+        "deck:23698",
+        "deck:23702",
+        "deck:23703",
+        "lesson:54328",
+        "deck:23704",
+        "deck:23707",
+        "deck:23710",
+        "deck:23705",
+        "deck:23708",
+        "deck:23711",
+        "deck:23706",
+        "deck:23709",
+        "deck:23712",
+        "lesson:54329",
+        "deck:23713",
+        "deck:23716",
+        "deck:23714",
+        "deck:23717",
+        "deck:23715",
+        "deck:23718",
+        "lesson:54470",
+        "deck:23719",
+        "deck:23720",
+        "deck:23721",
+        "deck:23722",
+        "deck:23723",
+        "deck:23724",
+        "deck:23725",
+        "deck:23726",
+        "lesson:54471",
+        "deck:23735",
+        "deck:23738",
+        "deck:23741",
+        "deck:23736",
+        "deck:23739",
+        "deck:23742",
+        "deck:23737",
+        "deck:23740",
+        "deck:23743",
+        "lesson:54472",
+        "deck:23787",
+        "deck:23790",
+        "deck:23788",
+        "deck:23791",
+        "deck:23789",
+        "deck:23792",
+        "test:23787"
+      ]
+    },
+    {
+      "id": "ie1-5",
+      "order": 5,
+      "title": "Unit 5: Health",
+      "icon": "cross.case.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "items": [
+        "lesson:54333",
+        "deck:23796",
+        "deck:23797",
+        "deck:23798",
+        "deck:23799",
+        "deck:23800",
+        "deck:23801",
+        "deck:23802",
+        "deck:23803",
+        "deck:23804",
+        "lesson:54334",
+        "deck:23805",
+        "deck:23808",
+        "deck:23811",
+        "deck:23806",
+        "deck:23809",
+        "deck:23812",
+        "deck:23807",
+        "deck:23810",
+        "deck:23813",
+        "lesson:54335",
+        "deck:23818",
+        "deck:23821",
+        "deck:23819",
+        "deck:23822",
+        "deck:23820",
+        "deck:23823",
+        "lesson:54336",
+        "deck:23824",
+        "deck:23825",
+        "deck:23826",
+        "deck:23827",
+        "deck:23828",
+        "deck:23829",
+        "deck:23832",
+        "deck:23833",
+        "lesson:54337",
+        "deck:23834",
+        "deck:23837",
+        "deck:23840",
+        "deck:23835",
+        "deck:23838",
+        "deck:23841",
+        "deck:23836",
+        "deck:23839",
+        "deck:23842",
+        "lesson:54338",
+        "deck:23843",
+        "deck:23846",
+        "deck:23844",
+        "deck:23847",
+        "deck:23845",
+        "deck:23848",
+        "lesson:54339",
+        "deck:23850",
+        "deck:23851",
+        "deck:23853",
+        "deck:23854",
+        "deck:23855",
+        "deck:23856",
+        "deck:23861",
+        "deck:23862",
+        "lesson:54340",
+        "deck:23866",
+        "deck:23869",
+        "deck:23872",
+        "deck:23867",
+        "deck:23870",
+        "deck:23873",
+        "deck:23868",
+        "deck:23871",
+        "deck:23874",
+        "lesson:54341",
+        "deck:23876",
+        "deck:23879",
+        "deck:23877",
+        "deck:23880",
+        "deck:23878",
+        "deck:23881",
+        "test:23876"
+      ]
+    },
+    {
+      "id": "ie1-6",
+      "order": 6,
+      "title": "Unit 6: Tourism",
+      "icon": "airplane",
+      "color": "#F26B1D",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "items": [
+        "lesson:54342",
+        "deck:23888",
+        "deck:23889",
+        "deck:23890",
+        "deck:23891",
+        "deck:23892",
+        "deck:23893",
+        "deck:23900",
+        "deck:23901",
+        "lesson:54343",
+        "deck:23991",
+        "deck:23994",
+        "deck:23997",
+        "deck:23992",
+        "deck:23995",
+        "deck:23998",
+        "deck:23993",
+        "deck:23996",
+        "deck:23999",
+        "lesson:54344",
+        "deck:24000",
+        "deck:24003",
+        "deck:24001",
+        "deck:24004",
+        "deck:24002",
+        "deck:24005",
+        "lesson:54345",
+        "deck:24010",
+        "deck:24011",
+        "deck:24012",
+        "deck:24013",
+        "deck:24014",
+        "deck:24015",
+        "deck:24016",
+        "deck:24017",
+        "lesson:54346",
+        "deck:24018",
+        "deck:24021",
+        "deck:24024",
+        "deck:24019",
+        "deck:24022",
+        "deck:24025",
+        "deck:24020",
+        "deck:24023",
+        "deck:24026",
+        "lesson:54347",
+        "deck:24033",
+        "deck:24036",
+        "deck:24034",
+        "deck:24037",
+        "deck:24035",
+        "deck:24038",
+        "lesson:54348",
+        "deck:24051",
+        "deck:24052",
+        "deck:24053",
+        "deck:24054",
+        "deck:24055",
+        "deck:24056",
+        "deck:24069",
+        "deck:24070",
+        "lesson:54349",
+        "deck:24072",
+        "deck:24075",
+        "deck:24078",
+        "deck:24073",
+        "deck:24076",
+        "deck:24079",
+        "deck:24074",
+        "deck:24077",
+        "deck:24080",
+        "lesson:54350",
+        "deck:24081",
+        "deck:24084",
+        "deck:24082",
+        "deck:24085",
+        "deck:24083",
+        "deck:24086",
+        "test:24081"
+      ]
+    },
+    {
+      "id": "ie1-7",
+      "order": 7,
+      "title": "Unit 7: Business",
+      "icon": "briefcase.fill",
+      "color": "#22B07D",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "items": [
+        "lesson:54351",
+        "deck:24090",
+        "deck:24091",
+        "deck:24092",
+        "deck:24093",
+        "deck:24094",
+        "deck:24095",
+        "deck:24115",
+        "deck:24116",
+        "lesson:54352",
+        "deck:24117",
+        "deck:24120",
+        "deck:24123",
+        "deck:24118",
+        "deck:24121",
+        "deck:24124",
+        "deck:24119",
+        "deck:24122",
+        "deck:24125",
+        "lesson:54353",
+        "deck:24126",
+        "deck:24129",
+        "deck:24127",
+        "deck:24130",
+        "deck:24128",
+        "deck:24131",
+        "lesson:54354",
+        "deck:24138",
+        "deck:24139",
+        "deck:24140",
+        "deck:24141",
+        "deck:24142",
+        "deck:24143",
+        "deck:24153",
+        "deck:24154",
+        "lesson:54355",
+        "deck:24160",
+        "deck:24163",
+        "deck:24166",
+        "deck:24161",
+        "deck:24164",
+        "deck:24167",
+        "deck:24162",
+        "deck:24165",
+        "deck:24168",
+        "lesson:54356",
+        "deck:24197",
+        "deck:24200",
+        "deck:24198",
+        "deck:24201",
+        "deck:24199",
+        "deck:24202",
+        "lesson:54357",
+        "deck:24203",
+        "deck:24204",
+        "deck:24205",
+        "deck:24206",
+        "deck:24207",
+        "deck:24208",
+        "deck:24232",
+        "deck:24249",
+        "lesson:54358",
+        "deck:24250",
+        "deck:24253",
+        "deck:24256",
+        "deck:24251",
+        "deck:24254",
+        "deck:24257",
+        "deck:24252",
+        "deck:24255",
+        "deck:24258",
+        "lesson:54359",
+        "deck:24262",
+        "deck:24265",
+        "deck:24263",
+        "deck:24266",
+        "deck:24264",
+        "deck:24267",
+        "test:24262"
+      ]
+    },
+    {
+      "id": "ie1-8",
+      "order": 8,
+      "title": "Unit 8: Society",
+      "icon": "person.3.fill",
+      "color": "#2F6FED",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "items": [
+        "lesson:54362",
+        "deck:24315",
+        "deck:24318",
+        "deck:24316",
+        "deck:24319",
+        "deck:24317",
+        "deck:24320",
+        "lesson:54365",
+        "deck:24354",
+        "deck:24357",
+        "deck:24355",
+        "deck:24358",
+        "deck:24356",
+        "deck:24359",
+        "lesson:54366",
+        "deck:24360",
+        "deck:24361",
+        "deck:24362",
+        "deck:24363",
+        "deck:24364",
+        "deck:24365",
+        "deck:24374",
+        "deck:24375",
+        "lesson:54368",
+        "deck:24404",
+        "deck:24407",
+        "deck:24405",
+        "deck:24408",
+        "deck:24406",
+        "deck:24409",
+        "test:24404"
+      ]
+    },
+    {
+      "id": "ie1-9",
+      "order": 9,
+      "title": "Unit 9: Education",
+      "icon": "graduationcap.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "items": [
+        "lesson:54369",
+        "deck:24438",
+        "deck:24439",
+        "deck:24440",
+        "deck:24441",
+        "deck:24442",
+        "deck:24443",
+        "deck:24453",
+        "deck:24452",
+        "lesson:54370",
+        "deck:24454",
+        "deck:24457",
+        "deck:24460",
+        "deck:24455",
+        "deck:24458",
+        "deck:24461",
+        "deck:24456",
+        "deck:24459",
+        "deck:24462",
+        "lesson:54371",
+        "deck:24463",
+        "deck:24466",
+        "deck:24464",
+        "deck:24467",
+        "deck:24465",
+        "deck:24468",
+        "lesson:54372",
+        "deck:24487",
+        "deck:24488",
+        "deck:24489",
+        "deck:24490",
+        "deck:24491",
+        "deck:24492",
+        "deck:24494",
+        "deck:24504",
+        "lesson:54373",
+        "deck:24495",
+        "deck:24498",
+        "deck:24501",
+        "deck:24496",
+        "deck:24499",
+        "deck:24502",
+        "deck:24497",
+        "deck:24500",
+        "deck:24503",
+        "lesson:54374",
+        "deck:24505",
+        "deck:24508",
+        "deck:24506",
+        "deck:24509",
+        "deck:24507",
+        "deck:24510",
+        "lesson:54375",
+        "deck:24618",
+        "deck:24619",
+        "deck:24620",
+        "deck:24621",
+        "deck:24622",
+        "deck:24623",
+        "deck:24626",
+        "deck:24628",
+        "lesson:54376",
+        "deck:24756",
+        "deck:24759",
+        "deck:24762",
+        "deck:24757",
+        "deck:24760",
+        "deck:24763",
+        "deck:24758",
+        "deck:24761",
+        "deck:24764",
+        "lesson:54377",
+        "deck:24773",
+        "deck:24776",
+        "deck:24774",
+        "deck:24777",
+        "deck:24775",
+        "deck:24778",
+        "test:24773"
+      ]
+    },
+    {
+      "id": "ie1-10",
+      "order": 10,
+      "title": "Unit 10: Technology",
+      "icon": "laptopcomputer",
+      "color": "#F26B1D",
+      "level_tag": "Nâng cao",
+      "days_hint": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "items": [
+        "lesson:54378",
+        "deck:25123",
+        "deck:27373",
+        "lesson:54379",
+        "deck:25178",
+        "deck:25181",
+        "deck:25184",
+        "deck:25179",
+        "deck:25182",
+        "deck:25185",
+        "deck:25180",
+        "deck:25183",
+        "deck:25186",
+        "lesson:54380",
+        "deck:25187",
+        "deck:25190",
+        "deck:25188",
+        "deck:25191",
+        "deck:25189",
+        "deck:25192",
+        "lesson:54381",
+        "deck:25197",
+        "deck:25198",
+        "deck:25199",
+        "deck:25200",
+        "deck:25201",
+        "deck:25202",
+        "deck:25203",
+        "deck:27381",
+        "lesson:54382",
+        "deck:25209",
+        "deck:25212",
+        "deck:25215",
+        "deck:25210",
+        "deck:25213",
+        "deck:25216",
+        "deck:25211",
+        "deck:25214",
+        "deck:25217",
+        "lesson:54383",
+        "deck:25569",
+        "deck:25572",
+        "deck:25570",
+        "deck:25573",
+        "deck:25571",
+        "deck:25574",
+        "lesson:54384",
+        "deck:25576",
+        "deck:25577",
+        "deck:25578",
+        "deck:25579",
+        "deck:25580",
+        "deck:25581",
+        "deck:27342",
+        "deck:27396",
+        "lesson:54385",
+        "deck:25582",
+        "deck:25585",
+        "deck:25588",
+        "deck:25583",
+        "deck:25586",
+        "deck:25589",
+        "deck:25584",
+        "deck:25587",
+        "deck:25590",
+        "lesson:54386",
+        "deck:25591",
+        "deck:25594",
+        "deck:25592",
+        "deck:25595",
+        "deck:25593",
+        "deck:25596",
+        "test:25591"
+      ]
+    }
+  ]
+}

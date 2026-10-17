@@ -1,0 +1,32 @@
+name: build-index
+# Mỗi lần push: kiểm nội dung, sinh lại index.json, tự commit nếu đổi. GitHub Pages phát hành từ nhánh main.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: build-index
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build index.json
+        run: node scripts/build-index.mjs
+      - name: Commit index.json if changed
+        run: |
+          if ! git diff --quiet -- index.json; then
+            git config user.name "miwiz-course-content bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add index.json
+            git commit -m "chore: rebuild index.json"
+            git push
+          else
+            echo "index.json không đổi"
+          fi
