@@ -1,0 +1,2295 @@
+{
+  "id": "korean-beginner-2",
+  "title": "Tiếng Hàn sơ cấp 2",
+  "subtitle": "Lộ trình 42 ngày",
+  "thumbnail": null,
+  "field_id": 32149,
+  "level": "Sơ cấp",
+  "language": "ko",
+  "icon_text": "한",
+  "icon_color": "#2E6BE6",
+  "days": [
+    {
+      "day": 1,
+      "title": "Bài 1: Gặp gỡ (1)",
+      "est_minutes": 28,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54091,
+          "title": "Bài 1: 만남 - Gặp gỡ",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 20899,
+          "title": "Bài 1: 만남 - Gặp gỡ (Từ vựng 1)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 20900,
+          "title": "Bài 1: 만남 - Gặp gỡ (Từ vựng 2)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 20902,
+          "title": "Bài 1: 만남 - Gặp gỡ (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 20903,
+          "title": "Bài 1: 만남 - Gặp gỡ (Nghe)",
+          "est_minutes": 8,
+          "card_count": 30
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Bài 1: Gặp gỡ (2)",
+      "est_minutes": 15,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 20910,
+          "title": "Bài 1: 만남 - Gặp gỡ (Nói)",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 20911,
+          "title": "Bài 1: 만남 - Gặp gỡ (Đọc)",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 20924,
+          "title": "Bài 1: 만남 - Gặp gỡ (Viết)",
+          "est_minutes": 4,
+          "card_count": 17
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Sách bài tập · Bài 1: Gặp gỡ",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54220,
+          "title": "(SBT SC2) Bài 1: 만남 - GẶP GỠ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22965,
+          "title": "(SBT) Bài 1: 만남 - GẶP GỠ (Từ vựng)",
+          "est_minutes": 4,
+          "card_count": 16
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22966,
+          "title": "(SBT) Bài 1: 만남 - GẶP GỠ (Ngữ pháp)",
+          "est_minutes": 8,
+          "card_count": 33
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22967,
+          "title": "(SBT) Bài 1: 만남 - GẶP GỠ (Đọc)",
+          "est_minutes": 4,
+          "card_count": 16
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 22966,
+          "title": "Kiểm tra nhanh: Bài 1: Gặp gỡ",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Bài 2: Hẹn gặp (1)",
+      "est_minutes": 30,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54100,
+          "title": "Bài 2: 약속 - Hẹn gặp",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 20927,
+          "title": "Bài 2: 약속 - Hẹn gặp (Từ vựng 1)",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 20928,
+          "title": "Bài 2: 약속 - Hẹn gặp (Từ vựng 2)",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 20929,
+          "title": "Bài 2: 약속 - Hẹn gặp (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 20930,
+          "title": "Bài 2: 약속 - Hẹn gặp (Nghe)",
+          "est_minutes": 8,
+          "card_count": 36
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Bài 2: Hẹn gặp (2)",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 20935,
+          "title": "Bài 2: 약속 - Hẹn gặp (Nói)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 20937,
+          "title": "Bài 2: 약속 - Hẹn gặp (Đọc)",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 20938,
+          "title": "Bài 2: 약속 - Hẹn gặp (Viết)",
+          "est_minutes": 4,
+          "card_count": 17
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Sách bài tập · Bài 2: Hẹn gặp",
+      "est_minutes": 32,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54224,
+          "title": "(SBT SC2) Bài 2: 약속 - HẸN GẶP",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22980,
+          "title": "(SBT) Bài 2: 약속 - HẸN GẶP (Từ vựng)",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22981,
+          "title": "(SBT) Bài 2: 약속 - HẸN GẶP (Ngữ pháp 1)",
+          "est_minutes": 8,
+          "card_count": 31
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22982,
+          "title": "(SBT) Bài 2: 약속 - HẸN GẶP (Đọc)",
+          "est_minutes": 4,
+          "card_count": 15
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23002,
+          "title": "(SBT) Bài 2: 약속 - HẸN GẶP (Ngữ pháp 2)",
+          "est_minutes": 8,
+          "card_count": 33
+        },
+        {
+          "order": 6,
+          "type": "test",
+          "ref_id": 23002,
+          "title": "Kiểm tra nhanh: Bài 2: Hẹn gặp",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Bài 3: Mua sắm 2 (1)",
+      "est_minutes": 33,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54105,
+          "title": "Bài 3: 물건 사기 2 - Mua sắm 2",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 20939,
+          "title": "Bài 3: 물건 사기 2 - Mua sắm 2 (Từ vựng 1)",
+          "est_minutes": 7,
+          "card_count": 28
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 20947,
+          "title": "Bài 3: 물건 사기 2 - Mua sắm 2 (Từ vựng 2)",
+          "est_minutes": 7,
+          "card_count": 28
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 20948,
+          "title": "Bài 3: 물건 사기 2 - Mua sắm 2 (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 20949,
+          "title": "Bài 3: 물건 사기 2 - Mua sắm 2 (Nghe)",
+          "est_minutes": 7,
+          "card_count": 29
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Bài 3: Mua sắm 2 (2)",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 20950,
+          "title": "Bài 3: 물건 사기 2 - Mua sắm 2 (Nói)",
+          "est_minutes": 7,
+          "card_count": 28
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 20951,
+          "title": "Bài 3: 물건 사기 2 - Mua sắm 2 (Đọc)",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 20952,
+          "title": "Bài 3: 물건 사기 2 - Mua sắm 2 (Viết)",
+          "est_minutes": 4,
+          "card_count": 15
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Sách bài tập · Bài 3: Mua sắm 2",
+      "est_minutes": 26,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54230,
+          "title": "(SBT SC2) Bài 3: 물건 사기(2) MUA SẮM (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22990,
+          "title": "(SBT) Bài 3: 물건 사기(2) MUA SẮM (2) (Từ vựng)",
+          "est_minutes": 3,
+          "card_count": 13
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23004,
+          "title": "(SBT) Bài 3: 물건 사기(2) MUA SẮM (2) (Ngữ pháp 1)",
+          "est_minutes": 6,
+          "card_count": 23
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23016,
+          "title": "(SBT) Bài 3: 물건 사기(2) MUA SẮM (2) (Ngữ pháp 2)",
+          "est_minutes": 4,
+          "card_count": 15
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23017,
+          "title": "(SBT) Bài 3: 물건 사기(2) MUA SẮM (2) (Đọc)",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 6,
+          "type": "test",
+          "ref_id": 23004,
+          "title": "Kiểm tra nhanh: Bài 3: Mua sắm 2",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Bài 4: Bệnh viện (1)",
+      "est_minutes": 40,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54119,
+          "title": "Bài 4: 병원 BỆNH VIỆN",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 20955,
+          "title": "Bài 4: 병원 - Bệnh viện (Từ vựng 1)",
+          "est_minutes": 7,
+          "card_count": 29
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 20956,
+          "title": "Bài 4: 병원 - Bệnh viện (Từ vựng 1-2)",
+          "est_minutes": 7,
+          "card_count": 29
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 20978,
+          "title": "Bài 4: 병원 - Bệnh viện (Từ vựng 2)",
+          "est_minutes": 7,
+          "card_count": 28
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 20979,
+          "title": "Bài 4: 병원 - Bệnh viện (Từ vựng 2-1)",
+          "est_minutes": 7,
+          "card_count": 28
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 20980,
+          "title": "Bài 4: 병원 - Bệnh viện (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Bài 4: Bệnh viện (2)",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 20989,
+          "title": "Bài 4: 병원 - Bệnh viện (Nghe)",
+          "est_minutes": 8,
+          "card_count": 30
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 20990,
+          "title": "Bài 4: 병원 - Bệnh viện (Nói)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 21054,
+          "title": "Bài 4: 병원 - Bệnh viện (Đọc)",
+          "est_minutes": 4,
+          "card_count": 16
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 21072,
+          "title": "Bài 4: 병원 - Bệnh viện (Viết)",
+          "est_minutes": 6,
+          "card_count": 24
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Sách bài tập · Bài 4: Bệnh viện",
+      "est_minutes": 33,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54239,
+          "title": "(SBT SC2) Bài 4: 병원 - BỆNH VIỆN",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23022,
+          "title": "Bài 4: 병원 - BỆNH VIỆN (Từ vựng)",
+          "est_minutes": 6,
+          "card_count": 22
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23023,
+          "title": "Bài 4: 병원 - BỆNH VIỆN (Ngữ pháp 1)",
+          "est_minutes": 8,
+          "card_count": 30
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23024,
+          "title": "Bài 4: 병원 - BỆNH VIỆN (Ngữ pháp 2)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23025,
+          "title": "Bài 4: 병원 - BỆNH VIỆN (Đọc)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 6,
+          "type": "test",
+          "ref_id": 23023,
+          "title": "Kiểm tra nhanh: Bài 4: Bệnh viện",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Bài 5: Thư tín (1)",
+      "est_minutes": 31,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54120,
+          "title": "Bài 5: 편지 THƯ TIN",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 21010,
+          "title": "Bài 5: 편지 THƯ TIN ( Từ vựng 1)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 21011,
+          "title": "Bài 5: 편지 THƯ TIN ( Từ vựng 2)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 21012,
+          "title": "Bài 5: 편지 THƯ TIN (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 21030,
+          "title": "Bài 5: 편지 THƯ TIN (Nói)",
+          "est_minutes": 7,
+          "card_count": 27
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Bài 5: Thư tín (2)",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 21031,
+          "title": "Bài 5: 편지 THƯ TIN (Nghe)",
+          "est_minutes": 8,
+          "card_count": 32
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 21032,
+          "title": "Bài 5: 편지 THƯ TIN ( Đọc)",
+          "est_minutes": 4,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 21033,
+          "title": "Bài 5: 편지 THƯ TIN (Viết)",
+          "est_minutes": 4,
+          "card_count": 16
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Sách bài tập · Bài 5: Thư tín",
+      "est_minutes": 34,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54242,
+          "title": "(SBT SC2) Bài 5: 편지 - THƯ TÍN",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23033,
+          "title": "(SBT) Bài 5: 편지 - THƯ TÍN (Từ vựng)",
+          "est_minutes": 6,
+          "card_count": 23
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23035,
+          "title": "(SBT) Bài 5: 편지 - THƯ TÍN (Ngữ pháp 1)",
+          "est_minutes": 8,
+          "card_count": 34
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23036,
+          "title": "(SBT) Bài 5: 편지 - THƯ TÍN (Ngữ pháp 2)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23038,
+          "title": "(SBT) Bài 5: 편지 - THƯ TÍN (Đọc)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 6,
+          "type": "test",
+          "ref_id": 23035,
+          "title": "Kiểm tra nhanh: Bài 5: Thư tín",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Bài 6: Giao thông (1)",
+      "est_minutes": 35,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54126,
+          "title": "Bài 6: 교통 - GIAO THÔNG",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 21079,
+          "title": "Bài 6: 교통 - GIAO THÔNG (Từ vựng 1)",
+          "est_minutes": 8,
+          "card_count": 37
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 21084,
+          "title": "Bài 6: 교통 - GIAO THÔNG (Từ vựng 2)",
+          "est_minutes": 8,
+          "card_count": 37
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 21092,
+          "title": "Bài 6: 교통 - GIAO THÔNG (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 21455,
+          "title": "Bài 6: 교통 - GIAO THÔNG (Nghe)",
+          "est_minutes": 7,
+          "card_count": 29
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Bài 6: Giao thông (2)",
+      "est_minutes": 17,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 21461,
+          "title": "Bài 6: 교통 - GIAO THÔNG (Nói)",
+          "est_minutes": 6,
+          "card_count": 23
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 21465,
+          "title": "Bài 6: 교통 - GIAO THÔNG (Đọc)",
+          "est_minutes": 4,
+          "card_count": 16
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 21467,
+          "title": "Bài 6: 교통 - GIAO THÔNG (Viết)",
+          "est_minutes": 7,
+          "card_count": 28
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Sách bài tập · Bài 6: Giao thông",
+      "est_minutes": 40,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54243,
+          "title": "(SBT SC2) Bài 6: 교통 (2) - GIAO THÔNG (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23039,
+          "title": "(SBT) Bài 6: 교통 (2) - GIAO THÔNG (2) (Từ vựng)",
+          "est_minutes": 6,
+          "card_count": 23
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23040,
+          "title": "(SBT) Bài 6: 교통 (2) - GIAO THÔNG (2) (Ngữ pháp 1)",
+          "est_minutes": 6,
+          "card_count": 24
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23061,
+          "title": "(SBT) Bài 6: 교통 (2) - GIAO THÔNG (2) (Ngữ pháp 2)",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23062,
+          "title": "(SBT) Bài 6: 교통 (2) - GIAO THÔNG (2) (Ngữ pháp 3)",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23063,
+          "title": "(SBT) Bài 6: 교통 (2) - GIAO THÔNG (2) (Đọc)",
+          "est_minutes": 8,
+          "card_count": 32
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 23063,
+          "title": "Kiểm tra nhanh: Bài 6: Giao thông",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Bài 8: Phim ảnh (1)",
+      "est_minutes": 33,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54140,
+          "title": "Bài 8: 영화 PHIM ẢNH",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 21639,
+          "title": "Bài 8: 영화 PHIM ẢNH (Từ vựng 1)",
+          "est_minutes": 8,
+          "card_count": 31
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 21642,
+          "title": "Bài 8: 영화 PHIM ẢNH (Từ vựng 2)",
+          "est_minutes": 8,
+          "card_count": 31
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 21644,
+          "title": "Bài 8: 영화 PHIM ẢNH (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 21645,
+          "title": "Bài 8: 영화 PHIM ẢNH (Nói)",
+          "est_minutes": 5,
+          "card_count": 21
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Bài 8: Phim ảnh (2)",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 21646,
+          "title": "Bài 8: 영화 PHIM ẢNH (Nghe)",
+          "est_minutes": 8,
+          "card_count": 31
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 21647,
+          "title": "Bài 8: 영화 PHIM ẢNH (Đọc)",
+          "est_minutes": 7,
+          "card_count": 29
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 21650,
+          "title": "Bài 8: 영화 PHIM ẢNH (Viết)",
+          "est_minutes": 4,
+          "card_count": 17
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Sách bài tập · Bài 8: Phim ảnh",
+      "est_minutes": 26,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54250,
+          "title": "(SBT SC2) Bài 8: 영화 - PHIM ẢNH",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23072,
+          "title": "(SBT) Bài 8: 영화 - PHIM ẢNH (Từ vựng)",
+          "est_minutes": 4,
+          "card_count": 15
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23073,
+          "title": "(SBT) Bài 8: 영화 - PHIM ẢNH (Ngữ pháp)",
+          "est_minutes": 8,
+          "card_count": 33
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23078,
+          "title": "(SBT) Bài 8: 영화 - PHIM ẢNH (Đọc)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 23073,
+          "title": "Kiểm tra nhanh: Bài 8: Phim ảnh",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Bài 9: Ngày nghỉ (1)",
+      "est_minutes": 35,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54151,
+          "title": "Bài 9: 휴일 - NGÀY NGHỈ",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22745,
+          "title": "Bài 9: 휴일 - NGÀY NGHỈ (Từ vựng 1)",
+          "est_minutes": 8,
+          "card_count": 35
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22746,
+          "title": "Bài 9: 휴일 - NGÀY NGHỈ (Từ vựng 2)",
+          "est_minutes": 8,
+          "card_count": 35
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22747,
+          "title": "Bài 9: 휴일 - NGÀY NGHỈ (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22748,
+          "title": "Bài 9: 휴일 - NGÀY NGHỈ (Nghe)",
+          "est_minutes": 7,
+          "card_count": 29
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Bài 9: Ngày nghỉ (2)",
+      "est_minutes": 15,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 22749,
+          "title": "Bài 9: 휴일 - NGÀY NGHỈ (Nói)",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22750,
+          "title": "Bài 9: 휴일 - NGÀY NGHỈ (Đọc)",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22751,
+          "title": "Bài 9: 휴일 - NGÀY NGHỈ (Viết)",
+          "est_minutes": 4,
+          "card_count": 14
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Sách bài tập · Bài 9: Ngày nghỉ",
+      "est_minutes": 29,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54251,
+          "title": "(SBT SC2) Bài 9: 휴일 - NGÀY NGHỈ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23079,
+          "title": "(SBT) Bài 9: 휴일 - NGÀY NGHỈ (Từ vựng)",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23080,
+          "title": "(SBT) Bài 9: 휴일 - NGÀY NGHỈ (Ngữ pháp 1)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23104,
+          "title": "(SBT) Bài 9: 휴일 - NGÀY NGHỈ (Ngữ pháp 2)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23105,
+          "title": "(SBT) Bài 9: 휴일 - NGÀY NGHỈ (Đọc)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 6,
+          "type": "test",
+          "ref_id": 23080,
+          "title": "Kiểm tra nhanh: Bài 9: Ngày nghỉ",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Bài 10: Ngoại hình (1)",
+      "est_minutes": 30,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54154,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22761,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Từ vựng 1-1)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22762,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Từ vựng 1-2)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22763,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Từ vựng 2-1)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22764,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Từ vựng 2-2)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 22766,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "title": "Bài 10: Ngoại hình (2)",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 22767,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Nghe)",
+          "est_minutes": 8,
+          "card_count": 34
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22782,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Nói)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22800,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Đọc)",
+          "est_minutes": 3,
+          "card_count": 13
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22801,
+          "title": "Bài 10: 외모 - NGOẠI HÌNH (Viết)",
+          "est_minutes": 7,
+          "card_count": 28
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "title": "Sách bài tập · Bài 10: Ngoại hình",
+      "est_minutes": 32,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54275,
+          "title": "(SBT SC2) Bài 10: 외모 - Ngoại hình",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23106,
+          "title": "(SBT) Bài 10: 외모 - Ngoại hình (Từ vựng)",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23107,
+          "title": "(SBT) Bài 10: 외모 - Ngoại hình (Ngữ pháp 1)",
+          "est_minutes": 7,
+          "card_count": 29
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23140,
+          "title": "(SBT SC2) Bài 10: 외모 - Ngoại hình (Ngữ pháp 2)",
+          "est_minutes": 8,
+          "card_count": 33
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23142,
+          "title": "(SBT SC2) Bài 10: 외모 - Ngoại hình (Đọc)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 6,
+          "type": "test",
+          "ref_id": 23140,
+          "title": "Kiểm tra nhanh: Bài 10: Ngoại hình",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "title": "Bài 11: Du lịch (1)",
+      "est_minutes": 32,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54169,
+          "title": "Bài 11: 여행 - DU LỊCH",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22806,
+          "title": "Bài 11: 여행 - DU LỊCH (Từ vựng 1)",
+          "est_minutes": 7,
+          "card_count": 29
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22807,
+          "title": "Bài 11: 여행 - DU LỊCH (Từ vựng 2)",
+          "est_minutes": 7,
+          "card_count": 29
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22808,
+          "title": "Bài 11: 여행 - DU LỊCH (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22816,
+          "title": "Bài 11: 여행 - DU LỊCH (Nghe 1)",
+          "est_minutes": 6,
+          "card_count": 26
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "title": "Bài 11: Du lịch (2)",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 22817,
+          "title": "Bài 11: 여행 - DU LỊCH (Nói)",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22818,
+          "title": "Bài 11: 여행 - DU LỊCH (Đọc)",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22819,
+          "title": "Bài 11: 여행 - DU LỊCH (Viết)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22861,
+          "title": "Bài 11: 여행 - DU LỊCH (Nghe 2)",
+          "est_minutes": 3,
+          "card_count": 13
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "title": "Sách bài tập · Bài 11: Du lịch",
+      "est_minutes": 35,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54277,
+          "title": "(SBT) Bài 11: 여행 - DU LỊCH",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23143,
+          "title": "(SBT) Bài 11: 여행 - DU LỊCH (Từ vựng)",
+          "est_minutes": 3,
+          "card_count": 13
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23145,
+          "title": "(SBT) Bài 11: 여행 - DU LỊCH (Ngữ pháp 1)",
+          "est_minutes": 6,
+          "card_count": 22
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23155,
+          "title": "(SBT) Bài 11: 여행 - DU LỊCH (Ngữ pháp 2)",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23166,
+          "title": "(SBT) Bài 11: 여행 - DU LỊCH (Ngữ pháp 3)",
+          "est_minutes": 8,
+          "card_count": 32
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23167,
+          "title": "(SBT) Bài 11: 여행 - DU LỊCH (Đọc)",
+          "est_minutes": 4,
+          "card_count": 17
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 23166,
+          "title": "Kiểm tra nhanh: Bài 11: Du lịch",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "title": "Bài 12: Nơi công cộng (1)",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54190,
+          "title": "Bài 12: 공공장소 - NƠI CÔNG CỘNG",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22881,
+          "title": "Bài 12: 공공장소 - NƠI CÔNG CỘNG (Từ vựng 1)",
+          "est_minutes": 4,
+          "card_count": 16
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22882,
+          "title": "Bài 12: 공공장소 - NƠI CÔNG CỘNG (Từ vựng 2)",
+          "est_minutes": 4,
+          "card_count": 16
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22883,
+          "title": "Bài 12: 공공장소 - NƠI CÔNG CỘNG (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22892,
+          "title": "Bài 12: 공공장소 - NƠI CÔNG CỘNG (Nói)",
+          "est_minutes": 5,
+          "card_count": 19
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "title": "Bài 12: Nơi công cộng (2)",
+      "est_minutes": 17,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 22910,
+          "title": "Bài 12: 공공장소 - NƠI CÔNG CỘNG (Nghe)",
+          "est_minutes": 8,
+          "card_count": 31
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22960,
+          "title": "Bài 12: 공공장소 - NƠI CÔNG CỘNG (Đọc)",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22961,
+          "title": "Bài 12: 공공장소 - NƠI CÔNG CỘNG (Viết)",
+          "est_minutes": 4,
+          "card_count": 14
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "title": "Sách bài tập · Bài 12: Nơi công cộng",
+      "est_minutes": 26,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54281,
+          "title": "(SBT) Bài 12: 공공장소 - NƠI CÔNG CỘNG",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23168,
+          "title": "(SBT) Bài 12: 공공장소 - NƠI CÔNG CỘNG (Từ vựng)",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23169,
+          "title": "(SBT) Bài 12: 공공장소 - NƠI CÔNG CỘNG (Ngữ pháp)",
+          "est_minutes": 8,
+          "card_count": 31
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23257,
+          "title": "(SBT) Bài 12: 공공장소 - NƠI CÔNG CỘNG (Đọc)",
+          "est_minutes": 4,
+          "card_count": 15
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 23169,
+          "title": "Kiểm tra nhanh: Bài 12: Nơi công cộng",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "title": "Bài 13: Đô thị (1)",
+      "est_minutes": 31,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54191,
+          "title": "Bài 13: 도시 - ĐÔ THỊ",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22862,
+          "title": "Bài 13: 도시 - ĐÔ THỊ (Từ vựng 1)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22863,
+          "title": "Bài 13: 도시 - ĐÔ THỊ (Từ vựng 2)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22864,
+          "title": "Bài 13: 도시 - ĐÔ THỊ (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22865,
+          "title": "Bài 13: 도시 - ĐÔ THỊ (Nghe)",
+          "est_minutes": 7,
+          "card_count": 29
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "title": "Bài 13: Đô thị (2)",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 22866,
+          "title": "Bài 13: 도시 - ĐÔ THỊ (Nói)",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22867,
+          "title": "Bài 13: 도시 - ĐÔ THỊ (Đọc)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22868,
+          "title": "Bài 13: 도시 - ĐÔ THỊ (Viết)",
+          "est_minutes": 4,
+          "card_count": 15
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "title": "Sách bài tập · Bài 13: Đô thị",
+      "est_minutes": 43,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54295,
+          "title": "(SBT) Bài 13: 도시 - ĐÔ THỊ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23261,
+          "title": "(SBT) Bài 13: 도시 - ĐÔ THỊ (Từ vựng)",
+          "est_minutes": 6,
+          "card_count": 24
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23262,
+          "title": "(SBT) Bài 13: 도시 - ĐÔ THỊ (Ngữ pháp 1)",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23263,
+          "title": "(SBT) Bài 13: 도시 - ĐÔ THỊ (Ngữ pháp 2)",
+          "est_minutes": 8,
+          "card_count": 31
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23290,
+          "title": "(SBT) Bài 13: 도시 - ĐÔ THỊ (Ngữ pháp 3)",
+          "est_minutes": 8,
+          "card_count": 32
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23291,
+          "title": "(SBT) Bài 13: 도시 - ĐÔ THỊ (Đọc)",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 23290,
+          "title": "Kiểm tra nhanh: Bài 13: Đô thị",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "title": "Bài 14: Kế hoạch (1)",
+      "est_minutes": 31,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54197,
+          "title": "Bài 14: 계획 - KẾ HOẠCH",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22887,
+          "title": "Bài 14: 계획 - KẾ HOẠCH (Từ vựng 1)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22888,
+          "title": "Bài 14: 계획 - KẾ HOẠCH (Từ vựng 2)",
+          "est_minutes": 6,
+          "card_count": 25
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22889,
+          "title": "Bài 14: 계획 - KẾ HOẠCH (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22890,
+          "title": "Bài 14: 계획 - KẾ HOẠCH (Nghe)",
+          "est_minutes": 7,
+          "card_count": 29
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "title": "Bài 14: Kế hoạch (2)",
+      "est_minutes": 13,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 22891,
+          "title": "Bài 14: 계획 - KẾ HOẠCH (Nói)",
+          "est_minutes": 6,
+          "card_count": 23
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22906,
+          "title": "Bài 14: 계획 - KẾ HOẠCH (Đọc)",
+          "est_minutes": 4,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22907,
+          "title": "Bài 14: 계획 - KẾ HOẠCH (Viết)",
+          "est_minutes": 3,
+          "card_count": 13
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "title": "Sách bài tập · Bài 14: Kế hoạch",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54391,
+          "title": "(SBT) Bài 14: 계획 - KẾ HOẠCH",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23292,
+          "title": "(SBT) Bài 14: 계획 - KẾ HOẠCH (Từ vựng)",
+          "est_minutes": 4,
+          "card_count": 18
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23293,
+          "title": "(SBT) Bài 14: 계획 - KẾ HOẠCH (Ngữ pháp 1)",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23305,
+          "title": "(SBT) Bài 14: 계획 - KẾ HOẠCH (Ngữ pháp 2)",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23306,
+          "title": "(SBT) Bài 14: 계획 - KẾ HOẠCH (Đọc)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "test",
+          "ref_id": 23293,
+          "title": "Kiểm tra nhanh: Bài 14: Kế hoạch",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "title": "Bài 15: Cuộc sống tại Hàn Quốc (1)",
+      "est_minutes": 30,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54202,
+          "title": "Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22949,
+          "title": "Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Từ vựng 1)",
+          "est_minutes": 6,
+          "card_count": 24
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22950,
+          "title": "Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Từ vựng 2)",
+          "est_minutes": 6,
+          "card_count": 24
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 22951,
+          "title": "Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Ngữ pháp)",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 22952,
+          "title": "Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Nghe)",
+          "est_minutes": 6,
+          "card_count": 26
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "title": "Bài 15: Cuộc sống tại Hàn Quốc (2)",
+      "est_minutes": 13,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 22953,
+          "title": "Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Nói)",
+          "est_minutes": 6,
+          "card_count": 23
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 22955,
+          "title": "Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Đọc)",
+          "est_minutes": 3,
+          "card_count": 13
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 22956,
+          "title": "Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Viết)",
+          "est_minutes": 4,
+          "card_count": 18
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "title": "Sách bài tập · Bài 15: Cuộc sống tại Hàn Quốc",
+      "est_minutes": 31,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 54395,
+          "title": "(SBT) Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 23313,
+          "title": "(SBT) Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Từ vựng)",
+          "est_minutes": 6,
+          "card_count": 23
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 23314,
+          "title": "(SBT) Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Ngữ pháp 1)",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 23354,
+          "title": "(SBT) Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Ngữ pháp 2)",
+          "est_minutes": 7,
+          "card_count": 28
+        },
+        {
+          "order": 5,
+          "type": "deck",
+          "ref_id": 23355,
+          "title": "(SBT) Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Ngữ pháp 3)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 23356,
+          "title": "(SBT) Bài 15: 한국 생활 - CUỘC SỐNG TẠI HÀN QUỐC (Đọc)",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 23354,
+          "title": "Kiểm tra nhanh: Bài 15: Cuộc sống tại Hàn Quốc",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "ko2-1",
+      "order": 1,
+      "title": "Bài 1: Gặp gỡ",
+      "icon": "textformat",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        1,
+        2,
+        3
+      ],
+      "items": [
+        "lesson:54091",
+        "deck:20899",
+        "deck:20900",
+        "deck:20902",
+        "deck:20903",
+        "deck:20910",
+        "deck:20911",
+        "deck:20924",
+        "lesson:54220",
+        "deck:22965",
+        "deck:22966",
+        "deck:22967",
+        "test:22966"
+      ]
+    },
+    {
+      "id": "ko2-2",
+      "order": 2,
+      "title": "Bài 2: Hẹn gặp",
+      "icon": "text.bubble.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        4,
+        5,
+        6
+      ],
+      "items": [
+        "lesson:54100",
+        "deck:20927",
+        "deck:20928",
+        "deck:20929",
+        "deck:20930",
+        "deck:20935",
+        "deck:20937",
+        "deck:20938",
+        "lesson:54224",
+        "deck:22980",
+        "deck:22981",
+        "deck:22982",
+        "deck:23002",
+        "test:23002"
+      ]
+    },
+    {
+      "id": "ko2-3",
+      "order": 3,
+      "title": "Bài 3: Mua sắm 2",
+      "icon": "graduationcap.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        7,
+        8,
+        9
+      ],
+      "items": [
+        "lesson:54105",
+        "deck:20939",
+        "deck:20947",
+        "deck:20948",
+        "deck:20949",
+        "deck:20950",
+        "deck:20951",
+        "deck:20952",
+        "lesson:54230",
+        "deck:22990",
+        "deck:23004",
+        "deck:23016",
+        "deck:23017",
+        "test:23004"
+      ]
+    },
+    {
+      "id": "ko2-4",
+      "order": 4,
+      "title": "Bài 4: Bệnh viện",
+      "icon": "sun.max.fill",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        10,
+        11,
+        12
+      ],
+      "items": [
+        "lesson:54119",
+        "deck:20955",
+        "deck:20956",
+        "deck:20978",
+        "deck:20979",
+        "deck:20980",
+        "deck:20989",
+        "deck:20990",
+        "deck:21054",
+        "deck:21072",
+        "lesson:54239",
+        "deck:23022",
+        "deck:23023",
+        "deck:23024",
+        "deck:23025",
+        "test:23023"
+      ]
+    },
+    {
+      "id": "ko2-5",
+      "order": 5,
+      "title": "Bài 5: Thư tín",
+      "icon": "calendar",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        13,
+        14,
+        15
+      ],
+      "items": [
+        "lesson:54120",
+        "deck:21010",
+        "deck:21011",
+        "deck:21012",
+        "deck:21030",
+        "deck:21031",
+        "deck:21032",
+        "deck:21033",
+        "lesson:54242",
+        "deck:23033",
+        "deck:23035",
+        "deck:23036",
+        "deck:23038",
+        "test:23035"
+      ]
+    },
+    {
+      "id": "ko2-6",
+      "order": 6,
+      "title": "Bài 6: Giao thông",
+      "icon": "briefcase.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        16,
+        17,
+        18
+      ],
+      "items": [
+        "lesson:54126",
+        "deck:21079",
+        "deck:21084",
+        "deck:21092",
+        "deck:21455",
+        "deck:21461",
+        "deck:21465",
+        "deck:21467",
+        "lesson:54243",
+        "deck:23039",
+        "deck:23040",
+        "deck:23061",
+        "deck:23062",
+        "deck:23063",
+        "test:23063"
+      ]
+    },
+    {
+      "id": "ko2-7",
+      "order": 7,
+      "title": "Bài 8: Phim ảnh",
+      "icon": "figure.walk",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        19,
+        20,
+        21
+      ],
+      "items": [
+        "lesson:54140",
+        "deck:21639",
+        "deck:21642",
+        "deck:21644",
+        "deck:21645",
+        "deck:21646",
+        "deck:21647",
+        "deck:21650",
+        "lesson:54250",
+        "deck:23072",
+        "deck:23073",
+        "deck:23078",
+        "test:23073"
+      ]
+    },
+    {
+      "id": "ko2-8",
+      "order": 8,
+      "title": "Bài 9: Ngày nghỉ",
+      "icon": "cart.fill",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        22,
+        23,
+        24
+      ],
+      "items": [
+        "lesson:54151",
+        "deck:22745",
+        "deck:22746",
+        "deck:22747",
+        "deck:22748",
+        "deck:22749",
+        "deck:22750",
+        "deck:22751",
+        "lesson:54251",
+        "deck:23079",
+        "deck:23080",
+        "deck:23104",
+        "deck:23105",
+        "test:23080"
+      ]
+    },
+    {
+      "id": "ko2-9",
+      "order": 9,
+      "title": "Bài 10: Ngoại hình",
+      "icon": "fork.knife",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        25,
+        26,
+        27
+      ],
+      "items": [
+        "lesson:54154",
+        "deck:22761",
+        "deck:22762",
+        "deck:22763",
+        "deck:22764",
+        "deck:22766",
+        "deck:22767",
+        "deck:22782",
+        "deck:22800",
+        "deck:22801",
+        "lesson:54275",
+        "deck:23106",
+        "deck:23107",
+        "deck:23140",
+        "deck:23142",
+        "test:23140"
+      ]
+    },
+    {
+      "id": "ko2-10",
+      "order": 10,
+      "title": "Bài 11: Du lịch",
+      "icon": "house.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        28,
+        29,
+        30
+      ],
+      "items": [
+        "lesson:54169",
+        "deck:22806",
+        "deck:22807",
+        "deck:22808",
+        "deck:22816",
+        "deck:22817",
+        "deck:22818",
+        "deck:22819",
+        "deck:22861",
+        "lesson:54277",
+        "deck:23143",
+        "deck:23145",
+        "deck:23155",
+        "deck:23166",
+        "deck:23167",
+        "test:23166"
+      ]
+    },
+    {
+      "id": "ko2-11",
+      "order": 11,
+      "title": "Bài 12: Nơi công cộng",
+      "icon": "person.3.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        31,
+        32,
+        33
+      ],
+      "items": [
+        "lesson:54190",
+        "deck:22881",
+        "deck:22882",
+        "deck:22883",
+        "deck:22892",
+        "deck:22910",
+        "deck:22960",
+        "deck:22961",
+        "lesson:54281",
+        "deck:23168",
+        "deck:23169",
+        "deck:23257",
+        "test:23169"
+      ]
+    },
+    {
+      "id": "ko2-12",
+      "order": 12,
+      "title": "Bài 13: Đô thị",
+      "icon": "cloud.sun.fill",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        34,
+        35,
+        36
+      ],
+      "items": [
+        "lesson:54191",
+        "deck:22862",
+        "deck:22863",
+        "deck:22864",
+        "deck:22865",
+        "deck:22866",
+        "deck:22867",
+        "deck:22868",
+        "lesson:54295",
+        "deck:23261",
+        "deck:23262",
+        "deck:23263",
+        "deck:23290",
+        "deck:23291",
+        "test:23290"
+      ]
+    },
+    {
+      "id": "ko2-13",
+      "order": 13,
+      "title": "Bài 14: Kế hoạch",
+      "icon": "phone.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        37,
+        38,
+        39
+      ],
+      "items": [
+        "lesson:54197",
+        "deck:22887",
+        "deck:22888",
+        "deck:22889",
+        "deck:22890",
+        "deck:22891",
+        "deck:22906",
+        "deck:22907",
+        "lesson:54391",
+        "deck:23292",
+        "deck:23293",
+        "deck:23305",
+        "deck:23306",
+        "test:23293"
+      ]
+    },
+    {
+      "id": "ko2-14",
+      "order": 14,
+      "title": "Bài 15: Cuộc sống tại Hàn Quốc",
+      "icon": "gift.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        40,
+        41,
+        42
+      ],
+      "items": [
+        "lesson:54202",
+        "deck:22949",
+        "deck:22950",
+        "deck:22951",
+        "deck:22952",
+        "deck:22953",
+        "deck:22955",
+        "deck:22956",
+        "lesson:54395",
+        "deck:23313",
+        "deck:23314",
+        "deck:23354",
+        "deck:23355",
+        "deck:23356",
+        "test:23354"
+      ]
+    }
+  ]
+}

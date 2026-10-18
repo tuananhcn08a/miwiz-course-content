@@ -1,0 +1,1245 @@
+{
+  "id": "english-workplace-1",
+  "title": "Tiếng Anh cho người đi làm",
+  "subtitle": "Lộ trình 25 ngày",
+  "thumbnail": null,
+  "field_id": 5155,
+  "level": "Sơ cấp",
+  "language": "en",
+  "icon_text": "WK",
+  "icon_color": "#0EA5A4",
+  "days": [
+    {
+      "day": 1,
+      "title": "Bài 1–2",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6664,
+          "title": "Những câu giao tiếp tiếng Anh phổ biến khi đi làm",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9203,
+          "title": "Những câu giao tiếp tiếng Anh phổ biến khi đi làm",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6666,
+          "title": "Tiếng Anh giao tiếp cho người đi làm khi gặp khách hàng",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9204,
+          "title": "Tiếng Anh giao tiếp cho người đi làm khi gặp khách hàng",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Bài 3–4",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6668,
+          "title": "Giao tiếp với đồng nghiệp trong văn phòng (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9205,
+          "title": "Giao tiếp với đồng nghiệp trong văn phòng (1)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6670,
+          "title": "Giao tiếp với đồng nghiệp trong văn phòng (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9206,
+          "title": "Giao tiếp với đồng nghiệp trong văn phòng (2)",
+          "est_minutes": 2,
+          "card_count": 9
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Giao tiếp trong công ty · Cách viết email (1)",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6671,
+          "title": "Giao tiếp trong công ty",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9207,
+          "title": "Giao tiếp trong công ty",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6745,
+          "title": "Cách viết email (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9228,
+          "title": "Cách viết email (1)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9207,
+          "title": "Kiểm tra nhanh: Bài 1–6",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Bài 7–8",
+      "est_minutes": 16,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7002,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9299,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (1)",
+          "est_minutes": 3,
+          "card_count": 13
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7003,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9300,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (2)",
+          "est_minutes": 3,
+          "card_count": 13
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Bài 9–10",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7005,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (3)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9301,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (3)",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7006,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (4)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9302,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (4)",
+          "est_minutes": 2,
+          "card_count": 9
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Bài 11–12",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7007,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (5)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9303,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (5)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7008,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (6)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9304,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (6)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9304,
+          "title": "Kiểm tra nhanh: Bài 7–12",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Bài 13–14",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7009,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (7)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9305,
+          "title": "Tiếng Anh cho người đi làm - Tour guide (7)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7010,
+          "title": "Tiếng Anh cho người đi làm - Plane staffs (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9306,
+          "title": "Tiếng Anh cho người đi làm - Plane staffs (1)",
+          "est_minutes": 2,
+          "card_count": 9
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Bài 15–16",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7011,
+          "title": "Tiếng Anh cho người đi làm - Plane staffs (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9307,
+          "title": "Tiếng Anh cho người đi làm - Plane staffs (2)",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7012,
+          "title": "Tiếng Anh cho người đi làm - Plane staffs (3)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9308,
+          "title": "Tiếng Anh cho người đi làm - Plane staffs (3)",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Bài 17–18",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7013,
+          "title": "Tiếng Anh cho người đi làm - Hotel staffs (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9309,
+          "title": "Tiếng Anh cho người đi làm - Hotel staffs (1)",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7014,
+          "title": "Tiếng Anh cho người đi làm - Hotel staffs (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9310,
+          "title": "Tiếng Anh cho người đi làm - Hotel staffs (2)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9309,
+          "title": "Kiểm tra nhanh: Bài 13–18",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Bài 19–20",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7015,
+          "title": "Tiếng Anh cho người đi làm - Hotel staffs (3)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9311,
+          "title": "Tiếng Anh cho người đi làm - Hotel staffs (3)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7016,
+          "title": "Tiếng Anh cho người đi làm - Call center (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9312,
+          "title": "Tiếng Anh cho người đi làm - Call center (2)",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Bài 21–22",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7017,
+          "title": "Tiếng Anh cho người đi làm - Call center (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9313,
+          "title": "Tiếng Anh cho người đi làm - Call center (1)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6713,
+          "title": "Loại hình doanh nghiệp (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9208,
+          "title": "Loại hình doanh nghiệp (1)",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Bài 23–24",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6714,
+          "title": "Loại hình doanh nghiệp (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9209,
+          "title": "Loại hình doanh nghiệp (2)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6715,
+          "title": "Các phòng ban trong công ty (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9210,
+          "title": "Các phòng ban trong công ty (1)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9209,
+          "title": "Kiểm tra nhanh: Bài 19–24",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Bài 25–26",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6716,
+          "title": "Các phòng ban trong công ty (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9211,
+          "title": "Các phòng ban trong công ty (2)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6717,
+          "title": "Các phòng ban trong công ty (3)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9212,
+          "title": "Các phòng ban trong công ty (3)",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Bài 27–28",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6718,
+          "title": "Chức vụ trong công ty (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9213,
+          "title": "Chức vụ trong công ty (1)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6719,
+          "title": "Hoạt động liên quan đến công ty",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9214,
+          "title": "Hoạt động liên quan đến công ty",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Chức vụ trong công ty (2) · Cảm ơn và xin lỗi",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6720,
+          "title": "Chức vụ trong công ty (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9215,
+          "title": "Chức vụ trong công ty (2)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6730,
+          "title": "Cảm ơn và xin lỗi",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9218,
+          "title": "Cảm ơn và xin lỗi",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9218,
+          "title": "Kiểm tra nhanh: Bài 25–30",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Ngày lễ · Đồng nghiệp",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6733,
+          "title": "Ngày lễ",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9219,
+          "title": "Ngày lễ",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6734,
+          "title": "Đồng nghiệp",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9220,
+          "title": "Đồng nghiệp",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Thể thao · Cuộc sống",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6735,
+          "title": "Thể thao",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9221,
+          "title": "Thể thao",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6736,
+          "title": "Cuộc sống",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9222,
+          "title": "Cuộc sống",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Công việc · Cuộc họp",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6737,
+          "title": "Công việc",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9223,
+          "title": "Công việc",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6738,
+          "title": "Cuộc họp",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9224,
+          "title": "Cuộc họp",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9223,
+          "title": "Kiểm tra nhanh: Bài 31–36",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Công ty · Bữa tiệc",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6739,
+          "title": "Công ty",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9225,
+          "title": "Công ty",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6741,
+          "title": "Bữa tiệc",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9226,
+          "title": "Bữa tiệc",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Thư giãn · Popular vocabulary (11)",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6742,
+          "title": "Thư giãn",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9227,
+          "title": "Thư giãn",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6989,
+          "title": "Popular vocabulary (11)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9286,
+          "title": "Popular vocabulary (11)",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Popular vocabulary (10) · Popular vocabulary (9)",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6990,
+          "title": "Popular vocabulary (10)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9287,
+          "title": "Popular vocabulary (10)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6991,
+          "title": "Popular vocabulary (9)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9288,
+          "title": "Popular vocabulary (9)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9287,
+          "title": "Kiểm tra nhanh: Bài 37–42",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Popular vocabulary (8) · Popular vocabulary (7)",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6992,
+          "title": "Popular vocabulary (8)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9289,
+          "title": "Popular vocabulary (8)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6993,
+          "title": "Popular vocabulary (7)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9290,
+          "title": "Popular vocabulary (7)",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Popular vocabulary (6) · Popular vocabulary (5)",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6994,
+          "title": "Popular vocabulary (6)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9291,
+          "title": "Popular vocabulary (6)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6995,
+          "title": "Popular vocabulary (5)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9292,
+          "title": "Popular vocabulary (5)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9291,
+          "title": "Kiểm tra nhanh: Bài 43–46",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Popular vocabulary (4) · Popular vocabulary (3)",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6996,
+          "title": "Popular vocabulary (4)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9293,
+          "title": "Popular vocabulary (4)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6997,
+          "title": "Popular vocabulary (3)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9294,
+          "title": "Popular vocabulary (3)",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Popular vocabulary (2) · Popular vocabulary (1)",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6998,
+          "title": "Popular vocabulary (2)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9295,
+          "title": "Popular vocabulary (2)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6999,
+          "title": "Popular vocabulary (1)",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9296,
+          "title": "Popular vocabulary (1)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9295,
+          "title": "Kiểm tra nhanh: Bài 47–50",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "wk1-1",
+      "order": 1,
+      "title": "Bài 1–6",
+      "icon": "book.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        1,
+        2,
+        3
+      ],
+      "items": [
+        "lesson:6664",
+        "deck:9203",
+        "lesson:6666",
+        "deck:9204",
+        "lesson:6668",
+        "deck:9205",
+        "lesson:6670",
+        "deck:9206",
+        "lesson:6671",
+        "deck:9207",
+        "lesson:6745",
+        "deck:9228",
+        "test:9207"
+      ]
+    },
+    {
+      "id": "wk1-2",
+      "order": 2,
+      "title": "Bài 7–12",
+      "icon": "text.bubble.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        4,
+        5,
+        6
+      ],
+      "items": [
+        "lesson:7002",
+        "deck:9299",
+        "lesson:7003",
+        "deck:9300",
+        "lesson:7005",
+        "deck:9301",
+        "lesson:7006",
+        "deck:9302",
+        "lesson:7007",
+        "deck:9303",
+        "lesson:7008",
+        "deck:9304",
+        "test:9304"
+      ]
+    },
+    {
+      "id": "wk1-3",
+      "order": 3,
+      "title": "Bài 13–18",
+      "icon": "person.2.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        7,
+        8,
+        9
+      ],
+      "items": [
+        "lesson:7009",
+        "deck:9305",
+        "lesson:7010",
+        "deck:9306",
+        "lesson:7011",
+        "deck:9307",
+        "lesson:7012",
+        "deck:9308",
+        "lesson:7013",
+        "deck:9309",
+        "lesson:7014",
+        "deck:9310",
+        "test:9309"
+      ]
+    },
+    {
+      "id": "wk1-4",
+      "order": 4,
+      "title": "Bài 19–24",
+      "icon": "clock.fill",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        10,
+        11,
+        12
+      ],
+      "items": [
+        "lesson:7015",
+        "deck:9311",
+        "lesson:7016",
+        "deck:9312",
+        "lesson:7017",
+        "deck:9313",
+        "lesson:6713",
+        "deck:9208",
+        "lesson:6714",
+        "deck:9209",
+        "lesson:6715",
+        "deck:9210",
+        "test:9209"
+      ]
+    },
+    {
+      "id": "wk1-5",
+      "order": 5,
+      "title": "Bài 25–30",
+      "icon": "house.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        13,
+        14,
+        15
+      ],
+      "items": [
+        "lesson:6716",
+        "deck:9211",
+        "lesson:6717",
+        "deck:9212",
+        "lesson:6718",
+        "deck:9213",
+        "lesson:6719",
+        "deck:9214",
+        "lesson:6720",
+        "deck:9215",
+        "lesson:6730",
+        "deck:9218",
+        "test:9218"
+      ]
+    },
+    {
+      "id": "wk1-6",
+      "order": 6,
+      "title": "Bài 31–36",
+      "icon": "fork.knife",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        16,
+        17,
+        18
+      ],
+      "items": [
+        "lesson:6733",
+        "deck:9219",
+        "lesson:6734",
+        "deck:9220",
+        "lesson:6735",
+        "deck:9221",
+        "lesson:6736",
+        "deck:9222",
+        "lesson:6737",
+        "deck:9223",
+        "lesson:6738",
+        "deck:9224",
+        "test:9223"
+      ]
+    },
+    {
+      "id": "wk1-7",
+      "order": 7,
+      "title": "Bài 37–42",
+      "icon": "cart.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        19,
+        20,
+        21
+      ],
+      "items": [
+        "lesson:6739",
+        "deck:9225",
+        "lesson:6741",
+        "deck:9226",
+        "lesson:6742",
+        "deck:9227",
+        "lesson:6989",
+        "deck:9286",
+        "lesson:6990",
+        "deck:9287",
+        "lesson:6991",
+        "deck:9288",
+        "test:9287"
+      ]
+    },
+    {
+      "id": "wk1-8",
+      "order": 8,
+      "title": "Bài 43–46",
+      "icon": "airplane",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        22,
+        23
+      ],
+      "items": [
+        "lesson:6992",
+        "deck:9289",
+        "lesson:6993",
+        "deck:9290",
+        "lesson:6994",
+        "deck:9291",
+        "lesson:6995",
+        "deck:9292",
+        "test:9291"
+      ]
+    },
+    {
+      "id": "wk1-9",
+      "order": 9,
+      "title": "Bài 47–50",
+      "icon": "heart.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        24,
+        25
+      ],
+      "items": [
+        "lesson:6996",
+        "deck:9293",
+        "lesson:6997",
+        "deck:9294",
+        "lesson:6998",
+        "deck:9295",
+        "lesson:6999",
+        "deck:9296",
+        "test:9295"
+      ]
+    }
+  ]
+}

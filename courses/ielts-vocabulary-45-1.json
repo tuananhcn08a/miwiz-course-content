@@ -1,0 +1,785 @@
+{
+  "id": "ielts-vocabulary-45-1",
+  "title": "Từ vựng IELTS 4.5–5.5",
+  "subtitle": "Lộ trình 15 ngày",
+  "thumbnail": null,
+  "field_id": 30513,
+  "level": "Trung cấp",
+  "language": "en",
+  "icon_text": "IE",
+  "icon_color": "#E5484D",
+  "days": [
+    {
+      "day": 1,
+      "title": "Bài 1–2",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 39640,
+          "title": "LESSON 1: Education - part 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11593,
+          "title": "LESSON 1: Education - part 1",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 39641,
+          "title": "LESSON 2: Education - part 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11594,
+          "title": "LESSON 2: Education - part 2",
+          "est_minutes": 5,
+          "card_count": 20
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Bài 3–4",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 39642,
+          "title": "LESSON 3: Education - part 3",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11595,
+          "title": "LESSON 3: Education - part 3",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 39643,
+          "title": "LESSON 4: Education - part 4",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11596,
+          "title": "LESSON 4: Education - part 4",
+          "est_minutes": 5,
+          "card_count": 20
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Bài 5–6",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 39644,
+          "title": "LESSON 5: Sports and Leisure - part 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11597,
+          "title": "LESSON 5: Sports and Leisure - part 1",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 39645,
+          "title": "LESSON 6: Sports and Leisure - part 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11598,
+          "title": "LESSON 6: Sports and Leisure - part 2",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 11597,
+          "title": "Kiểm tra nhanh: Bài 1–6",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Bài 7–8",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 39646,
+          "title": "LESSON 7: Sports and Leisure - part 3",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11599,
+          "title": "LESSON 7: Sports and Leisure - part 3",
+          "est_minutes": 5,
+          "card_count": 19
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 39647,
+          "title": "LESSON 8: Sports and Leisure - part 4",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11600,
+          "title": "LESSON 8: Sports and Leisure - part 4",
+          "est_minutes": 5,
+          "card_count": 20
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "LESSON 9: Food - part 1 · LESSON 10: Food - part 2",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 39648,
+          "title": "LESSON 9: Food - part 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11601,
+          "title": "LESSON 9: Food - part 1",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 39649,
+          "title": "LESSON 10: Food - part 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11602,
+          "title": "LESSON 10: Food - part 2",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 11601,
+          "title": "Kiểm tra nhanh: Bài 7–10",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "LESSON 11: Food - part 3 · LESSON 12: Food - part 4",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 39849,
+          "title": "LESSON 11: Food - part 3",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11648,
+          "title": "LESSON 11: Food - part 3",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 39850,
+          "title": "LESSON 12: Food - part 4",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11649,
+          "title": "LESSON 12: Food - part 4",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "LESSON 13: Food - part 5 · LESSON 14: Food - part 6",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41633,
+          "title": "LESSON 13: Food - part 5",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11922,
+          "title": "LESSON 13: Food - part 5",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41634,
+          "title": "LESSON 14: Food - part 6",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11923,
+          "title": "LESSON 14: Food - part 6",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 11922,
+          "title": "Kiểm tra nhanh: Bài 11–14",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Bài 15–16",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41635,
+          "title": "LESSON 15: Housing and Architecture - part 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11924,
+          "title": "LESSON 15: Housing and Architecture - part 1",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41636,
+          "title": "LESSON 16: Housing and Architecture - part 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11925,
+          "title": "LESSON 16: Housing and Architecture - part 2",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Bài 17–18",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41637,
+          "title": "LESSON 17: Housing and Architecture - part 3",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11926,
+          "title": "LESSON 17: Housing and Architecture - part 3",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41641,
+          "title": "LESSON 18: Family - part 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11927,
+          "title": "LESSON 18: Family - part 1",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 11927,
+          "title": "Kiểm tra nhanh: Bài 15–18",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Bài 19–20",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41642,
+          "title": "LESSON 19: Family - part 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11928,
+          "title": "LESSON 19: Family - part 2",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41643,
+          "title": "LESSON 20: Family - part 3",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11929,
+          "title": "LESSON 20: Family - part 3",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Bài 21–22",
+      "est_minutes": 19,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41644,
+          "title": "LESSON 21: Family - part 4",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11930,
+          "title": "LESSON 21: Family - part 4",
+          "est_minutes": 2,
+          "card_count": 3
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41645,
+          "title": "LESSON 22: Work - part 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11931,
+          "title": "LESSON 22: Work - part 1",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 11931,
+          "title": "Kiểm tra nhanh: Bài 19–22",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "LESSON 23: Work - part 2 · LESSON 24: Work - part 3",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41646,
+          "title": "LESSON 23: Work - part 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11932,
+          "title": "LESSON 23: Work - part 2",
+          "est_minutes": 2,
+          "card_count": 10
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41647,
+          "title": "LESSON 24: Work - part 3",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11933,
+          "title": "LESSON 24: Work - part 3",
+          "est_minutes": 2,
+          "card_count": 10
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "LESSON 25: Work - part 4 · LESSON 26: Work - part 5",
+      "est_minutes": 18,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41648,
+          "title": "LESSON 25: Work - part 4",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11934,
+          "title": "LESSON 25: Work - part 4",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41649,
+          "title": "LESSON 26: Work - part 5",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11935,
+          "title": "LESSON 26: Work - part 5",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 11934,
+          "title": "Kiểm tra nhanh: Bài 23–26",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Bài 27–28",
+      "est_minutes": 17,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41681,
+          "title": "LESSON 27: Luyện tập chung 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11937,
+          "title": "LESSON 27: Luyện tập chung 1",
+          "est_minutes": 5,
+          "card_count": 20
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41683,
+          "title": "LESSON 28: Luyện tập chung 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11938,
+          "title": "LESSON 28: Luyện tập chung 2",
+          "est_minutes": 2,
+          "card_count": 9
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Bài 29–30",
+      "est_minutes": 22,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 41684,
+          "title": "LESSON 29: Luyện tập chung 3",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 11939,
+          "title": "LESSON 29: Luyện tập chung 3",
+          "est_minutes": 4,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 41690,
+          "title": "LESSON 30: Luyện tập chung 4",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 11941,
+          "title": "LESSON 30: Luyện tập chung 4",
+          "est_minutes": 4,
+          "card_count": 14
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 11939,
+          "title": "Kiểm tra nhanh: Bài 27–30",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "iv1-1",
+      "order": 1,
+      "title": "Bài 1–6",
+      "icon": "leaf.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        1,
+        2,
+        3
+      ],
+      "items": [
+        "lesson:39640",
+        "deck:11593",
+        "lesson:39641",
+        "deck:11594",
+        "lesson:39642",
+        "deck:11595",
+        "lesson:39643",
+        "deck:11596",
+        "lesson:39644",
+        "deck:11597",
+        "lesson:39645",
+        "deck:11598",
+        "test:11597"
+      ]
+    },
+    {
+      "id": "iv1-2",
+      "order": 2,
+      "title": "Bài 7–10",
+      "icon": "gamecontroller.fill",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        4,
+        5
+      ],
+      "items": [
+        "lesson:39646",
+        "deck:11599",
+        "lesson:39647",
+        "deck:11600",
+        "lesson:39648",
+        "deck:11601",
+        "lesson:39649",
+        "deck:11602",
+        "test:11601"
+      ]
+    },
+    {
+      "id": "iv1-3",
+      "order": 3,
+      "title": "Bài 11–14",
+      "icon": "car.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        6,
+        7
+      ],
+      "items": [
+        "lesson:39849",
+        "deck:11648",
+        "lesson:39850",
+        "deck:11649",
+        "lesson:41633",
+        "deck:11922",
+        "lesson:41634",
+        "deck:11923",
+        "test:11922"
+      ]
+    },
+    {
+      "id": "iv1-4",
+      "order": 4,
+      "title": "Bài 15–18",
+      "icon": "building.columns.fill",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        8,
+        9
+      ],
+      "items": [
+        "lesson:41635",
+        "deck:11924",
+        "lesson:41636",
+        "deck:11925",
+        "lesson:41637",
+        "deck:11926",
+        "lesson:41641",
+        "deck:11927",
+        "test:11927"
+      ]
+    },
+    {
+      "id": "iv1-5",
+      "order": 5,
+      "title": "Bài 19–22",
+      "icon": "cross.case.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        10,
+        11
+      ],
+      "items": [
+        "lesson:41642",
+        "deck:11928",
+        "lesson:41643",
+        "deck:11929",
+        "lesson:41644",
+        "deck:11930",
+        "lesson:41645",
+        "deck:11931",
+        "test:11931"
+      ]
+    },
+    {
+      "id": "iv1-6",
+      "order": 6,
+      "title": "Bài 23–26",
+      "icon": "airplane",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        12,
+        13
+      ],
+      "items": [
+        "lesson:41646",
+        "deck:11932",
+        "lesson:41647",
+        "deck:11933",
+        "lesson:41648",
+        "deck:11934",
+        "lesson:41649",
+        "deck:11935",
+        "test:11934"
+      ]
+    },
+    {
+      "id": "iv1-7",
+      "order": 7,
+      "title": "Bài 27–30",
+      "icon": "briefcase.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        14,
+        15
+      ],
+      "items": [
+        "lesson:41681",
+        "deck:11937",
+        "lesson:41683",
+        "deck:11938",
+        "lesson:41684",
+        "deck:11939",
+        "lesson:41690",
+        "deck:11941",
+        "test:11939"
+      ]
+    }
+  ]
+}

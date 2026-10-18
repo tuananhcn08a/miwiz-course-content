@@ -1,0 +1,2103 @@
+{
+  "id": "english-daily-conversation-1",
+  "title": "Tiếng Anh hội thoại hằng ngày",
+  "subtitle": "Lộ trình 32 ngày",
+  "thumbnail": null,
+  "field_id": 5107,
+  "level": "Sơ cấp",
+  "language": "en",
+  "icon_text": "EN",
+  "icon_color": "#7C5CFC",
+  "days": [
+    {
+      "day": 1,
+      "title": "Bài 1–3",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5299,
+          "title": "[City] Do you know how to get downtown?",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8624,
+          "title": "[City] Do you know how to get downtown?",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5300,
+          "title": "Did you see the news today?",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8625,
+          "title": "Did you see the news today?",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5301,
+          "title": "[Work] I’ll take you to work",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8626,
+          "title": "[Work] I’ll take you to work",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Bài 4–6",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5302,
+          "title": "[Service] Taking a taxi",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8627,
+          "title": "[Service] Taking a taxi",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5303,
+          "title": "Help me find my purse",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8628,
+          "title": "Help me find my purse",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5304,
+          "title": "[Service] Making a hotel reservation",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8629,
+          "title": "[Service] Making a hotel reservation",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Bài 7–9",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5305,
+          "title": "Listening to music",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8630,
+          "title": "Listening to music",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5306,
+          "title": "Computer problems",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8631,
+          "title": "Computer problems",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5307,
+          "title": "[Sport] What’s your favorite sport?",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8632,
+          "title": "[Sport] What’s your favorite sport?",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Making a webpage · Would you mind driving? · Gifts",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5309,
+          "title": "Making a webpage",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8634,
+          "title": "Making a webpage",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5310,
+          "title": "Would you mind driving?",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8635,
+          "title": "Would you mind driving?",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5311,
+          "title": "Gifts",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8636,
+          "title": "Gifts",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8635,
+          "title": "Kiểm tra nhanh: Hội thoại 1–12",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Bài 13–15",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5312,
+          "title": "Election",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8637,
+          "title": "Election",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5319,
+          "title": "Do you know the address?",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8638,
+          "title": "Do you know the address?",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5328,
+          "title": "Going to the library",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8639,
+          "title": "Going to the library",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Bài 16–18",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5329,
+          "title": "Where do your parents live?",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8640,
+          "title": "Where do your parents live?",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5330,
+          "title": "Can you help me find a few things?",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8641,
+          "title": "Can you help me find a few things?",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5331,
+          "title": "Paying for dinner",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8642,
+          "title": "Paying for dinner",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Bài 19–21",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5332,
+          "title": "[Service] Buying a plane ticket",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8643,
+          "title": "[Service] Buying a plane ticket",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5333,
+          "title": "Putting things in order",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8644,
+          "title": "Putting things in order",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5335,
+          "title": "[Food] The food tastes great",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8646,
+          "title": "[Food] The food tastes great",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Bài 22–24",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5336,
+          "title": "Visiting family",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8647,
+          "title": "Visiting family",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5337,
+          "title": "Looking at vacation pictures",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8648,
+          "title": "Looking at vacation pictures",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5338,
+          "title": "[Service] Ordering flowers",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8649,
+          "title": "[Service] Ordering flowers",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8647,
+          "title": "Kiểm tra nhanh: Hội thoại 13–24",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Bài 25–27",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5339,
+          "title": "Leaving a message",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8650,
+          "title": "Leaving a message",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5340,
+          "title": "[Weather] Talking about the weather",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8651,
+          "title": "[Weather] Talking about the weather",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5341,
+          "title": "Making plans",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8652,
+          "title": "Making plans",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Bài 28–30",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5523,
+          "title": "[Competition] Beauty Pageants",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8688,
+          "title": "[Competition] Beauty Pageants",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5535,
+          "title": "Baking cake pops",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8689,
+          "title": "Baking cake pops",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5536,
+          "title": "SoMe Love",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8690,
+          "title": "SoMe Love",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Bài 31–33",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5538,
+          "title": "[Life] Fast-Paced Life",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8691,
+          "title": "[Life] Fast-Paced Life",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5540,
+          "title": "[Technology] Is technology making life better or worse?",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8692,
+          "title": "[Technology] Is technology making life better or worse?",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5549,
+          "title": "[Mars] Going to Mars",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8693,
+          "title": "[Mars] Going to Mars",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8693,
+          "title": "Kiểm tra nhanh: Hội thoại 25–33",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Bài 34–36",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5550,
+          "title": "[Mars] Life on Mars",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8694,
+          "title": "[Mars] Life on Mars",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5551,
+          "title": "[House] on Loan",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8695,
+          "title": "[House] on Loan",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5553,
+          "title": "[Shopping] At the Mall",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8696,
+          "title": "[Shopping] At the Mall",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Bài 37–39",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5554,
+          "title": "[Health] Taking Care of Physical Health",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8697,
+          "title": "[Health] Taking Care of Physical Health",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5555,
+          "title": "[Health] Dealing with Mental Health",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8698,
+          "title": "[Health] Dealing with Mental Health",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5568,
+          "title": "[Health] Meditation",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8700,
+          "title": "[Health] Meditation",
+          "est_minutes": 2,
+          "card_count": 5
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Bài 40–42",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5570,
+          "title": "[Teaching] The act of zen",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8701,
+          "title": "[Teaching] The act of zen",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5575,
+          "title": "[Work] Becoming a Podcaster",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8703,
+          "title": "[Work] Becoming a Podcaster",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5576,
+          "title": "Kids and Makeup",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8704,
+          "title": "Kids and Makeup",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8703,
+          "title": "Kiểm tra nhanh: Hội thoại 34–42",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Bài 43–45",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5577,
+          "title": "Missing Home",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8705,
+          "title": "Missing Home",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5579,
+          "title": "[Sport] Rodeo Rider",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8706,
+          "title": "[Sport] Rodeo Rider",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5581,
+          "title": "[Likes] and Favorites",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8707,
+          "title": "[Likes] and Favorites",
+          "est_minutes": 2,
+          "card_count": 4
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "My Weekend · [Eating] Habits · Photo Manner Mode",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5582,
+          "title": "My Weekend",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8708,
+          "title": "My Weekend",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5583,
+          "title": "[Eating] Habits",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8709,
+          "title": "[Eating] Habits",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5584,
+          "title": "Photo Manner Mode",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8710,
+          "title": "Photo Manner Mode",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Bài 49–51",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5598,
+          "title": "Single's Day",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8714,
+          "title": "Single's Day",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5599,
+          "title": "[Teaching] Best teacher",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8715,
+          "title": "[Teaching] Best teacher",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5601,
+          "title": "[Life] in the 80's",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8717,
+          "title": "[Life] in the 80's",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8717,
+          "title": "Kiểm tra nhanh: Hội thoại 43–51",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Bài 52–54",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5688,
+          "title": "[Food] Freaky Foods",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8731,
+          "title": "[Food] Freaky Foods",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5689,
+          "title": "[Food] Strange Foods",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8732,
+          "title": "[Food] Strange Foods",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5691,
+          "title": "[Life] Living for Today",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8733,
+          "title": "[Life] Living for Today",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Bài 55–57",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5709,
+          "title": "Meg's Travels",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8736,
+          "title": "Meg's Travels",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5710,
+          "title": "[Competition] The Perfect Candidate",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8737,
+          "title": "[Competition] The Perfect Candidate",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5711,
+          "title": "[Sport] Disc Golf",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8738,
+          "title": "[Sport] Disc Golf",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Bài 58–60",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5712,
+          "title": "Super Party",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8739,
+          "title": "Super Party",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5714,
+          "title": "Having Roommates",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8740,
+          "title": "Having Roommates",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5715,
+          "title": "Is College Worth It?",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8741,
+          "title": "Is College Worth It?",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8739,
+          "title": "Kiểm tra nhanh: Hội thoại 52–60",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Bài 61–63",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5763,
+          "title": "[City] Ridiculously Expensive City",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8752,
+          "title": "[City] Ridiculously Expensive City",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5764,
+          "title": "[House] Using AirBnB",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8753,
+          "title": "[House] Using AirBnB",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5765,
+          "title": "[Technology] Robots and AI",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8754,
+          "title": "[Technology] Robots and AI",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Bài 64–66",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5766,
+          "title": "[Teaching] Overseas",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8755,
+          "title": "[Teaching] Overseas",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5767,
+          "title": "[Teaching] New Things",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8756,
+          "title": "[Teaching] New Things",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5768,
+          "title": "Clothes by Season",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8757,
+          "title": "Clothes by Season",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Bài 67–69",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5804,
+          "title": "Brain Drain",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8769,
+          "title": "Brain Drain",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5805,
+          "title": "[International] How International are you?",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8770,
+          "title": "[International] How International are you?",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5806,
+          "title": "[International] More International",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8771,
+          "title": "[International] More International",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8769,
+          "title": "Kiểm tra nhanh: Hội thoại 61–69",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Bài 70–72",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5807,
+          "title": "Meg has to move",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8772,
+          "title": "Meg has to move",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5808,
+          "title": "[Nepal] by Region",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8773,
+          "title": "[Nepal] by Region",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5809,
+          "title": "[Nepal] Travel Tips",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8774,
+          "title": "[Nepal] Travel Tips",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Bài 73–75",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5861,
+          "title": "[Body] Idioms - Part 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8779,
+          "title": "[Body] Idioms - Part 1",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5862,
+          "title": "[Body] Idioms - Part 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8780,
+          "title": "[Body] Idioms - Part 2",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5863,
+          "title": "[House] Pack Rat",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8781,
+          "title": "[House] Pack Rat",
+          "est_minutes": 2,
+          "card_count": 5
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "title": "Bài 76–78",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5865,
+          "title": "[Likes] Love it / Hate it",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8782,
+          "title": "[Likes] Love it / Hate it",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5866,
+          "title": "Movie Take",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8783,
+          "title": "Movie Take",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5867,
+          "title": "[Food] Burger Barn",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8784,
+          "title": "[Food] Burger Barn",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8782,
+          "title": "Kiểm tra nhanh: Hội thoại 70–78",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "title": "The Right Age · [Eating] Healthy · [Economy] Bitcoin",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5869,
+          "title": "The Right Age",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8785,
+          "title": "The Right Age",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5870,
+          "title": "[Eating] Healthy",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8786,
+          "title": "[Eating] Healthy",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5871,
+          "title": "[Economy] Bitcoin",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8787,
+          "title": "[Economy] Bitcoin",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "title": "Bài 82–84",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5923,
+          "title": "Phone Manner Mode",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8810,
+          "title": "Phone Manner Mode",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5924,
+          "title": "[Bangkok] Shopping",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8811,
+          "title": "[Bangkok] Shopping",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5925,
+          "title": "[Bangkok] Transportation - Part 2",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8812,
+          "title": "[Bangkok] Transportation - Part 2",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "title": "Bài 85–87",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5928,
+          "title": "[Bangkok] Transportation - Part 1",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8815,
+          "title": "[Bangkok] Transportation - Part 1",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5933,
+          "title": "Island Stress",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8820,
+          "title": "Island Stress",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5935,
+          "title": "[Life] Thai Island Life",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8822,
+          "title": "[Life] Thai Island Life",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 8815,
+          "title": "Kiểm tra nhanh: Hội thoại 79–87",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "title": "Bài 88–90",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5952,
+          "title": "[City] City to City",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8831,
+          "title": "[City] City to City",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5955,
+          "title": "Onsens",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8832,
+          "title": "Onsens",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 5958,
+          "title": "[Weather] Change Climage Change",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 8833,
+          "title": "[Weather] Change Climage Change",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "title": "Bài 91–93",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5960,
+          "title": "[Life] in Portugal",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8834,
+          "title": "[Life] in Portugal",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7401,
+          "title": "[SEA Travels] Thailand and Laos",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9406,
+          "title": "[SEA Travels] Thailand and Laos",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 7402,
+          "title": "His do-over",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9407,
+          "title": "His do-over",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "title": "Bài 94–96",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 7403,
+          "title": "Her Do-over",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9408,
+          "title": "Her Do-over",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 7404,
+          "title": "[Economy] Saving Money",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9409,
+          "title": "[Economy] Saving Money",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 7405,
+          "title": "[SEA Travels] Vietnam and Myanmar",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9410,
+          "title": "[SEA Travels] Vietnam and Myanmar",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 9408,
+          "title": "Kiểm tra nhanh: Hội thoại 88–96",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "ed1-1",
+      "order": 1,
+      "title": "Hội thoại 1–12",
+      "icon": "book.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "items": [
+        "lesson:5299",
+        "deck:8624",
+        "lesson:5300",
+        "deck:8625",
+        "lesson:5301",
+        "deck:8626",
+        "lesson:5302",
+        "deck:8627",
+        "lesson:5303",
+        "deck:8628",
+        "lesson:5304",
+        "deck:8629",
+        "lesson:5305",
+        "deck:8630",
+        "lesson:5306",
+        "deck:8631",
+        "lesson:5307",
+        "deck:8632",
+        "lesson:5309",
+        "deck:8634",
+        "lesson:5310",
+        "deck:8635",
+        "lesson:5311",
+        "deck:8636",
+        "test:8635"
+      ]
+    },
+    {
+      "id": "ed1-2",
+      "order": 2,
+      "title": "Hội thoại 13–24",
+      "icon": "text.bubble.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "items": [
+        "lesson:5312",
+        "deck:8637",
+        "lesson:5319",
+        "deck:8638",
+        "lesson:5328",
+        "deck:8639",
+        "lesson:5329",
+        "deck:8640",
+        "lesson:5330",
+        "deck:8641",
+        "lesson:5331",
+        "deck:8642",
+        "lesson:5332",
+        "deck:8643",
+        "lesson:5333",
+        "deck:8644",
+        "lesson:5335",
+        "deck:8646",
+        "lesson:5336",
+        "deck:8647",
+        "lesson:5337",
+        "deck:8648",
+        "lesson:5338",
+        "deck:8649",
+        "test:8647"
+      ]
+    },
+    {
+      "id": "ed1-3",
+      "order": 3,
+      "title": "Hội thoại 25–33",
+      "icon": "person.2.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        9,
+        10,
+        11
+      ],
+      "items": [
+        "lesson:5339",
+        "deck:8650",
+        "lesson:5340",
+        "deck:8651",
+        "lesson:5341",
+        "deck:8652",
+        "lesson:5523",
+        "deck:8688",
+        "lesson:5535",
+        "deck:8689",
+        "lesson:5536",
+        "deck:8690",
+        "lesson:5538",
+        "deck:8691",
+        "lesson:5540",
+        "deck:8692",
+        "lesson:5549",
+        "deck:8693",
+        "test:8693"
+      ]
+    },
+    {
+      "id": "ed1-4",
+      "order": 4,
+      "title": "Hội thoại 34–42",
+      "icon": "clock.fill",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        12,
+        13,
+        14
+      ],
+      "items": [
+        "lesson:5550",
+        "deck:8694",
+        "lesson:5551",
+        "deck:8695",
+        "lesson:5553",
+        "deck:8696",
+        "lesson:5554",
+        "deck:8697",
+        "lesson:5555",
+        "deck:8698",
+        "lesson:5568",
+        "deck:8700",
+        "lesson:5570",
+        "deck:8701",
+        "lesson:5575",
+        "deck:8703",
+        "lesson:5576",
+        "deck:8704",
+        "test:8703"
+      ]
+    },
+    {
+      "id": "ed1-5",
+      "order": 5,
+      "title": "Hội thoại 43–51",
+      "icon": "house.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        15,
+        16,
+        17
+      ],
+      "items": [
+        "lesson:5577",
+        "deck:8705",
+        "lesson:5579",
+        "deck:8706",
+        "lesson:5581",
+        "deck:8707",
+        "lesson:5582",
+        "deck:8708",
+        "lesson:5583",
+        "deck:8709",
+        "lesson:5584",
+        "deck:8710",
+        "lesson:5598",
+        "deck:8714",
+        "lesson:5599",
+        "deck:8715",
+        "lesson:5601",
+        "deck:8717",
+        "test:8717"
+      ]
+    },
+    {
+      "id": "ed1-6",
+      "order": 6,
+      "title": "Hội thoại 52–60",
+      "icon": "fork.knife",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        18,
+        19,
+        20
+      ],
+      "items": [
+        "lesson:5688",
+        "deck:8731",
+        "lesson:5689",
+        "deck:8732",
+        "lesson:5691",
+        "deck:8733",
+        "lesson:5709",
+        "deck:8736",
+        "lesson:5710",
+        "deck:8737",
+        "lesson:5711",
+        "deck:8738",
+        "lesson:5712",
+        "deck:8739",
+        "lesson:5714",
+        "deck:8740",
+        "lesson:5715",
+        "deck:8741",
+        "test:8739"
+      ]
+    },
+    {
+      "id": "ed1-7",
+      "order": 7,
+      "title": "Hội thoại 61–69",
+      "icon": "cart.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        21,
+        22,
+        23
+      ],
+      "items": [
+        "lesson:5763",
+        "deck:8752",
+        "lesson:5764",
+        "deck:8753",
+        "lesson:5765",
+        "deck:8754",
+        "lesson:5766",
+        "deck:8755",
+        "lesson:5767",
+        "deck:8756",
+        "lesson:5768",
+        "deck:8757",
+        "lesson:5804",
+        "deck:8769",
+        "lesson:5805",
+        "deck:8770",
+        "lesson:5806",
+        "deck:8771",
+        "test:8769"
+      ]
+    },
+    {
+      "id": "ed1-8",
+      "order": 8,
+      "title": "Hội thoại 70–78",
+      "icon": "airplane",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        24,
+        25,
+        26
+      ],
+      "items": [
+        "lesson:5807",
+        "deck:8772",
+        "lesson:5808",
+        "deck:8773",
+        "lesson:5809",
+        "deck:8774",
+        "lesson:5861",
+        "deck:8779",
+        "lesson:5862",
+        "deck:8780",
+        "lesson:5863",
+        "deck:8781",
+        "lesson:5865",
+        "deck:8782",
+        "lesson:5866",
+        "deck:8783",
+        "lesson:5867",
+        "deck:8784",
+        "test:8782"
+      ]
+    },
+    {
+      "id": "ed1-9",
+      "order": 9,
+      "title": "Hội thoại 79–87",
+      "icon": "heart.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        27,
+        28,
+        29
+      ],
+      "items": [
+        "lesson:5869",
+        "deck:8785",
+        "lesson:5870",
+        "deck:8786",
+        "lesson:5871",
+        "deck:8787",
+        "lesson:5923",
+        "deck:8810",
+        "lesson:5924",
+        "deck:8811",
+        "lesson:5925",
+        "deck:8812",
+        "lesson:5928",
+        "deck:8815",
+        "lesson:5933",
+        "deck:8820",
+        "lesson:5935",
+        "deck:8822",
+        "test:8815"
+      ]
+    },
+    {
+      "id": "ed1-10",
+      "order": 10,
+      "title": "Hội thoại 88–96",
+      "icon": "leaf.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        30,
+        31,
+        32
+      ],
+      "items": [
+        "lesson:5952",
+        "deck:8831",
+        "lesson:5955",
+        "deck:8832",
+        "lesson:5958",
+        "deck:8833",
+        "lesson:5960",
+        "deck:8834",
+        "lesson:7401",
+        "deck:9406",
+        "lesson:7402",
+        "deck:9407",
+        "lesson:7403",
+        "deck:9408",
+        "lesson:7404",
+        "deck:9409",
+        "lesson:7405",
+        "deck:9410",
+        "test:9408"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+{
+  "id": "chinese-hsk3-1",
+  "title": "Tiếng Trung HSK 3",
+  "subtitle": "Lộ trình 20 ngày",
+  "thumbnail": null,
+  "field_id": 32618,
+  "level": "Trung cấp",
+  "language": "zh",
+  "icon_text": "中",
+  "icon_color": "#D7262D",
+  "days": [
+    {
+      "day": 1,
+      "title": "Bài 1: 我们去机场接你们 (1)",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55330,
+          "title": "Bài 1: 我们去机场接你们 - Tôi đến sân bay đón các bạn",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27531,
+          "title": "Bài 1: 我们去机场接你们 - Từ vựng (1)",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 27532,
+          "title": "Bài 1: 我们去机场接你们 - Từ vựng (2)",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 27533,
+          "title": "Bài 1: 我们去机场接你们 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Bài 1: 我们去机场接你们 (2)",
+      "est_minutes": 10,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 27534,
+          "title": "Bài 1: 我们去机场接你们 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27535,
+          "title": "Bài 1: 我们去机场接你们 - Ngữ pháp",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27534,
+          "title": "Kiểm tra nhanh: Bài 1: 我们去机场接你们",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Bài 2: 你们想吃什么就点什么 (1)",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55331,
+          "title": "Bài 2: 你们想吃什么就点什么 - Bạn muốn ăn gì thì cứ gọi",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26811,
+          "title": "Bài 2: 你们想吃什么就点什么 - Từ vựng ( 1 )",
+          "est_minutes": 8,
+          "card_count": 32
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 26812,
+          "title": "Bài 2: 你们想吃什么就点什么 - Từ vựng ( 2 )",
+          "est_minutes": 8,
+          "card_count": 32
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 26813,
+          "title": "Bài 2: 你们想吃什么就点什么 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Bài 2: 你们想吃什么就点什么 (2)",
+      "est_minutes": 10,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 26814,
+          "title": "Bài 2: 你们想吃什么就点什么 - Ngữ pháp",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26815,
+          "title": "Bài 2: 你们想吃什么就点什么 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 26815,
+          "title": "Kiểm tra nhanh: Bài 2: 你们想吃什么就点什么",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Bài 3: 这个小区挺好的 (1)",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55343,
+          "title": "Bài 3: 这个小区挺好的 - Khu dân cư này khá tốt",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26843,
+          "title": "Bài 3: 这个小区挺好的 - Từ vựng ( 1 )",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 26844,
+          "title": "Bài 3: 这个小区挺好的 - Từ vựng ( 2 )",
+          "est_minutes": 6,
+          "card_count": 26
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 26845,
+          "title": "Bài 3: 这个小区挺好的 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Bài 3: 这个小区挺好的 (2)",
+      "est_minutes": 10,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 26846,
+          "title": "Bài 3: 这个小区挺好的 - Ngữ pháp",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26847,
+          "title": "Bài 3: 这个小区挺好的 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 26847,
+          "title": "Kiểm tra nhanh: Bài 3: 这个小区挺好的",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Bài 4: 这家宾馆跟别的都不一样 (1)",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55356,
+          "title": "Bài 4: 这家宾馆跟别的都不一样 - Nhà hàng này không giống với những chỗ khác",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26898,
+          "title": "Bài 4: 这家宾馆跟别的都不一样 - Từ vựng ( 1 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 26899,
+          "title": "Bài 4: 这家宾馆跟别的都不一样 - Từ vựng ( 2 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 26900,
+          "title": "Bài 4: 这家宾馆跟别的都不一样 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Bài 4: 这家宾馆跟别的都不一样 (2)",
+      "est_minutes": 10,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 26901,
+          "title": "Bài 4: 这家宾馆跟别的都不一样 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26902,
+          "title": "Bài 4: 这家宾馆跟别的都不一样 - Ngữ pháp",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 26901,
+          "title": "Kiểm tra nhanh: Bài 4: 这家宾馆跟别的都不一样",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Bài 5: 这样的照片才好看 (1)",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55357,
+          "title": "Bài 5: 这样的照片才好看 - Ảnh như thế này mới đẹp",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26905,
+          "title": "Bài 5: 这样的照片才好看 - Từ vựng ( 1 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 26906,
+          "title": "Bài 5: 这样的照片才好看 - Từ vựng ( 2 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 26907,
+          "title": "Bài 5: 这样的照片才好看 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Bài 5: 这样的照片才好看 (2)",
+      "est_minutes": 11,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 26908,
+          "title": "Bài 5: 这样的照片才好看 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26909,
+          "title": "Bài 5: 这样的照片才好看 - Ngữ pháp",
+          "est_minutes": 4,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 26909,
+          "title": "Kiểm tra nhanh: Bài 5: 这样的照片才好看",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Bài 6: 高铁上还可以点外卖 (1)",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55363,
+          "title": "Bài 6: 高铁上还可以点外卖 - Trên tàu cao có thể gọi đồ ăn",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26938,
+          "title": "Bài 6: 高铁上还可以点外卖 - Từ vựng ( 1 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 26939,
+          "title": "Bài 6: 高铁上还可以点外卖 - Từ vựng ( 2 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 26940,
+          "title": "Bài 6: 高铁上还可以点外卖 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Bài 6: 高铁上还可以点外卖 (2)",
+      "est_minutes": 10,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 26941,
+          "title": "Bài 6: 高铁上还可以点外卖 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 26942,
+          "title": "Bài 6: 高铁上还可以点外卖 - Ngữ pháp",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 26941,
+          "title": "Kiểm tra nhanh: Bài 6: 高铁上还可以点外卖",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Bài 7: 那条裙子比短裤更好看 (1)",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55467,
+          "title": "Bài 7: 那条裙子比短裤更好看 - Chiếc váy đó đẹp hơn chiếc quần ngắn",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27327,
+          "title": "Bài 7: 那条裙子比短裤更好看 - Từ vựng ( 1 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 27328,
+          "title": "Bài 7: 那条裙子比短裤更好看 - Từ vựng ( 2 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 27329,
+          "title": "Bài 7: 那条裙子比短裤更好看 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Bài 7: 那条裙子比短裤更好看 (2)",
+      "est_minutes": 10,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 27330,
+          "title": "Bài 7: 那条裙子比短裤更好看 - Ngữ pháp",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27331,
+          "title": "Bài 7: 那条裙子比短裤更好看 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27330,
+          "title": "Kiểm tra nhanh: Bài 7: 那条裙子比短裤更好看",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Bài 8: 今天我出院了 (1)",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55478,
+          "title": "Bài 8: 今天我出院了 - Hôm nay tôi xuất viện rồi",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27376,
+          "title": "Bài 8: 今天我出院了 - Từ vựng ( 1 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 27377,
+          "title": "Bài 8: 今天我出院了 - Từ vựng ( 2 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 27378,
+          "title": "Bài 8: 今天我出院了 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Bài 8: 今天我出院了 (2)",
+      "est_minutes": 11,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 27379,
+          "title": "Bài 8: 今天我出院了 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27380,
+          "title": "Bài 8: 今天我出院了 - Ngữ pháp",
+          "est_minutes": 4,
+          "card_count": 14
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27380,
+          "title": "Kiểm tra nhanh: Bài 8: 今天我出院了",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Bài 9: 打不好没关系 (1)",
+      "est_minutes": 23,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55479,
+          "title": "Bài 9: 打不好没关系 - Chơi không tốt cũng không sao",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27382,
+          "title": "Bài 9: 打不好没关系 - Từ vựng ( 1 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 27383,
+          "title": "Bài 9: 打不好没关系 - Từ vựng ( 2 )",
+          "est_minutes": 7,
+          "card_count": 27
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 27384,
+          "title": "Bài 9: 打不好没关系 - Nghe",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Bài 9: 打不好没关系 (2)",
+      "est_minutes": 10,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 27385,
+          "title": "Bài 9: 打不好没关系 - Đọc",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 27386,
+          "title": "Bài 9: 打不好没关系 - Ngữ pháp",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 27385,
+          "title": "Kiểm tra nhanh: Bài 9: 打不好没关系",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Bài 10: 你明天再把书还给我 (1)",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 55626,
+          "title": "Bài 10: 你明天再把书还给我 - Ngày mai bạn hãy trả sách cho tôi",
+          "est_minutes": 7
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 28010,
+          "title": "Bài 10: 你明天再把书还给我 - Từ vựng ( 1 )",
+          "est_minutes": 7,
+          "card_count": 28
+        },
+        {
+          "order": 3,
+          "type": "deck",
+          "ref_id": 28011,
+          "title": "Bài 10: 你明天再把书还给我 - Từ vựng ( 2 )",
+          "est_minutes": 7,
+          "card_count": 28
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 28012,
+          "title": "Bài 10: 你明天再把书还给我 - Nghe",
+          "est_minutes": 3,
+          "card_count": 12
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Bài 10: 你明天再把书还给我 (2)",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "deck",
+          "ref_id": 28013,
+          "title": "Bài 10: 你明天再把书还给我 - Đọc",
+          "est_minutes": 5,
+          "card_count": 21
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 28014,
+          "title": "Bài 10: 你明天再把书还给我 - Ngữ pháp",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 28013,
+          "title": "Kiểm tra nhanh: Bài 10: 你明天再把书还给我",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "zh3-1",
+      "order": 1,
+      "title": "Bài 1: 我们去机场接你们",
+      "icon": "waveform",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        1,
+        2
+      ],
+      "items": [
+        "lesson:55330",
+        "deck:27531",
+        "deck:27532",
+        "deck:27533",
+        "deck:27534",
+        "deck:27535",
+        "test:27534"
+      ]
+    },
+    {
+      "id": "zh3-2",
+      "order": 2,
+      "title": "Bài 2: 你们想吃什么就点什么",
+      "icon": "text.bubble.fill",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        3,
+        4
+      ],
+      "items": [
+        "lesson:55331",
+        "deck:26811",
+        "deck:26812",
+        "deck:26813",
+        "deck:26814",
+        "deck:26815",
+        "test:26815"
+      ]
+    },
+    {
+      "id": "zh3-3",
+      "order": 3,
+      "title": "Bài 3: 这个小区挺好的",
+      "icon": "person.2.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        5,
+        6
+      ],
+      "items": [
+        "lesson:55343",
+        "deck:26843",
+        "deck:26844",
+        "deck:26845",
+        "deck:26846",
+        "deck:26847",
+        "test:26847"
+      ]
+    },
+    {
+      "id": "zh3-4",
+      "order": 4,
+      "title": "Bài 4: 这家宾馆跟别的都不一样",
+      "icon": "clock.fill",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        7,
+        8
+      ],
+      "items": [
+        "lesson:55356",
+        "deck:26898",
+        "deck:26899",
+        "deck:26900",
+        "deck:26901",
+        "deck:26902",
+        "test:26901"
+      ]
+    },
+    {
+      "id": "zh3-5",
+      "order": 5,
+      "title": "Bài 5: 这样的照片才好看",
+      "icon": "house.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        9,
+        10
+      ],
+      "items": [
+        "lesson:55357",
+        "deck:26905",
+        "deck:26906",
+        "deck:26907",
+        "deck:26908",
+        "deck:26909",
+        "test:26909"
+      ]
+    },
+    {
+      "id": "zh3-6",
+      "order": 6,
+      "title": "Bài 6: 高铁上还可以点外卖",
+      "icon": "fork.knife",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        11,
+        12
+      ],
+      "items": [
+        "lesson:55363",
+        "deck:26938",
+        "deck:26939",
+        "deck:26940",
+        "deck:26941",
+        "deck:26942",
+        "test:26941"
+      ]
+    },
+    {
+      "id": "zh3-7",
+      "order": 7,
+      "title": "Bài 7: 那条裙子比短裤更好看",
+      "icon": "cart.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        13,
+        14
+      ],
+      "items": [
+        "lesson:55467",
+        "deck:27327",
+        "deck:27328",
+        "deck:27329",
+        "deck:27330",
+        "deck:27331",
+        "test:27330"
+      ]
+    },
+    {
+      "id": "zh3-8",
+      "order": 8,
+      "title": "Bài 8: 今天我出院了",
+      "icon": "airplane",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        15,
+        16
+      ],
+      "items": [
+        "lesson:55478",
+        "deck:27376",
+        "deck:27377",
+        "deck:27378",
+        "deck:27379",
+        "deck:27380",
+        "test:27380"
+      ]
+    },
+    {
+      "id": "zh3-9",
+      "order": 9,
+      "title": "Bài 9: 打不好没关系",
+      "icon": "heart.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        17,
+        18
+      ],
+      "items": [
+        "lesson:55479",
+        "deck:27382",
+        "deck:27383",
+        "deck:27384",
+        "deck:27385",
+        "deck:27386",
+        "test:27385"
+      ]
+    },
+    {
+      "id": "zh3-10",
+      "order": 10,
+      "title": "Bài 10: 你明天再把书还给我",
+      "icon": "leaf.fill",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        19,
+        20
+      ],
+      "items": [
+        "lesson:55626",
+        "deck:28010",
+        "deck:28011",
+        "deck:28012",
+        "deck:28013",
+        "deck:28014",
+        "test:28013"
+      ]
+    }
+  ]
+}

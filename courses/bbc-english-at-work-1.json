@@ -1,0 +1,889 @@
+{
+  "id": "bbc-english-at-work-1",
+  "title": "BBC English at Work",
+  "subtitle": "Lộ trình 17 ngày",
+  "thumbnail": null,
+  "field_id": 5107,
+  "level": "Trung cấp",
+  "language": "en",
+  "icon_text": "BW",
+  "icon_color": "#F59E0B",
+  "days": [
+    {
+      "day": 1,
+      "title": "Tập 1–2",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30153,
+          "title": "[Episode 1] The Interview",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9595,
+          "title": "[Episode 1] The Interview",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30154,
+          "title": "[Episode 2] The Interruption",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9596,
+          "title": "[Episode 2] The Interruption",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Tập 3–4",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30155,
+          "title": "[Episode 3] Making suggestions",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9597,
+          "title": "[Episode 3] Making suggestions",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30156,
+          "title": "[Episode 4] Doing lunch - Introducing yourself",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9598,
+          "title": "[Episode 4] Doing lunch - Introducing yourself",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Tập 5–6",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30172,
+          "title": "[Episode 5] Polite requests",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9599,
+          "title": "[Episode 5] Polite requests",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30173,
+          "title": "[Episode 6] Offering to help",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9600,
+          "title": "[Episode 6] Offering to help",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9599,
+          "title": "Kiểm tra nhanh: Tập 1–6",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "[Episode 7] Apologising · [Episode 8] Giving praise",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30174,
+          "title": "[Episode 7] Apologising",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9601,
+          "title": "[Episode 7] Apologising",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30175,
+          "title": "[Episode 8] Giving praise",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9602,
+          "title": "[Episode 8] Giving praise",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Tập 9–10",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30176,
+          "title": "[Episode 9] Checking information",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9603,
+          "title": "[Episode 9] Checking information",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30180,
+          "title": "[Episode 10] The brainstorm",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9605,
+          "title": "[Episode 10] The brainstorm",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9603,
+          "title": "Kiểm tra nhanh: Tập 7–10",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "[Episode 11] Overtime · [Episode 12] The big day",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30181,
+          "title": "[Episode 11] Overtime",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9606,
+          "title": "[Episode 11] Overtime",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30187,
+          "title": "[Episode 12] The big day",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9610,
+          "title": "[Episode 12] The big day",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Tập 13–14",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30188,
+          "title": "[Episode 13] The Imperial Lemon",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9611,
+          "title": "[Episode 13] The Imperial Lemon",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30189,
+          "title": "[Episode 14] Telephone tell-tale",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9612,
+          "title": "[Episode 14] Telephone tell-tale",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9611,
+          "title": "Kiểm tra nhanh: Tập 11–14",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "[Episode 15] Seb Lime · [Episode 16] Slimy Limey!",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30190,
+          "title": "[Episode 15] Seb Lime",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9613,
+          "title": "[Episode 15] Seb Lime",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30191,
+          "title": "[Episode 16] Slimy Limey!",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9614,
+          "title": "[Episode 16] Slimy Limey!",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Tập 17–18",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30192,
+          "title": "[Episode 17] Lemon-sized luxury boxes",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9615,
+          "title": "[Episode 17] Lemon-sized luxury boxes",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30193,
+          "title": "[Episode 18] The email",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9616,
+          "title": "[Episode 18] The email",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9615,
+          "title": "Kiểm tra nhanh: Tập 15–18",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Tập 19–20",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30194,
+          "title": "[Episode 19] The open window",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9617,
+          "title": "[Episode 19] The open window",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30677,
+          "title": "[Episode 20] The Team Meeting",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9805,
+          "title": "[Episode 20] The Team Meeting",
+          "est_minutes": 2,
+          "card_count": 4
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "[Episode 21] Don’t panic! · [Episode 22] The smoker",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30678,
+          "title": "[Episode 21] Don’t panic!",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9806,
+          "title": "[Episode 21] Don’t panic!",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30679,
+          "title": "[Episode 22] The smoker",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9807,
+          "title": "[Episode 22] The smoker",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9806,
+          "title": "Kiểm tra nhanh: Tập 19–22",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Tập 23–24",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30680,
+          "title": "[Episode 23] Risky business",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9808,
+          "title": "[Episode 23] Risky business",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30681,
+          "title": "[Episode 24] No smoke without fire",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9809,
+          "title": "[Episode 24] No smoke without fire",
+          "est_minutes": 2,
+          "card_count": 4
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Tập 25–26",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30692,
+          "title": "[Episode 25] The big cheese",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9813,
+          "title": "[Episode 25] The big cheese",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30727,
+          "title": "[Episode 26] You cannot be serious!",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9829,
+          "title": "[Episode 26] You cannot be serious!",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9813,
+          "title": "Kiểm tra nhanh: Tập 23–26",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Tập 27–28",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30728,
+          "title": "[Episode 27] Getting down to business",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9830,
+          "title": "[Episode 27] Getting down to business",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30729,
+          "title": "[Episode 28] Home truths",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9831,
+          "title": "[Episode 28] Home truths",
+          "est_minutes": 2,
+          "card_count": 4
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Tập 29–30",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30730,
+          "title": "[Episode 29] Putting the feelers out",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9832,
+          "title": "[Episode 29] Putting the feelers out",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30731,
+          "title": "[Episode 30] Two heads are better than one",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9833,
+          "title": "[Episode 30] Two heads are better than one",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9832,
+          "title": "Kiểm tra nhanh: Tập 27–30",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Tập 31–32",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30732,
+          "title": "[Episode 31] Sign on the dotted line",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9834,
+          "title": "[Episode 31] Sign on the dotted line",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30733,
+          "title": "[Episode 32] The deal is off!",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9835,
+          "title": "[Episode 32] The deal is off!",
+          "est_minutes": 2,
+          "card_count": 4
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Tập 33–34",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31090,
+          "title": "[Episode 33] Prepare for take off",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9916,
+          "title": "[Episode 33] Prepare for take off",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31107,
+          "title": "[Episode 35] Lost in France",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9921,
+          "title": "[Episode 35] Lost in France",
+          "est_minutes": 2,
+          "card_count": 4
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 9916,
+          "title": "Kiểm tra nhanh: Tập 31–34",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "bw1-1",
+      "order": 1,
+      "title": "Tập 1–6",
+      "icon": "book.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        1,
+        2,
+        3
+      ],
+      "items": [
+        "lesson:30153",
+        "deck:9595",
+        "lesson:30154",
+        "deck:9596",
+        "lesson:30155",
+        "deck:9597",
+        "lesson:30156",
+        "deck:9598",
+        "lesson:30172",
+        "deck:9599",
+        "lesson:30173",
+        "deck:9600",
+        "test:9599"
+      ]
+    },
+    {
+      "id": "bw1-2",
+      "order": 2,
+      "title": "Tập 7–10",
+      "icon": "text.bubble.fill",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        4,
+        5
+      ],
+      "items": [
+        "lesson:30174",
+        "deck:9601",
+        "lesson:30175",
+        "deck:9602",
+        "lesson:30176",
+        "deck:9603",
+        "lesson:30180",
+        "deck:9605",
+        "test:9603"
+      ]
+    },
+    {
+      "id": "bw1-3",
+      "order": 3,
+      "title": "Tập 11–14",
+      "icon": "person.2.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        6,
+        7
+      ],
+      "items": [
+        "lesson:30181",
+        "deck:9606",
+        "lesson:30187",
+        "deck:9610",
+        "lesson:30188",
+        "deck:9611",
+        "lesson:30189",
+        "deck:9612",
+        "test:9611"
+      ]
+    },
+    {
+      "id": "bw1-4",
+      "order": 4,
+      "title": "Tập 15–18",
+      "icon": "clock.fill",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        8,
+        9
+      ],
+      "items": [
+        "lesson:30190",
+        "deck:9613",
+        "lesson:30191",
+        "deck:9614",
+        "lesson:30192",
+        "deck:9615",
+        "lesson:30193",
+        "deck:9616",
+        "test:9615"
+      ]
+    },
+    {
+      "id": "bw1-5",
+      "order": 5,
+      "title": "Tập 19–22",
+      "icon": "house.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        10,
+        11
+      ],
+      "items": [
+        "lesson:30194",
+        "deck:9617",
+        "lesson:30677",
+        "deck:9805",
+        "lesson:30678",
+        "deck:9806",
+        "lesson:30679",
+        "deck:9807",
+        "test:9806"
+      ]
+    },
+    {
+      "id": "bw1-6",
+      "order": 6,
+      "title": "Tập 23–26",
+      "icon": "fork.knife",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        12,
+        13
+      ],
+      "items": [
+        "lesson:30680",
+        "deck:9808",
+        "lesson:30681",
+        "deck:9809",
+        "lesson:30692",
+        "deck:9813",
+        "lesson:30727",
+        "deck:9829",
+        "test:9813"
+      ]
+    },
+    {
+      "id": "bw1-7",
+      "order": 7,
+      "title": "Tập 27–30",
+      "icon": "cart.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        14,
+        15
+      ],
+      "items": [
+        "lesson:30728",
+        "deck:9830",
+        "lesson:30729",
+        "deck:9831",
+        "lesson:30730",
+        "deck:9832",
+        "lesson:30731",
+        "deck:9833",
+        "test:9832"
+      ]
+    },
+    {
+      "id": "bw1-8",
+      "order": 8,
+      "title": "Tập 31–34",
+      "icon": "airplane",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        16,
+        17
+      ],
+      "items": [
+        "lesson:30732",
+        "deck:9834",
+        "lesson:30733",
+        "deck:9835",
+        "lesson:31090",
+        "deck:9916",
+        "lesson:31107",
+        "deck:9921",
+        "test:9916"
+      ]
+    }
+  ]
+}

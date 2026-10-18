@@ -1,0 +1,1166 @@
+{
+  "id": "ielts-reading-1",
+  "title": "IELTS Reading",
+  "subtitle": "Lộ trình 24 ngày",
+  "thumbnail": null,
+  "field_id": 5071,
+  "level": "Trung cấp",
+  "language": "en",
+  "icon_text": "IE",
+  "icon_color": "#E5484D",
+  "days": [
+    {
+      "day": 1,
+      "title": "Reading 1–2",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5347,
+          "title": "A life without mental images",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8656,
+          "title": "A life without mental images",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5348,
+          "title": "Britain needs strong TV industry",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8657,
+          "title": "Britain needs strong TV industry",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Reading 3–4",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5349,
+          "title": "Life lessons from villains, crooks and gangsters",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8658,
+          "title": "Life lessons from villains, crooks and gangsters",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5350,
+          "title": "IELTS Reading: Những bài reading siêu hay theo chủ đề: : As More Tech Start-Ups Stay Private, So Does the Money",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8659,
+          "title": "IELTS Reading: Những bài reading siêu hay theo chủ đề: : As More Tech Start-Ups Stay Private, So Does the Money",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Reading 5–6",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5351,
+          "title": "Sea monsters are the stuff of legend - lurking not just in the depths of the oceans, but also the darker corners of our minds. What is it that draws us to these creatures?",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8660,
+          "title": "Sea monsters are the stuff of legend - lurking not just in the depths of the oceans, but also the darker corners of our minds. What is it that draws us to these creatures?",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5353,
+          "title": "Mysterious Dark Matter May Not Always Have Been Dark",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8662,
+          "title": "Mysterious Dark Matter May Not Always Have Been Dark",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 8660,
+          "title": "Kiểm tra nhanh: Reading 1–6",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Reading 7–8",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5354,
+          "title": "Scientists Are Mapping the World's Largest Volcano",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8663,
+          "title": "Scientists Are Mapping the World's Largest Volcano",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5355,
+          "title": "Trash Talk",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8664,
+          "title": "Trash Talk",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Reading 9–10",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5356,
+          "title": "A new study finds that half of human cultures don't practice romantic lip-on-lip kissing. Animals don't tend to bother either. So how did it evolve?",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8665,
+          "title": "A new study finds that half of human cultures don't practice romantic lip-on-lip kissing. Animals don't tend to bother either. So how did it evolve?",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5357,
+          "title": "The potential to sniff out disease",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8666,
+          "title": "The potential to sniff out disease",
+          "est_minutes": 2,
+          "card_count": 7
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "The students’ problem · The science of sleep",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5358,
+          "title": "The students’ problem",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8667,
+          "title": "The students’ problem",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5359,
+          "title": "The science of sleep",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8668,
+          "title": "The science of sleep",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 8667,
+          "title": "Kiểm tra nhanh: Reading 7–12",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "NASA Discovers Star System With 8 Planets · Mummies",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5623,
+          "title": "NASA Discovers Star System With 8 Planets",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8720,
+          "title": "NASA Discovers Star System With 8 Planets",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5625,
+          "title": "Mummies",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8721,
+          "title": "Mummies",
+          "est_minutes": 2,
+          "card_count": 5
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Reading 15–16",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 5626,
+          "title": "Jeans – History and Popularity of Great Clothes",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8722,
+          "title": "Jeans – History and Popularity of Great Clothes",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 5627,
+          "title": "Thanksgiving",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8723,
+          "title": "Thanksgiving",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Reading 17–18",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6233,
+          "title": "The atom bomb was one of the defining inventions of the 20th Century. So how did science fiction writer HG Wells predict its invention three decades before the first detonations?",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8942,
+          "title": "The atom bomb was one of the defining inventions of the 20th Century. So how did science fiction writer HG Wells predict its invention three decades before the first detonations?",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6236,
+          "title": "CALISTHENICS: The world’s oldest form of resistance training",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8943,
+          "title": "CALISTHENICS: The world’s oldest form of resistance training",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 8942,
+          "title": "Kiểm tra nhanh: Reading 13–18",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Reading 19–20",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6237,
+          "title": "BENEFICIAL WORK PRACTICES FOR THE KEYBOARD OPERATOR",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8944,
+          "title": "BENEFICIAL WORK PRACTICES FOR THE KEYBOARD OPERATOR",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6238,
+          "title": "EMERGENCY PROCEDURES",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8945,
+          "title": "EMERGENCY PROCEDURES",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "What to do in a fire? · The Earth",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6239,
+          "title": "What to do in a fire?",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8946,
+          "title": "What to do in a fire?",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6240,
+          "title": "The Earth",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8947,
+          "title": "The Earth",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Reading 23–24",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6241,
+          "title": "The real risks of artificial intelligence",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8948,
+          "title": "The real risks of artificial intelligence",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6299,
+          "title": "The animal that regrows its head",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8971,
+          "title": "The animal that regrows its head",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 8948,
+          "title": "Kiểm tra nhanh: Reading 19–24",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Reading 25–26",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6300,
+          "title": "Toddlers Bond With Robot",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8972,
+          "title": "Toddlers Bond With Robot",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6301,
+          "title": "How I was floored by a tick",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8973,
+          "title": "How I was floored by a tick",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Reading 27–28",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6302,
+          "title": "We French do love to demonstrate",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8974,
+          "title": "We French do love to demonstrate",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6303,
+          "title": "Cognitive dissonance",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8975,
+          "title": "Cognitive dissonance",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Reading 29–30",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6312,
+          "title": "Museum of Lost Objects: The Lion of al-Lat",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8982,
+          "title": "Museum of Lost Objects: The Lion of al-Lat",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6313,
+          "title": "The Truth About ART",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8983,
+          "title": "The Truth About ART",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 8982,
+          "title": "Kiểm tra nhanh: Reading 25–30",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Reading 31–32",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6314,
+          "title": "The battle over the gender price gap",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8984,
+          "title": "The battle over the gender price gap",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6315,
+          "title": "How bacteria invented gene editing",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8985,
+          "title": "How bacteria invented gene editing",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Reading 33–34",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6316,
+          "title": "Why are Americans so angry?",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8986,
+          "title": "Why are Americans so angry?",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6317,
+          "title": "Do e-cigarettes make it harder to stop smoking?",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8987,
+          "title": "Do e-cigarettes make it harder to stop smoking?",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Penguins' anti-ice trick revealed · The dingo debate",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6319,
+          "title": "Penguins' anti-ice trick revealed",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8988,
+          "title": "Penguins' anti-ice trick revealed",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6320,
+          "title": "The dingo debate",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8989,
+          "title": "The dingo debate",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 8988,
+          "title": "Kiểm tra nhanh: Reading 31–36",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Pacific navigation and voyaging · Yawning",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6321,
+          "title": "Pacific navigation and voyaging",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8990,
+          "title": "Pacific navigation and voyaging",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6322,
+          "title": "Yawning",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8991,
+          "title": "Yawning",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Reading 39–40",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6323,
+          "title": "Australian parrots and their adaptation to habitat change",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8992,
+          "title": "Australian parrots and their adaptation to habitat change",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6324,
+          "title": "The Ecological Importance of Bees",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8993,
+          "title": "The Ecological Importance of Bees",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Reading 41–42",
+      "est_minutes": 24,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6325,
+          "title": "A new stage in the study and teaching of history",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8994,
+          "title": "A new stage in the study and teaching of history",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6326,
+          "title": "Fear of the Unknown",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8995,
+          "title": "Fear of the Unknown",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "test",
+          "ref_id": 8994,
+          "title": "Kiểm tra nhanh: Reading 37–42",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Fishbourne Roman Palace · Insect decision-making",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6327,
+          "title": "Fishbourne Roman Palace",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8996,
+          "title": "Fishbourne Roman Palace",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6328,
+          "title": "Insect decision-making",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8997,
+          "title": "Insect decision-making",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Reading 45–46",
+      "est_minutes": 20,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6329,
+          "title": "Science and the Stradivarius: Uncovering the secret of quality",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 8998,
+          "title": "Science and the Stradivarius: Uncovering the secret of quality",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 6330,
+          "title": "When people are deaf’ to music",
+          "est_minutes": 8
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 8999,
+          "title": "When people are deaf’ to music",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "title": "How to find your way out of a food desert",
+      "est_minutes": 14,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 6331,
+          "title": "How to find your way out of a food desert",
+          "est_minutes": 8
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9000,
+          "title": "How to find your way out of a food desert",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 9000,
+          "title": "Kiểm tra nhanh: Reading 43–47",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "ir1-1",
+      "order": 1,
+      "title": "Reading 1–6",
+      "icon": "leaf.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        1,
+        2,
+        3
+      ],
+      "items": [
+        "lesson:5347",
+        "deck:8656",
+        "lesson:5348",
+        "deck:8657",
+        "lesson:5349",
+        "deck:8658",
+        "lesson:5350",
+        "deck:8659",
+        "lesson:5351",
+        "deck:8660",
+        "lesson:5353",
+        "deck:8662",
+        "test:8660"
+      ]
+    },
+    {
+      "id": "ir1-2",
+      "order": 2,
+      "title": "Reading 7–12",
+      "icon": "gamecontroller.fill",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        4,
+        5,
+        6
+      ],
+      "items": [
+        "lesson:5354",
+        "deck:8663",
+        "lesson:5355",
+        "deck:8664",
+        "lesson:5356",
+        "deck:8665",
+        "lesson:5357",
+        "deck:8666",
+        "lesson:5358",
+        "deck:8667",
+        "lesson:5359",
+        "deck:8668",
+        "test:8667"
+      ]
+    },
+    {
+      "id": "ir1-3",
+      "order": 3,
+      "title": "Reading 13–18",
+      "icon": "car.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        7,
+        8,
+        9
+      ],
+      "items": [
+        "lesson:5623",
+        "deck:8720",
+        "lesson:5625",
+        "deck:8721",
+        "lesson:5626",
+        "deck:8722",
+        "lesson:5627",
+        "deck:8723",
+        "lesson:6233",
+        "deck:8942",
+        "lesson:6236",
+        "deck:8943",
+        "test:8942"
+      ]
+    },
+    {
+      "id": "ir1-4",
+      "order": 4,
+      "title": "Reading 19–24",
+      "icon": "building.columns.fill",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        10,
+        11,
+        12
+      ],
+      "items": [
+        "lesson:6237",
+        "deck:8944",
+        "lesson:6238",
+        "deck:8945",
+        "lesson:6239",
+        "deck:8946",
+        "lesson:6240",
+        "deck:8947",
+        "lesson:6241",
+        "deck:8948",
+        "lesson:6299",
+        "deck:8971",
+        "test:8948"
+      ]
+    },
+    {
+      "id": "ir1-5",
+      "order": 5,
+      "title": "Reading 25–30",
+      "icon": "cross.case.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        13,
+        14,
+        15
+      ],
+      "items": [
+        "lesson:6300",
+        "deck:8972",
+        "lesson:6301",
+        "deck:8973",
+        "lesson:6302",
+        "deck:8974",
+        "lesson:6303",
+        "deck:8975",
+        "lesson:6312",
+        "deck:8982",
+        "lesson:6313",
+        "deck:8983",
+        "test:8982"
+      ]
+    },
+    {
+      "id": "ir1-6",
+      "order": 6,
+      "title": "Reading 31–36",
+      "icon": "airplane",
+      "color": "#F26B1D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        16,
+        17,
+        18
+      ],
+      "items": [
+        "lesson:6314",
+        "deck:8984",
+        "lesson:6315",
+        "deck:8985",
+        "lesson:6316",
+        "deck:8986",
+        "lesson:6317",
+        "deck:8987",
+        "lesson:6319",
+        "deck:8988",
+        "lesson:6320",
+        "deck:8989",
+        "test:8988"
+      ]
+    },
+    {
+      "id": "ir1-7",
+      "order": 7,
+      "title": "Reading 37–42",
+      "icon": "briefcase.fill",
+      "color": "#22B07D",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        19,
+        20,
+        21
+      ],
+      "items": [
+        "lesson:6321",
+        "deck:8990",
+        "lesson:6322",
+        "deck:8991",
+        "lesson:6323",
+        "deck:8992",
+        "lesson:6324",
+        "deck:8993",
+        "lesson:6325",
+        "deck:8994",
+        "lesson:6326",
+        "deck:8995",
+        "test:8994"
+      ]
+    },
+    {
+      "id": "ir1-8",
+      "order": 8,
+      "title": "Reading 43–47",
+      "icon": "person.3.fill",
+      "color": "#2F6FED",
+      "level_tag": "Trung cấp",
+      "days_hint": [
+        22,
+        23,
+        24
+      ],
+      "items": [
+        "lesson:6327",
+        "deck:8996",
+        "lesson:6328",
+        "deck:8997",
+        "lesson:6329",
+        "deck:8998",
+        "lesson:6330",
+        "deck:8999",
+        "lesson:6331",
+        "deck:9000",
+        "test:9000"
+      ]
+    }
+  ]
+}

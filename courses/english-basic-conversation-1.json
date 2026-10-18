@@ -1,0 +1,1670 @@
+{
+  "id": "english-basic-conversation-1",
+  "title": "Tiếng Anh giao tiếp cơ bản",
+  "subtitle": "Lộ trình 25 ngày",
+  "thumbnail": null,
+  "field_id": 5107,
+  "level": "Sơ cấp",
+  "language": "en",
+  "icon_text": "EN",
+  "icon_color": "#7C5CFC",
+  "days": [
+    {
+      "day": 1,
+      "title": "Bài 1–3",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30311,
+          "title": "Newspaper - Magazine",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9654,
+          "title": "Newspaper - Magazine",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30312,
+          "title": "A memorable event",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9655,
+          "title": "A memorable event",
+          "est_minutes": 2,
+          "card_count": 9
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30317,
+          "title": "A favorite subject",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9656,
+          "title": "A favorite subject",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "A museum · A favorite movie · A foreign country",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30318,
+          "title": "A museum",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9657,
+          "title": "A museum",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30319,
+          "title": "A favorite movie",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9658,
+          "title": "A favorite movie",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30365,
+          "title": "A foreign country",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9677,
+          "title": "A foreign country",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Parties · A teacher · A hotel",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30367,
+          "title": "Parties",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9678,
+          "title": "Parties",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30368,
+          "title": "A teacher",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9679,
+          "title": "A teacher",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30369,
+          "title": "A hotel",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9680,
+          "title": "A hotel",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 9678,
+          "title": "Kiểm tra nhanh: Hội thoại 1–9",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "A friend · A letter · Hobbies",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30375,
+          "title": "A friend",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9686,
+          "title": "A friend",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30397,
+          "title": "A letter",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9694,
+          "title": "A letter",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30398,
+          "title": "Hobbies",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9695,
+          "title": "Hobbies",
+          "est_minutes": 2,
+          "card_count": 7
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Music · Shopping · Holiday",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30399,
+          "title": "Music",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9696,
+          "title": "Music",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30400,
+          "title": "Shopping",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9697,
+          "title": "Shopping",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30401,
+          "title": "Holiday",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9698,
+          "title": "Holiday",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Animals · A practical skill · Sports",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30455,
+          "title": "Animals",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9725,
+          "title": "Animals",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30456,
+          "title": "A practical skill",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9726,
+          "title": "A practical skill",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30549,
+          "title": "Sports",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9761,
+          "title": "Sports",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 9725,
+          "title": "Kiểm tra nhanh: Hội thoại 10–18",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "A school · Festival · Food",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30550,
+          "title": "A school",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9762,
+          "title": "A school",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30551,
+          "title": "Festival",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9763,
+          "title": "Festival",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30552,
+          "title": "Food",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9764,
+          "title": "Food",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Household appliances · A music band · Weather",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30553,
+          "title": "Household appliances",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9765,
+          "title": "Household appliances",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30554,
+          "title": "A music band",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9766,
+          "title": "A music band",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30555,
+          "title": "Weather",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9767,
+          "title": "Weather",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Neighbor · Nature scenery · Outdoor activities",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30556,
+          "title": "Neighbor",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9768,
+          "title": "Neighbor",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30559,
+          "title": "Nature scenery",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9769,
+          "title": "Nature scenery",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30560,
+          "title": "Outdoor activities",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9770,
+          "title": "Outdoor activities",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 9768,
+          "title": "Kiểm tra nhanh: Hội thoại 19–27",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Law · Pollution · Traffic jam",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30648,
+          "title": "Law",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9800,
+          "title": "Law",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30649,
+          "title": "Pollution",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9801,
+          "title": "Pollution",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30650,
+          "title": "Traffic jam",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9802,
+          "title": "Traffic jam",
+          "est_minutes": 2,
+          "card_count": 7
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Bài 31–33",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30757,
+          "title": "TV program",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9848,
+          "title": "TV program",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30774,
+          "title": "Electronic media",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9854,
+          "title": "Electronic media",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30775,
+          "title": "Architecture/ Building",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9855,
+          "title": "Architecture/ Building",
+          "est_minutes": 2,
+          "card_count": 5
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Job/ Career · Competition/ Contest · A garden",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30797,
+          "title": "Job/ Career",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9863,
+          "title": "Job/ Career",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30798,
+          "title": "Competition/ Contest",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9864,
+          "title": "Competition/ Contest",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30882,
+          "title": "A garden",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9882,
+          "title": "A garden",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 9864,
+          "title": "Kiểm tra nhanh: Hội thoại 28–36",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Hometown · Clothing · Advertisement",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30883,
+          "title": "Hometown",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9883,
+          "title": "Hometown",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 30884,
+          "title": "Clothing",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9884,
+          "title": "Clothing",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 30885,
+          "title": "Advertisement",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9885,
+          "title": "Advertisement",
+          "est_minutes": 2,
+          "card_count": 7
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "A project · Family · Restaurant",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 30886,
+          "title": "A project",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9886,
+          "title": "A project",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31137,
+          "title": "Family",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9933,
+          "title": "Family",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31138,
+          "title": "Restaurant",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9934,
+          "title": "Restaurant",
+          "est_minutes": 2,
+          "card_count": 5
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Books · Travel · Website",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31139,
+          "title": "Books",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9935,
+          "title": "Books",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31140,
+          "title": "Travel",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9936,
+          "title": "Travel",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31175,
+          "title": "Website",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9941,
+          "title": "Website",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 9936,
+          "title": "Kiểm tra nhanh: Hội thoại 37–45",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Accident · Childhood memories · Favorite rooms",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31176,
+          "title": "Accident",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9942,
+          "title": "Accident",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31182,
+          "title": "Childhood memories",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9946,
+          "title": "Childhood memories",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31183,
+          "title": "Favorite rooms",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 9947,
+          "title": "Favorite rooms",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Presents · Historical places · A wedding",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31186,
+          "title": "Presents",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 9948,
+          "title": "Presents",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31189,
+          "title": "Historical places",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 9949,
+          "title": "Historical places",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31445,
+          "title": "A wedding",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10010,
+          "title": "A wedding",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "A coffee shop · Culture · Transport",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31446,
+          "title": "A coffee shop",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 10011,
+          "title": "A coffee shop",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31447,
+          "title": "Culture",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 10012,
+          "title": "Culture",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31495,
+          "title": "Transport",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10016,
+          "title": "Transport",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 10012,
+          "title": "Kiểm tra nhanh: Hội thoại 46–54",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Politician · Communication · Business",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31496,
+          "title": "Politician",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 10017,
+          "title": "Politician",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31497,
+          "title": "Communication",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 10018,
+          "title": "Communication",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31498,
+          "title": "Business",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10019,
+          "title": "Business",
+          "est_minutes": 2,
+          "card_count": 5
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Computer · Exercise · Goal/ Ambition",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31499,
+          "title": "Computer",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 10020,
+          "title": "Computer",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31514,
+          "title": "Exercise",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 10022,
+          "title": "Exercise",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31515,
+          "title": "Goal/ Ambition",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10023,
+          "title": "Goal/ Ambition",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Art · Fashion · Jewelry",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31516,
+          "title": "Art",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 10024,
+          "title": "Art",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31517,
+          "title": "Fashion",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 10025,
+          "title": "Fashion",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31519,
+          "title": "Jewelry",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10026,
+          "title": "Jewelry",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 10024,
+          "title": "Kiểm tra nhanh: Hội thoại 55–63",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Cosmetic · Indoor game · Phone conversation",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31520,
+          "title": "Cosmetic",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 10027,
+          "title": "Cosmetic",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31521,
+          "title": "Indoor game",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 10028,
+          "title": "Indoor game",
+          "est_minutes": 2,
+          "card_count": 5
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31522,
+          "title": "Phone conversation",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10029,
+          "title": "Phone conversation",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Bài 67–69",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31523,
+          "title": "Learning a second language",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 10030,
+          "title": "Learning a second language",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31524,
+          "title": "A creative person",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 10031,
+          "title": "A creative person",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31545,
+          "title": "A celebrity",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10032,
+          "title": "A celebrity",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 10030,
+          "title": "Kiểm tra nhanh: Hội thoại 64–69",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Bài 70–72",
+      "est_minutes": 21,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31546,
+          "title": "A health problem",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 10033,
+          "title": "A health problem",
+          "est_minutes": 2,
+          "card_count": 7
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31806,
+          "title": "Technological advancements",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 10063,
+          "title": "Technological advancements",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31807,
+          "title": "A Landmark",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10064,
+          "title": "A Landmark",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Handcraft items · Plastic surgery · Success",
+      "est_minutes": 25,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 31808,
+          "title": "Handcraft items",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 10065,
+          "title": "Handcraft items",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 3,
+          "type": "lesson",
+          "ref_id": 31809,
+          "title": "Plastic surgery",
+          "est_minutes": 5
+        },
+        {
+          "order": 4,
+          "type": "deck",
+          "ref_id": 10066,
+          "title": "Plastic surgery",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 5,
+          "type": "lesson",
+          "ref_id": 31810,
+          "title": "Success",
+          "est_minutes": 5
+        },
+        {
+          "order": 6,
+          "type": "deck",
+          "ref_id": 10067,
+          "title": "Success",
+          "est_minutes": 2,
+          "card_count": 6
+        },
+        {
+          "order": 7,
+          "type": "test",
+          "ref_id": 10065,
+          "title": "Kiểm tra nhanh: Hội thoại 70–75",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "eb1-1",
+      "order": 1,
+      "title": "Hội thoại 1–9",
+      "icon": "book.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        1,
+        2,
+        3
+      ],
+      "items": [
+        "lesson:30311",
+        "deck:9654",
+        "lesson:30312",
+        "deck:9655",
+        "lesson:30317",
+        "deck:9656",
+        "lesson:30318",
+        "deck:9657",
+        "lesson:30319",
+        "deck:9658",
+        "lesson:30365",
+        "deck:9677",
+        "lesson:30367",
+        "deck:9678",
+        "lesson:30368",
+        "deck:9679",
+        "lesson:30369",
+        "deck:9680",
+        "test:9678"
+      ]
+    },
+    {
+      "id": "eb1-2",
+      "order": 2,
+      "title": "Hội thoại 10–18",
+      "icon": "text.bubble.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        4,
+        5,
+        6
+      ],
+      "items": [
+        "lesson:30375",
+        "deck:9686",
+        "lesson:30397",
+        "deck:9694",
+        "lesson:30398",
+        "deck:9695",
+        "lesson:30399",
+        "deck:9696",
+        "lesson:30400",
+        "deck:9697",
+        "lesson:30401",
+        "deck:9698",
+        "lesson:30455",
+        "deck:9725",
+        "lesson:30456",
+        "deck:9726",
+        "lesson:30549",
+        "deck:9761",
+        "test:9725"
+      ]
+    },
+    {
+      "id": "eb1-3",
+      "order": 3,
+      "title": "Hội thoại 19–27",
+      "icon": "person.2.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        7,
+        8,
+        9
+      ],
+      "items": [
+        "lesson:30550",
+        "deck:9762",
+        "lesson:30551",
+        "deck:9763",
+        "lesson:30552",
+        "deck:9764",
+        "lesson:30553",
+        "deck:9765",
+        "lesson:30554",
+        "deck:9766",
+        "lesson:30555",
+        "deck:9767",
+        "lesson:30556",
+        "deck:9768",
+        "lesson:30559",
+        "deck:9769",
+        "lesson:30560",
+        "deck:9770",
+        "test:9768"
+      ]
+    },
+    {
+      "id": "eb1-4",
+      "order": 4,
+      "title": "Hội thoại 28–36",
+      "icon": "clock.fill",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        10,
+        11,
+        12
+      ],
+      "items": [
+        "lesson:30648",
+        "deck:9800",
+        "lesson:30649",
+        "deck:9801",
+        "lesson:30650",
+        "deck:9802",
+        "lesson:30757",
+        "deck:9848",
+        "lesson:30774",
+        "deck:9854",
+        "lesson:30775",
+        "deck:9855",
+        "lesson:30797",
+        "deck:9863",
+        "lesson:30798",
+        "deck:9864",
+        "lesson:30882",
+        "deck:9882",
+        "test:9864"
+      ]
+    },
+    {
+      "id": "eb1-5",
+      "order": 5,
+      "title": "Hội thoại 37–45",
+      "icon": "house.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        13,
+        14,
+        15
+      ],
+      "items": [
+        "lesson:30883",
+        "deck:9883",
+        "lesson:30884",
+        "deck:9884",
+        "lesson:30885",
+        "deck:9885",
+        "lesson:30886",
+        "deck:9886",
+        "lesson:31137",
+        "deck:9933",
+        "lesson:31138",
+        "deck:9934",
+        "lesson:31139",
+        "deck:9935",
+        "lesson:31140",
+        "deck:9936",
+        "lesson:31175",
+        "deck:9941",
+        "test:9936"
+      ]
+    },
+    {
+      "id": "eb1-6",
+      "order": 6,
+      "title": "Hội thoại 46–54",
+      "icon": "fork.knife",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        16,
+        17,
+        18
+      ],
+      "items": [
+        "lesson:31176",
+        "deck:9942",
+        "lesson:31182",
+        "deck:9946",
+        "lesson:31183",
+        "deck:9947",
+        "lesson:31186",
+        "deck:9948",
+        "lesson:31189",
+        "deck:9949",
+        "lesson:31445",
+        "deck:10010",
+        "lesson:31446",
+        "deck:10011",
+        "lesson:31447",
+        "deck:10012",
+        "lesson:31495",
+        "deck:10016",
+        "test:10012"
+      ]
+    },
+    {
+      "id": "eb1-7",
+      "order": 7,
+      "title": "Hội thoại 55–63",
+      "icon": "cart.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        19,
+        20,
+        21
+      ],
+      "items": [
+        "lesson:31496",
+        "deck:10017",
+        "lesson:31497",
+        "deck:10018",
+        "lesson:31498",
+        "deck:10019",
+        "lesson:31499",
+        "deck:10020",
+        "lesson:31514",
+        "deck:10022",
+        "lesson:31515",
+        "deck:10023",
+        "lesson:31516",
+        "deck:10024",
+        "lesson:31517",
+        "deck:10025",
+        "lesson:31519",
+        "deck:10026",
+        "test:10024"
+      ]
+    },
+    {
+      "id": "eb1-8",
+      "order": 8,
+      "title": "Hội thoại 64–69",
+      "icon": "airplane",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        22,
+        23
+      ],
+      "items": [
+        "lesson:31520",
+        "deck:10027",
+        "lesson:31521",
+        "deck:10028",
+        "lesson:31522",
+        "deck:10029",
+        "lesson:31523",
+        "deck:10030",
+        "lesson:31524",
+        "deck:10031",
+        "lesson:31545",
+        "deck:10032",
+        "test:10030"
+      ]
+    },
+    {
+      "id": "eb1-9",
+      "order": 9,
+      "title": "Hội thoại 70–75",
+      "icon": "heart.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        24,
+        25
+      ],
+      "items": [
+        "lesson:31546",
+        "deck:10033",
+        "lesson:31806",
+        "deck:10063",
+        "lesson:31807",
+        "deck:10064",
+        "lesson:31808",
+        "deck:10065",
+        "lesson:31809",
+        "deck:10066",
+        "lesson:31810",
+        "deck:10067",
+        "test:10065"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "id": "english-office-basic-1",
+  "title": "Tiếng Anh văn phòng cơ bản",
+  "subtitle": "Lộ trình 24 ngày",
+  "thumbnail": null,
+  "field_id": 30816,
+  "level": "Sơ cấp",
+  "language": "en",
+  "icon_text": "OF",
+  "icon_color": "#0EA5A4",
+  "days": [
+    {
+      "day": 1,
+      "title": "Bài 2: Bàn làm việc của tôi",
+      "est_minutes": 8,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44218,
+          "title": "Bài 2: Bàn làm việc của tôi (My Workstation)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12819,
+          "title": "Bài 2: Bàn làm việc của tôi (My Workstation)",
+          "est_minutes": 3,
+          "card_count": 13
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Bài 3: Văn phòng phẩm thông dụng",
+      "est_minutes": 8,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44219,
+          "title": "Bài 3: Văn phòng phẩm thông dụng (Essential Office Supplies)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12820,
+          "title": "Bài 3: Văn phòng phẩm thông dụng (Essential Office Supplies)",
+          "est_minutes": 3,
+          "card_count": 13
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Bài 4: Phòng ban trong công ty",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44220,
+          "title": "Bài 4: Phòng ban trong công ty (Company Departments)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12821,
+          "title": "Bài 4: Phòng ban trong công ty (Company Departments)",
+          "est_minutes": 3,
+          "card_count": 13
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12821,
+          "title": "Kiểm tra nhanh: Làm quen công sở (1/3)",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Bài 5: Chức danh và vai trò",
+      "est_minutes": 9,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44221,
+          "title": "Bài 5: Chức danh và vai trò (Job Titles and Roles)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12822,
+          "title": "Bài 5: Chức danh và vai trò (Job Titles and Roles)",
+          "est_minutes": 4,
+          "card_count": 16
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Bài 6: Chào hỏi đồng nghiệp",
+      "est_minutes": 9,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44222,
+          "title": "Bài 6: Chào hỏi đồng nghiệp (Greeting Colleagues)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12823,
+          "title": "Bài 6: Chào hỏi đồng nghiệp (Greeting Colleagues)",
+          "est_minutes": 4,
+          "card_count": 18
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Bài 7: Hỏi thăm thông tin đồng nghiệp",
+      "est_minutes": 15,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44223,
+          "title": "Bài 7: Hỏi thăm thông tin đồng nghiệp (Asking about Colleagues)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12824,
+          "title": "Bài 7: Hỏi thăm thông tin đồng nghiệp (Asking about Colleagues)",
+          "est_minutes": 6,
+          "card_count": 22
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12824,
+          "title": "Kiểm tra nhanh: Làm quen công sở (2/3)",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Bài 8: Mô tả công việc của bạn",
+      "est_minutes": 9,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44224,
+          "title": "Bài 8: Mô tả công việc của bạn (Describing Your Job)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12825,
+          "title": "Bài 8: Mô tả công việc của bạn (Describing Your Job)",
+          "est_minutes": 4,
+          "card_count": 16
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Bài 9: Tình huống giao tiếp tại văn phòng",
+      "est_minutes": 7,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44225,
+          "title": "Bài 9: Tình huống giao tiếp tại văn phòng (Office Communication Scenarios)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12826,
+          "title": "Bài 9: Tình huống giao tiếp tại văn phòng (Office Communication Scenarios)",
+          "est_minutes": 2,
+          "card_count": 8
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Bài 10: Ngày đầu tiên đi làm",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44226,
+          "title": "Bài 10: Ngày đầu tiên đi làm (First Day at Work)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12827,
+          "title": "Bài 10: Ngày đầu tiên đi làm (First Day at Work)",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12827,
+          "title": "Kiểm tra nhanh: Làm quen công sở (3/3)",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Bài 1: Các mẫu câu chào hỏi thông dụng",
+      "est_minutes": 8,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44227,
+          "title": "Bài 1: Các mẫu câu chào hỏi thông dụng (Common Greetings)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12828,
+          "title": "Bài 1: Các mẫu câu chào hỏi thông dụng (Common Greetings)",
+          "est_minutes": 3,
+          "card_count": 13
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Bài 2: Các mẫu câu tạm biệt thông dụng",
+      "est_minutes": 8,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44228,
+          "title": "Bài 2: Các mẫu câu tạm biệt thông dụng (Common Farewells)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12829,
+          "title": "Bài 2: Các mẫu câu tạm biệt thông dụng (Common Farewells)",
+          "est_minutes": 3,
+          "card_count": 12
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Bài 3: Cách xưng hô trong môi trường công sở",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44229,
+          "title": "Bài 3: Cách xưng hô trong môi trường công sở (Formal and Informal Greetings)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12830,
+          "title": "Bài 3: Cách xưng hô trong môi trường công sở (Formal and Informal Greetings)",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12830,
+          "title": "Kiểm tra nhanh: Chào hỏi & tạm biệt (1/3)",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Bài 4: Ngữ điệu và biểu cảm khi chào hỏi",
+      "est_minutes": 8,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44230,
+          "title": "Bài 4: Ngữ điệu và biểu cảm khi chào hỏi (Intonation and Expressions)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12831,
+          "title": "Bài 4: Ngữ điệu và biểu cảm khi chào hỏi (Intonation and Expressions)",
+          "est_minutes": 3,
+          "card_count": 12
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Bài 5: Chào hỏi trong các tình huống khác nhau",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44231,
+          "title": "Bài 5: Chào hỏi trong các tình huống khác nhau (Greetings in Different Situations)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12832,
+          "title": "Bài 5: Chào hỏi trong các tình huống khác nhau (Greetings in Different Situations)",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12832,
+          "title": "Kiểm tra nhanh: Chào hỏi & tạm biệt (2/3)",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Bài 6: Tạm biệt trong các tình huống khác nhau",
+      "est_minutes": 8,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44232,
+          "title": "Bài 6: Tạm biệt trong các tình huống khác nhau (Farewells in Different Situations)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12833,
+          "title": "Bài 6: Tạm biệt trong các tình huống khác nhau (Farewells in Different Situations)",
+          "est_minutes": 3,
+          "card_count": 12
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Bài 7: Email chào hỏi và tạm biệt",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44233,
+          "title": "Bài 7: Email chào hỏi và tạm biệt (Greetings and Farewells in Emails)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12834,
+          "title": "Bài 7: Email chào hỏi và tạm biệt (Greetings and Farewells in Emails)",
+          "est_minutes": 3,
+          "card_count": 12
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12834,
+          "title": "Kiểm tra nhanh: Chào hỏi & tạm biệt (3/3)",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Bài 1: Từ vựng về địa điểm trong văn phòng",
+      "est_minutes": 9,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44333,
+          "title": "Bài 1: Từ vựng về địa điểm trong văn phòng (Office Locations)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12856,
+          "title": "Bài 1: Từ vựng về địa điểm trong văn phòng (Office Locations)",
+          "est_minutes": 4,
+          "card_count": 15
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Bài 2: Từ vựng về phương hướng",
+      "est_minutes": 9,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44334,
+          "title": "Bài 2: Từ vựng về phương hướng (Directions)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12857,
+          "title": "Bài 2: Từ vựng về phương hướng (Directions)",
+          "est_minutes": 4,
+          "card_count": 17
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Bài 3: Câu hỏi chỉ đường cơ bản",
+      "est_minutes": 11,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44335,
+          "title": "Bài 3: Câu hỏi chỉ đường cơ bản (Basic Directions Questions)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12858,
+          "title": "Bài 3: Câu hỏi chỉ đường cơ bản (Basic Directions Questions)",
+          "est_minutes": 2,
+          "card_count": 8
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12858,
+          "title": "Kiểm tra nhanh: Hỏi & chỉ đường (1/3)",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Bài 4: Câu trả lời chỉ đường cơ bản",
+      "est_minutes": 8,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44336,
+          "title": "Bài 4: Câu trả lời chỉ đường cơ bản (Basic Directions Answers)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12859,
+          "title": "Bài 4: Câu trả lời chỉ đường cơ bản (Basic Directions Answers)",
+          "est_minutes": 3,
+          "card_count": 12
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Bài 5: Hỏi và chỉ đường đến các phòng ban",
+      "est_minutes": 7,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44337,
+          "title": "Bài 5: Hỏi và chỉ đường đến các phòng ban (Asking and Giving Directions to Departments)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12860,
+          "title": "Bài 5: Hỏi và chỉ đường đến các phòng ban (Asking and Giving Directions to Departments)",
+          "est_minutes": 2,
+          "card_count": 6
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Bài 6: Hỏi và chỉ đường đến các địa điểm khác",
+      "est_minutes": 13,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44338,
+          "title": "Bài 6: Hỏi và chỉ đường đến các địa điểm khác (Asking and Giving Directions to Other Locations)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12861,
+          "title": "Bài 6: Hỏi và chỉ đường đến các địa điểm khác (Asking and Giving Directions to Other Locations)",
+          "est_minutes": 4,
+          "card_count": 16
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12861,
+          "title": "Kiểm tra nhanh: Hỏi & chỉ đường (2/3)",
+          "est_minutes": 4
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Bài 7: Xử lý các tình huống chỉ đường phức tạp",
+      "est_minutes": 8,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44339,
+          "title": "Bài 7: Xử lý các tình huống chỉ đường phức tạp (Handling Complex Direction Situations)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12862,
+          "title": "Bài 7: Xử lý các tình huống chỉ đường phức tạp (Handling Complex Direction Situations)",
+          "est_minutes": 3,
+          "card_count": 12
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Bài 8: Chỉ đường qua tin nhắn",
+      "est_minutes": 12,
+      "items": [
+        {
+          "order": 1,
+          "type": "lesson",
+          "ref_id": 44340,
+          "title": "Bài 8: Chỉ đường qua tin nhắn (Giving Directions via Message)",
+          "est_minutes": 5
+        },
+        {
+          "order": 2,
+          "type": "deck",
+          "ref_id": 12863,
+          "title": "Bài 8: Chỉ đường qua tin nhắn (Giving Directions via Message)",
+          "est_minutes": 3,
+          "card_count": 11
+        },
+        {
+          "order": 3,
+          "type": "test",
+          "ref_id": 12863,
+          "title": "Kiểm tra nhanh: Hỏi & chỉ đường (3/3)",
+          "est_minutes": 4
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "of1-1",
+      "order": 1,
+      "title": "Làm quen công sở (1/3)",
+      "icon": "book.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        1,
+        2,
+        3
+      ],
+      "items": [
+        "lesson:44218",
+        "deck:12819",
+        "lesson:44219",
+        "deck:12820",
+        "lesson:44220",
+        "deck:12821",
+        "test:12821"
+      ]
+    },
+    {
+      "id": "of1-2",
+      "order": 2,
+      "title": "Làm quen công sở (2/3)",
+      "icon": "text.bubble.fill",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        4,
+        5,
+        6
+      ],
+      "items": [
+        "lesson:44221",
+        "deck:12822",
+        "lesson:44222",
+        "deck:12823",
+        "lesson:44223",
+        "deck:12824",
+        "test:12824"
+      ]
+    },
+    {
+      "id": "of1-3",
+      "order": 3,
+      "title": "Làm quen công sở (3/3)",
+      "icon": "person.2.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        7,
+        8,
+        9
+      ],
+      "items": [
+        "lesson:44224",
+        "deck:12825",
+        "lesson:44225",
+        "deck:12826",
+        "lesson:44226",
+        "deck:12827",
+        "test:12827"
+      ]
+    },
+    {
+      "id": "of1-4",
+      "order": 4,
+      "title": "Chào hỏi & tạm biệt (1/3)",
+      "icon": "clock.fill",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        10,
+        11,
+        12
+      ],
+      "items": [
+        "lesson:44227",
+        "deck:12828",
+        "lesson:44228",
+        "deck:12829",
+        "lesson:44229",
+        "deck:12830",
+        "test:12830"
+      ]
+    },
+    {
+      "id": "of1-5",
+      "order": 5,
+      "title": "Chào hỏi & tạm biệt (2/3)",
+      "icon": "house.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        13,
+        14
+      ],
+      "items": [
+        "lesson:44230",
+        "deck:12831",
+        "lesson:44231",
+        "deck:12832",
+        "test:12832"
+      ]
+    },
+    {
+      "id": "of1-6",
+      "order": 6,
+      "title": "Chào hỏi & tạm biệt (3/3)",
+      "icon": "fork.knife",
+      "color": "#F26B1D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        15,
+        16
+      ],
+      "items": [
+        "lesson:44232",
+        "deck:12833",
+        "lesson:44233",
+        "deck:12834",
+        "test:12834"
+      ]
+    },
+    {
+      "id": "of1-7",
+      "order": 7,
+      "title": "Hỏi & chỉ đường (1/3)",
+      "icon": "cart.fill",
+      "color": "#22B07D",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        17,
+        18,
+        19
+      ],
+      "items": [
+        "lesson:44333",
+        "deck:12856",
+        "lesson:44334",
+        "deck:12857",
+        "lesson:44335",
+        "deck:12858",
+        "test:12858"
+      ]
+    },
+    {
+      "id": "of1-8",
+      "order": 8,
+      "title": "Hỏi & chỉ đường (2/3)",
+      "icon": "airplane",
+      "color": "#2F6FED",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        20,
+        21,
+        22
+      ],
+      "items": [
+        "lesson:44336",
+        "deck:12859",
+        "lesson:44337",
+        "deck:12860",
+        "lesson:44338",
+        "deck:12861",
+        "test:12861"
+      ]
+    },
+    {
+      "id": "of1-9",
+      "order": 9,
+      "title": "Hỏi & chỉ đường (3/3)",
+      "icon": "heart.fill",
+      "color": "#7C4DDB",
+      "level_tag": "Sơ cấp",
+      "days_hint": [
+        23,
+        24
+      ],
+      "items": [
+        "lesson:44339",
+        "deck:12862",
+        "lesson:44340",
+        "deck:12863",
+        "test:12863"
+      ]
+    }
+  ]
+}

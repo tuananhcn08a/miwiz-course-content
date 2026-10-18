@@ -5,6 +5,17 @@
     { "id": "korean-beginner-1", "enabled": true },
     { "id": "chinese-daily-1", "enabled": true },
     { "id": "ielts-essential-words-1", "enabled": true },
-    { "id": "toeic-50-days-1", "enabled": false }
+    { "id": "toeic-50-days-1", "enabled": false },
+    { "id": "korean-beginner-2", "enabled": false },
+    { "id": "korean-intermediate-3", "enabled": false },
+    { "id": "chinese-hsk3-1", "enabled": false },
+    { "id": "chinese-radicals-1", "enabled": false },
+    { "id": "english-basic-conversation-1", "enabled": false },
+    { "id": "english-daily-conversation-1", "enabled": false },
+    { "id": "bbc-english-at-work-1", "enabled": false },
+    { "id": "english-office-basic-1", "enabled": false },
+    { "id": "english-workplace-1", "enabled": false },
+    { "id": "ielts-reading-1", "enabled": false },
+    { "id": "ielts-vocabulary-45-1", "enabled": false }
   ]
 }
