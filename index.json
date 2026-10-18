@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T07:17:00.374Z",
+  "generatedAt": "2026-10-18T07:21:59.324Z",
   "minAppVersion": null,
   "courses": [
     {
@@ -271,7 +271,7 @@
     },
     {
       "id": "ielts-vocabulary-45-1",
-      "enabled": true,
+      "enabled": false,
       "order": 15,
       "title": "Từ vựng IELTS 4.5–5.5",
       "subtitle": "Lộ trình 15 ngày",
