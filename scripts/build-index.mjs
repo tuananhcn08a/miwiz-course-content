@@ -38,9 +38,15 @@ for (const [i, entry] of (catalog.courses ?? []).entries()) {
     dayNums.add(d.day);
     items += (d.items ?? []).length;
   }
+  // Ảnh bìa / minh hoạ: nếu là đường dẫn tương đối (có "/" hoặc đuôi .png) thì file phải tồn tại trong repo.
+  const isRelPath = (v) => typeof v === "string" && !/^https?:\/\//.test(v) && (v.includes("/") || v.endsWith(".png"));
+  const checkAsset = (what, v) => { if (isRelPath(v) && !existsSync(resolve(ROOT, v))) fail(`${id}: ${what} trỏ tới file không tồn tại: ${v}`); };
+  checkAsset("thumbnail", m.thumbnail);
+  if (typeof m.thumbnail === "string" && m.thumbnail.startsWith("covers/")) checkAsset("thumbnail (vuông)", m.thumbnail.replace(/\.png$/, "-square.png"));
   if (Array.isArray(m.topics)) {
     const tids = new Set();
     for (const t of m.topics) {
+      checkAsset(`topic ${t.id} illustration`, t.illustration);
       if (tids.has(t.id)) fail(`${id}: topic id trùng ${t.id}`);
       tids.add(t.id);
       if (!Array.isArray(t.items) || t.items.length === 0) fail(`${id}: topic ${t.id} không có items`);

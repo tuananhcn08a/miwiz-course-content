@@ -2,7 +2,7 @@
   "id": "chinese-daily-1",
   "title": "Tiếng Trung mỗi ngày",
   "subtitle": "Lộ trình 40 ngày",
-  "thumbnail": null,
+  "thumbnail": "covers/chinese-daily-1.png",
   "field_id": 30503,
   "level": "Sơ cấp",
   "language": "zh",
@@ -2536,6 +2536,7 @@
       "order": 1,
       "title": "Nhập môn: Ngữ âm",
       "icon": "waveform",
+      "illustration": "chinese-daily-1-1",
       "color": "#7C4DDB",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2555,6 +2556,7 @@
       "order": 2,
       "title": "Bài 1–4",
       "icon": "text.bubble.fill",
+      "illustration": "chinese-daily-1-2",
       "color": "#F26B1D",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2587,6 +2589,7 @@
       "order": 3,
       "title": "Bài 5–9",
       "icon": "person.2.fill",
+      "illustration": "chinese-daily-1-3",
       "color": "#22B07D",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2627,6 +2630,7 @@
       "order": 4,
       "title": "Bài 10–13",
       "icon": "clock.fill",
+      "illustration": "chinese-daily-1-4",
       "color": "#2F6FED",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2661,6 +2665,7 @@
       "order": 5,
       "title": "Bài 14–18",
       "icon": "house.fill",
+      "illustration": "chinese-daily-1-5",
       "color": "#7C4DDB",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2723,6 +2728,7 @@
       "order": 6,
       "title": "Bài 19–23",
       "icon": "fork.knife",
+      "illustration": "chinese-daily-1-6",
       "color": "#F26B1D",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2791,6 +2797,7 @@
       "order": 7,
       "title": "Bài 24–28",
       "icon": "cart.fill",
+      "illustration": "chinese-daily-1-7",
       "color": "#22B07D",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2857,6 +2864,7 @@
       "order": 8,
       "title": "Bài 29–33",
       "icon": "airplane",
+      "illustration": "chinese-daily-1-8",
       "color": "#2F6FED",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2916,6 +2924,7 @@
       "order": 9,
       "title": "Bài 34–38",
       "icon": "heart.fill",
+      "illustration": "chinese-daily-1-9",
       "color": "#7C4DDB",
       "level_tag": "Sơ cấp",
       "days_hint": [
@@ -2978,6 +2987,7 @@
       "order": 10,
       "title": "Bài 39",
       "icon": "leaf.fill",
+      "illustration": "chinese-daily-1-10",
       "color": "#F26B1D",
       "level_tag": "Sơ cấp",
       "days_hint": [
