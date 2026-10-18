@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T02:54:43.431Z",
+  "generatedAt": "2026-10-18T06:45:27.820Z",
   "minAppVersion": null,
   "courses": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "id": "toeic-50-days-1",
-      "enabled": false,
+      "enabled": true,
       "order": 4,
       "title": "Luyện thi TOEIC 50 ngày",
       "subtitle": "Lộ trình 50 ngày",
@@ -81,7 +81,7 @@
     },
     {
       "id": "korean-beginner-2",
-      "enabled": false,
+      "enabled": true,
       "order": 5,
       "title": "Tiếng Hàn sơ cấp 2",
       "subtitle": "Lộ trình 42 ngày",
@@ -100,7 +100,7 @@
     },
     {
       "id": "korean-intermediate-3",
-      "enabled": false,
+      "enabled": true,
       "order": 6,
       "title": "Tiếng Hàn trung cấp 3",
       "subtitle": "Lộ trình 45 ngày",
@@ -119,7 +119,7 @@
     },
     {
       "id": "chinese-hsk3-1",
-      "enabled": false,
+      "enabled": true,
       "order": 7,
       "title": "Tiếng Trung HSK 3",
       "subtitle": "Lộ trình 20 ngày",
@@ -138,7 +138,7 @@
     },
     {
       "id": "chinese-radicals-1",
-      "enabled": false,
+      "enabled": true,
       "order": 8,
       "title": "214 bộ thủ tiếng Trung",
       "subtitle": "Lộ trình 22 ngày",
@@ -157,7 +157,7 @@
     },
     {
       "id": "english-basic-conversation-1",
-      "enabled": false,
+      "enabled": true,
       "order": 9,
       "title": "Tiếng Anh giao tiếp cơ bản",
       "subtitle": "Lộ trình 25 ngày",
@@ -176,7 +176,7 @@
     },
     {
       "id": "english-daily-conversation-1",
-      "enabled": false,
+      "enabled": true,
       "order": 10,
       "title": "Tiếng Anh hội thoại hằng ngày",
       "subtitle": "Lộ trình 32 ngày",
@@ -195,7 +195,7 @@
     },
     {
       "id": "bbc-english-at-work-1",
-      "enabled": false,
+      "enabled": true,
       "order": 11,
       "title": "BBC English at Work",
       "subtitle": "Lộ trình 17 ngày",
@@ -214,7 +214,7 @@
     },
     {
       "id": "english-office-basic-1",
-      "enabled": false,
+      "enabled": true,
       "order": 12,
       "title": "Tiếng Anh văn phòng cơ bản",
       "subtitle": "Lộ trình 24 ngày",
@@ -233,7 +233,7 @@
     },
     {
       "id": "english-workplace-1",
-      "enabled": false,
+      "enabled": true,
       "order": 13,
       "title": "Tiếng Anh cho người đi làm",
       "subtitle": "Lộ trình 25 ngày",
@@ -252,7 +252,7 @@
     },
     {
       "id": "ielts-reading-1",
-      "enabled": false,
+      "enabled": true,
       "order": 14,
       "title": "IELTS Reading",
       "subtitle": "Lộ trình 24 ngày",
@@ -271,7 +271,7 @@
     },
     {
       "id": "ielts-vocabulary-45-1",
-      "enabled": false,
+      "enabled": true,
       "order": 15,
       "title": "Từ vựng IELTS 4.5–5.5",
       "subtitle": "Lộ trình 15 ngày",
