@@ -20,47 +20,47 @@
     },
     {
       "id": "korean-beginner-2",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "korean-intermediate-3",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "chinese-hsk3-1",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "chinese-radicals-1",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "english-basic-conversation-1",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "english-daily-conversation-1",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "bbc-english-at-work-1",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "english-office-basic-1",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "english-workplace-1",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ielts-reading-1",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ielts-vocabulary-45-1",
-      "enabled": true
+      "enabled": false
     }
   ]
 }
