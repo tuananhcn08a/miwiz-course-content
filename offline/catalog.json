@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "note": "File sửa tay cho khoá OFFLINE (học tại Miwiz Mind Hub). Thứ tự mảng courses = thứ tự hiển thị trong app. enabled:false = ẩn khoá. Nội dung khoá nằm ở offline/courses.json. Thêm khoá = thêm vào offline/courses.json + 1 dòng ở đây. offline/index.json sinh tự động (node scripts/build-index.mjs hoặc GitHub Actions khi push). registration.form_url = link Google Form đăng ký dùng cho mọi trung tâm; registration.providers.<id>.form_url = link riêng (ưu tiên hơn); để trống = app ẩn dòng \"Điền form đăng ký\".",
   "registration": {
-    "form_url": "https://forms.gle/miwizGateTest",
+    "form_url": "",
     "providers": {
       "hanviet": {
         "form_url": ""
