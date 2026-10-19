@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T02:48:29.127Z",
+  "generatedAt": "2026-10-19T02:50:37.247Z",
   "minAppVersion": null,
   "courses": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "id": "toeic-50-days-1",
-      "enabled": true,
+      "enabled": false,
       "order": 4,
       "title": "Luyện thi TOEIC 50 ngày",
       "subtitle": "Lộ trình 50 ngày",
