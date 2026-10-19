@@ -2075,7 +2075,7 @@
       "icon": "textformat",
       "illustration": "korean-beginner-1-1",
       "color": "#7C4DDB",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         1,
         2
@@ -2099,7 +2099,7 @@
       "icon": "text.bubble.fill",
       "illustration": "korean-beginner-1-2",
       "color": "#F26B1D",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         3,
         4,
@@ -2128,7 +2128,7 @@
       "icon": "graduationcap.fill",
       "illustration": "korean-beginner-1-3",
       "color": "#22B07D",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         6,
         7,
@@ -2159,7 +2159,7 @@
       "icon": "sun.max.fill",
       "illustration": "korean-beginner-1-4",
       "color": "#2F6FED",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         9,
         10,
@@ -2189,7 +2189,7 @@
       "icon": "calendar",
       "illustration": "korean-beginner-1-5",
       "color": "#7C4DDB",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         12,
         13,
@@ -2220,7 +2220,7 @@
       "icon": "briefcase.fill",
       "illustration": "korean-beginner-1-6",
       "color": "#F26B1D",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         15,
         16,
@@ -2249,7 +2249,7 @@
       "icon": "figure.walk",
       "illustration": "korean-beginner-1-7",
       "color": "#22B07D",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         18,
         19,
@@ -2279,7 +2279,7 @@
       "icon": "cart.fill",
       "illustration": "korean-beginner-1-8",
       "color": "#2F6FED",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         21,
         22,
@@ -2308,7 +2308,7 @@
       "icon": "fork.knife",
       "illustration": "korean-beginner-1-9",
       "color": "#7C4DDB",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 3",
       "days_hint": [
         24,
         25,
@@ -2339,7 +2339,7 @@
       "icon": "house.fill",
       "illustration": "korean-beginner-1-10",
       "color": "#F26B1D",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 3",
       "days_hint": [
         27,
         28,
@@ -2370,7 +2370,7 @@
       "icon": "person.3.fill",
       "illustration": "korean-beginner-1-11",
       "color": "#22B07D",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 3",
       "days_hint": [
         30,
         31,
@@ -2400,7 +2400,7 @@
       "icon": "cloud.sun.fill",
       "illustration": "korean-beginner-1-12",
       "color": "#2F6FED",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 3",
       "days_hint": [
         33,
         34,
@@ -2429,7 +2429,7 @@
       "icon": "phone.fill",
       "illustration": "korean-beginner-1-13",
       "color": "#7C4DDB",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 4",
       "days_hint": [
         36,
         37,
@@ -2458,7 +2458,7 @@
       "icon": "gift.fill",
       "illustration": "korean-beginner-1-14",
       "color": "#F26B1D",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 4",
       "days_hint": [
         39,
         40,
@@ -2488,7 +2488,7 @@
       "icon": "heart.fill",
       "illustration": "korean-beginner-1-15",
       "color": "#22B07D",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 4",
       "days_hint": [
         42,
         43,
@@ -2520,7 +2520,7 @@
       "icon": "bus.fill",
       "illustration": "korean-beginner-1-16",
       "color": "#2F6FED",
-      "level_tag": "Sơ cấp",
+      "level_tag": "Chặng 4",
       "days_hint": [
         45,
         46,

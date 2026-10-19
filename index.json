@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T02:44:33.225Z",
+  "generatedAt": "2026-10-19T02:45:42.692Z",
   "minAppVersion": null,
   "courses": [
     {
@@ -17,8 +17,8 @@
       "days": 47,
       "topics": 16,
       "items": 222,
-      "version": "121a69e48d50",
-      "sha256": "121a69e48d503aaf9673d796ff0ec1da324125cded720a0ab289d41db7f4e74f",
+      "version": "bbba00973266",
+      "sha256": "bbba00973266a454039a5d34ab0b8c8f60c653613b9deda4c0860718fa1edac1",
       "bytes": 63815,
       "manifestUrl": "courses/korean-beginner-1.json"
     },
@@ -55,8 +55,8 @@
       "days": 80,
       "topics": 10,
       "items": 689,
-      "version": "5378ee475696",
-      "sha256": "5378ee475696c5ca2dca01297f3255844016d1fbe5cb0f0ab74900e59761ddbe",
+      "version": "3a6e457cda97",
+      "sha256": "3a6e457cda97a2ed990849064681c1505c6fb1d369441e64e85d9fe27610f1b7",
       "bytes": 194766,
       "manifestUrl": "courses/ielts-essential-words-1.json"
     },
@@ -74,9 +74,9 @@
       "days": 50,
       "topics": 11,
       "items": 150,
-      "version": "ebc79fdbba1e",
-      "sha256": "ebc79fdbba1e1d71af66a635738062e827df6ffe351e84327a15399df7448860",
-      "bytes": 49129,
+      "version": "ba10422bdbb5",
+      "sha256": "ba10422bdbb50cce9c1f9c676fdfea64ef5bee8ca37426f041def664754909ac",
+      "bytes": 49619,
       "manifestUrl": "courses/toeic-50-days-1.json"
     },
     {
@@ -93,8 +93,8 @@
       "days": 42,
       "topics": 14,
       "items": 202,
-      "version": "b323cd243cb4",
-      "sha256": "b323cd243cb4a5aeaf825fb034dabe1069b850b75f1da74f9449b8c06926fcee",
+      "version": "44e23b50d08e",
+      "sha256": "44e23b50d08e09f94335f51c5f62b4df813d285ab549138b6a7b9942c8a6508a",
       "bytes": 57593,
       "manifestUrl": "courses/korean-beginner-2.json"
     },
@@ -112,9 +112,9 @@
       "days": 45,
       "topics": 15,
       "items": 207,
-      "version": "cb68ab3dd8bc",
-      "sha256": "cb68ab3dd8bcc8e9f919316566c919e6aaafe393f7124a3cf74c22c406eef76b",
-      "bytes": 55971,
+      "version": "c78e677be3b5",
+      "sha256": "c78e677be3b59c38c9ab02749bb0b91a2377d78fe30552fcbdf0c308f4a5dbdb",
+      "bytes": 56381,
       "manifestUrl": "courses/korean-intermediate-3.json"
     },
     {
@@ -131,9 +131,9 @@
       "days": 20,
       "topics": 10,
       "items": 70,
-      "version": "c4a53593fcf4",
-      "sha256": "c4a53593fcf4c4e338f7ae76969a7e3b5a91cb2539357f65e282a7c43c5d3097",
-      "bytes": 22960,
+      "version": "311251bd3feb",
+      "sha256": "311251bd3feb791eb2bb9eafb1b487f88129e5d7177f839aae18cab4180663a3",
+      "bytes": 23241,
       "manifestUrl": "courses/chinese-hsk3-1.json"
     },
     {
@@ -150,8 +150,8 @@
       "days": 22,
       "topics": 11,
       "items": 77,
-      "version": "a0190280f5fb",
-      "sha256": "a0190280f5fbd2558676cfcbc00b45b22ca3102e859220f099f4068f188792a3",
+      "version": "68c9de7a5fa1",
+      "sha256": "68c9de7a5fa1f0e2188774242f1b5593d55182501302ccff0752e0aecdf84096",
       "bytes": 23441,
       "manifestUrl": "courses/chinese-radicals-1.json"
     },
@@ -167,11 +167,11 @@
       "icon_color": "#7C5CFC",
       "thumbnail": "covers/english-basic-conversation-1.png",
       "days": 25,
-      "topics": 9,
+      "topics": 12,
       "items": 159,
-      "version": "7c2531a51b79",
-      "sha256": "7c2531a51b79e2c2b8451ee07746c61c11eac0bae58c7084b347805d063be1e9",
-      "bytes": 37341,
+      "version": "950d2d77a756",
+      "sha256": "950d2d77a7563e2cbe1dd2288a0472706898c656eee23e023b574e31a682dd0e",
+      "bytes": 38209,
       "manifestUrl": "courses/english-basic-conversation-1.json"
     },
     {
@@ -186,11 +186,11 @@
       "icon_color": "#7C5CFC",
       "thumbnail": "covers/english-daily-conversation-1.png",
       "days": 32,
-      "topics": 10,
+      "topics": 16,
       "items": 202,
-      "version": "cc075a0d05ef",
-      "sha256": "cc075a0d05ef4e448094cfcc96f66f52d93f7250d15cd4c2153304b1bec8103b",
-      "bytes": 48158,
+      "version": "c901599f096a",
+      "sha256": "c901599f096a61d9567c11d87153131037129ccf2d40574269ad690490def767",
+      "bytes": 49895,
       "manifestUrl": "courses/english-daily-conversation-1.json"
     },
     {
@@ -205,11 +205,11 @@
       "icon_color": "#F59E0B",
       "thumbnail": "covers/bbc-english-at-work-1.png",
       "days": 17,
-      "topics": 8,
+      "topics": 6,
       "items": 76,
-      "version": "b723d47cd09b",
-      "sha256": "b723d47cd09b0c9f72b23b6a95d258fa133fc28df8982e624303fb60748aeb58",
-      "bytes": 20690,
+      "version": "1f228ce0b578",
+      "sha256": "1f228ce0b57894ca6a08c31d43ff6f61e865130b6237dd9cc2ba3480b325d256",
+      "bytes": 20193,
       "manifestUrl": "courses/bbc-english-at-work-1.json"
     },
     {
@@ -224,11 +224,11 @@
       "icon_color": "#0EA5A4",
       "thumbnail": "covers/english-office-basic-1.png",
       "days": 24,
-      "topics": 9,
+      "topics": 8,
       "items": 57,
-      "version": "2606fbdd6c08",
-      "sha256": "2606fbdd6c08b25b1661379faf1ed7086002252eec86cbc796b580619fb6226d",
-      "bytes": 21025,
+      "version": "74d02bf48c45",
+      "sha256": "74d02bf48c451094e60d36b3f13c9cc4edfc8693b72f6242126377e6deadab25",
+      "bytes": 20681,
       "manifestUrl": "courses/english-office-basic-1.json"
     },
     {
@@ -243,11 +243,11 @@
       "icon_color": "#0EA5A4",
       "thumbnail": "covers/english-workplace-1.png",
       "days": 25,
-      "topics": 9,
+      "topics": 10,
       "items": 109,
-      "version": "d502fccd796f",
-      "sha256": "d502fccd796fa0f1f9d35b40d00e4ce580e0ea0d0daefacf42aa8ac168924231",
-      "bytes": 29422,
+      "version": "7b0b568a4185",
+      "sha256": "7b0b568a418513df329c873be3ef9074841c5540a3bc0dfe15dd5d116509bed2",
+      "bytes": 29806,
       "manifestUrl": "courses/english-workplace-1.json"
     },
     {
@@ -262,11 +262,11 @@
       "icon_color": "#E5484D",
       "thumbnail": "covers/ielts-reading-1.png",
       "days": 24,
-      "topics": 8,
+      "topics": 11,
       "items": 102,
-      "version": "a6667c03353f",
-      "sha256": "a6667c03353f17bdfab7697f22970817869b19a362ade787f735fcccf1ac4f0e",
-      "bytes": 28355,
+      "version": "d13549b47e5b",
+      "sha256": "d13549b47e5bc4f98422ba6a5a744f19beb5ef0ddb2375c00b89354f51f8a5cb",
+      "bytes": 29181,
       "manifestUrl": "courses/ielts-reading-1.json"
     },
     {
@@ -281,11 +281,11 @@
       "icon_color": "#E5484D",
       "thumbnail": "covers/ielts-vocabulary-45-1.png",
       "days": 15,
-      "topics": 7,
+      "topics": 6,
       "items": 67,
-      "version": "6f4172b2801b",
-      "sha256": "6f4172b2801bfd7b67a0b7dd9e87f6ebe863ad78941de578e67437c400e955f6",
-      "bytes": 18458,
+      "version": "547e5d48775a",
+      "sha256": "547e5d48775a282810e298d5c494199a32d3701ab7a1eebc92114867317b4fd2",
+      "bytes": 18141,
       "manifestUrl": "courses/ielts-vocabulary-45-1.json"
     }
   ]

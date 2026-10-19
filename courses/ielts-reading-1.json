@@ -943,15 +943,14 @@
     {
       "id": "ir1-1",
       "order": 1,
-      "title": "Reading 1–6",
-      "icon": "leaf.fill",
-      "illustration": "ielts-essential-words-1-1",
+      "title": "Tâm lý & truyền thông",
+      "icon": "book.fill",
+      "illustration": "icons/brain.png",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         1,
-        2,
-        3
+        2
       ],
       "items": [
         "lesson:5347",
@@ -961,32 +960,46 @@
         "lesson:5349",
         "deck:8658",
         "lesson:5350",
-        "deck:8659",
-        "lesson:5351",
-        "deck:8660",
-        "lesson:5353",
-        "deck:8662",
-        "test:8660"
+        "deck:8659"
       ]
     },
     {
       "id": "ir1-2",
       "order": 2,
-      "title": "Reading 7–12",
-      "icon": "gamecontroller.fill",
-      "illustration": "ielts-essential-words-1-2",
+      "title": "Khoa học & thiên nhiên",
+      "icon": "book.fill",
+      "illustration": "icons/volcano.png",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
-        4,
+        3,
+        4
+      ],
+      "items": [
+        "lesson:5351",
+        "deck:8660",
+        "lesson:5353",
+        "deck:8662",
+        "test:8660",
+        "lesson:5354",
+        "deck:8663",
+        "lesson:5355",
+        "deck:8664"
+      ]
+    },
+    {
+      "id": "ir1-3",
+      "order": 3,
+      "title": "Sức khoẻ & giáo dục",
+      "icon": "book.fill",
+      "illustration": "icons/stethoscope.png",
+      "color": "#22B07D",
+      "level_tag": "Chặng 1",
+      "days_hint": [
         5,
         6
       ],
       "items": [
-        "lesson:5354",
-        "deck:8663",
-        "lesson:5355",
-        "deck:8664",
         "lesson:5356",
         "deck:8665",
         "lesson:5357",
@@ -999,17 +1012,16 @@
       ]
     },
     {
-      "id": "ir1-3",
-      "order": 3,
-      "title": "Reading 13–18",
-      "icon": "car.fill",
-      "illustration": "ielts-essential-words-1-3",
-      "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "id": "ir1-4",
+      "order": 4,
+      "title": "Khám phá & văn hoá",
+      "icon": "book.fill",
+      "illustration": "icons/milky_way.png",
+      "color": "#2F6FED",
+      "level_tag": "Chặng 1",
       "days_hint": [
         7,
-        8,
-        9
+        8
       ],
       "items": [
         "lesson:5623",
@@ -1019,28 +1031,28 @@
         "lesson:5626",
         "deck:8722",
         "lesson:5627",
-        "deck:8723",
+        "deck:8723"
+      ]
+    },
+    {
+      "id": "ir1-5",
+      "order": 5,
+      "title": "An toàn & thể chất",
+      "icon": "book.fill",
+      "illustration": "icons/flexed_biceps.png",
+      "color": "#7C4DDB",
+      "level_tag": "Chặng 2",
+      "days_hint": [
+        9,
+        10,
+        11
+      ],
+      "items": [
         "lesson:6233",
         "deck:8942",
         "lesson:6236",
         "deck:8943",
-        "test:8942"
-      ]
-    },
-    {
-      "id": "ir1-4",
-      "order": 4,
-      "title": "Reading 19–24",
-      "icon": "building.columns.fill",
-      "illustration": "ielts-essential-words-1-4",
-      "color": "#2F6FED",
-      "level_tag": "Trung cấp",
-      "days_hint": [
-        10,
-        11,
-        12
-      ],
-      "items": [
+        "test:8942",
         "lesson:6237",
         "deck:8944",
         "lesson:6238",
@@ -1048,32 +1060,46 @@
         "lesson:6239",
         "deck:8946",
         "lesson:6240",
-        "deck:8947",
+        "deck:8947"
+      ]
+    },
+    {
+      "id": "ir1-6",
+      "order": 6,
+      "title": "Công nghệ & động vật",
+      "icon": "book.fill",
+      "illustration": "icons/robot.png",
+      "color": "#F26B1D",
+      "level_tag": "Chặng 2",
+      "days_hint": [
+        12,
+        13
+      ],
+      "items": [
         "lesson:6241",
         "deck:8948",
         "lesson:6299",
         "deck:8971",
-        "test:8948"
+        "test:8948",
+        "lesson:6300",
+        "deck:8972",
+        "lesson:6301",
+        "deck:8973"
       ]
     },
     {
-      "id": "ir1-5",
-      "order": 5,
-      "title": "Reading 25–30",
-      "icon": "cross.case.fill",
-      "illustration": "ielts-essential-words-1-5",
-      "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "id": "ir1-7",
+      "order": 7,
+      "title": "Xã hội & nghệ thuật",
+      "icon": "book.fill",
+      "illustration": "icons/artist_palette.png",
+      "color": "#22B07D",
+      "level_tag": "Chặng 2",
       "days_hint": [
-        13,
         14,
         15
       ],
       "items": [
-        "lesson:6300",
-        "deck:8972",
-        "lesson:6301",
-        "deck:8973",
         "lesson:6302",
         "deck:8974",
         "lesson:6303",
@@ -1086,17 +1112,16 @@
       ]
     },
     {
-      "id": "ir1-6",
-      "order": 6,
-      "title": "Reading 31–36",
-      "icon": "airplane",
-      "illustration": "ielts-essential-words-1-6",
-      "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "id": "ir1-8",
+      "order": 8,
+      "title": "Xã hội hiện đại",
+      "icon": "book.fill",
+      "illustration": "icons/dna.png",
+      "color": "#2F6FED",
+      "level_tag": "Chặng 2",
       "days_hint": [
         16,
-        17,
-        18
+        17
       ],
       "items": [
         "lesson:6314",
@@ -1106,28 +1131,28 @@
         "lesson:6316",
         "deck:8986",
         "lesson:6317",
-        "deck:8987",
+        "deck:8987"
+      ]
+    },
+    {
+      "id": "ir1-9",
+      "order": 9,
+      "title": "Động vật & thiên nhiên",
+      "icon": "book.fill",
+      "illustration": "icons/penguin.png",
+      "color": "#7C4DDB",
+      "level_tag": "Chặng 3",
+      "days_hint": [
+        18,
+        19,
+        20
+      ],
+      "items": [
         "lesson:6319",
         "deck:8988",
         "lesson:6320",
         "deck:8989",
-        "test:8988"
-      ]
-    },
-    {
-      "id": "ir1-7",
-      "order": 7,
-      "title": "Reading 37–42",
-      "icon": "briefcase.fill",
-      "illustration": "ielts-essential-words-1-7",
-      "color": "#22B07D",
-      "level_tag": "Trung cấp",
-      "days_hint": [
-        19,
-        20,
-        21
-      ],
-      "items": [
+        "test:8988",
         "lesson:6321",
         "deck:8990",
         "lesson:6322",
@@ -1135,32 +1160,46 @@
         "lesson:6323",
         "deck:8992",
         "lesson:6324",
-        "deck:8993",
+        "deck:8993"
+      ]
+    },
+    {
+      "id": "ir1-10",
+      "order": 10,
+      "title": "Lịch sử & tâm lý",
+      "icon": "book.fill",
+      "illustration": "icons/classical_building.png",
+      "color": "#F26B1D",
+      "level_tag": "Chặng 3",
+      "days_hint": [
+        21,
+        22
+      ],
+      "items": [
         "lesson:6325",
         "deck:8994",
         "lesson:6326",
         "deck:8995",
-        "test:8994"
+        "test:8994",
+        "lesson:6327",
+        "deck:8996",
+        "lesson:6328",
+        "deck:8997"
       ]
     },
     {
-      "id": "ir1-8",
-      "order": 8,
-      "title": "Reading 43–47",
-      "icon": "person.3.fill",
-      "illustration": "ielts-essential-words-1-8",
-      "color": "#2F6FED",
-      "level_tag": "Trung cấp",
+      "id": "ir1-11",
+      "order": 11,
+      "title": "Âm nhạc & đời sống",
+      "icon": "book.fill",
+      "illustration": "icons/violin.png",
+      "color": "#22B07D",
+      "level_tag": "Chặng 3",
       "days_hint": [
-        22,
         23,
         24
       ],
       "items": [
-        "lesson:6327",
-        "deck:8996",
-        "lesson:6328",
-        "deck:8997",
         "lesson:6329",
         "deck:8998",
         "lesson:6330",

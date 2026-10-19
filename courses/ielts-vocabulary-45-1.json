@@ -618,15 +618,14 @@
     {
       "id": "iv1-1",
       "order": 1,
-      "title": "Bài 1–6",
-      "icon": "leaf.fill",
-      "illustration": "ielts-essential-words-1-1",
+      "title": "Giáo dục",
+      "icon": "book.fill",
+      "illustration": "icons/graduation_cap.png",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         1,
-        2,
-        3
+        2
       ],
       "items": [
         "lesson:39640",
@@ -636,51 +635,52 @@
         "lesson:39642",
         "deck:11595",
         "lesson:39643",
-        "deck:11596",
-        "lesson:39644",
-        "deck:11597",
-        "lesson:39645",
-        "deck:11598",
-        "test:11597"
+        "deck:11596"
       ]
     },
     {
       "id": "iv1-2",
       "order": 2,
-      "title": "Bài 7–10",
-      "icon": "gamecontroller.fill",
-      "illustration": "ielts-essential-words-1-2",
+      "title": "Thể thao & giải trí",
+      "icon": "book.fill",
+      "illustration": "icons/soccer_ball.png",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
-        4,
-        5
+        3,
+        4
       ],
       "items": [
+        "lesson:39644",
+        "deck:11597",
+        "lesson:39645",
+        "deck:11598",
+        "test:11597",
         "lesson:39646",
         "deck:11599",
         "lesson:39647",
-        "deck:11600",
-        "lesson:39648",
-        "deck:11601",
-        "lesson:39649",
-        "deck:11602",
-        "test:11601"
+        "deck:11600"
       ]
     },
     {
       "id": "iv1-3",
       "order": 3,
-      "title": "Bài 11–14",
-      "icon": "car.fill",
-      "illustration": "ielts-essential-words-1-3",
+      "title": "Ẩm thực",
+      "icon": "book.fill",
+      "illustration": "icons/pot_of_food.png",
       "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
+        5,
         6,
         7
       ],
       "items": [
+        "lesson:39648",
+        "deck:11601",
+        "lesson:39649",
+        "deck:11602",
+        "test:11601",
         "lesson:39849",
         "deck:11648",
         "lesson:39850",
@@ -695,14 +695,16 @@
     {
       "id": "iv1-4",
       "order": 4,
-      "title": "Bài 15–18",
-      "icon": "building.columns.fill",
-      "illustration": "ielts-essential-words-1-4",
+      "title": "Nhà ở & gia đình",
+      "icon": "book.fill",
+      "illustration": "icons/house.png",
       "color": "#2F6FED",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         8,
-        9
+        9,
+        10,
+        11
       ],
       "items": [
         "lesson:41635",
@@ -713,22 +715,7 @@
         "deck:11926",
         "lesson:41641",
         "deck:11927",
-        "test:11927"
-      ]
-    },
-    {
-      "id": "iv1-5",
-      "order": 5,
-      "title": "Bài 19–22",
-      "icon": "cross.case.fill",
-      "illustration": "ielts-essential-words-1-5",
-      "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
-      "days_hint": [
-        10,
-        11
-      ],
-      "items": [
+        "test:11927",
         "lesson:41642",
         "deck:11928",
         "lesson:41643",
@@ -741,13 +728,13 @@
       ]
     },
     {
-      "id": "iv1-6",
-      "order": 6,
-      "title": "Bài 23–26",
-      "icon": "airplane",
-      "illustration": "ielts-essential-words-1-6",
-      "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "id": "iv1-5",
+      "order": 5,
+      "title": "Công việc",
+      "icon": "book.fill",
+      "illustration": "icons/briefcase.png",
+      "color": "#7C4DDB",
+      "level_tag": "Chặng 2",
       "days_hint": [
         12,
         13
@@ -765,13 +752,13 @@
       ]
     },
     {
-      "id": "iv1-7",
-      "order": 7,
-      "title": "Bài 27–30",
-      "icon": "briefcase.fill",
-      "illustration": "ielts-essential-words-1-7",
-      "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "id": "iv1-6",
+      "order": 6,
+      "title": "Luyện tập tổng hợp",
+      "icon": "book.fill",
+      "illustration": "icons/memo.png",
+      "color": "#F26B1D",
+      "level_tag": "Chặng 2",
       "days_hint": [
         14,
         15

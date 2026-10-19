@@ -1467,7 +1467,7 @@
       "title": "Part 1 – Mô tả tranh",
       "icon": "photo.fill",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         1,
         2,
@@ -1491,7 +1491,8 @@
         "lesson:55570",
         "deck:27831",
         "test:27921"
-      ]
+      ],
+      "illustration": "icons/framed_picture.png"
     },
     {
       "id": "toeic-2",
@@ -1499,7 +1500,7 @@
       "title": "Part 2 – Câu hỏi Wh-",
       "icon": "text.bubble.fill",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         6,
         7,
@@ -1531,7 +1532,8 @@
         "lesson:55577",
         "deck:27928",
         "test:27928"
-      ]
+      ],
+      "illustration": "icons/red_question_mark.png"
     },
     {
       "id": "toeic-3",
@@ -1539,7 +1541,7 @@
       "title": "Part 2 – Yes/No & khác",
       "icon": "text.bubble.fill",
       "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         13,
         14
@@ -1551,7 +1553,8 @@
         "lesson:55579",
         "deck:27930",
         "test:27930"
-      ]
+      ],
+      "illustration": "icons/speech_balloon.png"
     },
     {
       "id": "toeic-4",
@@ -1559,7 +1562,7 @@
       "title": "Part 3-4 – Nghe hiểu",
       "icon": "headphones",
       "color": "#2F6FED",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         15,
         16,
@@ -1583,7 +1586,8 @@
         "lesson:55584",
         "deck:27935",
         "test:28059"
-      ]
+      ],
+      "illustration": "icons/headphone.png"
     },
     {
       "id": "toeic-5",
@@ -1591,7 +1595,7 @@
       "title": "Ngữ pháp nền tảng",
       "icon": "textformat",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         20,
         21,
@@ -1615,7 +1619,8 @@
         "lesson:55589",
         "deck:27845",
         "test:28064"
-      ]
+      ],
+      "illustration": "icons/memo.png"
     },
     {
       "id": "toeic-6",
@@ -1623,7 +1628,7 @@
       "title": "Ngữ pháp nâng cao",
       "icon": "doc.text.fill",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         25,
         26,
@@ -1647,7 +1652,8 @@
         "lesson:55594",
         "deck:27945",
         "test:28069"
-      ]
+      ],
+      "illustration": "icons/pencil.png"
     },
     {
       "id": "toeic-7",
@@ -1655,7 +1661,7 @@
       "title": "Part 6-7 – Đọc hiểu",
       "icon": "book.fill",
       "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         30,
         31,
@@ -1679,7 +1685,8 @@
         "lesson:55599",
         "deck:27950",
         "test:27950"
-      ]
+      ],
+      "illustration": "icons/open_book.png"
     },
     {
       "id": "toeic-8",
@@ -1687,7 +1694,7 @@
       "title": "Mẫu câu & thời gian",
       "icon": "clock.fill",
       "color": "#2F6FED",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         35,
         36,
@@ -1707,7 +1714,8 @@
         "lesson:55603",
         "deck:27855",
         "test:27954"
-      ]
+      ],
+      "illustration": "icons/alarm_clock.png"
     },
     {
       "id": "toeic-9",
@@ -1715,7 +1723,7 @@
       "title": "Lịch hẹn & sức khoẻ",
       "icon": "calendar",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 3",
       "days_hint": [
         39,
         40,
@@ -1735,7 +1743,8 @@
         "lesson:55606",
         "deck:27863",
         "test:27958"
-      ]
+      ],
+      "illustration": "icons/spiral_calendar.png"
     },
     {
       "id": "toeic-10",
@@ -1743,7 +1752,7 @@
       "title": "Du lịch & dịch vụ",
       "icon": "airplane",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 3",
       "days_hint": [
         43,
         44,
@@ -1759,7 +1768,8 @@
         "lesson:55609",
         "deck:27869",
         "test:27961"
-      ]
+      ],
+      "illustration": "icons/airplane.png"
     },
     {
       "id": "toeic-11",
@@ -1767,7 +1777,7 @@
       "title": "Từ vựng công sở",
       "icon": "briefcase.fill",
       "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 3",
       "days_hint": [
         46,
         47,
@@ -1791,7 +1801,8 @@
         "lesson:55614",
         "deck:27879",
         "test:27966"
-      ]
+      ],
+      "illustration": "icons/briefcase.png"
     }
   ]
 }

@@ -694,11 +694,11 @@
     {
       "id": "zh3-1",
       "order": 1,
-      "title": "Bài 1: 我们去机场接你们",
-      "icon": "waveform",
-      "illustration": "ielts-essential-words-1-6",
+      "title": "Đón ở sân bay",
+      "icon": "book.fill",
+      "illustration": "icons/airplane.png",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         1,
         2
@@ -711,16 +711,17 @@
         "deck:27534",
         "deck:27535",
         "test:27534"
-      ]
+      ],
+      "original_title": "我们去机场接你们"
     },
     {
       "id": "zh3-2",
       "order": 2,
-      "title": "Bài 2: 你们想吃什么就点什么",
-      "icon": "text.bubble.fill",
-      "illustration": "chinese-daily-1-10",
+      "title": "Gọi món",
+      "icon": "book.fill",
+      "illustration": "icons/takeout_box.png",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         3,
         4
@@ -733,16 +734,17 @@
         "deck:26814",
         "deck:26815",
         "test:26815"
-      ]
+      ],
+      "original_title": "你们想吃什么就点什么"
     },
     {
       "id": "zh3-3",
       "order": 3,
-      "title": "Bài 3: 这个小区挺好的",
-      "icon": "person.2.fill",
-      "illustration": "korean-beginner-1-10",
+      "title": "Khu dân cư",
+      "icon": "book.fill",
+      "illustration": "icons/houses.png",
       "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         5,
         6
@@ -755,16 +757,17 @@
         "deck:26846",
         "deck:26847",
         "test:26847"
-      ]
+      ],
+      "original_title": "这个小区挺好的"
     },
     {
       "id": "zh3-4",
       "order": 4,
-      "title": "Bài 4: 这家宾馆跟别的都不一样",
-      "icon": "clock.fill",
-      "illustration": "korean-beginner-1-7",
+      "title": "Khách sạn",
+      "icon": "book.fill",
+      "illustration": "icons/hotel.png",
       "color": "#2F6FED",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         7,
         8
@@ -777,16 +780,17 @@
         "deck:26901",
         "deck:26902",
         "test:26901"
-      ]
+      ],
+      "original_title": "这家宾馆跟别的都不一样"
     },
     {
       "id": "zh3-5",
       "order": 5,
-      "title": "Bài 5: 这样的照片才好看",
-      "icon": "house.fill",
-      "illustration": "korean-beginner-1-15",
+      "title": "Chụp ảnh",
+      "icon": "book.fill",
+      "illustration": "icons/camera.png",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         9,
         10
@@ -799,16 +803,17 @@
         "deck:26908",
         "deck:26909",
         "test:26909"
-      ]
+      ],
+      "original_title": "这样的照片才好看"
     },
     {
       "id": "zh3-6",
       "order": 6,
-      "title": "Bài 6: 高铁上还可以点外卖",
-      "icon": "fork.knife",
-      "illustration": "korean-beginner-1-16",
+      "title": "Trên tàu cao tốc",
+      "icon": "book.fill",
+      "illustration": "icons/high-speed_train.png",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         11,
         12
@@ -821,16 +826,17 @@
         "deck:26941",
         "deck:26942",
         "test:26941"
-      ]
+      ],
+      "original_title": "高铁上还可以点外卖"
     },
     {
       "id": "zh3-7",
       "order": 7,
-      "title": "Bài 7: 那条裙子比短裤更好看",
-      "icon": "cart.fill",
-      "illustration": "chinese-daily-1-6",
+      "title": "Chọn váy",
+      "icon": "book.fill",
+      "illustration": "icons/dress.png",
       "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         13,
         14
@@ -843,16 +849,17 @@
         "deck:27330",
         "deck:27331",
         "test:27330"
-      ]
+      ],
+      "original_title": "那条裙子比短裤更好看"
     },
     {
       "id": "zh3-8",
       "order": 8,
-      "title": "Bài 8: 今天我出院了",
-      "icon": "airplane",
-      "illustration": "ielts-essential-words-1-5",
+      "title": "Xuất viện",
+      "icon": "book.fill",
+      "illustration": "icons/hospital.png",
       "color": "#2F6FED",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         15,
         16
@@ -865,16 +872,17 @@
         "deck:27379",
         "deck:27380",
         "test:27380"
-      ]
+      ],
+      "original_title": "今天我出院了"
     },
     {
       "id": "zh3-9",
       "order": 9,
-      "title": "Bài 9: 打不好没关系",
-      "icon": "heart.fill",
-      "illustration": "chinese-daily-1-7",
+      "title": "Chơi thể thao",
+      "icon": "book.fill",
+      "illustration": "icons/basketball.png",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         17,
         18
@@ -887,16 +895,17 @@
         "deck:27385",
         "deck:27386",
         "test:27385"
-      ]
+      ],
+      "original_title": "打不好没关系"
     },
     {
       "id": "zh3-10",
       "order": 10,
-      "title": "Bài 10: 你明天再把书还给我",
-      "icon": "leaf.fill",
-      "illustration": "korean-beginner-1-1",
+      "title": "Trả sách",
+      "icon": "book.fill",
+      "illustration": "icons/books.png",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 2",
       "days_hint": [
         19,
         20
@@ -909,7 +918,8 @@
         "deck:28013",
         "deck:28014",
         "test:28013"
-      ]
+      ],
+      "original_title": "你明天再把书还给我"
     }
   ]
 }

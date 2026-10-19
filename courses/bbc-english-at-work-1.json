@@ -699,11 +699,11 @@
     {
       "id": "bw1-1",
       "order": 1,
-      "title": "Tập 1–6",
+      "title": "Phỏng vấn & lịch sự",
       "icon": "book.fill",
-      "illustration": "korean-beginner-1-2",
+      "illustration": "icons/handshake.png",
       "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         1,
         2,
@@ -728,14 +728,15 @@
     {
       "id": "bw1-2",
       "order": 2,
-      "title": "Tập 7–10",
-      "icon": "text.bubble.fill",
-      "illustration": "chinese-daily-1-1",
+      "title": "Xin lỗi & khen ngợi",
+      "icon": "book.fill",
+      "illustration": "icons/folded_hands.png",
       "color": "#F26B1D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
         4,
-        5
+        5,
+        6
       ],
       "items": [
         "lesson:30174",
@@ -746,46 +747,32 @@
         "deck:9603",
         "lesson:30180",
         "deck:9605",
-        "test:9603"
+        "test:9603",
+        "lesson:30181",
+        "deck:9606",
+        "lesson:30187",
+        "deck:9610"
       ]
     },
     {
       "id": "bw1-3",
       "order": 3,
-      "title": "Tập 11–14",
-      "icon": "person.2.fill",
-      "illustration": "ielts-essential-words-1-8",
+      "title": "Điện thoại & email",
+      "icon": "book.fill",
+      "illustration": "icons/telephone_receiver.png",
       "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "level_tag": "Chặng 1",
       "days_hint": [
-        6,
-        7
-      ],
-      "items": [
-        "lesson:30181",
-        "deck:9606",
-        "lesson:30187",
-        "deck:9610",
-        "lesson:30188",
-        "deck:9611",
-        "lesson:30189",
-        "deck:9612",
-        "test:9611"
-      ]
-    },
-    {
-      "id": "bw1-4",
-      "order": 4,
-      "title": "Tập 15–18",
-      "icon": "clock.fill",
-      "illustration": "korean-beginner-1-5",
-      "color": "#2F6FED",
-      "level_tag": "Trung cấp",
-      "days_hint": [
+        7,
         8,
         9
       ],
       "items": [
+        "lesson:30188",
+        "deck:9611",
+        "lesson:30189",
+        "deck:9612",
+        "test:9611",
         "lesson:30190",
         "deck:9613",
         "lesson:30191",
@@ -798,16 +785,17 @@
       ]
     },
     {
-      "id": "bw1-5",
-      "order": 5,
-      "title": "Tập 19–22",
-      "icon": "house.fill",
-      "illustration": "ielts-essential-words-1-7",
-      "color": "#7C4DDB",
-      "level_tag": "Trung cấp",
+      "id": "bw1-4",
+      "order": 4,
+      "title": "Họp nhóm & an toàn",
+      "icon": "book.fill",
+      "illustration": "icons/fire_extinguisher.png",
+      "color": "#2F6FED",
+      "level_tag": "Chặng 2",
       "days_hint": [
         10,
-        11
+        11,
+        12
       ],
       "items": [
         "lesson:30194",
@@ -818,46 +806,32 @@
         "deck:9806",
         "lesson:30679",
         "deck:9807",
-        "test:9806"
-      ]
-    },
-    {
-      "id": "bw1-6",
-      "order": 6,
-      "title": "Tập 23–26",
-      "icon": "fork.knife",
-      "illustration": "chinese-daily-1-10",
-      "color": "#F26B1D",
-      "level_tag": "Trung cấp",
-      "days_hint": [
-        12,
-        13
-      ],
-      "items": [
+        "test:9806",
         "lesson:30680",
         "deck:9808",
         "lesson:30681",
-        "deck:9809",
-        "lesson:30692",
-        "deck:9813",
-        "lesson:30727",
-        "deck:9829",
-        "test:9813"
+        "deck:9809"
       ]
     },
     {
-      "id": "bw1-7",
-      "order": 7,
-      "title": "Tập 27–30",
-      "icon": "cart.fill",
-      "illustration": "ielts-essential-words-1-10",
-      "color": "#22B07D",
-      "level_tag": "Trung cấp",
+      "id": "bw1-5",
+      "order": 5,
+      "title": "Đàm phán & hợp tác",
+      "icon": "book.fill",
+      "illustration": "icons/chart_increasing.png",
+      "color": "#7C4DDB",
+      "level_tag": "Chặng 2",
       "days_hint": [
+        13,
         14,
         15
       ],
       "items": [
+        "lesson:30692",
+        "deck:9813",
+        "lesson:30727",
+        "deck:9829",
+        "test:9813",
         "lesson:30728",
         "deck:9830",
         "lesson:30729",
@@ -870,13 +844,13 @@
       ]
     },
     {
-      "id": "bw1-8",
-      "order": 8,
-      "title": "Tập 31–34",
-      "icon": "airplane",
-      "illustration": "ielts-essential-words-1-6",
-      "color": "#2F6FED",
-      "level_tag": "Trung cấp",
+      "id": "bw1-6",
+      "order": 6,
+      "title": "Chốt hợp đồng",
+      "icon": "book.fill",
+      "illustration": "icons/scroll.png",
+      "color": "#F26B1D",
+      "level_tag": "Chặng 2",
       "days_hint": [
         16,
         17
