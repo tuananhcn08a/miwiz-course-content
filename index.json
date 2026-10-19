@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T02:45:42.692Z",
+  "generatedAt": "2026-10-19T02:48:29.127Z",
   "minAppVersion": null,
   "courses": [
     {
@@ -17,9 +17,9 @@
       "days": 47,
       "topics": 16,
       "items": 222,
-      "version": "bbba00973266",
-      "sha256": "bbba00973266a454039a5d34ab0b8c8f60c653613b9deda4c0860718fa1edac1",
-      "bytes": 63815,
+      "version": "fb76cd24015e",
+      "sha256": "fb76cd24015ea6580c8f42aaae951ce243777034bfe8ccbe9a149158812bae11",
+      "bytes": 64440,
       "manifestUrl": "courses/korean-beginner-1.json"
     },
     {
@@ -36,9 +36,9 @@
       "days": 40,
       "topics": 40,
       "items": 304,
-      "version": "acaa5bb5823b",
-      "sha256": "acaa5bb5823b837ffccfec45ce42825cc3912851cf5cfa25edff0328374aa980",
-      "bytes": 87171,
+      "version": "55bb586759c5",
+      "sha256": "55bb586759c5f4f540ca8c3db70067ac0e1b35adf9c5bde0c2f0dd267b4cbf47",
+      "bytes": 87143,
       "manifestUrl": "courses/chinese-daily-1.json"
     },
     {
@@ -74,9 +74,9 @@
       "days": 50,
       "topics": 11,
       "items": 150,
-      "version": "ba10422bdbb5",
-      "sha256": "ba10422bdbb50cce9c1f9c676fdfea64ef5bee8ca37426f041def664754909ac",
-      "bytes": 49619,
+      "version": "fd367bd67c38",
+      "sha256": "fd367bd67c38f360d549e49fc9d75f78d88ebf6c5d745352bc4c528282a811c7",
+      "bytes": 49622,
       "manifestUrl": "courses/toeic-50-days-1.json"
     },
     {
@@ -93,9 +93,9 @@
       "days": 42,
       "topics": 14,
       "items": 202,
-      "version": "44e23b50d08e",
-      "sha256": "44e23b50d08e09f94335f51c5f62b4df813d285ab549138b6a7b9942c8a6508a",
-      "bytes": 57593,
+      "version": "2292fac70e16",
+      "sha256": "2292fac70e1698d57c9093009c62d15749d450210108f60560d4447f8c31772b",
+      "bytes": 58164,
       "manifestUrl": "courses/korean-beginner-2.json"
     },
     {
@@ -188,9 +188,9 @@
       "days": 32,
       "topics": 16,
       "items": 202,
-      "version": "c901599f096a",
-      "sha256": "c901599f096a61d9567c11d87153131037129ccf2d40574269ad690490def767",
-      "bytes": 49895,
+      "version": "302c0d211f90",
+      "sha256": "302c0d211f90fe3bfe10802bce261e411d16305c4ddf381b3cf20c8624833e63",
+      "bytes": 49891,
       "manifestUrl": "courses/english-daily-conversation-1.json"
     },
     {
@@ -245,9 +245,9 @@
       "days": 25,
       "topics": 10,
       "items": 109,
-      "version": "7b0b568a4185",
-      "sha256": "7b0b568a418513df329c873be3ef9074841c5540a3bc0dfe15dd5d116509bed2",
-      "bytes": 29806,
+      "version": "9b8cb7baa77b",
+      "sha256": "9b8cb7baa77b83778b73fa325b7cd4059d51ef174571ba778bf91910f13ac4da",
+      "bytes": 29817,
       "manifestUrl": "courses/english-workplace-1.json"
     },
     {

@@ -13,6 +13,7 @@
 | `alarm_clock.png` | Alarm clock |
 | `artist_palette.png` | Artist palette |
 | `automobile.png` | Automobile |
+| `baby.png` | Baby |
 | `bank.png` | Bank |
 | `basketball.png` | Basketball |
 | `beach_with_umbrella.png` | Beach with umbrella |
@@ -20,10 +21,10 @@
 | `books.png` | Books |
 | `brain.png` | Brain |
 | `briefcase.png` | Briefcase |
-| `busts_in_silhouette.png` | Busts in silhouette |
 | `calendar.png` | Calendar |
 | `camera.png` | Camera |
 | `chart_increasing.png` | Chart increasing |
+| `check_mark_button.png` | Check mark button |
 | `cityscape.png` | Cityscape |
 | `clapper_board.png` | Clapper board |
 | `classical_building.png` | Classical building |
@@ -41,7 +42,6 @@
 | `fire_extinguisher.png` | Fire extinguisher |
 | `flexed_biceps.png` | Flexed biceps |
 | `folded_hands.png` | Folded hands |
-| `fork_and_knife_with_plate.png` | Fork and knife with plate |
 | `framed_picture.png` | Framed picture |
 | `globe_showing_asia-australia.png` | Globe showing Asia-Australia |
 | `globe_with_meridians.png` | Globe with meridians |
@@ -63,9 +63,9 @@
 | `light_bulb.png` | Light bulb |
 | `lipstick.png` | Lipstick |
 | `luggage.png` | Luggage |
+| `megaphone.png` | Megaphone |
 | `memo.png` | Memo |
 | `milky_way.png` | Milky Way |
-| `mirror.png` | Mirror |
 | `mobile_phone.png` | Mobile phone |
 | `money_bag.png` | Money bag |
 | `musical_notes.png` | Musical notes |
@@ -79,7 +79,6 @@
 | `party_popper.png` | Party popper |
 | `pencil.png` | Pencil |
 | `penguin.png` | Penguin |
-| `people_hugging.png` | People hugging |
 | `performing_arts.png` | Performing arts |
 | `person_in_lotus_position.png` | Person in lotus position |
 | `pot_of_food.png` | Pot of food |
@@ -92,9 +91,8 @@
 | `scroll.png` | Scroll |
 | `shopping_bags.png` | Shopping bags |
 | `sleeping_face.png` | Sleeping face |
+| `smiling_face_with_smiling_eyes.png` | Smiling face with smiling eyes |
 | `soccer_ball.png` | Soccer ball |
-| `speaking_head.png` | Speaking head |
-| `speech_balloon.png` | Speech balloon |
 | `spiral_calendar.png` | Spiral calendar |
 | `steaming_bowl.png` | Steaming bowl |
 | `stethoscope.png` | Stethoscope |
@@ -105,7 +103,6 @@
 | `telephone_receiver.png` | Telephone receiver |
 | `television.png` | Television |
 | `thinking_face.png` | Thinking face |
-| `thought_balloon.png` | Thought balloon |
 | `trophy.png` | Trophy |
 | `video_game.png` | Video game |
 | `violin.png` | Violin |

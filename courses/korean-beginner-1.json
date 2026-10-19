@@ -2095,7 +2095,7 @@
     {
       "id": "ko1-2",
       "order": 2,
-      "title": "Bài 1: Giới thiệu",
+      "title": "Giới thiệu",
       "icon": "text.bubble.fill",
       "illustration": "korean-beginner-1-2",
       "color": "#F26B1D",
@@ -2119,12 +2119,13 @@
         "deck:20349",
         "deck:20350",
         "test:20349"
-      ]
+      ],
+      "original_title": "Bài 1: Giới thiệu"
     },
     {
       "id": "ko1-3",
       "order": 3,
-      "title": "Bài 2: Trường học",
+      "title": "Trường học",
       "icon": "graduationcap.fill",
       "illustration": "korean-beginner-1-3",
       "color": "#22B07D",
@@ -2150,12 +2151,13 @@
         "deck:20370",
         "deck:20371",
         "test:20370"
-      ]
+      ],
+      "original_title": "Bài 2: Trường học"
     },
     {
       "id": "ko1-4",
       "order": 4,
-      "title": "Bài 3: Sinh hoạt hằng ngày",
+      "title": "Sinh hoạt hằng ngày",
       "icon": "sun.max.fill",
       "illustration": "korean-beginner-1-4",
       "color": "#2F6FED",
@@ -2180,12 +2182,13 @@
         "deck:20377",
         "deck:20880",
         "test:20376"
-      ]
+      ],
+      "original_title": "Bài 3: Sinh hoạt hằng ngày"
     },
     {
       "id": "ko1-5",
       "order": 5,
-      "title": "Bài 4: Ngày và thứ",
+      "title": "Ngày và thứ",
       "icon": "calendar",
       "illustration": "korean-beginner-1-5",
       "color": "#7C4DDB",
@@ -2211,12 +2214,13 @@
         "deck:20425",
         "deck:20426",
         "test:20425"
-      ]
+      ],
+      "original_title": "Bài 4: Ngày và thứ"
     },
     {
       "id": "ko1-6",
       "order": 6,
-      "title": "Bài 5: Công việc trong ngày",
+      "title": "Công việc trong ngày",
       "icon": "briefcase.fill",
       "illustration": "korean-beginner-1-6",
       "color": "#F26B1D",
@@ -2240,12 +2244,13 @@
         "deck:20442",
         "deck:20443",
         "test:20442"
-      ]
+      ],
+      "original_title": "Bài 5: Công việc trong ngày"
     },
     {
       "id": "ko1-7",
       "order": 7,
-      "title": "Bài 6: Cuối tuần",
+      "title": "Cuối tuần",
       "icon": "figure.walk",
       "illustration": "korean-beginner-1-7",
       "color": "#22B07D",
@@ -2270,12 +2275,13 @@
         "deck:20446",
         "deck:20898",
         "test:20445"
-      ]
+      ],
+      "original_title": "Bài 6: Cuối tuần"
     },
     {
       "id": "ko1-8",
       "order": 8,
-      "title": "Bài 7: Mua sắm",
+      "title": "Mua sắm",
       "icon": "cart.fill",
       "illustration": "korean-beginner-1-8",
       "color": "#2F6FED",
@@ -2299,12 +2305,13 @@
         "deck:20462",
         "deck:20463",
         "test:20462"
-      ]
+      ],
+      "original_title": "Bài 7: Mua sắm"
     },
     {
       "id": "ko1-9",
       "order": 9,
-      "title": "Bài 8: Thức ăn",
+      "title": "Thức ăn",
       "icon": "fork.knife",
       "illustration": "korean-beginner-1-9",
       "color": "#7C4DDB",
@@ -2330,12 +2337,13 @@
         "deck:20519",
         "deck:20520",
         "test:20519"
-      ]
+      ],
+      "original_title": "Bài 8: Thức ăn"
     },
     {
       "id": "ko1-10",
       "order": 10,
-      "title": "Bài 9: Nhà cửa",
+      "title": "Nhà cửa",
       "icon": "house.fill",
       "illustration": "korean-beginner-1-10",
       "color": "#F26B1D",
@@ -2361,12 +2369,13 @@
         "deck:20523",
         "deck:20524",
         "test:20523"
-      ]
+      ],
+      "original_title": "Bài 9: Nhà cửa"
     },
     {
       "id": "ko1-11",
       "order": 11,
-      "title": "Bài 10: Gia đình",
+      "title": "Gia đình",
       "icon": "person.3.fill",
       "illustration": "korean-beginner-1-11",
       "color": "#22B07D",
@@ -2391,12 +2400,13 @@
         "deck:20532",
         "deck:20615",
         "test:20531"
-      ]
+      ],
+      "original_title": "Bài 10: Gia đình"
     },
     {
       "id": "ko1-12",
       "order": 12,
-      "title": "Bài 11: Thời tiết",
+      "title": "Thời tiết",
       "icon": "cloud.sun.fill",
       "illustration": "korean-beginner-1-12",
       "color": "#2F6FED",
@@ -2420,12 +2430,13 @@
         "deck:20534",
         "deck:20535",
         "test:20534"
-      ]
+      ],
+      "original_title": "Bài 11: Thời tiết"
     },
     {
       "id": "ko1-13",
       "order": 13,
-      "title": "Bài 12: Điện thoại",
+      "title": "Điện thoại",
       "icon": "phone.fill",
       "illustration": "korean-beginner-1-13",
       "color": "#7C4DDB",
@@ -2449,12 +2460,13 @@
         "deck:20540",
         "deck:20541",
         "test:20540"
-      ]
+      ],
+      "original_title": "Bài 12: Điện thoại"
     },
     {
       "id": "ko1-14",
       "order": 14,
-      "title": "Bài 13: Sinh nhật",
+      "title": "Sinh nhật",
       "icon": "gift.fill",
       "illustration": "korean-beginner-1-14",
       "color": "#F26B1D",
@@ -2479,12 +2491,13 @@
         "deck:20544",
         "deck:20545",
         "test:20544"
-      ]
+      ],
+      "original_title": "Bài 13: Sinh nhật"
     },
     {
       "id": "ko1-15",
       "order": 15,
-      "title": "Bài 14: Sở thích",
+      "title": "Sở thích",
       "icon": "heart.fill",
       "illustration": "korean-beginner-1-15",
       "color": "#22B07D",
@@ -2511,12 +2524,13 @@
         "deck:20548",
         "deck:20659",
         "test:20659"
-      ]
+      ],
+      "original_title": "Bài 14: Sở thích"
     },
     {
       "id": "ko1-16",
       "order": 16,
-      "title": "Bài 15: Giao thông",
+      "title": "Giao thông",
       "icon": "bus.fill",
       "illustration": "korean-beginner-1-16",
       "color": "#2F6FED",
@@ -2543,7 +2557,8 @@
         "deck:20551",
         "deck:20662",
         "test:20550"
-      ]
+      ],
+      "original_title": "Bài 15: Giao thông"
     }
   ]
 }

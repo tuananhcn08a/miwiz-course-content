@@ -2536,7 +2536,7 @@
       "order": 1,
       "title": "Nhập môn: Ngữ âm",
       "icon": "book.fill",
-      "illustration": "icons/speaking_head.png",
+      "illustration": "icons/megaphone.png",
       "color": "#7C4DDB",
       "level_tag": "Chặng 1",
       "days_hint": [
@@ -2646,7 +2646,7 @@
       "order": 7,
       "title": "Gia đình",
       "icon": "book.fill",
-      "illustration": "icons/people_hugging.png",
+      "illustration": "icons/baby.png",
       "color": "#22B07D",
       "level_tag": "Chặng 2",
       "days_hint": [
@@ -2813,7 +2813,7 @@
       "order": 16,
       "title": "Nhà hàng",
       "icon": "book.fill",
-      "illustration": "icons/fork_and_knife_with_plate.png",
+      "illustration": "icons/hamburger.png",
       "color": "#2F6FED",
       "level_tag": "Chặng 4",
       "days_hint": [
@@ -2910,7 +2910,7 @@
       "order": 20,
       "title": "Diện mạo",
       "icon": "book.fill",
-      "illustration": "icons/mirror.png",
+      "illustration": "icons/lipstick.png",
       "color": "#2F6FED",
       "level_tag": "Chặng 5",
       "days_hint": [

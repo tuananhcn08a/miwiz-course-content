@@ -1805,7 +1805,7 @@
       "order": 3,
       "title": "Nhờ vả & hỏi thăm",
       "icon": "book.fill",
-      "illustration": "icons/speech_balloon.png",
+      "illustration": "icons/folded_hands.png",
       "color": "#22B07D",
       "level_tag": "Chặng 1",
       "days_hint": [
@@ -2081,7 +2081,7 @@
       "order": 13,
       "title": "Thành ngữ & sở thích",
       "icon": "book.fill",
-      "illustration": "icons/thought_balloon.png",
+      "illustration": "icons/thinking_face.png",
       "color": "#7C4DDB",
       "level_tag": "Chặng 4",
       "days_hint": [
