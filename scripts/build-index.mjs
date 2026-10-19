@@ -4,6 +4,7 @@
 //       node scripts/build-index.mjs --check    → chỉ kiểm, lỗi nếu index.json cũ (dùng trong CI)
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
+import { spawnSync } from "node:child_process";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -84,6 +85,10 @@ if (errors.length) {
   console.error("✗ Lỗi nội dung:\n - " + errors.join("\n - "));
   process.exit(1);
 }
+
+// Offline courses catalog (offline/index.json) is validated on every run; errors fail the build.
+const off = spawnSync(process.execPath, [resolve(ROOT, "scripts/check-offline.mjs")], { stdio: "inherit" });
+if (off.status !== 0) process.exit(1);
 
 const prev = existsSync(resolve(ROOT, "index.json")) ? JSON.parse(readFileSync(resolve(ROOT, "index.json"), "utf8")) : null;
 const stable = JSON.stringify(courses);
