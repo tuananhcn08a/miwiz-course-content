@@ -93,6 +93,12 @@ code{background:var(--chip);padding:1px 5px;border-radius:5px;font-size:13px}
 .steps li.fail .d{border-color:var(--err);background:var(--err)}
 @keyframes spin{to{transform:rotate(360deg)}}
 a{color:var(--accent)}
+.tabs{display:flex;gap:4px;background:var(--chip);border-radius:12px;padding:4px;margin:0 0 12px}
+.tabs button{flex:1;border:none;background:none;border-radius:9px;min-height:40px;font-weight:600;color:var(--muted)}
+.tabs button[aria-selected=true]{background:var(--card);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.tabs .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--warn);margin-left:5px;vertical-align:2px}
+.tabnote{font-size:13px;color:var(--muted);margin:-4px 2px 10px}
+.cover{flex:none;width:40px;height:40px;border-radius:10px;object-fit:cover;background:var(--chip)}
 .hidden{display:none!important}
 </style>
 </head>
@@ -133,6 +139,12 @@ a{color:var(--accent)}
     </details>
   </section>
 
+  <div class="tabs" role="tablist" id="tabs">
+    <button type="button" role="tab" id="tab-online" data-tab="online" aria-selected="true">Khoá online<span class="dot hidden"></span></button>
+    <button type="button" role="tab" id="tab-offline" data-tab="offline" aria-selected="false">Khoá offline<span class="dot hidden"></span></button>
+  </div>
+  <div class="tabnote hidden" id="offNote">Học tại Miwiz Mind Hub · ẩn khoá = app không hiển thị (sau khi mở lại app)</div>
+
   <div class="msg" id="msg" role="status" aria-live="polite"></div>
 
   <section class="box hidden" id="progress">
@@ -146,7 +158,7 @@ a{color:var(--accent)}
   </section>
 
   <div class="presets" id="presets">
-    <button type="button" data-p="one">Chỉ 1 khoá/môn</button>
+    <button type="button" data-p="one" id="presetOne">Chỉ 1 khoá/môn</button>
     <button type="button" data-p="all">Hiện tất cả</button>
     <button type="button" data-p="none">Ẩn tất cả</button>
     <button type="button" data-p="reset">Hoàn tác</button>
@@ -158,7 +170,7 @@ a{color:var(--accent)}
 <div class="bar">
   <div class="in">
     <div class="state" id="state">—</div>
-    <button type="button" class="primary" id="save" disabled>Lưu</button>
+    <button type="button" class="primary" id="save" disabled>Lưu thay đổi</button>
   </div>
 </div>
 
@@ -167,22 +179,37 @@ a{color:var(--accent)}
   "use strict";
   var OWNER = "tuananhcn08a", REPO = "miwiz-course-content", BRANCH = "main";
   var API = "https://api.github.com/repos/" + OWNER + "/" + REPO;
-  var LIVE_INDEX = "https://" + OWNER + ".github.io/" + REPO + "/index.json";
+  var PAGES = "https://" + OWNER + ".github.io/" + REPO + "/";
   var WORKFLOW = "build-index.yml";
   var TOKEN_KEY = "miwiz-admin-token";
+  var TAB_KEY = "miwiz-admin-tab";
   var LANG = { ko: "Tiếng Hàn", zh: "Tiếng Trung", en: "Tiếng Anh", ja: "Tiếng Nhật", vi: "Tiếng Việt", fr: "Tiếng Pháp", de: "Tiếng Đức" };
   var LANG_COLOR = { ko: "#2E6BE6", zh: "#D7262D", en: "#0E9F6E", ja: "#C026D3" };
+  var SUBJECT = { ko: "Tiếng Hàn", zh: "Tiếng Trung", en: "Tiếng Anh", vi: "Tiếng Việt", skills: "Kỹ năng" };
+  var PROVIDER_COLOR = ["#2E6BE6", "#D97706", "#0E9F6E", "#C026D3", "#D7262D"];
 
   var $ = function (id) { return document.getElementById(id); };
-  var state = {
-    catalog: null,      // full parsed catalog.json (other keys preserved)
-    sha: null,          // blob sha of catalog.json (only when loaded via API)
-    original: "",       // serialized catalog at load time
-    entries: [],        // working copy of catalog.courses
-    meta: {},           // id -> course summary | {missing:true}
-    viaApi: false,
-    busy: false
+
+  // One state object per tab. Online = catalog.json + courses/<id>.json; offline = offline/catalog.json + offline/courses.json.
+  function newTab(cfg) {
+    return Object.assign({
+      catalog: null,      // full parsed catalog file (other keys preserved)
+      sha: null,          // blob sha of the catalog file (only when loaded via API)
+      original: "",       // serialized catalog at load time
+      entries: [],        // working copy of catalog.courses
+      meta: {},           // id -> course summary | {missing:true}
+      viaApi: false,
+      loaded: false,
+      loadedAt: null
+    }, cfg);
+  }
+  var tabs = {
+    online: newTab({ key: "online", label: "Khoá online", file: "catalog.json", live: PAGES + "index.json", appTab: "tab Khoá học" }),
+    offline: newTab({ key: "offline", label: "Khoá offline", file: "offline/catalog.json", live: PAGES + "offline/index.json", appTab: "app" })
   };
+  var busy = false;
+  var tab = tabs.online;
+  try { var saved = window.localStorage.getItem(TAB_KEY); if (saved && tabs[saved]) tab = tabs[saved]; } catch (e) {}
 
   // ---------- token storage (never logged or displayed) ----------
   function store(kind) { try { return kind === "local" ? window.localStorage : window.sessionStorage; } catch (e) { return null; } }
@@ -212,6 +239,7 @@ a{color:var(--accent)}
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
   function langName(l) { return LANG[l] || (l ? l.toUpperCase() : "?"); }
+  function subjectName(s) { return SUBJECT[s] || (s || "?"); }
 
   function gh(path, opts) {
     opts = opts || {};
@@ -235,7 +263,7 @@ a{color:var(--accent)}
     return btoa(bin);
   }
 
-  // Same layout as the hand-written catalog.json: 2-space indent, one course entry per line.
+  // Same layout as the hand-written catalog files: 2-space indent, one course entry per line.
   function serialize(catalog, entries) {
     var keys = Object.keys(catalog);
     if (keys.indexOf("courses") < 0) keys.push("courses");
@@ -248,24 +276,30 @@ a{color:var(--accent)}
     });
     return "{\n" + lines.join(",\n") + "\n}\n";
   }
-  function current() { return state.catalog ? serialize(state.catalog, state.entries) : ""; }
-  function isDirty() { return !!state.catalog && current() !== state.original; }
+  function current(t) { return t.catalog ? serialize(t.catalog, t.entries) : ""; }
+  function isDirty(t) { t = t || tab; return !!t.catalog && current(t) !== t.original; }
+  function anyDirty() { return isDirty(tabs.online) || isDirty(tabs.offline); }
   function enabled(e) { return e.enabled !== false; }
 
   // ---------- loading ----------
-  async function loadCatalog() {
+  // Reads a repo file: via GitHub API when a token exists (latest, with sha), else the published Pages copy (read-only).
+  async function loadFile(file, reportErr) {
     if (getToken()) {
-      var r = await gh("/contents/catalog.json?ref=" + BRANCH);
+      var r = await gh("/contents/" + file + "?ref=" + BRANCH);
       if (r.ok) {
         var j = await r.json();
-        return { text: b64decodeUtf8(j.content), sha: j.sha, viaApi: true };
+        if (j.content) return { text: b64decodeUtf8(j.content), sha: j.sha, viaApi: true };
+        var rr = await gh("/contents/" + file + "?ref=" + BRANCH, { accept: "application/vnd.github.raw+json" }); // > 1 MB files
+        if (rr.ok) return { text: await rr.text(), sha: j.sha, viaApi: true };
       }
-      if (r.status === 401) msg("Mã truy cập không hợp lệ hoặc đã hết hạn. Bấm “Quên token” rồi dán mã mới.", "err");
-      else if (r.status === 403 || r.status === 404) msg("Mã truy cập không đọc được repo này (cần chọn repo miwiz-course-content, quyền Contents). Đang hiện bản trên web.", "warn");
-      else msg("GitHub API lỗi " + r.status + ". Đang hiện bản trên web.", "warn");
+      if (reportErr) {
+        if (r.status === 401) msg("Mã truy cập không hợp lệ hoặc đã hết hạn. Bấm “Quên token” rồi dán mã mới.", "err");
+        else if (r.status === 403 || r.status === 404) msg("Mã truy cập không đọc được repo này (cần chọn repo miwiz-course-content, quyền Contents). Đang hiện bản trên web.", "warn");
+        else msg("GitHub API lỗi " + r.status + ". Đang hiện bản trên web.", "warn");
+      }
     }
-    var r2 = await fetch("../catalog.json?t=" + Date.now(), { cache: "no-store" });
-    if (!r2.ok) throw new Error("Không tải được catalog.json (" + r2.status + ")");
+    var r2 = await fetch("../" + file + "?t=" + Date.now(), { cache: "no-store" });
+    if (!r2.ok) throw new Error("Không tải được " + file + " (" + r2.status + ")");
     return { text: await r2.text(), sha: null, viaApi: false };
   }
   async function loadCourse(id, viaApi) {
@@ -281,49 +315,100 @@ a{color:var(--accent)}
     return { title: m.title || id, language: m.language || "", level: m.level || "", days: days.length, items: items,
       icon_text: m.icon_text || "", icon_color: m.icon_color || "" };
   }
+  async function loadOnlineMeta(t, ids) {
+    var metas = await Promise.all(ids.map(function (id) { return loadCourse(id, t.viaApi).catch(function (e) { return { error: e.message }; }); }));
+    var meta = {};
+    ids.forEach(function (id, i) { meta[id] = metas[i]; });
+    return meta;
+  }
+  async function loadOfflineMeta(t, ids) {
+    var c = await loadFile("offline/courses.json", false);
+    var d = JSON.parse(c.text);
+    var prov = {}, pi = 0;
+    (d.providers || []).forEach(function (p) { prov[p.id] = { name: p.name || p.id, color: PROVIDER_COLOR[pi++ % PROVIDER_COLOR.length] }; });
+    var byId = {};
+    (d.courses || []).forEach(function (x) { byId[x.id] = x; });
+    var meta = {};
+    ids.forEach(function (id) {
+      var x = byId[id];
+      if (!x) { meta[id] = { missing: true }; return; }
+      var p = prov[x.provider] || { name: x.provider || "?", color: "#888" };
+      meta[id] = { title: x.title || id, provider: x.provider || "", providerName: p.name, color: p.color,
+        subject: x.subject || "", level: x.level || "", cover: x.cover_square || x.cover || "" };
+    });
+    // Courses present in offline/courses.json but not in the catalog: the build appends them hidden. Mirror that here.
+    var extra = (d.courses || []).filter(function (x) { return ids.indexOf(x.id) < 0; });
+    return { meta: meta, extra: extra, prov: prov };
+  }
 
-  async function load(keepMsg) {
-    if (state.busy) return;
-    state.busy = true; setBusy();
-    $("src").textContent = "Đang tải…";
+  async function load(t, keepMsg) {
+    if (busy) return;
+    busy = true; setBusy();
+    if (t === tab) $("src").textContent = "Đang tải…";
     try {
-      var c = await loadCatalog();
+      var c = await loadFile(t.file, t === tab);
       var cat = JSON.parse(c.text);
-      if (!Array.isArray(cat.courses)) throw new Error("catalog.json không có mảng courses");
-      state.catalog = cat; state.sha = c.sha; state.viaApi = c.viaApi;
-      state.entries = cat.courses.map(function (e) { return Object.assign({}, e); });
-      state.original = serialize(cat, state.entries);
-      if (c.text !== state.original) console.warn("catalog.json layout differs from serializer output; saving will normalise it.");
-      var ids = state.entries.map(function (e) { return e.id; }).filter(function (v, i, a) { return v && a.indexOf(v) === i; });
-      var metas = await Promise.all(ids.map(function (id) { return loadCourse(id, c.viaApi).catch(function (e) { return { error: e.message }; }); }));
-      state.meta = {};
-      ids.forEach(function (id, i) { state.meta[id] = metas[i]; });
-      $("src").textContent = (c.viaApi ? "Nguồn: GitHub (mới nhất)" : "Nguồn: bản trên web (chỉ xem)") + " · " + new Date().toLocaleTimeString("vi-VN", { hour: "2-digit", minute: "2-digit" });
-      if (!c.viaApi && !getToken()) msg("Chưa có mã truy cập: xem được, nhưng muốn lưu thì dán mã ở trên.", "warn");
-      else if (c.viaApi && !keepMsg && $("msg").className.indexOf("err") < 0) msg("");
+      if (!Array.isArray(cat.courses)) throw new Error(t.file + " không có mảng courses");
+      t.catalog = cat; t.sha = c.sha; t.viaApi = c.viaApi;
+      t.entries = cat.courses.map(function (e) { return Object.assign({}, e); });
+      t.original = t.remoteOriginal = serialize(cat, t.entries);
+      if (c.text !== t.original) console.warn(t.file + " layout differs from serializer output; saving will normalise it.");
+      var ids = t.entries.map(function (e) { return e.id; }).filter(function (v, i, a) { return v && a.indexOf(v) === i; });
+      if (t.key === "online") {
+        t.meta = await loadOnlineMeta(t, ids);
+      } else {
+        var o = await loadOfflineMeta(t, ids);
+        t.meta = o.meta;
+        o.extra.forEach(function (x) {
+          var p = o.prov[x.provider] || { name: x.provider || "?", color: "#888" };
+          t.meta[x.id] = { title: x.title || x.id, providerName: p.name, color: p.color, subject: x.subject || "", level: x.level || "", cover: x.cover_square || x.cover || "", notInCatalog: true };
+          // The build appends these hidden; show them the same way. Any save writes them into offline/catalog.json.
+          cat.courses.push({ id: x.id, enabled: false });
+          t.entries.push({ id: x.id, enabled: false });
+        });
+        t.original = serialize(cat, t.entries);
+      }
+      t.loaded = true; t.loadedAt = new Date();
+      if (t === tab) {
+        if (!c.viaApi && !getToken()) msg("Chưa có mã truy cập: xem được, nhưng muốn lưu thì dán mã ở trên.", "warn");
+        else if (c.viaApi && !keepMsg && $("msg").className.indexOf("err") < 0) msg("");
+      }
     } catch (e) {
-      $("src").textContent = "Lỗi tải";
-      msg("Không tải được danh sách khoá: " + e.message, "err");
+      t.loaded = true; t.loadedAt = null;
+      if (t === tab) msg("Không tải được danh sách khoá: " + e.message, "err");
     } finally {
-      state.busy = false; render();
+      busy = false; render();
     }
   }
 
   // ---------- rendering ----------
-  function render() {
-    var list = $("list"); list.innerHTML = "";
-    var prevLang = null;
-    state.entries.forEach(function (e, i) {
-      var m = state.meta[e.id] || {};
+  function srcLine() {
+    if (!tab.loaded) return "Đang tải…";
+    if (!tab.loadedAt) return "Lỗi tải";
+    return (tab.viaApi ? "Nguồn: GitHub (mới nhất)" : "Nguồn: bản trên web (chỉ xem)") + " · " + tab.loadedAt.toLocaleTimeString("vi-VN", { hour: "2-digit", minute: "2-digit" });
+  }
+  function ctlHtml(t, e, i, title) {
+    var on = enabled(e);
+    return '<div class="ctl">' +
+      '<label class="sw"><input type="checkbox" data-a="toggle" data-i="' + i + '"' + (on ? " checked" : "") + ' aria-label="Hiển thị ' + esc(title) + '"><span class="tr"></span></label>' +
+      '<span class="sub" style="font-size:11px">' + (on ? "Hiển thị" : "Đang ẩn") + "</span>" +
+      '<div class="arrows">' +
+        '<button type="button" data-a="up" data-i="' + i + '" aria-label="Lên"' + (i === 0 ? " disabled" : "") + ">▲</button>" +
+        '<button type="button" data-a="down" data-i="' + i + '" aria-label="Xuống"' + (i === t.entries.length - 1 ? " disabled" : "") + ">▼</button>" +
+      "</div></div>";
+  }
+  function renderOnline(list) {
+    var t = tabs.online, prevLang = null;
+    t.entries.forEach(function (e, i) {
+      var m = t.meta[e.id] || {};
       var lang = m.language || "";
       if (lang !== prevLang) {
         var g = document.createElement("li"); g.className = "grp"; g.textContent = langName(lang);
         list.appendChild(g); prevLang = lang;
       }
-      var on = enabled(e);
       var color = m.icon_color || LANG_COLOR[lang] || "#888";
       var li = document.createElement("li");
-      li.className = "card" + (on ? "" : " off");
+      li.className = "card" + (enabled(e) ? "" : " off");
       li.style.setProperty("--lc", LANG_COLOR[lang] || color);
       var metaLine = m.missing ? '<span class="badge err">Thiếu file courses/' + esc(e.id) + '.json</span>'
         : m.error ? '<span class="badge err">Lỗi: ' + esc(m.error) + "</span>"
@@ -332,34 +417,63 @@ a{color:var(--accent)}
       li.innerHTML =
         '<div class="icon" style="background:' + esc(color) + '">' + esc(m.icon_text || (m.title || e.id).charAt(0)) + "</div>" +
         '<div class="info"><div class="title">' + (i + 1) + ". " + esc(m.title || e.id) + "</div>" +
-        '<div class="meta">' + metaLine + "</div></div>" +
-        '<div class="ctl">' +
-          '<label class="sw"><input type="checkbox" data-a="toggle" data-i="' + i + '"' + (on ? " checked" : "") + ' aria-label="Hiển thị ' + esc(m.title || e.id) + '"><span class="tr"></span></label>' +
-          '<span class="sub" style="font-size:11px">' + (on ? "Hiển thị" : "Đang ẩn") + "</span>" +
-          '<div class="arrows">' +
-            '<button type="button" data-a="up" data-i="' + i + '" aria-label="Lên"' + (i === 0 ? " disabled" : "") + ">▲</button>" +
-            '<button type="button" data-a="down" data-i="' + i + '" aria-label="Xuống"' + (i === state.entries.length - 1 ? " disabled" : "") + ">▼</button>" +
-          "</div></div>";
+        '<div class="meta">' + metaLine + "</div></div>" + ctlHtml(t, e, i, m.title || e.id);
       list.appendChild(li);
     });
-    // summary by language
-    var byLang = {}; var nOn = 0;
-    state.entries.forEach(function (e) {
-      var l = (state.meta[e.id] || {}).language || "?";
+    var byLang = {}, nOn = 0;
+    t.entries.forEach(function (e) {
+      var l = (t.meta[e.id] || {}).language || "?";
       byLang[l] = byLang[l] || { on: 0, all: 0 }; byLang[l].all++;
       if (enabled(e)) { byLang[l].on++; nOn++; }
     });
-    $("summary").textContent = state.catalog ? ("Đang hiện " + nOn + "/" + state.entries.length + " khoá · " +
+    return t.catalog ? ("Đang hiện " + nOn + "/" + t.entries.length + " khoá · " +
       Object.keys(byLang).map(function (l) { return langName(l) + " " + byLang[l].on + "/" + byLang[l].all; }).join(" · ")) : "";
+  }
+  function renderOffline(list) {
+    var t = tabs.offline, prev = null;
+    t.entries.forEach(function (e, i) {
+      var m = t.meta[e.id] || {};
+      var pn = m.providerName || "";
+      if (pn !== prev) {
+        var g = document.createElement("li"); g.className = "grp"; g.textContent = pn || "?";
+        list.appendChild(g); prev = pn;
+      }
+      var li = document.createElement("li");
+      li.className = "card" + (enabled(e) ? "" : " off");
+      li.style.setProperty("--lc", m.color || "#888");
+      var metaLine = m.missing ? '<span class="badge err">Không có trong offline/courses.json</span>'
+        : '<span class="badge">' + esc(subjectName(m.subject)) + "</span>" + esc(pn) +
+          (m.notInCatalog ? ' <span class="badge err">Mới — chưa có trong danh sách</span>' : "");
+      var img = m.cover ? '<img class="cover" alt="" loading="lazy" src="../' + esc(m.cover) + '">'
+        : '<div class="icon" style="background:' + esc(m.color || "#888") + '">' + esc((m.title || e.id).charAt(0)) + "</div>";
+      li.innerHTML = img +
+        '<div class="info"><div class="title">' + (i + 1) + ". " + esc(m.title || e.id) + "</div>" +
+        '<div class="meta">' + metaLine + "</div></div>" + ctlHtml(t, e, i, m.title || e.id);
+      list.appendChild(li);
+    });
+    var nOn = t.entries.filter(enabled).length;
+    return t.catalog ? ("Đang hiện " + nOn + "/" + t.entries.length + " khoá offline") : "";
+  }
+  function render() {
+    var list = $("list"); list.innerHTML = "";
+    $("summary").textContent = tab.key === "online" ? renderOnline(list) : renderOffline(list);
+    ["online", "offline"].forEach(function (k) {
+      var b = $("tab-" + k);
+      b.setAttribute("aria-selected", tab.key === k ? "true" : "false");
+      b.querySelector(".dot").classList.toggle("hidden", !isDirty(tabs[k]));
+    });
+    $("offNote").classList.toggle("hidden", tab.key !== "offline");
+    $("presetOne").classList.toggle("hidden", tab.key !== "online");
+    $("src").textContent = srcLine();
     setBusy();
   }
   function setBusy() {
     var dirty = isDirty();
     var st = $("state");
     st.className = "state" + (dirty ? " dirty" : "");
-    st.textContent = state.busy ? "Đang xử lý…" : dirty ? "● Có thay đổi chưa lưu" : (state.catalog ? "Đã khớp với bản đang phát hành" : "—");
-    $("save").disabled = state.busy || !dirty;
-    $("reload").disabled = state.busy;
+    st.textContent = busy ? "Đang xử lý…" : dirty ? "● Có thay đổi chưa lưu" : (tab.catalog ? "Đã khớp với bản đang phát hành" : "—");
+    $("save").disabled = busy || !dirty;
+    $("reload").disabled = busy;
     var hasT = !!getToken();
     $("tokenForm").classList.toggle("hidden", hasT);
     $("tokenOk").classList.toggle("hidden", !hasT);
@@ -368,40 +482,58 @@ a{color:var(--accent)}
   }
 
   // ---------- interactions ----------
+  function resetEntries(t) {
+    t.entries = t.catalog.courses.map(function (e) { return Object.assign({}, e); });
+  }
+  $("tabs").addEventListener("click", function (ev) {
+    var b = ev.target.closest("button[data-tab]"); if (!b) return;
+    var next = tabs[b.getAttribute("data-tab")];
+    if (!next || next === tab) return;
+    if (busy) return;
+    if (isDirty(tab)) {
+      if (!confirm("Tab “" + tab.label + "” có thay đổi chưa lưu. Bỏ các thay đổi đó và chuyển tab?")) return;
+      resetEntries(tab);
+    }
+    tab = next;
+    try { window.localStorage.setItem(TAB_KEY, tab.key); } catch (e) {}
+    msg("");
+    $("progress").classList.add("hidden"); trackId++;
+    if (!tab.loaded) load(tab); else render();
+  });
   $("list").addEventListener("click", function (ev) {
-    var b = ev.target.closest("button[data-a]"); if (!b || state.busy) return;
+    var b = ev.target.closest("button[data-a]"); if (!b || busy) return;
     var i = +b.getAttribute("data-i"); var j = b.getAttribute("data-a") === "up" ? i - 1 : i + 1;
-    if (j < 0 || j >= state.entries.length) return;
-    var t = state.entries[i]; state.entries[i] = state.entries[j]; state.entries[j] = t;
+    if (j < 0 || j >= tab.entries.length) return;
+    var x = tab.entries[i]; tab.entries[i] = tab.entries[j]; tab.entries[j] = x;
     render();
   });
   $("list").addEventListener("change", function (ev) {
     var c = ev.target; if (c.getAttribute("data-a") !== "toggle") return;
-    if (state.busy) { c.checked = !c.checked; return; }
-    state.entries[+c.getAttribute("data-i")].enabled = c.checked;
+    if (busy) { c.checked = !c.checked; return; }
+    tab.entries[+c.getAttribute("data-i")].enabled = c.checked;
     render();
   });
   $("presets").addEventListener("click", function (ev) {
-    var b = ev.target.closest("button[data-p]"); if (!b || state.busy || !state.catalog) return;
+    var b = ev.target.closest("button[data-p]"); if (!b || busy || !tab.catalog) return;
     var p = b.getAttribute("data-p");
     if (p === "reset") {
-      state.entries = state.catalog.courses.map(function (e) { return Object.assign({}, e); });
-    } else if (p === "one") {
+      resetEntries(tab);
+    } else if (p === "one" && tab.key === "online") {
       var seen = {};
-      state.entries.forEach(function (e) {
-        var m = state.meta[e.id] || {}; var l = m.language || ("?" + e.id);
+      tab.entries.forEach(function (e) {
+        var m = tab.meta[e.id] || {}; var l = m.language || ("?" + e.id);
         var ok = !m.missing && !m.error && !seen[l];
         if (ok) seen[l] = true;
         e.enabled = ok;
       });
-    } else {
-      state.entries.forEach(function (e) { e.enabled = p === "all"; });
+    } else if (p === "all" || p === "none") {
+      tab.entries.forEach(function (e) { e.enabled = p === "all"; });
     }
     render();
   });
   $("reload").addEventListener("click", function () {
     if (isDirty() && !confirm("Bỏ các thay đổi chưa lưu và tải lại?")) return;
-    load();
+    load(tab);
   });
   $("tokenForm").addEventListener("submit", function (ev) {
     ev.preventDefault();
@@ -410,95 +542,104 @@ a{color:var(--accent)}
     if (!setToken(v, $("remember").checked)) { msg("Trình duyệt chặn lưu dữ liệu, không giữ được mã.", "err"); return; }
     $("tokenInput").value = "";
     msg("");
-    if (isDirty()) { setBusy(); msg("Đã nhận mã. Bấm Lưu để phát hành.", "ok"); } else load();
+    // Reload tabs without pending edits so they come from the API; keep tabs with edits as they are.
+    if (isDirty()) { setBusy(); msg("Đã nhận mã. Bấm Lưu thay đổi để phát hành.", "ok"); }
+    else load(tab).then(function () { var o = tab === tabs.online ? tabs.offline : tabs.online; if (o.loaded && !isDirty(o)) { o.loaded = false; o.catalog = null; } });
   });
   $("tokenForget").addEventListener("click", function () {
     forgetToken(); $("tokenInput").value = ""; msg("Đã xoá mã truy cập khỏi máy này.", "ok"); setBusy();
   });
-  window.addEventListener("beforeunload", function (e) { if (isDirty()) { e.preventDefault(); e.returnValue = ""; } });
+  window.addEventListener("beforeunload", function (e) { if (anyDirty()) { e.preventDefault(); e.returnValue = ""; } });
 
   // ---------- validation + save ----------
-  function validate() {
+  function validate(t) {
     var errs = [], warns = [], seen = {};
-    state.entries.forEach(function (e) {
+    t.entries.forEach(function (e) {
       if (!e.id || !/^[a-z0-9-]+$/.test(e.id)) errs.push("id không hợp lệ: " + e.id);
       if (seen[e.id]) errs.push("id trùng: " + e.id);
       seen[e.id] = true;
-      var m = state.meta[e.id];
-      if (!m || m.missing) errs.push("thiếu file courses/" + e.id + ".json");
+      var m = t.meta[e.id];
+      if (!m || m.missing) errs.push(t.key === "online" ? "thiếu file courses/" + e.id + ".json" : e.id + " không có trong offline/courses.json");
       else if (m.error) errs.push(e.id + ": " + m.error);
     });
-    if (!state.entries.some(enabled)) warns.push("Không có khoá nào được hiện — tab Khoá học trong app sẽ trống.");
+    if (!t.entries.some(enabled)) warns.push(t.key === "online" ? "Không có khoá nào được hiện — tab Khoá học trong app sẽ trống." : "Không có khoá offline nào được hiện — app sẽ không hiện mục khoá offline.");
     return { errs: errs, warns: warns };
   }
-  function commitMessage() {
-    var on = state.entries.filter(enabled);
+  function commitMessage(t) {
+    if (t.key === "offline") return "admin: cập nhật khoá offline";
+    var on = t.entries.filter(enabled);
     var langs = [];
-    on.forEach(function (e) { var l = (state.meta[e.id] || {}).language || "?"; if (langs.indexOf(l) < 0) langs.push(l); });
+    on.forEach(function (e) { var l = (t.meta[e.id] || {}).language || "?"; if (langs.indexOf(l) < 0) langs.push(l); });
     if (!on.length) return "catalog: ẩn tất cả khoá";
     return "catalog: hiện " + on.length + " khoá, thứ tự " + langs.join(",");
   }
 
   async function save() {
-    if (!isDirty() || state.busy) return;
+    var t = tab;
+    if (!isDirty(t) || busy) return;
     if (!getToken()) { msg("Cần mã truy cập GitHub để lưu. Dán mã ở ô phía trên (xem “Cách tạo mã truy cập”).", "err"); $("help").open = true; $("tokenInput").focus(); return; }
-    var v = validate();
+    var v = validate(t);
     if (v.errs.length) { msg("Chưa lưu được: " + v.errs.join("; "), "err"); return; }
     if (v.warns.length && !confirm(v.warns.join("\n") + "\n\nVẫn lưu?")) return;
 
-    state.busy = true; setBusy();
+    busy = true; setBusy();
     try {
       // Need the current sha; if the page was loaded from the web copy, fetch it now and make sure nothing changed meanwhile.
-      if (!state.viaApi || !state.sha) {
-        var r0 = await gh("/contents/catalog.json?ref=" + BRANCH);
+      if (!t.viaApi || !t.sha) {
+        var r0 = await gh("/contents/" + t.file + "?ref=" + BRANCH);
         if (!r0.ok) throw httpErr(r0.status);
         var j0 = await r0.json();
-        var remote = b64decodeUtf8(j0.content);
-        if (serialize(JSON.parse(remote), JSON.parse(remote).courses) !== state.original) {
-          state.busy = false;
-          msg("Trên GitHub đã có bản mới hơn bản đang hiện. Đã tải lại — anh chỉnh lại rồi bấm Lưu.", "warn");
-          await load(true); return;
+        var remote = JSON.parse(b64decodeUtf8(j0.content));
+        if (serialize(remote, remote.courses) !== t.remoteOriginal) {
+          busy = false;
+          msg("Trên GitHub đã có bản mới hơn bản đang hiện. Đã tải lại — anh chỉnh lại rồi bấm Lưu thay đổi.", "warn");
+          await load(t, true); return;
         }
-        state.sha = j0.sha; state.viaApi = true;
+        t.sha = j0.sha; t.viaApi = true;
       }
-      var before = await liveGeneratedAt();
-      var body = { message: commitMessage(), content: b64encodeUtf8(current()), sha: state.sha, branch: BRANCH };
-      var r = await gh("/contents/catalog.json", { method: "PUT", body: body });
+      var before = await liveSnapshot(t);
+      var body = { message: commitMessage(t), content: b64encodeUtf8(current(t)), sha: t.sha, branch: BRANCH };
+      var r = await gh("/contents/" + t.file, { method: "PUT", body: body });
       if (r.status === 409 || r.status === 422) {
-        state.busy = false;
-        msg("Có người vừa sửa catalog.json (lệch phiên bản). Đã tải lại bản mới nhất — anh chỉnh lại rồi bấm Lưu.", "warn");
-        await load(true); return;
+        busy = false;
+        msg("Có người vừa sửa " + t.file + " (lệch phiên bản). Đã tải lại bản mới nhất — anh chỉnh lại rồi bấm Lưu thay đổi.", "warn");
+        await load(t, true); return;
       }
       if (!r.ok) throw httpErr(r.status);
       var res = await r.json();
       var commitSha = res.commit && res.commit.sha;
-      state.sha = res.content && res.content.sha;
-      state.catalog.courses = state.entries.map(function (e) { return Object.assign({}, e); });
-      state.original = current();
-      state.busy = false; render();
+      t.sha = res.content && res.content.sha;
+      t.catalog.courses = t.entries.map(function (e) { return Object.assign({}, e); });
+      t.original = t.remoteOriginal = current(t);
+      Object.keys(t.meta).forEach(function (id) { if (t.meta[id]) delete t.meta[id].notInCatalog; });
+      busy = false; render();
       msg("");
-      track(commitSha, before);
+      track(t, commitSha, before);
     } catch (e) {
-      state.busy = false; setBusy();
+      busy = false; setBusy();
       msg("Lưu thất bại: " + e.message, "err");
     }
   }
   function httpErr(status) {
-    var t = status === 401 ? "mã truy cập sai hoặc hết hạn (bấm “Quên token”, dán mã mới)"
+    var x = status === 401 ? "mã truy cập sai hoặc hết hạn (bấm “Quên token”, dán mã mới)"
       : status === 403 ? "mã không có quyền ghi (cần Contents: Read and write cho repo miwiz-course-content)"
       : status === 404 ? "mã không thấy repo (Repository access phải chọn miwiz-course-content)"
       : "GitHub trả lỗi " + status;
-    return new Error(t);
+    return new Error(x);
   }
 
   // ---------- post-save tracking ----------
-  async function liveGeneratedAt() {
+  // Online index has generatedAt; offline index has none, so compare its course order + enabled flags instead.
+  async function liveSnapshot(t) {
     try {
-      var r = await fetch(LIVE_INDEX + "?t=" + Date.now(), { cache: "no-store" });
+      var r = await fetch(t.live + "?t=" + Date.now(), { cache: "no-store" });
       if (!r.ok) return null;
-      var j = await r.json(); return j.generatedAt || null;
+      var j = await r.json();
+      if (t.key === "online") return j.generatedAt || null;
+      return (j.courses || []).map(function (c) { return c.id + ":" + (c.enabled !== false); }).join(",");
     } catch (e) { return null; }
   }
+  function wanted(t) { return t.entries.map(function (e) { return e.id + ":" + enabled(e); }).join(","); }
   async function workflowRun(commitSha) {
     var q = "/actions/workflows/" + WORKFLOW + "/runs?branch=" + BRANCH + "&per_page=5" + (commitSha ? "&head_sha=" + commitSha : "");
     var r = await gh(q);
@@ -511,10 +652,12 @@ a{color:var(--accent)}
     var li = document.querySelector('#steps li[data-k="' + k + '"]'); if (li) li.className = cls || "";
   }
   var trackId = 0;
-  async function track(commitSha, before) {
+  async function track(t, commitSha, before) {
     var my = ++trackId;
+    var target = t.key === "offline" ? wanted(t) : null;
     $("progress").classList.remove("hidden");
     $("progTitle").textContent = "Đang phát hành";
+    document.querySelector('#steps li[data-k="live"] span:last-child').textContent = "Đã lên web — mở lại " + t.appTab + " trong app";
     step("saved", "done"); step("build", "now"); step("live", "");
     $("progNote").textContent = commitSha ? "Commit " + commitSha.slice(0, 7) : "";
     var t0 = Date.now(), LIMIT = 180000, built = false, runUrl = "";
@@ -538,11 +681,12 @@ a{color:var(--accent)}
           }
         }
       }
-      var g = await liveGeneratedAt();
-      if (g && g !== before) {
+      var g = await liveSnapshot(t);
+      if (g && (target ? g === target : g !== before)) {
         step("build", "done"); step("live", "done");
         $("progTitle").textContent = "Xong ✓";
-        $("progNote").textContent = "Đã lên web lúc " + new Date(g).toLocaleTimeString("vi-VN") + ". Mở lại tab Khoá học trong app (kéo xuống để làm mới nếu cần).";
+        $("progNote").textContent = (t.key === "online" ? "Đã lên web lúc " + new Date(g).toLocaleTimeString("vi-VN") + ". " : "Đã lên web. ") +
+          "Mở lại " + t.appTab + " trong app (kéo xuống để làm mới nếu cần).";
         return;
       }
       if (built) $("progNote").textContent = "Index đã sinh, đang chờ GitHub Pages cập nhật · " + Math.round((Date.now() - t0) / 1000) + " giây";
@@ -555,8 +699,8 @@ a{color:var(--accent)}
   }
 
   $("save").addEventListener("click", save);
-  setBusy();
-  load();
+  render();
+  load(tab);
 })();
 </script>
 </body>

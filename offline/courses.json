@@ -1,0 +1,584 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-19",
+  "status": "published",
+  "notes": [
+    "Courses inherit contact from their provider (phone, zalo_url, facebook_url; real values set by PO 2026-10-19). The Google Form channel was dropped; client hides a channel whose value is missing, empty or starts with TODO_.",
+    "fee is always null; show fee_text.",
+    "Cover paths are repo paths in this source file; the published offline/index.json rewrites them to offline/covers/<file>."
+  ],
+  "providers": [
+    {
+      "id": "hanviet",
+      "name": "Trung tâm Hàn Việt",
+      "original_name": "HAN-VIET PLATFORM",
+      "description": "Trung tâm đào tạo tiếng Hàn và tiếng Việt chuyên ngành; học tại Miwiz Mind Hub.",
+      "contact": {
+        "phone": "0388037108",
+        "phone_display": "038 803 7108",
+        "zalo_url": "https://zalo.me/0388037108",
+        "facebook_url": "https://www.facebook.com/profile.php?id=61594745768305"
+      }
+    },
+    {
+      "id": "cic-academy",
+      "name": "CiC Academy",
+      "original_name": null,
+      "description": "Đơn vị đào tạo kỹ năng nghề nghiệp và doanh nghiệp (Corporate Culture & Internal Communication); học tại Miwiz Mind Hub.",
+      "contact": {
+        "phone": "0388037108",
+        "phone_display": "038 803 7108",
+        "zalo_url": "https://zalo.me/0388037108",
+        "facebook_url": "https://www.facebook.com/profile.php?id=61594745768305"
+      }
+    }
+  ],
+  "textbooks": [
+    {
+      "id": "hanviet-tb-01",
+      "no": 1,
+      "original_title": "매일 한국어",
+      "title": "Tiếng Hàn Mỗi Ngày",
+      "description": "Giáo trình “Tiếng Hàn Mỗi Ngày” được thiết kế giúp học viên học tập đều đặn một lượng kiến thức cố định mỗi ngày. Khi hoàn thành đến Tuần 49 (Week 49), bạn sẽ thấy rõ sự tiến bộ vượt bậc về trình độ tiếng Hàn của mình.",
+      "description_source": "po",
+      "cover": "offline/covers/hanviet-tb-01.png",
+      "extra_covers": [
+        "offline/covers/hanviet-tb-01-2.png",
+        "offline/covers/hanviet-tb-01-3.png"
+      ],
+      "used_by": [
+        "hanviet-giao-tiep",
+        "hanviet-topik"
+      ],
+      "cover_is_guess": false,
+      "notes": "3 tập (1, 2, 3); tập 1 là ảnh chính."
+    },
+    {
+      "id": "hanviet-tb-02",
+      "no": 2,
+      "original_title": "토목공 교재",
+      "title": "Giáo Trình Cho Thợ Xây Dựng Dân Dụng",
+      "description": "Tại các công trường làm việc ở Hàn Quốc, người lao động phải làm việc cùng đồng nghiệp Hàn Quốc. Do đó, giáo trình giới thiệu về văn hóa môi trường làm việc cũng như đào tạo về các quy tắc ứng xử, lễ nghi tại công trường xây dựng.",
+      "description_source": "po",
+      "cover": "offline/covers/hanviet-tb-02.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": ""
+    },
+    {
+      "id": "hanviet-tb-03",
+      "no": 3,
+      "original_title": "철근공 교재",
+      "title": "Giáo Trình Cho Thợ Cốt Thép",
+      "description": "Cung cấp quy trình làm việc, vật liệu và thiết bị, dụng cụ, phương thức thi công cũng như các mẫu câu giao tiếp liên quan dành riêng cho thợ cốt thép.",
+      "description_source": "po",
+      "cover": "offline/covers/hanviet-tb-03.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": ""
+    },
+    {
+      "id": "hanviet-tb-04",
+      "no": 4,
+      "original_title": "내장공 교재",
+      "title": "Giáo Trình Cho Thợ Thi Công Nội Thất",
+      "description": "Tại các công trường làm việc ở Hàn Quốc, người lao động phải làm việc cùng đồng nghiệp Hàn Quốc. Do đó, giáo trình giới thiệu về văn hóa môi trường làm việc cũng như đào tạo về các quy tắc ứng xử, lễ nghi tại công trường xây dựng.",
+      "description_source": "po",
+      "cover": "offline/covers/hanviet-tb-04.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": "Mô tả gốc tiếng Hàn của giáo trình 4 trùng từng chữ với giáo trình 2 (xlsx) và PO cũng ghi trùng; cần xác nhận với Hàn Việt."
+    },
+    {
+      "id": "hanviet-tb-05",
+      "no": 5,
+      "original_title": "형틀공 교재",
+      "title": "Giáo Trình Cho Thợ Cốp Pha",
+      "description": "Cung cấp quy trình làm việc, vật liệu và thiết bị, dụng cụ, phương thức thi công cũng như các mẫu câu giao tiếp liên quan dành riêng cho thợ cốp pha.",
+      "description_source": "po",
+      "cover": "offline/covers/hanviet-tb-05.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": ""
+    },
+    {
+      "id": "hanviet-tb-06",
+      "no": 6,
+      "original_title": "전기 기술자 교재",
+      "title": "Giáo Trình Cho Kỹ Thuật Viên Điện",
+      "description": "Giáo trình được thiết kế giúp học viên học tiếng Hàn, thuật ngữ chuyên ngành, giao tiếp tại công trường và văn hóa công sở Hàn Quốc cần thiết cho công việc của kỹ thuật viên điện - điện tử và visa E-7-1.",
+      "description_source": "po",
+      "cover": "offline/covers/hanviet-tb-06.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": ""
+    },
+    {
+      "id": "hanviet-tb-07",
+      "no": 7,
+      "original_title": "요리사 교재",
+      "title": "Giáo Trình Cho Đầu Bếp",
+      "description": "Giáo trình được thiết kế dành cho đầu bếp nước ngoài nhằm học tập giao tiếp tiếng Hàn, công việc nhà bếp, văn hóa ẩm thực, vệ sinh - an toàn và lễ nghi công sở.",
+      "description_source": "po",
+      "cover": "offline/covers/hanviet-tb-07.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": ""
+    },
+    {
+      "id": "hanviet-tb-08",
+      "no": 8,
+      "original_title": "한국 요리사 문화 교재",
+      "title": "Giáo Trình Văn Hóa Đầu Bếp Hàn Quốc",
+      "description": "Giáo trình giúp đầu bếp nước ngoài muốn làm việc tại Hàn Quốc hiểu văn hóa ẩm thực và môi trường bếp của Hàn Quốc, đồng thời làm quen các mẫu câu tiếng Hàn dùng trong công việc thực tế.",
+      "description_source": "translated",
+      "cover": "offline/covers/hanviet-tb-08.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": true,
+      "notes": "Ảnh bìa là phỏng đoán: ảnh nằm ở dòng 11 của xlsx (đúng dòng giáo trình 8) nhưng tiêu đề trên bìa là “한국사람! 한국문화!” (bản minh hoạ), không có chữ “đầu bếp”."
+    },
+    {
+      "id": "hanviet-tb-09",
+      "no": 9,
+      "original_title": "한국 사람! 한국 문화!",
+      "title": "Người Hàn Quốc! Văn hoá Hàn Quốc!",
+      "description": "Giáo trình giúp người nước ngoài làm việc tại Hàn Quốc dễ dàng hiểu tiếng Hàn và văn hoá Hàn Quốc, từ đó thích nghi với môi trường làm việc.",
+      "description_source": "translated",
+      "cover": "offline/covers/hanviet-tb-09.png",
+      "extra_covers": [
+        "offline/covers/hanviet-tb-09-2.png"
+      ],
+      "used_by": [
+        "hanviet-giao-tiep"
+      ],
+      "cover_is_guess": false,
+      "notes": "Dòng 12 của xlsx có 2 bìa (bản nền xanh dương = chính, bản nền xám xanh = phụ)."
+    },
+    {
+      "id": "hanviet-tb-10",
+      "no": 10,
+      "original_title": "관광 가이드 1 교재",
+      "title": "Giáo Trình Cho Hướng Dẫn Viên Du Lịch 1",
+      "description": "Giáo trình giúp người Việt học tiếng Hàn chuyên ngành cần thiết tại điểm du lịch và vận dụng vào công việc thực tế.",
+      "description_source": "translated",
+      "cover": "offline/covers/hanviet-tb-10.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": "Cùng một ảnh bìa với giáo trình 14 (xlsx dùng image16 cho cả dòng 13 và 17)."
+    },
+    {
+      "id": "hanviet-tb-11",
+      "no": 11,
+      "original_title": "형님 베트남어 교재",
+      "title": "Tiếng Việt cho người Hàn “Hyeong-nim”",
+      "description": "Sách hội thoại thực dụng giúp người học làm quen một cách nhẹ nhàng, dễ dàng với những mẫu câu thường dùng khi sinh sống tại Việt Nam và tự mình nói thử.",
+      "description_source": "translated",
+      "cover": "offline/covers/hanviet-tb-11.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-tieng-viet-cho-nguoi-han"
+      ],
+      "cover_is_guess": false,
+      "notes": "Tên tiếng Việt là bản dịch tạm; bìa ghi “Hyeong-nim, chỉ một câu tiếng Việt là xong” (golf, nhà hàng, mua sắm)."
+    },
+    {
+      "id": "hanviet-tb-12",
+      "no": 12,
+      "original_title": "조경 기술자 교재",
+      "title": "Giáo Trình Cho Kỹ Thuật Viên Cảnh Quan",
+      "description": "Giáo trình được biên soạn có hệ thống từ tiếng Hàn cơ bản đến từ vựng hiện trường cảnh quan, chỉ thị công việc, quy tắc an toàn và hội thoại thực dụng.",
+      "description_source": "translated",
+      "cover": "offline/covers/hanviet-tb-12.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": ""
+    },
+    {
+      "id": "hanviet-tb-13",
+      "no": 13,
+      "original_title": "요양보호사 교재",
+      "title": "Giáo Trình Cho Hộ Lý Chăm Sóc Người Cao Tuổi (Yoyang-bohosa)",
+      "description": "Giáo trình hướng dẫn kiến thức cốt lõi và kỹ năng thực hành cho người muốn lấy chứng chỉ hộ lý chăm sóc người cao tuổi (요양보호사) tại Hàn Quốc.",
+      "description_source": "translated",
+      "cover": "offline/covers/hanviet-tb-13.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": ""
+    },
+    {
+      "id": "hanviet-tb-14",
+      "no": 14,
+      "original_title": "관광 가이드 2 교재",
+      "title": "Giáo Trình Cho Hướng Dẫn Viên Du Lịch 2",
+      "description": "Giáo trình giúp người Việt học tiếng Hàn chuyên ngành cần thiết tại điểm du lịch và vận dụng vào công việc thực tế.",
+      "description_source": "translated",
+      "cover": "offline/covers/hanviet-tb-14.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": true,
+      "notes": "Ảnh bìa trùng giáo trình 10 (cùng một ảnh trong xlsx); chưa rõ có bìa riêng cho tập 2."
+    },
+    {
+      "id": "hanviet-tb-15",
+      "no": 15,
+      "original_title": "장애인 안전지원사 양성교육 교재(초안)",
+      "title": "Giáo Trình Đào Tạo Nhân Viên Hỗ Trợ An Toàn Cho Người Khuyết Tật (bản nháp)",
+      "description": null,
+      "description_source": "none",
+      "cover": "offline/covers/hanviet-tb-15.png",
+      "extra_covers": [],
+      "used_by": [
+        "hanviet-business-korean"
+      ],
+      "cover_is_guess": false,
+      "notes": "Bản nháp, chưa có mô tả và chưa có ảnh bìa (dòng 18 của xlsx không có ảnh); dùng ảnh thay thế. Bìa do Miwiz thiết kế (chưa có bìa gốc). Bìa do Miwiz thiết kế (chưa có bìa gốc). Bìa do Miwiz thiết kế (chưa có bìa gốc). Bìa do Miwiz thiết kế (chưa có bìa gốc). Bìa do Miwiz thiết kế (chưa có bìa gốc). Bìa do Miwiz thiết kế (chưa có bìa gốc).",
+      "cover_square": "offline/covers/hanviet-tb-15-square.png"
+    }
+  ],
+  "courses": [
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [
+        "hanviet-tb-01",
+        "hanviet-tb-09"
+      ],
+      "modules": [],
+      "highlights": [
+        "Rèn phản xạ giao tiếp thực tế",
+        "Chuẩn hóa phát âm ngay từ đầu"
+      ],
+      "duration": null,
+      "class_size": null,
+      "level": "Mọi cấp độ",
+      "cover": "offline/covers/hanviet-giao-tiep.png",
+      "notes": "Cover = bìa giáo trình 1 (tạm). Thời lượng/quy mô chưa có.",
+      "id": "hanviet-giao-tiep",
+      "subject": "ko",
+      "provider": "hanviet",
+      "title": "Tiếng Hàn Giao tiếp Thực hành",
+      "subtitle": "Mọi cấp độ",
+      "original_title": null,
+      "audience": "Người mới bắt đầu hoặc người muốn giao tiếp tự nhiên trong cuộc sống và công việc.",
+      "cover_square": "offline/covers/hanviet-giao-tiep-square.png"
+    },
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [
+        "hanviet-tb-01"
+      ],
+      "modules": [],
+      "highlights": [
+        "Lộ trình bài bản",
+        "Chiến thuật làm bài hiệu quả",
+        "Hệ thống đề thi sát thực tế"
+      ],
+      "duration": null,
+      "class_size": null,
+      "level": "TOPIK I & TOPIK II",
+      "cover": "offline/covers/hanviet-topik.png",
+      "notes": "Cover tạm (chưa có bìa giáo trình TOPIK riêng).",
+      "id": "hanviet-topik",
+      "subject": "ko",
+      "provider": "hanviet",
+      "title": "Luyện thi TOPIK",
+      "subtitle": "TOPIK I & TOPIK II",
+      "audience": "Học sinh/sinh viên chuẩn bị du học Hàn Quốc, người đi làm cần chứng chỉ TOPIK.",
+      "cover_square": "offline/covers/hanviet-topik-square.png"
+    },
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [
+        "hanviet-tb-02",
+        "hanviet-tb-03",
+        "hanviet-tb-04",
+        "hanviet-tb-05",
+        "hanviet-tb-06",
+        "hanviet-tb-07",
+        "hanviet-tb-08",
+        "hanviet-tb-10",
+        "hanviet-tb-12",
+        "hanviet-tb-13",
+        "hanviet-tb-14",
+        "hanviet-tb-15"
+      ],
+      "modules": [],
+      "highlights": [
+        "Từ vựng chuyên ngành",
+        "Kỹ năng viết email công việc",
+        "Văn hóa doanh nghiệp Hàn Quốc"
+      ],
+      "duration": null,
+      "class_size": null,
+      "level": null,
+      "cover": "offline/covers/hanviet-business-korean.png",
+      "notes": "Cover tạm = bìa giáo trình 2. Giáo trình 1 (và 9) thuộc chương trình khác.",
+      "id": "hanviet-business-korean",
+      "subject": "ko",
+      "provider": "hanviet",
+      "title": "Tiếng Hàn Chuyên ngành & Đi làm",
+      "subtitle": "Business Korean",
+      "audience": "Nhân viên, quản lý, kỹ sư làm việc tại công ty Hàn Quốc hoặc dự án Việt - Hàn.",
+      "cover_square": "offline/covers/hanviet-business-korean-square.png"
+    },
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [
+        "hanviet-tb-11"
+      ],
+      "modules": [],
+      "highlights": [
+        "Mẫu câu thường dùng trong đời sống",
+        "Học nhẹ nhàng, tập nói ngay"
+      ],
+      "duration": null,
+      "class_size": null,
+      "level": null,
+      "cover": "offline/covers/hanviet-tb-11.png",
+      "notes": "Đối tượng và điểm nổi bật được suy ra từ mô tả giáo trình 11 (PO chưa cung cấp văn bản riêng cho khoá này) — cần PO xác nhận. Không thuộc 3 chương trình tiếng Hàn.",
+      "id": "hanviet-tieng-viet-cho-nguoi-han",
+      "subject": "vi",
+      "provider": "hanviet",
+      "title": "Tiếng Việt cho người Hàn",
+      "subtitle": "Hội thoại thực dụng khi sống tại Việt Nam",
+      "original_title": "형님 베트남어",
+      "audience": "Người Hàn Quốc sống, làm việc hoặc du lịch tại Việt Nam."
+    },
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [],
+      "modules": [],
+      "highlights": [],
+      "duration": null,
+      "class_size": null,
+      "level": null,
+      "cover": "offline/covers/cic-sieu-tri-nho.png",
+      "notes": "Giảng viên: Miwiz mời chuyên gia. PDF chưa có thời lượng/quy mô/nội dung module.",
+      "id": "cic-sieu-tri-nho",
+      "subject": "skills",
+      "provider": "cic-academy",
+      "title": "Siêu trí nhớ: Học nhanh, nhớ lâu",
+      "subtitle": "Phương pháp ghi nhớ cho học sinh, sinh viên",
+      "audience": "Học sinh, sinh viên",
+      "cover_square": "offline/covers/cic-sieu-tri-nho-square.png"
+    },
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [],
+      "modules": [],
+      "highlights": [],
+      "duration": null,
+      "class_size": null,
+      "level": null,
+      "cover": "offline/covers/cic-giao-tiep-thuyet-trinh.png",
+      "notes": "Phát triển từ khoá nội bộ (xem corp-giao-tiep-thuyet-trinh); PDF chưa có thời lượng/quy mô; module cho bản công khai chưa chốt.",
+      "id": "cic-giao-tiep-thuyet-trinh",
+      "subject": "skills",
+      "provider": "cic-academy",
+      "title": "Giao tiếp hiệu quả và thuyết trình",
+      "subtitle": "Dành cho học sinh, sinh viên",
+      "audience": "Học sinh, sinh viên",
+      "cover_square": "offline/covers/cic-giao-tiep-thuyet-trinh-square.png"
+    },
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [],
+      "modules": [],
+      "highlights": [],
+      "duration": null,
+      "class_size": null,
+      "level": null,
+      "cover": "offline/covers/cic-quan-he-anh-huong.png",
+      "notes": "Phát triển từ khoá nội bộ (xem corp-quan-he-anh-huong); PDF chưa có thời lượng/quy mô; module cho bản công khai chưa chốt.",
+      "id": "cic-quan-he-anh-huong",
+      "subject": "skills",
+      "provider": "cic-academy",
+      "title": "Xây dựng mối quan hệ và tạo ảnh hưởng cá nhân",
+      "subtitle": "Dành cho người trẻ 20 - 28 tuổi",
+      "audience": "Người trẻ từ 20 - 28 tuổi",
+      "cover_square": "offline/covers/cic-quan-he-anh-huong-square.png"
+    },
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [],
+      "modules": [
+        {
+          "title": "Chân dung nghề nghiệp đa chiều [RIASEC / HOLAND TEST]",
+          "detail": "Đọc kết quả sở thích nghề theo sáu nhóm RIASEC hoặc HOLAND TEST; đối chiếu với năng lực, giá trị cá nhân, môi trường phù hợp và điều kiện gia đình."
+        },
+        {
+          "title": "Đối thoại hướng nghiệp [Lý thuyết Tự quyết và kỹ thuật OARS]",
+          "detail": "Phân biệt đồng hành với quyết định thay con; luyện câu hỏi mở, ghi nhận, lắng nghe và khích lệ để con chủ động nói ra suy nghĩ."
+        },
+        {
+          "title": "03 kịch bản nghề nghiệp [Odyssey Plan]",
+          "detail": "Tạo 3 phương án kịch bản nghề nghiệp. Xác định mục tiêu, tiêu chí, điểm mạnh/điểm yếu, cơ hội/rủi ro, thông tin còn thiếu và cần thu thập thêm."
+        },
+        {
+          "title": "Kiểm chứng lựa chọn nghề nghiệp",
+          "detail": "Trò chuyện với người trong nghề, quan sát hoặc trải nghiệm công việc liên quan đến nghề nghiệp; lên kế hoạch 90 ngày để thu thập bằng chứng và xem lại lựa chọn."
+        }
+      ],
+      "highlights": [],
+      "duration": "2 buổi × 2,5 giờ",
+      "class_size": "10 - 15 người",
+      "level": null,
+      "cover": "offline/covers/cic-chon-nghe-cung-con.png",
+      "notes": "Bảng “Cấu trúc chương trình” trong PDF đứng sau cả hai khoá nghề nghiệp; giả định áp dụng cho cả hai.",
+      "id": "cic-chon-nghe-cung-con",
+      "subject": "skills",
+      "provider": "cic-academy",
+      "title": "Chọn nghề cùng con",
+      "subtitle": "Cha mẹ hiểu con, đối thoại và cùng con kiểm chứng lựa chọn nghề nghiệp.",
+      "audience": "Cha mẹ có con 13 - 17 tuổi. Khuyến khích cha mẹ và con cùng tham gia một số hoạt động.",
+      "cover_square": "offline/covers/cic-chon-nghe-cung-con-square.png"
+    },
+    {
+      "delivery": "offline",
+      "enabled": true,
+      "visibility": "public",
+      "fee": null,
+      "fee_text": "Liên hệ để được tư vấn",
+      "location": {
+        "name": "Miwiz Mind Hub",
+        "address": "Tầng 6, Số 4 Đại Học Hà Nội, Đại Mỗ, Hà Nội (Tầng 6 Toà GS25)",
+        "map_url": "https://maps.app.goo.gl/cCDhCiawSCUtSi6s5"
+      },
+      "materials": [],
+      "modules": [
+        {
+          "title": "Chân dung nghề nghiệp đa chiều [RIASEC / HOLAND TEST]",
+          "detail": "Đọc kết quả sở thích nghề theo sáu nhóm RIASEC hoặc HOLAND TEST; đối chiếu với năng lực, giá trị cá nhân, môi trường phù hợp và điều kiện gia đình."
+        },
+        {
+          "title": "Đối thoại hướng nghiệp [Lý thuyết Tự quyết và kỹ thuật OARS]",
+          "detail": "Phân biệt đồng hành với quyết định thay con; luyện câu hỏi mở, ghi nhận, lắng nghe và khích lệ để con chủ động nói ra suy nghĩ."
+        },
+        {
+          "title": "03 kịch bản nghề nghiệp [Odyssey Plan]",
+          "detail": "Tạo 3 phương án kịch bản nghề nghiệp. Xác định mục tiêu, tiêu chí, điểm mạnh/điểm yếu, cơ hội/rủi ro, thông tin còn thiếu và cần thu thập thêm."
+        },
+        {
+          "title": "Kiểm chứng lựa chọn nghề nghiệp",
+          "detail": "Trò chuyện với người trong nghề, quan sát hoặc trải nghiệm công việc liên quan đến nghề nghiệp; lên kế hoạch 90 ngày để thu thập bằng chứng và xem lại lựa chọn."
+        }
+      ],
+      "highlights": [],
+      "duration": "2 buổi × 2,5 giờ",
+      "class_size": "10 - 15 người",
+      "level": null,
+      "cover": "offline/covers/cic-hieu-minh-chon-nghe.png",
+      "notes": "Xem ghi chú của cic-chon-nghe-cung-con.",
+      "id": "cic-hieu-minh-chon-nghe",
+      "subject": "skills",
+      "provider": "cic-academy",
+      "title": "Hiểu mình, chọn nghề",
+      "subtitle": "Khám phá bản thân và trải nghiệm nghề nghiệp",
+      "audience": "Người trẻ từ 18 - 25 tuổi (sinh viên, người trẻ)",
+      "cover_square": "offline/covers/cic-hieu-minh-chon-nghe-square.png"
+    }
+  ]
+}

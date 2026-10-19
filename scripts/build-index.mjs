@@ -86,6 +86,35 @@ if (errors.length) {
   process.exit(1);
 }
 
+// Offline courses: offline/index.json = offline/courses.json (content) ordered + enabled by offline/catalog.json (hand-edited / admin page).
+const OFF_SRC = resolve(ROOT, "offline/courses.json"), OFF_CAT = resolve(ROOT, "offline/catalog.json"), OFF_OUT = resolve(ROOT, "offline/index.json");
+if (existsSync(OFF_SRC)) {
+  const offErr = [];
+  const src = JSON.parse(readFileSync(OFF_SRC, "utf8"));
+  const offCat = existsSync(OFF_CAT) ? JSON.parse(readFileSync(OFF_CAT, "utf8")) : { schemaVersion: 1, courses: [] };
+  if (offCat.schemaVersion !== 1) offErr.push("offline/catalog.json: schemaVersion phải = 1");
+  const byId = new Map((src.courses ?? []).map((c) => [c.id, c]));
+  const used = new Set();
+  const ordered = [];
+  for (const [i, e] of (offCat.courses ?? []).entries()) {
+    if (!e?.id) { offErr.push(`offline/catalog.json courses[${i}]: thiếu id`); continue; }
+    if (used.has(e.id)) { offErr.push(`offline/catalog.json: id trùng ${e.id}`); continue; }
+    if (!byId.has(e.id)) { offErr.push(`offline/catalog.json: id không có trong offline/courses.json: ${e.id}`); continue; }
+    used.add(e.id);
+    ordered.push({ ...byId.get(e.id), enabled: e.enabled !== false });
+  }
+  for (const c of src.courses ?? []) {
+    if (!used.has(c.id)) { console.warn(`⚠ offline/courses.json: ${c.id} chưa có trong offline/catalog.json → thêm vào cuối, đang ẩn`); ordered.push({ ...c, enabled: false }); }
+  }
+  if (offErr.length) { console.error("✗ Lỗi khoá offline:\n - " + offErr.join("\n - ")); process.exit(1); }
+  const offOut = JSON.stringify({ ...src, courses: ordered }, null, 2) + "\n";
+  const offPrev = existsSync(OFF_OUT) ? readFileSync(OFF_OUT, "utf8") : null;
+  if (CHECK) {
+    if (offPrev !== offOut) { console.error("✗ offline/index.json chưa cập nhật — chạy: node scripts/build-index.mjs"); process.exit(1); }
+  } else if (offPrev !== offOut) writeFileSync(OFF_OUT, offOut);
+  console.log(`✓ offline/index.json: ${ordered.length} khoá — ${ordered.map((c, i) => `${i + 1}.${c.id}${c.enabled ? "" : " (ẩn)"}`).join(", ")}`);
+}
+
 // Offline courses catalog (offline/index.json) is validated on every run; errors fail the build.
 const off = spawnSync(process.execPath, [resolve(ROOT, "scripts/check-offline.mjs")], { stdio: "inherit" });
 if (off.status !== 0) process.exit(1);

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "note": "File sửa tay cho khoá OFFLINE (học tại Miwiz Mind Hub). Thứ tự mảng courses = thứ tự hiển thị trong app. enabled:false = ẩn khoá. Nội dung khoá nằm ở offline/courses.json. Thêm khoá = thêm vào offline/courses.json + 1 dòng ở đây. offline/index.json sinh tự động (node scripts/build-index.mjs hoặc GitHub Actions khi push).",
+  "courses": [
+    { "id": "hanviet-giao-tiep", "enabled": true },
+    { "id": "hanviet-topik", "enabled": true },
+    { "id": "hanviet-business-korean", "enabled": true },
+    { "id": "hanviet-tieng-viet-cho-nguoi-han", "enabled": true },
+    { "id": "cic-sieu-tri-nho", "enabled": true },
+    { "id": "cic-giao-tiep-thuyet-trinh", "enabled": true },
+    { "id": "cic-quan-he-anh-huong", "enabled": true },
+    { "id": "cic-chon-nghe-cung-con", "enabled": true },
+    { "id": "cic-hieu-minh-chon-nghe", "enabled": true }
+  ]
+}
