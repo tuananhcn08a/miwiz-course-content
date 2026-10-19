@@ -9,6 +9,7 @@ Nội dung tab **Khoá học** của app Miwiz, phát hành tĩnh qua GitHub Pag
 Khoá **offline** (học tại Miwiz Mind Hub):
 
 - `offline/catalog.json` — sửa tay (hoặc qua trang quản trị, tab *Khoá offline*): thứ tự + bật/tắt khoá offline, mỗi dòng `{ "id": "<id>", "enabled": true }`.
+  - `registration` — link Google Form đăng ký học: `{ "form_url": "", "providers": { "hanviet": { "form_url": "" }, "cic-academy": { "form_url": "" } } }`. `form_url` chung dùng cho mọi trung tâm; `providers.<id>.form_url` (nếu có) dùng thay link chung cho trung tâm đó. Chuỗi rỗng = không có form → `offline/index.json` không có `contact.form_url` → app ẩn dòng "Điền form đăng ký". Chỉ nhận `https://docs.google.com/forms/...` hoặc `https://forms.gle/...` (không dấu cách); sai thì build báo lỗi. Sửa được trên trang quản trị (tab *Khoá offline* → thẻ *Form đăng ký học*).
 - `offline/courses.json` — nội dung đầy đủ (providers, textbooks, courses); ảnh bìa ở `offline/covers/`.
 - `offline/index.json` — **sinh tự động** từ 2 file trên (cùng lệnh `node scripts/build-index.mjs`): thứ tự theo `offline/catalog.json`, `enabled` lấy từ đó; khoá có trong `courses.json` mà quên khai báo thì thêm vào cuối, đang ẩn; id lạ trong catalog = lỗi. App đọc file này: thứ tự mảng = thứ tự hiển thị, `enabled:false` = ẩn.
 

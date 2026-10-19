@@ -7,6 +7,7 @@ import { createHash } from "node:crypto";
 import { spawnSync } from "node:child_process";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { isFormUrl, FORM_URL_MSG } from "./form-url.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const CHECK = process.argv.includes("--check");
@@ -106,8 +107,27 @@ if (existsSync(OFF_SRC)) {
   for (const c of src.courses ?? []) {
     if (!used.has(c.id)) { console.warn(`⚠ offline/courses.json: ${c.id} chưa có trong offline/catalog.json → thêm vào cuối, đang ẩn`); ordered.push({ ...c, enabled: false }); }
   }
+  // Registration form: offline/catalog.json registration.form_url (all providers) + registration.providers.<id>.form_url (override).
+  // Empty string = no form → the key is omitted from contact and the app hides the "Điền form đăng ký" row.
+  const reg = offCat.registration ?? {};
+  const provIds = new Set((src.providers ?? []).map((p) => p.id));
+  const regUrl = (where, v) => {
+    if (v == null || v === "") return "";
+    if (!isFormUrl(v)) { offErr.push(`offline/catalog.json ${where}: ${FORM_URL_MSG} (đang là: ${JSON.stringify(v)})`); return ""; }
+    return v;
+  };
+  const globalForm = regUrl("registration.form_url", reg.form_url);
+  const provForm = {};
+  for (const [pid, o] of Object.entries(reg.providers ?? {})) {
+    if (!provIds.has(pid)) { offErr.push(`offline/catalog.json registration.providers: trung tâm không có trong offline/courses.json: ${pid}`); continue; }
+    provForm[pid] = regUrl(`registration.providers.${pid}.form_url`, o?.form_url);
+  }
+  const providers = (src.providers ?? []).map((p) => {
+    const url = provForm[p.id] || globalForm;
+    return url ? { ...p, contact: { ...(p.contact ?? {}), form_url: url } } : p;
+  });
   if (offErr.length) { console.error("✗ Lỗi khoá offline:\n - " + offErr.join("\n - ")); process.exit(1); }
-  const offOut = JSON.stringify({ ...src, courses: ordered }, null, 2) + "\n";
+  const offOut = JSON.stringify({ ...src, providers, courses: ordered }, null, 2) + "\n";
   const offPrev = existsSync(OFF_OUT) ? readFileSync(OFF_OUT, "utf8") : null;
   if (CHECK) {
     if (offPrev !== offOut) { console.error("✗ offline/index.json chưa cập nhật — chạy: node scripts/build-index.mjs"); process.exit(1); }

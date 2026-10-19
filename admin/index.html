@@ -100,6 +100,17 @@ a{color:var(--accent)}
 .tabnote{font-size:13px;color:var(--muted);margin:-4px 2px 10px}
 .cover{flex:none;width:40px;height:40px;border-radius:10px;object-fit:cover;background:var(--chip)}
 .hidden{display:none!important}
+.reg h2{font-size:15px;margin:0 0 8px}
+input.url{width:100%;font:inherit;font-size:16px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);
+  background:var(--bg);color:var(--text)}
+input.url.bad{border-color:var(--err);outline-color:var(--err)}
+.reg .lbl{display:flex;align-items:baseline;justify-content:space-between;gap:8px;font-size:14px;margin:0 0 6px}
+.reg .lbl a{font-size:13px;white-space:nowrap}
+.reg .ferr{font-size:13px;color:var(--err);margin:4px 2px 0}
+.reg .ferr:empty{display:none}
+.reg .help{font-size:12px;color:var(--muted);margin:6px 2px 0}
+.reg details{margin-top:8px}
+.reg .prov{margin:8px 0 0}
 </style>
 </head>
 <body>
@@ -157,6 +168,18 @@ a{color:var(--accent)}
     <div class="sub" id="progNote" style="margin-top:6px"></div>
   </section>
 
+  <section class="box reg hidden" id="regBox" aria-labelledby="regTitle">
+    <h2 id="regTitle">Form đăng ký học</h2>
+    <div class="lbl"><label for="regGlobal">Link Google Form (dùng cho mọi lớp)</label><a id="regGlobalOpen" class="hidden" href="#" target="_blank" rel="noopener">Mở thử ↗</a></div>
+    <input id="regGlobal" class="url" type="url" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="https://forms.gle/…" data-reg="">
+    <div class="ferr" id="regGlobalErr" role="alert"></div>
+    <details id="regMore">
+      <summary>Link riêng cho từng trung tâm</summary>
+      <div id="regProv"></div>
+    </details>
+    <div class="help">Để trống = app ẩn dòng “Điền form đăng ký”. Link riêng (nếu có) dùng thay cho link chung.</div>
+  </section>
+
   <div class="presets" id="presets">
     <button type="button" data-p="one" id="presetOne">Chỉ 1 khoá/môn</button>
     <button type="button" data-p="all">Hiện tất cả</button>
@@ -200,7 +223,11 @@ a{color:var(--accent)}
       meta: {},           // id -> course summary | {missing:true}
       viaApi: false,
       loaded: false,
-      loadedAt: null
+      loadedAt: null,
+      reg: null,          // offline only: working copy of catalog.registration
+      regOriginal: null,  // registration at load / last save
+      provs: []           // offline only: [{id, name}] from offline/courses.json
+
     }, cfg);
   }
   var tabs = {
@@ -276,7 +303,63 @@ a{color:var(--accent)}
     });
     return "{\n" + lines.join(",\n") + "\n}\n";
   }
-  function current(t) { return t.catalog ? serialize(t.catalog, t.entries) : ""; }
+  function current(t) {
+    if (!t.catalog) return "";
+    return serialize(t.reg ? Object.assign({}, t.catalog, { registration: t.reg }) : t.catalog, t.entries);
+  }
+  // ---------- registration form links (offline tab) ----------
+  // Same rule as scripts/form-url.mjs: only Google Forms, no spaces. "" = no form.
+  var FORM_RE = /^https:\/\/(docs\.google\.com\/forms\/|forms\.gle\/)[^\s]+$/;
+  var FORM_ERR = "Link phải là Google Form: bắt đầu bằng https://docs.google.com/forms/ hoặc https://forms.gle/, không có dấu cách.";
+  function formOk(v) { return v === "" || FORM_RE.test(v); }
+  function clone(o) { return JSON.parse(JSON.stringify(o)); }
+  // Normalised registration: global link + one entry per provider (in offline/courses.json order), extra keys kept.
+  function normReg(raw, provs) {
+    raw = raw && typeof raw === "object" ? raw : {};
+    var src = raw.providers && typeof raw.providers === "object" ? raw.providers : {};
+    var out = Object.assign({}, raw, { form_url: typeof raw.form_url === "string" ? raw.form_url : "", providers: {} });
+    provs.forEach(function (p) { var o = src[p.id] || {}; out.providers[p.id] = Object.assign({}, o, { form_url: typeof o.form_url === "string" ? o.form_url : "" }); });
+    Object.keys(src).forEach(function (k) { if (!out.providers[k]) out.providers[k] = src[k]; });
+    return out;
+  }
+  function effectiveForm(t, pid) {
+    var r = t.reg || {}; var o = (r.providers || {})[pid];
+    return (o && o.form_url) || r.form_url || "";
+  }
+  function regErrors(t) {
+    var errs = [];
+    if (!t.reg) return errs;
+    if (!formOk(t.reg.form_url)) errs.push("Link Google Form chung: " + FORM_ERR);
+    t.provs.forEach(function (p) { var o = t.reg.providers[p.id]; if (o && !formOk(o.form_url)) errs.push("Link riêng " + p.name + ": " + FORM_ERR); });
+    return errs;
+  }
+  function regField(input, errEl, openEl) {
+    var v = input.value.trim();
+    var ok = formOk(v);
+    input.classList.toggle("bad", !ok);
+    input.setAttribute("aria-invalid", ok ? "false" : "true");
+    errEl.textContent = ok ? "" : FORM_ERR;
+    if (openEl) { openEl.classList.toggle("hidden", !(ok && v)); openEl.href = ok && v ? v : "#"; }
+  }
+  // Builds the card inputs from t.reg (only on load / reset, never while typing).
+  function renderReg() {
+    var t = tabs.offline, box = $("regProv");
+    if (!t.reg) return;
+    $("regGlobal").value = t.reg.form_url;
+    regField($("regGlobal"), $("regGlobalErr"), $("regGlobalOpen"));
+    box.innerHTML = "";
+    t.provs.forEach(function (p, i) {
+      var d = document.createElement("div"); d.className = "prov";
+      d.innerHTML = '<div class="lbl"><label for="regP' + i + '">' + esc(p.name) + '</label><a class="hidden" target="_blank" rel="noopener" href="#">Mở thử ↗</a></div>' +
+        '<input id="regP' + i + '" class="url" type="url" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Để trống = dùng link chung" data-reg="' + esc(p.id) + '">' +
+        '<div class="ferr" role="alert"></div>';
+      box.appendChild(d);
+      var inp = d.querySelector("input");
+      inp.value = (t.reg.providers[p.id] || {}).form_url || "";
+      regField(inp, d.querySelector(".ferr"), d.querySelector("a"));
+    });
+    $("regMore").open = t.provs.some(function (p) { return !!(t.reg.providers[p.id] || {}).form_url; }) || $("regMore").open;
+  }
   function isDirty(t) { t = t || tab; return !!t.catalog && current(t) !== t.original; }
   function anyDirty() { return isDirty(tabs.online) || isDirty(tabs.offline); }
   function enabled(e) { return e.enabled !== false; }
@@ -338,7 +421,8 @@ a{color:var(--accent)}
     });
     // Courses present in offline/courses.json but not in the catalog: the build appends them hidden. Mirror that here.
     var extra = (d.courses || []).filter(function (x) { return ids.indexOf(x.id) < 0; });
-    return { meta: meta, extra: extra, prov: prov };
+    var provs = (d.providers || []).map(function (p) { return { id: p.id, name: p.name || p.id }; });
+    return { meta: meta, extra: extra, prov: prov, provs: provs };
   }
 
   async function load(t, keepMsg) {
@@ -359,6 +443,9 @@ a{color:var(--accent)}
       } else {
         var o = await loadOfflineMeta(t, ids);
         t.meta = o.meta;
+        t.provs = o.provs;
+        t.reg = normReg(cat.registration, t.provs);
+        t.regOriginal = clone(t.reg);
         o.extra.forEach(function (x) {
           var p = o.prov[x.provider] || { name: x.provider || "?", color: "#888" };
           t.meta[x.id] = { title: x.title || x.id, providerName: p.name, color: p.color, subject: x.subject || "", level: x.level || "", cover: x.cover_square || x.cover || "", notInCatalog: true };
@@ -366,7 +453,8 @@ a{color:var(--accent)}
           cat.courses.push({ id: x.id, enabled: false });
           t.entries.push({ id: x.id, enabled: false });
         });
-        t.original = serialize(cat, t.entries);
+        t.original = current(t);
+        renderReg();
       }
       t.loaded = true; t.loadedAt = new Date();
       if (t === tab) {
@@ -463,6 +551,7 @@ a{color:var(--accent)}
       b.querySelector(".dot").classList.toggle("hidden", !isDirty(tabs[k]));
     });
     $("offNote").classList.toggle("hidden", tab.key !== "offline");
+    $("regBox").classList.toggle("hidden", tab.key !== "offline" || !tab.reg);
     $("presetOne").classList.toggle("hidden", tab.key !== "online");
     $("src").textContent = srcLine();
     setBusy();
@@ -484,7 +573,19 @@ a{color:var(--accent)}
   // ---------- interactions ----------
   function resetEntries(t) {
     t.entries = t.catalog.courses.map(function (e) { return Object.assign({}, e); });
+    if (t.regOriginal) { t.reg = clone(t.regOriginal); renderReg(); }
   }
+  $("regBox").addEventListener("input", function (ev) {
+    var inp = ev.target; if (!inp.hasAttribute || !inp.hasAttribute("data-reg")) return;
+    var t = tabs.offline; if (!t.reg) return;
+    var pid = inp.getAttribute("data-reg"), v = inp.value.trim();
+    if (pid) { t.reg.providers[pid] = Object.assign({}, t.reg.providers[pid] || {}, { form_url: v }); }
+    else t.reg.form_url = v;
+    var wrap = pid ? inp.parentNode : $("regBox");
+    regField(inp, pid ? wrap.querySelector(".ferr") : $("regGlobalErr"), pid ? wrap.querySelector("a") : $("regGlobalOpen"));
+    $("tab-offline").querySelector(".dot").classList.toggle("hidden", !isDirty(t));
+    setBusy();
+  });
   $("tabs").addEventListener("click", function (ev) {
     var b = ev.target.closest("button[data-tab]"); if (!b) return;
     var next = tabs[b.getAttribute("data-tab")];
@@ -562,6 +663,7 @@ a{color:var(--accent)}
       if (!m || m.missing) errs.push(t.key === "online" ? "thiếu file courses/" + e.id + ".json" : e.id + " không có trong offline/courses.json");
       else if (m.error) errs.push(e.id + ": " + m.error);
     });
+    errs = errs.concat(regErrors(t));
     if (!t.entries.some(enabled)) warns.push(t.key === "online" ? "Không có khoá nào được hiện — tab Khoá học trong app sẽ trống." : "Không có khoá offline nào được hiện — app sẽ không hiện mục khoá offline.");
     return { errs: errs, warns: warns };
   }
@@ -610,6 +712,7 @@ a{color:var(--accent)}
       var commitSha = res.commit && res.commit.sha;
       t.sha = res.content && res.content.sha;
       t.catalog.courses = t.entries.map(function (e) { return Object.assign({}, e); });
+      if (t.reg) { t.catalog.registration = clone(t.reg); t.regOriginal = clone(t.reg); }
       t.original = t.remoteOriginal = current(t);
       Object.keys(t.meta).forEach(function (id) { if (t.meta[id]) delete t.meta[id].notInCatalog; });
       busy = false; render();
@@ -636,10 +739,14 @@ a{color:var(--accent)}
       if (!r.ok) return null;
       var j = await r.json();
       if (t.key === "online") return j.generatedAt || null;
-      return (j.courses || []).map(function (c) { return c.id + ":" + (c.enabled !== false); }).join(",");
+      return (j.courses || []).map(function (c) { return c.id + ":" + (c.enabled !== false); }).join(",") + "|" +
+        (j.providers || []).map(function (p) { return p.id + "=" + ((p.contact && p.contact.form_url) || ""); }).join(",");
     } catch (e) { return null; }
   }
-  function wanted(t) { return t.entries.map(function (e) { return e.id + ":" + enabled(e); }).join(","); }
+  function wanted(t) {
+    return t.entries.map(function (e) { return e.id + ":" + enabled(e); }).join(",") + "|" +
+      t.provs.map(function (p) { return p.id + "=" + effectiveForm(t, p.id); }).join(",");
+  }
   async function workflowRun(commitSha) {
     var q = "/actions/workflows/" + WORKFLOW + "/runs?branch=" + BRANCH + "&per_page=5" + (commitSha ? "&head_sha=" + commitSha : "");
     var r = await gh(q);

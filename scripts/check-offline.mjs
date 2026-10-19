@@ -3,6 +3,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { isFormUrl, FORM_URL_MSG } from "./form-url.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const errors = [];
@@ -24,7 +25,10 @@ const providers = ids(d.providers, "providers");
 const textbooks = ids(d.textbooks, "textbooks");
 ids(d.courses, "courses");
 if (!d.courses?.length) fail("courses is empty");
-for (const p of d.providers ?? []) if ("form_url" in (p.contact ?? {})) fail(`provider ${p.id}: form_url must not be present`);
+for (const p of d.providers ?? []) {
+  const c = p.contact ?? {};
+  if ("form_url" in c && !isFormUrl(c.form_url)) fail(`provider ${p.id}: ${FORM_URL_MSG} (đang là: ${JSON.stringify(c.form_url)})`);
+}
 for (const t of d.textbooks ?? []) { cover(`textbook ${t.id}`, t.cover); cover(`textbook ${t.id} cover_square`, t.cover_square); (t.extra_covers ?? []).forEach((c) => cover(`textbook ${t.id} extra`, c)); }
 for (const c of d.courses ?? []) {
   if (c.visibility !== "public") fail(`course ${c.id}: only visibility "public" allowed (got ${c.visibility})`);
