@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T07:22:53.197Z",
+  "generatedAt": "2026-10-19T02:44:10.846Z",
   "minAppVersion": null,
   "courses": [
     {
@@ -34,11 +34,11 @@
       "icon_color": "#D7262D",
       "thumbnail": "covers/chinese-daily-1.png",
       "days": 40,
-      "topics": 10,
+      "topics": 40,
       "items": 304,
-      "version": "5d0552ed9910",
-      "sha256": "5d0552ed99109b731ad9207884d22b94a642bc50f901b171d59f2121e906ce12",
-      "bytes": 79015,
+      "version": "acaa5bb5823b",
+      "sha256": "acaa5bb5823b837ffccfec45ce42825cc3912851cf5cfa25edff0328374aa980",
+      "bytes": 87171,
       "manifestUrl": "courses/chinese-daily-1.json"
     },
     {
