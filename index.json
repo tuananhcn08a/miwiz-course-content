@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T02:50:37.247Z",
+  "generatedAt": "2026-10-19T02:56:27.242Z",
   "minAppVersion": null,
   "courses": [
     {
@@ -176,7 +176,7 @@
     },
     {
       "id": "english-daily-conversation-1",
-      "enabled": false,
+      "enabled": true,
       "order": 10,
       "title": "Tiếng Anh hội thoại hằng ngày",
       "subtitle": "Lộ trình 32 ngày",
