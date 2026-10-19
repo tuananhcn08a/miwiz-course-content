@@ -5,7 +5,7 @@
     { "id": "korean-beginner-1", "enabled": true },
     { "id": "chinese-daily-1", "enabled": true },
     { "id": "ielts-essential-words-1", "enabled": true },
-    { "id": "toeic-50-days-1", "enabled": true },
+    { "id": "toeic-50-days-1", "enabled": false },
     { "id": "korean-beginner-2", "enabled": true },
     { "id": "korean-intermediate-3", "enabled": true },
     { "id": "chinese-hsk3-1", "enabled": false },
