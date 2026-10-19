@@ -2,65 +2,20 @@
   "schemaVersion": 1,
   "note": "File DUY NHẤT cần sửa tay. Thứ tự mảng courses = thứ tự hiển thị trong app. enabled:false = ẩn khoá (tiến độ người học vẫn giữ). Thêm khoá = thêm file courses/<id>.json + 1 dòng ở đây. Sau khi sửa: node scripts/build-index.mjs (hoặc để GitHub Actions tự chạy khi push).",
   "courses": [
-    {
-      "id": "korean-beginner-1",
-      "enabled": true
-    },
-    {
-      "id": "chinese-daily-1",
-      "enabled": true
-    },
-    {
-      "id": "ielts-essential-words-1",
-      "enabled": true
-    },
-    {
-      "id": "toeic-50-days-1",
-      "enabled": false
-    },
-    {
-      "id": "korean-beginner-2",
-      "enabled": true
-    },
-    {
-      "id": "korean-intermediate-3",
-      "enabled": true
-    },
-    {
-      "id": "chinese-hsk3-1",
-      "enabled": false
-    },
-    {
-      "id": "chinese-radicals-1",
-      "enabled": true
-    },
-    {
-      "id": "english-basic-conversation-1",
-      "enabled": false
-    },
-    {
-      "id": "english-daily-conversation-1",
-      "enabled": true
-    },
-    {
-      "id": "bbc-english-at-work-1",
-      "enabled": false
-    },
-    {
-      "id": "english-office-basic-1",
-      "enabled": false
-    },
-    {
-      "id": "english-workplace-1",
-      "enabled": false
-    },
-    {
-      "id": "ielts-reading-1",
-      "enabled": false
-    },
-    {
-      "id": "ielts-vocabulary-45-1",
-      "enabled": false
-    }
+    { "id": "korean-beginner-1", "enabled": true },
+    { "id": "chinese-daily-1", "enabled": true },
+    { "id": "ielts-essential-words-1", "enabled": true },
+    { "id": "toeic-50-days-1", "enabled": false },
+    { "id": "korean-beginner-2", "enabled": true },
+    { "id": "korean-intermediate-3", "enabled": true },
+    { "id": "chinese-hsk3-1", "enabled": false },
+    { "id": "chinese-radicals-1", "enabled": true },
+    { "id": "english-basic-conversation-1", "enabled": false },
+    { "id": "english-daily-conversation-1", "enabled": false },
+    { "id": "bbc-english-at-work-1", "enabled": false },
+    { "id": "english-office-basic-1", "enabled": false },
+    { "id": "english-workplace-1", "enabled": false },
+    { "id": "ielts-reading-1", "enabled": false },
+    { "id": "ielts-vocabulary-45-1", "enabled": false }
   ]
 }
