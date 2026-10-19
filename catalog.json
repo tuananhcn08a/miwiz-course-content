@@ -8,7 +8,7 @@
     { "id": "toeic-50-days-1", "enabled": false },
     { "id": "korean-beginner-2", "enabled": true },
     { "id": "korean-intermediate-3", "enabled": true },
-    { "id": "chinese-hsk3-1", "enabled": false },
+    { "id": "chinese-hsk3-1", "enabled": true },
     { "id": "chinese-radicals-1", "enabled": true },
     { "id": "english-basic-conversation-1", "enabled": false },
     { "id": "english-daily-conversation-1", "enabled": false },
