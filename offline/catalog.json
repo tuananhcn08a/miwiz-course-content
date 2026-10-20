@@ -9,6 +9,9 @@
       },
       "cic-academy": {
         "form_url": ""
+      },
+      "miwiz-mind-hub": {
+        "form_url": ""
       }
     }
   },
@@ -38,7 +41,7 @@
       "enabled": true
     },
     {
-      "id": "cic-sieu-tri-nho",
+      "id": "mindhub-sieu-tri-nho",
       "enabled": true
     },
     {

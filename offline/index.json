@@ -22,6 +22,18 @@
       }
     },
     {
+      "id": "miwiz-mind-hub",
+      "name": "Miwiz Mind Hub",
+      "original_name": null,
+      "description": "Khoá học do Miwiz tổ chức tại Miwiz Mind Hub với chuyên gia được mời giảng dạy.",
+      "contact": {
+        "phone": "0388037108",
+        "phone_display": "038 803 7108",
+        "zalo_url": "https://zalo.me/0388037108",
+        "facebook_url": "https://www.facebook.com/profile.php?id=61594745768305"
+      }
+    },
+    {
       "id": "cic-academy",
       "name": "CiC Academy",
       "original_name": null,
@@ -546,15 +558,15 @@
       "duration": null,
       "class_size": null,
       "level": null,
-      "cover": "offline/covers/cic-sieu-tri-nho.png",
-      "notes": "Mô tả theo bảng của chuyên viên trung tâm 2026-10-20. Giảng viên: Miwiz mời chuyên gia. PDF chưa có thời lượng/quy mô/nội dung module.",
-      "id": "cic-sieu-tri-nho",
+      "cover": "offline/covers/mindhub-sieu-tri-nho.png",
+      "notes": "Khoá của Miwiz Mind Hub (không thuộc CiC Academy, PO 2026-10-20). Mô tả theo bảng của chuyên viên trung tâm 2026-10-20. Giảng viên: chuyên gia được mời, chưa có hồ sơ. Chưa có thời lượng/quy mô/nội dung module.",
+      "id": "mindhub-sieu-tri-nho",
       "subject": "skills",
-      "provider": "cic-academy",
+      "provider": "miwiz-mind-hub",
       "title": "Siêu trí nhớ: Học nhanh, nhớ lâu",
       "subtitle": "Siêu trí nhớ ứng dụng (Memory Mastery)",
       "audience": "Học sinh, sinh viên",
-      "cover_square": "offline/covers/cic-sieu-tri-nho-square.png",
+      "cover_square": "offline/covers/mindhub-sieu-tri-nho-square.png",
       "description": "Phát triển kỹ năng ghi nhớ vượt trội, giúp học viên “học nhanh – nhớ lâu”. Sau khoá học, học viên có thể ghi nhớ lượng lớn thông tin (từ vựng, công thức, sự kiện…) trong thời gian ngắn và nhớ chính xác, lâu dài."
     },
     {
