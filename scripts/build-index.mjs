@@ -127,7 +127,7 @@ if (existsSync(OFF_SRC)) {
     return url ? { ...p, contact: { ...(p.contact ?? {}), form_url: url } } : p;
   });
   if (offErr.length) { console.error("✗ Lỗi khoá offline:\n - " + offErr.join("\n - ")); process.exit(1); }
-  const offOut = JSON.stringify({ ...src, providers, courses: ordered }, null, 2) + "\n";
+  const offOut = JSON.stringify({ ...src, providers, ...(Array.isArray(src.instructors) ? { instructors: src.instructors } : {}), courses: ordered }, null, 2) + "\n";
   const offPrev = existsSync(OFF_OUT) ? readFileSync(OFF_OUT, "utf8") : null;
   if (CHECK) {
     if (offPrev !== offOut) { console.error("✗ offline/index.json chưa cập nhật — chạy: node scripts/build-index.mjs"); process.exit(1); }

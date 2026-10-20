@@ -26,6 +26,14 @@
       "enabled": true
     },
     {
+      "id": "hanviet-tieng-han-moi-ngay",
+      "enabled": true
+    },
+    {
+      "id": "hanviet-nguoi-han-quoc-van-hoa",
+      "enabled": true
+    },
+    {
       "id": "hanviet-tieng-viet-cho-nguoi-han",
       "enabled": true
     },

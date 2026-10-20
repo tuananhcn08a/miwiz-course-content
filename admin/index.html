@@ -411,13 +411,16 @@ input.url.bad{border-color:var(--err);outline-color:var(--err)}
     (d.providers || []).forEach(function (p) { prov[p.id] = { name: p.name || p.id, color: PROVIDER_COLOR[pi++ % PROVIDER_COLOR.length] }; });
     var byId = {};
     (d.courses || []).forEach(function (x) { byId[x.id] = x; });
+    var inst = {};
+    (d.instructors || []).forEach(function (i) { inst[i.id] = i.display_name || i.name || i.id; });
+    function teachers(x) { return (x.instructor_ids || []).map(function (id) { return inst[id] || id; }).join(", "); }
     var meta = {};
     ids.forEach(function (id) {
       var x = byId[id];
       if (!x) { meta[id] = { missing: true }; return; }
       var p = prov[x.provider] || { name: x.provider || "?", color: "#888" };
       meta[id] = { title: x.title || id, provider: x.provider || "", providerName: p.name, color: p.color,
-        subject: x.subject || "", level: x.level || "", cover: x.cover_square || x.cover || "" };
+        subject: x.subject || "", level: x.level || "", cover: x.cover_square || x.cover || "", teachers: teachers(x) };
     });
     // Courses present in offline/courses.json but not in the catalog: the build appends them hidden. Mirror that here.
     var extra = (d.courses || []).filter(function (x) { return ids.indexOf(x.id) < 0; });
@@ -448,7 +451,7 @@ input.url.bad{border-color:var(--err);outline-color:var(--err)}
         t.regOriginal = clone(t.reg);
         o.extra.forEach(function (x) {
           var p = o.prov[x.provider] || { name: x.provider || "?", color: "#888" };
-          t.meta[x.id] = { title: x.title || x.id, providerName: p.name, color: p.color, subject: x.subject || "", level: x.level || "", cover: x.cover_square || x.cover || "", notInCatalog: true };
+          t.meta[x.id] = { title: x.title || x.id, providerName: p.name, color: p.color, subject: x.subject || "", level: x.level || "", cover: x.cover_square || x.cover || "", teachers: teachers(x), notInCatalog: true };
           // The build appends these hidden; show them the same way. Any save writes them into offline/catalog.json.
           cat.courses.push({ id: x.id, enabled: false });
           t.entries.push({ id: x.id, enabled: false });
@@ -536,7 +539,9 @@ input.url.bad{border-color:var(--err);outline-color:var(--err)}
         : '<div class="icon" style="background:' + esc(m.color || "#888") + '">' + esc((m.title || e.id).charAt(0)) + "</div>";
       li.innerHTML = img +
         '<div class="info"><div class="title">' + (i + 1) + ". " + esc(m.title || e.id) + "</div>" +
-        '<div class="meta">' + metaLine + "</div></div>" + ctlHtml(t, e, i, m.title || e.id);
+        '<div class="meta">' + metaLine + "</div>" +
+        (m.teachers ? '<div class="meta" style="color:#8a8a8f;font-size:12px">Giảng viên: ' + esc(m.teachers) + "</div>" : "") +
+        "</div>" + ctlHtml(t, e, i, m.title || e.id);
       list.appendChild(li);
     });
     var nOn = t.entries.filter(enabled).length;

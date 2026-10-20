@@ -24,6 +24,12 @@ const ids = (arr, what) => {
 const providers = ids(d.providers, "providers");
 const textbooks = ids(d.textbooks, "textbooks");
 ids(d.courses, "courses");
+const instructors = ids(d.instructors, "instructors");
+for (const i of d.instructors ?? []) {
+  if (typeof i.display_name !== "string" || !i.display_name.trim()) fail(`instructor ${i.id}: display_name missing`);
+  if (typeof i.bio === "string" && i.bio.length > 400) fail(`instructor ${i.id}: bio is ${i.bio.length} chars (max 400)`);
+  if (i.photo != null && (typeof i.photo !== "string" || !i.photo.startsWith("offline/instructors/") || !existsSync(resolve(ROOT, i.photo)))) fail(`instructor ${i.id}: photo missing or not under offline/instructors/: ${i.photo}`);
+}
 if (!d.courses?.length) fail("courses is empty");
 for (const p of d.providers ?? []) {
   const c = p.contact ?? {};
@@ -35,6 +41,7 @@ for (const c of d.courses ?? []) {
   if (c.delivery !== "offline") fail(`course ${c.id}: delivery must be "offline"`);
   if (!providers.has(c.provider)) fail(`course ${c.id}: unknown provider ${c.provider}`);
   for (const m of c.materials ?? []) if (!textbooks.has(m)) fail(`course ${c.id}: unknown material ${m}`);
+  for (const iid of c.instructor_ids ?? []) if (!instructors.has(iid)) fail(`course ${c.id}: unknown instructor ${iid}`);
   cover(`course ${c.id}`, c.cover); cover(`course ${c.id} cover_square`, c.cover_square);
   if (!c.location?.address) fail(`course ${c.id}: location.address missing`);
 }
