@@ -20,6 +20,10 @@ if (!Array.isArray(catalog.courses) || catalog.courses.length === 0) fail("catal
 
 const seen = new Set();
 const courses = [];
+const levelRank = { "Sơ cấp": 1, "Trung cấp": 2, "Nâng cao": 3 };
+const warns = [];
+const isPosInt = (v) => Number.isInteger(v) && v >= 1;
+const programOf = []; // { id, program (explicit|null), level_order (explicit|null) } per course, resolved after the loop
 for (const [i, entry] of (catalog.courses ?? []).entries()) {
   const id = entry?.id;
   if (!id || !/^[a-z0-9-]+$/.test(id)) { fail(`courses[${i}]: id không hợp lệ (chỉ a-z 0-9 -): ${id}`); continue; }
@@ -54,6 +58,19 @@ for (const [i, entry] of (catalog.courses ?? []).entries()) {
       if (!Array.isArray(t.items) || t.items.length === 0) fail(`${id}: topic ${t.id} không có items`);
     }
   }
+  // Programme tier (spec course-roadmap/program-tier.md): catalog entry > manifest > implicit.
+  const program = entry.program ?? m.program ?? null;
+  const levelOrder = entry.level_order ?? m.level_order ?? null;
+  if (program != null) {
+    if (typeof program !== "object" || Array.isArray(program)) fail(`${id}: program phải là object {id,title,order}`);
+    else {
+      if (typeof program.id !== "string" || !/^[a-z0-9-]+$/.test(program.id) || program.id.length > 64) fail(`${id}: program.id không hợp lệ (a-z 0-9 -, tối đa 64): ${program.id}`);
+      if (typeof program.title !== "string" || !program.title.trim() || program.title.length > 40) fail(`${id}: program.title phải 1-40 ký tự`);
+      if (!isPosInt(program.order)) fail(`${id}: program.order phải là số nguyên >= 1`);
+    }
+  }
+  if (levelOrder != null && !isPosInt(levelOrder)) fail(`${id}: level_order phải là số nguyên >= 1`);
+  programOf.push({ id, program: program && typeof program === "object" ? program : null, levelOrder, language: m.language, level: m.level });
   const sha256 = createHash("sha256").update(raw).digest("hex");
   courses.push({
     id,
@@ -74,6 +91,42 @@ for (const [i, entry] of (catalog.courses ?? []).entries()) {
     bytes: raw.length,
     manifestUrl: `courses/${id}.json`,
   });
+}
+
+// Programme cross-checks (rules 37-41) and resolved values written into each entry.
+{
+  const groups = new Map();
+  for (const p of programOf) if (p.program) { if (!groups.has(p.program.id)) groups.set(p.program.id, []); groups.get(p.program.id).push(p); }
+  for (const [pid, list] of groups) {
+    const first = list[0].program;
+    for (const p of list) {
+      if (p.program.title !== first.title || p.program.order !== first.order) fail(`program ${pid}: title/order khác nhau giữa ${list[0].id} và ${p.id}`);
+      if (p.language !== list[0].language) fail(`program ${pid}: ${p.id} khác language với ${list[0].id}`);
+    }
+    if (seen.has(pid) && !(list.length === 1 && list[0].id === pid)) fail(`program.id "${pid}" trùng id của một khoá (sẽ gộp với chương trình ngầm định)`);
+    if (list.length > 1) {
+      const used = new Set();
+      for (const p of list) {
+        if (!isPosInt(p.levelOrder)) fail(`program ${pid}: ${p.id} thiếu level_order (bắt buộc khi chương trình có nhiều khoá)`);
+        else if (used.has(p.levelOrder)) fail(`program ${pid}: level_order ${p.levelOrder} bị lặp (${p.id})`);
+        else used.add(p.levelOrder);
+      }
+      const byLo = list.filter((p) => isPosInt(p.levelOrder)).sort((a, b) => a.levelOrder - b.levelOrder);
+      for (let i = 1; i < byLo.length; i++) if ((levelRank[byLo[i].level] ?? 0) < (levelRank[byLo[i - 1].level] ?? 0)) warns.push(`program ${pid}: level_order không khớp thứ hạng level (${byLo[i - 1].id} → ${byLo[i].id})`);
+    }
+  }
+  const orderByLang = new Map();
+  for (const [pid, list] of groups) {
+    const key = `${list[0].language}#${list[0].program.order}`;
+    if (orderByLang.has(key) && orderByLang.get(key) !== pid) warns.push(`program ${pid} và ${orderByLang.get(key)} cùng language + order ${list[0].program.order}`);
+    orderByLang.set(key, pid);
+  }
+  for (const w of warns) console.warn("⚠ " + w);
+  for (const [i, c] of courses.entries()) {
+    const p = programOf[i];
+    c.program = p.program ?? { id: c.id, title: c.title, order: c.order };
+    if (p.levelOrder != null) c.level_order = p.levelOrder;
+  }
 }
 
 // File khoá có trong thư mục nhưng quên khai báo → nhắc (không lỗi).

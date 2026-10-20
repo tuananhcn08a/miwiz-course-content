@@ -488,6 +488,26 @@ input.url.bad{border-color:var(--err);outline-color:var(--err)}
         '<button type="button" data-a="down" data-i="' + i + '" aria-label="Xuống"' + (i === t.entries.length - 1 ? " disabled" : "") + ">▼</button>" +
       "</div></div>";
   }
+  // Programme tier (catalog override): e.program = {id,title,order}, e.level_order. Only editable for online courses.
+  function programsOf(t, lang) {
+    var out = {};
+    t.entries.forEach(function (e) {
+      if (e.program && e.program.id && (t.meta[e.id] || {}).language === lang) out[e.program.id] = e.program;
+    });
+    return Object.keys(out).map(function (k) { return out[k]; });
+  }
+  function programHtml(t, e, i, lang) {
+    var cur = e.program ? e.program.id : "";
+    var opts = '<option value="">(không — chương trình riêng)</option>';
+    var known = programsOf(t, lang);
+    known.forEach(function (p) {
+      opts += '<option value="' + esc(p.id) + '"' + (p.id === cur ? " selected" : "") + ">" + esc(p.title) + " (thứ tự " + p.order + ")</option>";
+    });
+    opts += '<option value="__new">+ Tạo chương trình mới…</option>';
+    return '<div class="prog" style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;font-size:12px">' +
+      '<label>Chương trình <select data-a="prog" data-i="' + i + '" style="max-width:190px">' + opts + "</select></label>" +
+      '<label>Thứ tự cấp độ <input type="number" min="1" step="1" data-a="lo" data-i="' + i + '" value="' + (e.level_order != null ? e.level_order : "") + '" style="width:54px"></label></div>';
+  }
   function renderOnline(list) {
     var t = tabs.online, prevLang = null;
     t.entries.forEach(function (e, i) {
@@ -508,7 +528,7 @@ input.url.bad{border-color:var(--err);outline-color:var(--err)}
       li.innerHTML =
         '<div class="icon" style="background:' + esc(color) + '">' + esc(m.icon_text || (m.title || e.id).charAt(0)) + "</div>" +
         '<div class="info"><div class="title">' + (i + 1) + ". " + esc(m.title || e.id) + "</div>" +
-        '<div class="meta">' + metaLine + "</div></div>" + ctlHtml(t, e, i, m.title || e.id);
+        '<div class="meta">' + metaLine + "</div>" + programHtml(t, e, i, lang) + "</div>" + ctlHtml(t, e, i, m.title || e.id);
       list.appendChild(li);
     });
     var byLang = {}, nOn = 0;
@@ -619,6 +639,30 @@ input.url.bad{border-color:var(--err);outline-color:var(--err)}
     tab.entries[+c.getAttribute("data-i")].enabled = c.checked;
     render();
   });
+  $("list").addEventListener("change", function (ev) {
+    var c = ev.target, a = c.getAttribute("data-a"); if (a !== "prog" && a !== "lo") return;
+    var e = tab.entries[+c.getAttribute("data-i")];
+    if (busy) { render(); return; }
+    if (a === "lo") {
+      var n = parseInt(c.value, 10);
+      if (isFinite(n) && n >= 1) e.level_order = n; else delete e.level_order;
+    } else if (c.value === "") {
+      delete e.program; delete e.level_order;
+    } else if (c.value === "__new") {
+      var id = (prompt("Mã chương trình (a-z, 0-9, dấu gạch ngang; không đổi được sau khi phát hành):") || "").trim();
+      if (!id) { render(); return; }
+      var title = (prompt("Tên chương trình hiển thị (tối đa 40 ký tự):") || "").trim();
+      var lang = (tab.meta[e.id] || {}).language;
+      var order = parseInt(prompt("Thứ tự chương trình trong môn (số nguyên >= 1):", String(programsOf(tab, lang).length + 1)), 10);
+      if (!title || !(order >= 1)) { render(); return; }
+      e.program = { id: id, title: title, order: order };
+    } else {
+      var lang2 = (tab.meta[e.id] || {}).language;
+      var src = programsOf(tab, lang2).filter(function (p) { return p.id === c.value; })[0];
+      if (src) e.program = { id: src.id, title: src.title, order: src.order };
+    }
+    render();
+  });
   $("presets").addEventListener("click", function (ev) {
     var b = ev.target.closest("button[data-p]"); if (!b || busy || !tab.catalog) return;
     var p = b.getAttribute("data-p");
@@ -658,6 +702,36 @@ input.url.bad{border-color:var(--err);outline-color:var(--err)}
   window.addEventListener("beforeunload", function (e) { if (anyDirty()) { e.preventDefault(); e.returnValue = ""; } });
 
   // ---------- validation + save ----------
+  // Mirrors build-index.mjs rules 35-39 so a bad programme is caught before the commit.
+  function programErrors(t) {
+    var errs = [], groups = {}, ids = {};
+    t.entries.forEach(function (e) { ids[e.id] = true; });
+    t.entries.forEach(function (e) {
+      var p = e.program;
+      if (e.level_order != null && !(e.level_order >= 1 && e.level_order % 1 === 0)) errs.push(e.id + ": thứ tự cấp độ phải là số nguyên >= 1");
+      if (!p) return;
+      if (!/^[a-z0-9-]+$/.test(p.id || "") || p.id.length > 64) errs.push(e.id + ": mã chương trình không hợp lệ (" + p.id + ")");
+      if (!p.title || p.title.length > 40) errs.push(e.id + ": tên chương trình phải 1-40 ký tự");
+      if (!(p.order >= 1 && p.order % 1 === 0)) errs.push(e.id + ": thứ tự chương trình phải là số nguyên >= 1");
+      (groups[p.id] = groups[p.id] || []).push(e);
+    });
+    Object.keys(groups).forEach(function (pid) {
+      var l = groups[pid];
+      l.forEach(function (e) {
+        if (e.program.title !== l[0].program.title || e.program.order !== l[0].program.order) errs.push("chương trình " + pid + ": tên/thứ tự khác nhau giữa " + l[0].id + " và " + e.id);
+      });
+      if (ids[pid] && !(l.length === 1 && l[0].id === pid)) errs.push("mã chương trình " + pid + " trùng mã một khoá");
+      if (l.length > 1) {
+        var used = {};
+        l.forEach(function (e) {
+          if (e.level_order == null) errs.push("chương trình " + pid + ": " + e.id + " thiếu thứ tự cấp độ");
+          else if (used[e.level_order]) errs.push("chương trình " + pid + ": thứ tự cấp độ " + e.level_order + " bị lặp (" + e.id + ")");
+          else used[e.level_order] = true;
+        });
+      }
+    });
+    return errs;
+  }
   function validate(t) {
     var errs = [], warns = [], seen = {};
     t.entries.forEach(function (e) {
@@ -668,6 +742,7 @@ input.url.bad{border-color:var(--err);outline-color:var(--err)}
       if (!m || m.missing) errs.push(t.key === "online" ? "thiếu file courses/" + e.id + ".json" : e.id + " không có trong offline/courses.json");
       else if (m.error) errs.push(e.id + ": " + m.error);
     });
+    if (t.key === "online") errs = errs.concat(programErrors(t));
     errs = errs.concat(regErrors(t));
     if (!t.entries.some(enabled)) warns.push(t.key === "online" ? "Không có khoá nào được hiện — tab Khoá học trong app sẽ trống." : "Không có khoá offline nào được hiện — app sẽ không hiện mục khoá offline.");
     return { errs: errs, warns: warns };

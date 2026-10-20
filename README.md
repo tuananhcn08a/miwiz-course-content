@@ -21,6 +21,7 @@ Khoá **offline** (học tại Miwiz Mind Hub):
 | Ẩn / hiện khoá | `enabled: false` / `true` trong `catalog.json` → push (tiến độ người học vẫn giữ) |
 | Thêm khoá | Thêm `courses/<id>.json` + 1 dòng `{ "id": "<id>", "enabled": true }` → push |
 | Gom lại chủ điểm, đổi tên, đổi ảnh bìa | Sửa trong `courses/<id>.json` → push |
+| Gom khoá thành chương trình | Trong `catalog.json` thêm `"program": {"id","title","order"}` + `"level_order"` cho từng khoá (hoặc dùng trang quản trị). Cùng `program.id` ⇒ cùng title/order; `level_order` duy nhất, bắt buộc khi chương trình có >1 khoá. Không khai báo = chương trình riêng 1 khoá |
 | Kiểm trước khi push | `node scripts/build-index.mjs` (báo lỗi: id trùng, thiếu file, ngày lặp, topic rỗng) |
 
 Id khoá / ngày / mục (`lesson:…`, `deck:…`, `test:…`) **không được đổi** sau khi đã phát hành: tiến độ người học gắn theo các id này.
