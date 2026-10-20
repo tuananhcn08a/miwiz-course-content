@@ -46,19 +46,19 @@
     },
     {
       "id": "cic-giao-tiep-thuyet-trinh",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "cic-quan-he-anh-huong",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "cic-chon-nghe-cung-con",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "cic-hieu-minh-chon-nghe",
-      "enabled": true
+      "enabled": false
     }
   ]
 }

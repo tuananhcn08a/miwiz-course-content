@@ -572,7 +572,7 @@
     },
     {
       "delivery": "offline",
-      "enabled": true,
+      "enabled": false,
       "visibility": "public",
       "fee": null,
       "fee_text": "Liên hệ để được tư vấn",
@@ -599,7 +599,7 @@
     },
     {
       "delivery": "offline",
-      "enabled": true,
+      "enabled": false,
       "visibility": "public",
       "fee": null,
       "fee_text": "Liên hệ để được tư vấn",
@@ -626,7 +626,7 @@
     },
     {
       "delivery": "offline",
-      "enabled": true,
+      "enabled": false,
       "visibility": "public",
       "fee": null,
       "fee_text": "Liên hệ để được tư vấn",
@@ -670,7 +670,7 @@
     },
     {
       "delivery": "offline",
-      "enabled": true,
+      "enabled": false,
       "visibility": "public",
       "fee": null,
       "fee_text": "Liên hệ để được tư vấn",
